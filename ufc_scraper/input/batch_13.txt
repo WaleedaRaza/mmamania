@@ -1,0 +1,10 @@
+/athlete/derrick-lewis
+/athlete/tai-tuivasa
+/athlete/shamil-gaziev
+/athlete/mick-parkin
+/athlete/tallison-teixeira
+/athlete/martin-buday
+/athlete/rizvan-kuniev
+/athlete/valentina-shevchenko
+/athlete/weili-zhang
+/athlete/kayla-harrison

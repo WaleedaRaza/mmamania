@@ -1,0 +1,10 @@
+/athlete/aiemann-zahabi
+/athlete/kyler-phillips
+/athlete/marcus-mcghee
+/athlete/montel-jackson
+/athlete/vinicius-oliveira
+/athlete/diego-lopes
+/athlete/movsar-evloev
+/athlete/yair-rodriguez
+/athlete/arnold-allen
+/athlete/brian-ortega

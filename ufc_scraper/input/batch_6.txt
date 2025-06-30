@@ -1,0 +1,10 @@
+/athlete/lerone-murphy
+/athlete/aljamain-sterling
+/athlete/josh-emmett
+/athlete/jean-silva-lord
+/athlete/youssef-zalal
+/athlete/david-onama
+/athlete/dan-ige
+/athlete/calvin-kattar
+/athlete/justin-gaethje
+/athlete/dustin-poirier

@@ -1,0 +1,10 @@
+/athlete/sean-brady
+/athlete/shavkat-rakhmonov
+/athlete/leon-edwards
+/athlete/kamaru-usman
+/athlete/ian-garry
+/athlete/michael-morales
+/athlete/joaquin-buckley
+/athlete/colby-covington
+/athlete/gilbert-burns
+/athlete/geoff-neal

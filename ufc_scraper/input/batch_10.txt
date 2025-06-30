@@ -1,0 +1,10 @@
+/athlete/roman-dolidze
+/athlete/anthony-hernandez
+/athlete/marvin-vettori
+/athlete/brendan-allen
+/athlete/reinier-de-ridder
+/athlete/paulo-costa
+/athlete/abus-magomedov
+/athlete/roman-kopylov
+/athlete/jiri-prochazka
+/athlete/carlos-ulberg

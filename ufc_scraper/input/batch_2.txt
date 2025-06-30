@@ -1,0 +1,10 @@
+/athlete/max-holloway
+/athlete/belal-muhammad
+/athlete/charles-oliveira
+/athlete/arman-tsarukyan
+/athlete/khamzat-chimaev
+/athlete/brandon-royval
+/athlete/brandon-moreno
+/athlete/amir-albazi
+/athlete/kai-kara-france
+/athlete/tatsuro-taira

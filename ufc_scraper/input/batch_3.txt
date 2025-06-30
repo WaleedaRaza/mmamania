@@ -1,0 +1,10 @@
+/athlete/manel-kape
+/athlete/alex-perez
+/athlete/assu-almabayev
+/athlete/steve-erceg
+/athlete/tim-elliott
+/athlete/tagir-ulanbekov
+/athlete/joshua-van
+/athlete/ramazan-temirov
+/athlete/kai-asakura
+/athlete/bruno-silva

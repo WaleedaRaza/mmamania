@@ -1,0 +1,54 @@
+{
+  "id": "merab-dvalishvili",
+  "name": "MERAB DVALISHVILI",
+  "division": "Bantamweight Division",
+  "record": {
+    "wins": 20,
+    "losses": 4,
+    "draws": 0
+  },
+  "stats": {
+    "fight_win_streak": 13,
+    "wins_by_knockout": 3,
+    "wins_by_submission": 2,
+    "striking_accuracy": 0.0,
+    "sig_strikes_landed": 0,
+    "sig_strikes_attempted": 1074,
+    "takedown_accuracy": 0.0,
+    "takedowns_landed": 0,
+    "takedowns_attempted": 17,
+    "sig_strikes_landed_per_min": 0.0,
+    "sig_strikes_absorbed_per_min": 0.0,
+    "takedown_avg_per_15_min": 0.0,
+    "submission_avg_per_15_min": 0.0,
+    "sig_strikes_defense": 0.0,
+    "takedown_defense": 0.0,
+    "knockdown_avg": 0.06,
+    "average_fight_time": "16:36"
+  },
+  "fight_history": [
+    {
+      "result": "WIN",
+      "opponent": "O'MALLEY",
+      "event": "DVALISHVILI VS O'MALLEY",
+      "date": "JUN. 7, 2025",
+      "round": "Unknown",
+      "time": "Unknown",
+      "method": "Unknown"
+    }
+  ],
+  "personal_info": {
+    "status": "Active",
+    "place_of_birth": "Unknown",
+    "training_at": "Unknown",
+    "fighting_style": "Unknown",
+    "age": 0,
+    "height": 0.0,
+    "weight": 0.0,
+    "octagon_debut": "Unknown",
+    "reach": 0.0,
+    "leg_reach": 0.0
+  },
+  "fighter_url": "/athlete/merab-dvalishvili",
+  "scraped_at": "2025-06-29T22:31:24.610099"
+}
