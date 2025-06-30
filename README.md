@@ -1,6 +1,6 @@
-# FightHub - MMA Fan Platform
+# MMAmania - MMA Fan Platform
 
-A comprehensive MMA fan platform built with Flutter and Python, featuring real UFC data, fighter profiles, rankings, and advanced analytics.
+A comprehensive MMA (UFC) fan platform built with Flutter and Python, featuring real UFC data, fighter profiles, rankings, and advanced analytics.
 
 ## 🥊 Features
 
@@ -188,4 +188,4 @@ For questions or support, please open an issue on GitHub.
 
 ---
 
-**FightHub** - The ultimate MMA fan platform! 🥊 
+**MMAmania** - The ultimate UFC fan platform! 🥊 
