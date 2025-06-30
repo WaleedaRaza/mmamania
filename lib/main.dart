@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'services/ufc_data_service.dart';
 import 'screens/home_screen.dart';
-import 'screens/fights_screen.dart';
+import 'screens/stats_screen.dart';
 import 'screens/rankings_screen.dart';
 import 'screens/debates_screen.dart';
 import 'screens/profile_screen.dart';
@@ -45,7 +45,7 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _screens = [
     HomeScreen(),
-    FightsScreen(),
+    StatsScreen(),
     RankingsScreen(),
     DebatesScreen(),
     ProfileScreen(),
@@ -124,8 +124,8 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Home',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.sports_mma),
-            label: 'Fights',
+            icon: Icon(Icons.analytics),
+            label: 'Stats',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.leaderboard),
