@@ -353,6 +353,13 @@ class _StatsScreenState extends State<StatsScreen> with TickerProviderStateMixin
               final rankings = _ufcDataService.getRankingsForDivision(division);
               final champion = _ufcDataService.getChampionForDivision(division);
               
+              // Calculate division statistics
+              final fighters = rankings.map((r) => _ufcDataService.getFighterByRanking(r)).where((f) => f != null).cast<Fighter>().toList();
+              final totalFights = fighters.fold<int>(0, (sum, f) => 
+                  sum + f.record.wins + f.record.losses + f.record.draws);
+              final totalWins = fighters.fold<int>(0, (sum, f) => sum + f.record.wins);
+              final winRate = totalFights > 0 ? (totalWins / totalFights * 100) : 0.0;
+              
               return ListTile(
                 leading: CircleAvatar(
                   backgroundColor: Colors.red.withOpacity(0.3),
@@ -411,11 +418,11 @@ class _StatsScreenState extends State<StatsScreen> with TickerProviderStateMixin
                     prefixIcon: Icon(Icons.search, color: Colors.grey[400]),
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
-                      borderSide: BorderSide(color: Colors.grey[600]),
+                      borderSide: BorderSide(color: Colors.grey[600]!),
                     ),
                     enabledBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
-                      borderSide: BorderSide(color: Colors.grey[600]),
+                      borderSide: BorderSide(color: Colors.grey[600]!),
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
@@ -510,7 +517,7 @@ class _StatsScreenState extends State<StatsScreen> with TickerProviderStateMixin
         final champion = _ufcDataService.getChampionForDivision(division);
         
         // Calculate division statistics
-        final fighters = rankings.map((r) => r.fighter).where((f) => f != null).cast<Fighter>().toList();
+        final fighters = rankings.map((r) => _ufcDataService.getFighterByRanking(r)).where((f) => f != null).cast<Fighter>().toList();
         final totalFights = fighters.fold<int>(0, (sum, f) => 
             sum + f.record.wins + f.record.losses + f.record.draws);
         final totalWins = fighters.fold<int>(0, (sum, f) => sum + f.record.wins);
