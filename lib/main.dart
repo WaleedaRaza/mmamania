@@ -5,6 +5,7 @@ import 'screens/stats_screen.dart';
 import 'screens/rankings_screen.dart';
 import 'screens/debates_screen.dart';
 import 'screens/profile_screen.dart';
+import 'views/mma_feed_screen.dart';
 
 void main() {
   runApp(FightHubApp());
@@ -45,6 +46,7 @@ class _MainScreenState extends State<MainScreen> {
 
   final List<Widget> _screens = [
     HomeScreen(),
+    MMAFeedScreen(),
     StatsScreen(),
     RankingsScreen(),
     DebatesScreen(),
@@ -122,6 +124,10 @@ class _MainScreenState extends State<MainScreen> {
           BottomNavigationBarItem(
             icon: Icon(Icons.home),
             label: 'Home',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.feed),
+            label: 'Feed',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.analytics),

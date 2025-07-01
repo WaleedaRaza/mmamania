@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 import '../models/fighter.dart';
 import '../services/ufc_data_service.dart';
+import '../services/ufc_url_service.dart';
 
 class FighterProfileScreen extends StatefulWidget {
   final String fighterId;
@@ -20,7 +22,7 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
   @override
   void initState() {
     super.initState();
-    _tabController = TabController(length: 4, vsync: this);
+    _tabController = TabController(length: 2, vsync: this);
     _loadFighterData();
   }
 
@@ -41,6 +43,45 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
       
       // Try to find fighter by ID first, then by name
       Fighter? foundFighter = ufcService.getFighterById(widget.fighterId);
+      
+      // If fighter found but division is empty, try to get division from rankings
+      if (foundFighter != null && (foundFighter.division.isEmpty || foundFighter.division == 'Unknown')) {
+        // Look for the fighter in rankings to get division
+        if (foundFighter != null) {
+          for (String division in ufcService.getDivisions()) {
+            final rankings = ufcService.getRankingsForDivision(division);
+            for (var ranking in rankings) {
+              if (ranking.fighterId == widget.fighterId || 
+                  ranking.fighterName.toLowerCase() == foundFighter!.name.toLowerCase()) {
+                // Create updated fighter with division from ranking
+                foundFighter = Fighter(
+                  id: foundFighter!.id,
+                  name: foundFighter!.name,
+                  division: ranking.division, // Use division from ranking
+                  record: foundFighter!.record,
+                  imageUrl: foundFighter!.imageUrl,
+                  status: foundFighter!.status,
+                  placeOfBirth: foundFighter!.placeOfBirth,
+                  trainingAt: foundFighter!.trainingAt,
+                  fightingStyle: foundFighter!.fightingStyle,
+                  age: foundFighter!.age,
+                  height: foundFighter!.height,
+                  weight: foundFighter!.weight,
+                  octagonDebut: foundFighter!.octagonDebut,
+                  reach: foundFighter!.reach,
+                  legReach: foundFighter!.legReach,
+                  stats: foundFighter!.stats,
+                  fightHistory: foundFighter!.fightHistory,
+                );
+                break;
+              }
+            }
+            if (foundFighter!.division != 'Unknown' && foundFighter!.division.isNotEmpty) {
+              break;
+            }
+          }
+        }
+      }
       
       setState(() {
         fighter = foundFighter;
@@ -126,8 +167,6 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
             unselectedLabelColor: Colors.grey,
             tabs: const [
               Tab(text: 'Overview'),
-              Tab(text: 'Stats'),
-              Tab(text: 'Fights'),
               Tab(text: 'Info'),
             ],
           ),
@@ -139,8 +178,6 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
             controller: _tabController,
             children: [
               _buildOverviewTab(),
-              _buildStatsTab(),
-              _buildFightsTab(),
               _buildInfoTab(),
             ],
           ),
@@ -197,7 +234,7 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
               borderRadius: BorderRadius.circular(16),
             ),
             child: Text(
-              fighter!.division,
+              fighter!.division.isNotEmpty ? fighter!.division : 'Unknown Division',
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14,
@@ -216,6 +253,10 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
               fontWeight: FontWeight.w500,
             ),
           ),
+          const SizedBox(height: 16),
+          
+          // UFC Stats Button
+          _buildUFCStatsButton(),
         ],
       ),
     );
@@ -254,7 +295,7 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
           
           _buildInfoCard(
             'Division',
-            fighter!.division,
+            fighter!.division.isNotEmpty ? fighter!.division : 'Unknown Division',
             Icons.category,
           ),
         ],
@@ -550,6 +591,56 @@ class _FighterProfileScreenState extends State<FighterProfileScreen>
               ],
             ),
           ],
+        ),
+      ),
+    );
+  }
+
+  Widget _buildUFCStatsButton() {
+    return Container(
+      width: double.infinity,
+      child: ElevatedButton.icon(
+        onPressed: () async {
+          try {
+            final url = UFCUrlService.generateFighterStatsUrl(fighter!.name);
+            final uri = Uri.parse(url);
+            
+            if (await canLaunchUrl(uri)) {
+              await launchUrl(uri, mode: LaunchMode.externalApplication);
+            } else {
+              // Show error message if URL can't be launched
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text('Could not open UFC stats page'),
+                  backgroundColor: Colors.red,
+                ),
+              );
+            }
+          } catch (e) {
+            // Show error message if there's an exception
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                content: Text('Error opening UFC stats: $e'),
+                backgroundColor: Colors.red,
+              ),
+            );
+          }
+        },
+        icon: const Icon(Icons.open_in_new, color: Colors.white),
+        label: const Text(
+          'View UFC Stats & Records',
+          style: TextStyle(
+            color: Colors.white,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Colors.red,
+          foregroundColor: Colors.white,
+          padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 12),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8),
+          ),
         ),
       ),
     );

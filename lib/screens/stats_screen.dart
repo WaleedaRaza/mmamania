@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../services/ufc_data_service.dart';
 import '../models/fighter.dart';
 import '../models/ranking.dart';
+import 'fighter_profile_screen.dart';
 
 class StatsScreen extends StatefulWidget {
   @override
@@ -769,6 +770,16 @@ class _StatsScreenState extends State<StatsScreen> with TickerProviderStateMixin
               }
               
               return ListTile(
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => FighterProfileScreen(
+                        fighterId: fighter.id,
+                      ),
+                    ),
+                  );
+                },
                 leading: CircleAvatar(
                   backgroundColor: Colors.red,
                   child: Text(
