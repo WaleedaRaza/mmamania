@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import '../models/debate_room.dart';
+import 'audio_debate_room_screen.dart';
 
 class DebatesScreen extends StatefulWidget {
   @override
@@ -69,7 +71,32 @@ class _DebatesScreenState extends State<DebatesScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          // Start new debate
+          // Create a new debate room
+          final newDebateRoom = DebateRoom(
+            id: DateTime.now().millisecondsSinceEpoch.toString(),
+            title: 'New Live Debate',
+            description: 'Start a new live audio debate',
+            category: 'General',
+            createdBy: 'You',
+            maxParticipants: 20,
+            participantCount: 1,
+            isActive: true,
+            status: DebateRoomStatus.active,
+            type: DebateRoomType.audio,
+            createdAt: DateTime.now(),
+            audioSettings: {
+              'maxSpeakers': 6,
+              'allowListeners': true,
+              'requireApproval': false,
+              'recordingEnabled': false,
+            },
+          );
+          
+          Navigator.of(context).push(
+            MaterialPageRoute(
+              builder: (context) => AudioDebateRoomScreen(room: newDebateRoom),
+            ),
+          );
         },
         backgroundColor: Colors.red,
         child: Icon(Icons.add, color: Colors.white),
@@ -200,7 +227,32 @@ class _DebatesScreenState extends State<DebatesScreen> {
                 Spacer(),
                 ElevatedButton(
                   onPressed: () {
-                    // Join debate
+                    // Create a mock debate room and navigate to audio debate
+                    final debateRoom = DebateRoom(
+                      id: debate['id'],
+                      title: debate['title'],
+                      description: 'Live audio debate about ${debate['title']}',
+                      category: debate['category'],
+                      createdBy: debate['author'],
+                      maxParticipants: 20,
+                      participantCount: 8,
+                      isActive: true,
+                      status: DebateRoomStatus.active,
+                      type: DebateRoomType.audio,
+                      createdAt: DateTime.now().subtract(const Duration(hours: 2)),
+                      audioSettings: {
+                        'maxSpeakers': 6,
+                        'allowListeners': true,
+                        'requireApproval': false,
+                        'recordingEnabled': false,
+                      },
+                    );
+                    
+                    Navigator.of(context).push(
+                      MaterialPageRoute(
+                        builder: (context) => AudioDebateRoomScreen(room: debateRoom),
+                      ),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Colors.red,
