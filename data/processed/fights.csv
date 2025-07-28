@@ -1,0 +1,426 @@
+id,event_id,fighter1,fighter2,winner,method,round,time,source,scraped_at
+1,1,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-11T23:59:13.292029
+2,1,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292282
+3,1,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-11T23:59:13.292297
+4,1,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292308
+5,1,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292316
+6,1,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-11T23:59:13.292324
+7,1,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-11T23:59:13.292332
+8,1,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292340
+9,1,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-11T23:59:13.292347
+10,1,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292355
+11,1,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292362
+12,2,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-11T23:59:13.292383
+13,2,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292391
+14,2,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-11T23:59:13.292398
+15,2,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292406
+16,2,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292414
+17,2,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-11T23:59:13.292421
+18,2,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-11T23:59:13.292428
+19,2,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292436
+20,2,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-11T23:59:13.292443
+21,2,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292450
+22,2,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292457
+23,3,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-11T23:59:13.292473
+24,3,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292481
+25,3,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-11T23:59:13.292488
+26,3,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292495
+27,3,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292503
+28,3,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-11T23:59:13.292511
+29,3,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-11T23:59:13.292518
+30,3,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292526
+31,3,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-11T23:59:13.292533
+32,3,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292541
+33,3,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292548
+34,4,"Merab Dvalishvili","Sean O'Malley","Merab Dvalishvili","Submission (north-south choke)",,,wikipedia,2025-07-11T23:59:13.292612
+35,4,"Kayla Harrison","Julianna Peña","Kayla Harrison","Submission (kimura)",,,wikipedia,2025-07-11T23:59:13.292621
+36,4,"Joe Pyfer","Kelvin Gastelum","Joe Pyfer","Decision (unanimous) (29–28, 29–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292628
+37,4,"Mario Bautista","Patchy Mix","Mario Bautista","Decision (unanimous) (29–28, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292636
+38,4,"Kevin Holland","Vicente Luque","Kevin Holland","Submission (brabo choke)",,,wikipedia,2025-07-11T23:59:13.292643
+39,4,"Joshua Van","Bruno Gustavo da Silva","Joshua Van","TKO (punches)",,,wikipedia,2025-07-11T23:59:13.292650
+40,4,"Azamat Murzakanov","Brendson Ribeiro","Azamat Murzakanov","TKO (submission to punches)",,,wikipedia,2025-07-11T23:59:13.292657
+41,4,"Waldo Cortes-Acosta","Serghei Spivac","Waldo Cortes-Acosta","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292665
+42,4,"Andreas Gustafsson","Khaos Williams","Andreas Gustafsson","Decision (unanimous) (30–27, 30–26, 30–26)",,,wikipedia,2025-07-11T23:59:13.292672
+43,4,"Wang Cong","Ariane da Silva","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292680
+44,4,"Yoo Joo-sang","Jeka Saragih","Yoo Joo-sang","KO (punch)",,,wikipedia,2025-07-11T23:59:13.292687
+45,4,"Quillan Salkilld","Yanal Ashmouz","Quillan Salkilld","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292694
+46,4,"MarQuel Mederos","Mark Choinski","MarQuel Mederos","Decision (unanimous) (30–27, 30–27, 29–28)",,,wikipedia,2025-07-11T23:59:13.292702
+47,5,"Jack Della Maddalena","Belal Muhammad","Jack Della Maddalena","Decision (unanimous) (48–47, 48–47, 49–46)",,,wikipedia,2025-07-11T23:59:13.292717
+48,5,"Valentina Shevchenko","Manon Fiorot","Valentina Shevchenko","Decision (unanimous) (48–47, 48–47, 48–47)",,,wikipedia,2025-07-11T23:59:13.292725
+49,5,"Aiemann Zahabi","José Aldo","Aiemann Zahabi","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292732
+50,5,"Natália Silva","Alexa Grasso","Natália Silva","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292740
+51,5,"Benoît Saint Denis","Kyle Prepolec","Benoît Saint Denis","Submission (arm-triangle choke)",,,wikipedia,2025-07-11T23:59:13.292748
+52,5,"Mike Malott","Charles Radtke","Mike Malott","KO (punches)",,,wikipedia,2025-07-11T23:59:13.292755
+53,5,"Jasmine Jasudavicius","Jéssica Andrade","Jasmine Jasudavicius","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292762
+54,5,"Modestas Bukauskas","Ion Cuțelaba","Modestas Bukauskas","Decision (split) (27–30, 30–27, 29–28)",,,wikipedia,2025-07-11T23:59:13.292770
+55,5,"Navajo Stirling","Ivan Erslan","Navajo Stirling","Decision (unanimous) (29–28, 29–28, 29–27)",,,wikipedia,2025-07-11T23:59:13.292777
+56,5,"Marc-André Barriault","Bruno Silva","Marc-André Barriault","KO (elbows and punches)",,,wikipedia,2025-07-11T23:59:13.292784
+57,5,"Daniel Santos","Lee Jeong-yeong","Daniel Santos","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292792
+58,5,"Bekzat Almakhan","Brad Katona","Bekzat Almakhan","KO (punches)",,,wikipedia,2025-07-11T23:59:13.292799
+59,6,"Alexander Volkanovski","Diego Lopes","Alexander Volkanovski","Decision (unanimous) (48–47, 49–46, 49–46)",,,wikipedia,2025-07-11T23:59:13.292814
+60,6,"Paddy Pimblett","Michael Chandler","Paddy Pimblett","TKO (elbows and punches)",,,wikipedia,2025-07-11T23:59:13.292821
+61,6,"Yair Rodríguez","Patrício Pitbull","Yair Rodríguez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292828
+62,6,"Jean Silva","Bryce Mitchell","Jean Silva","Submission (ninja choke)",,,wikipedia,2025-07-11T23:59:13.292836
+63,6,"Dominick Reyes","Nikita Krylov","Dominick Reyes","KO (punch)",,,wikipedia,2025-07-11T23:59:13.292843
+64,6,"Dan Ige","Sean Woodson","Dan Ige","TKO (punches)",,,wikipedia,2025-07-11T23:59:13.292850
+65,6,"Virna Jandiroba","Yan Xiaonan","Virna Jandiroba","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-11T23:59:13.292859
+66,6,"Chase Hooper","Jim Miller","Chase Hooper","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292866
+67,6,"Julian Erosa","Darren Elkins","Julian Erosa","TKO (punches)",,,wikipedia,2025-07-11T23:59:13.292873
+68,6,"Michał Oleksiejczuk","Sedriques Dumas","Michał Oleksiejczuk","TKO (punches and elbows)",,,wikipedia,2025-07-11T23:59:13.292881
+69,6,"Su Mudaerji","Mitch Raposo","Su Mudaerji","Decision (split) (28–29, 29–28, 29–28)",,,wikipedia,2025-07-11T23:59:13.292888
+70,6,"Marco Tulio","Tresean Gore","Marco Tulio","TKO (punch)",,,wikipedia,2025-07-11T23:59:13.292895
+71,6,"Nora Cornolle","Hailey Cowan","Nora Cornolle","Submission (rear-naked choke)",,,wikipedia,2025-07-11T23:59:13.292902
+72,7,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T02:38:28.580166
+73,7,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.580586
+74,7,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T02:38:28.580602
+75,7,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.580611
+76,7,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.580617
+77,7,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T02:38:28.580624
+78,7,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T02:38:28.580630
+79,7,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.580636
+80,7,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T02:38:28.580642
+81,7,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.580648
+82,7,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.580654
+83,8,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T02:38:28.580672
+84,8,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.580679
+85,8,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T02:38:28.580685
+86,8,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.580691
+87,8,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.580696
+88,8,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T02:38:28.580702
+89,8,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T02:38:28.580707
+90,8,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.580713
+91,8,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T02:38:28.580719
+92,8,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.580724
+93,8,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.580730
+94,9,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T02:38:28.580743
+95,9,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.580748
+96,9,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T02:38:28.580754
+97,9,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581046
+98,9,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581058
+99,9,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T02:38:28.581064
+100,9,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T02:38:28.581071
+101,9,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581077
+102,9,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T02:38:28.581082
+103,9,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.581088
+104,9,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581094
+105,10,"Merab Dvalishvili","Sean O'Malley","Merab Dvalishvili","Submission (north-south choke)",,,wikipedia,2025-07-12T02:38:28.581108
+106,10,"Kayla Harrison","Julianna Peña","Kayla Harrison","Submission (kimura)",,,wikipedia,2025-07-12T02:38:28.581114
+107,10,"Joe Pyfer","Kelvin Gastelum","Joe Pyfer","Decision (unanimous) (29–28, 29–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581120
+108,10,"Mario Bautista","Patchy Mix","Mario Bautista","Decision (unanimous) (29–28, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581126
+109,10,"Kevin Holland","Vicente Luque","Kevin Holland","Submission (brabo choke)",,,wikipedia,2025-07-12T02:38:28.581133
+110,10,"Joshua Van","Bruno Gustavo da Silva","Joshua Van","TKO (punches)",,,wikipedia,2025-07-12T02:38:28.581150
+111,10,"Azamat Murzakanov","Brendson Ribeiro","Azamat Murzakanov","TKO (submission to punches)",,,wikipedia,2025-07-12T02:38:28.581157
+112,10,"Waldo Cortes-Acosta","Serghei Spivac","Waldo Cortes-Acosta","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581163
+113,10,"Andreas Gustafsson","Khaos Williams","Andreas Gustafsson","Decision (unanimous) (30–27, 30–26, 30–26)",,,wikipedia,2025-07-12T02:38:28.581169
+114,10,"Wang Cong","Ariane da Silva","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581176
+115,10,"Yoo Joo-sang","Jeka Saragih","Yoo Joo-sang","KO (punch)",,,wikipedia,2025-07-12T02:38:28.581190
+116,10,"Quillan Salkilld","Yanal Ashmouz","Quillan Salkilld","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581196
+117,10,"MarQuel Mederos","Mark Choinski","MarQuel Mederos","Decision (unanimous) (30–27, 30–27, 29–28)",,,wikipedia,2025-07-12T02:38:28.581202
+118,11,"Jack Della Maddalena","Belal Muhammad","Jack Della Maddalena","Decision (unanimous) (48–47, 48–47, 49–46)",,,wikipedia,2025-07-12T02:38:28.581217
+119,11,"Valentina Shevchenko","Manon Fiorot","Valentina Shevchenko","Decision (unanimous) (48–47, 48–47, 48–47)",,,wikipedia,2025-07-12T02:38:28.581224
+120,11,"Aiemann Zahabi","José Aldo","Aiemann Zahabi","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581231
+121,11,"Natália Silva","Alexa Grasso","Natália Silva","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581236
+122,11,"Benoît Saint Denis","Kyle Prepolec","Benoît Saint Denis","Submission (arm-triangle choke)",,,wikipedia,2025-07-12T02:38:28.581242
+123,11,"Mike Malott","Charles Radtke","Mike Malott","KO (punches)",,,wikipedia,2025-07-12T02:38:28.581248
+124,11,"Jasmine Jasudavicius","Jéssica Andrade","Jasmine Jasudavicius","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.581253
+125,11,"Modestas Bukauskas","Ion Cuțelaba","Modestas Bukauskas","Decision (split) (27–30, 30–27, 29–28)",,,wikipedia,2025-07-12T02:38:28.581259
+126,11,"Navajo Stirling","Ivan Erslan","Navajo Stirling","Decision (unanimous) (29–28, 29–28, 29–27)",,,wikipedia,2025-07-12T02:38:28.581265
+127,11,"Marc-André Barriault","Bruno Silva","Marc-André Barriault","KO (elbows and punches)",,,wikipedia,2025-07-12T02:38:28.581271
+128,11,"Daniel Santos","Lee Jeong-yeong","Daniel Santos","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581277
+129,11,"Bekzat Almakhan","Brad Katona","Bekzat Almakhan","KO (punches)",,,wikipedia,2025-07-12T02:38:28.581284
+130,12,"Alexander Volkanovski","Diego Lopes","Alexander Volkanovski","Decision (unanimous) (48–47, 49–46, 49–46)",,,wikipedia,2025-07-12T02:38:28.581296
+131,12,"Paddy Pimblett","Michael Chandler","Paddy Pimblett","TKO (elbows and punches)",,,wikipedia,2025-07-12T02:38:28.581303
+132,12,"Yair Rodríguez","Patrício Pitbull","Yair Rodríguez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581309
+133,12,"Jean Silva","Bryce Mitchell","Jean Silva","Submission (ninja choke)",,,wikipedia,2025-07-12T02:38:28.581314
+134,12,"Dominick Reyes","Nikita Krylov","Dominick Reyes","KO (punch)",,,wikipedia,2025-07-12T02:38:28.581320
+135,12,"Dan Ige","Sean Woodson","Dan Ige","TKO (punches)",,,wikipedia,2025-07-12T02:38:28.581325
+136,12,"Virna Jandiroba","Yan Xiaonan","Virna Jandiroba","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:38:28.581331
+137,12,"Chase Hooper","Jim Miller","Chase Hooper","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581337
+138,12,"Julian Erosa","Darren Elkins","Julian Erosa","TKO (punches)",,,wikipedia,2025-07-12T02:38:28.581342
+139,12,"Michał Oleksiejczuk","Sedriques Dumas","Michał Oleksiejczuk","TKO (punches and elbows)",,,wikipedia,2025-07-12T02:38:28.581347
+140,12,"Su Mudaerji","Mitch Raposo","Su Mudaerji","Decision (split) (28–29, 29–28, 29–28)",,,wikipedia,2025-07-12T02:38:28.581353
+141,12,"Marco Tulio","Tresean Gore","Marco Tulio","TKO (punch)",,,wikipedia,2025-07-12T02:38:28.581359
+142,12,"Nora Cornolle","Hailey Cowan","Nora Cornolle","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:38:28.581364
+143,13,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T02:54:50.297142
+144,13,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.297938
+145,13,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T02:54:50.297993
+146,13,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298050
+147,13,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298069
+148,13,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T02:54:50.298081
+149,13,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T02:54:50.298094
+150,13,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298105
+151,13,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T02:54:50.298117
+152,13,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.298128
+153,13,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298140
+154,14,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T02:54:50.298174
+155,14,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.298187
+156,14,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T02:54:50.298198
+157,14,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298209
+158,14,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298220
+159,14,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T02:54:50.298230
+160,14,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T02:54:50.298306
+161,14,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298384
+162,14,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T02:54:50.298395
+163,14,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.298406
+164,14,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298487
+165,15,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T02:54:50.298514
+166,15,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.298525
+167,15,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T02:54:50.298536
+168,15,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298547
+169,15,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298558
+170,15,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T02:54:50.298569
+171,15,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T02:54:50.298579
+172,15,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298590
+173,15,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T02:54:50.298601
+174,15,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.298612
+175,15,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298622
+176,16,"Merab Dvalishvili","Sean O'Malley","Merab Dvalishvili","Submission (north-south choke)",,,wikipedia,2025-07-12T02:54:50.298646
+177,16,"Kayla Harrison","Julianna Peña","Kayla Harrison","Submission (kimura)",,,wikipedia,2025-07-12T02:54:50.298658
+178,16,"Joe Pyfer","Kelvin Gastelum","Joe Pyfer","Decision (unanimous) (29–28, 29–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298668
+179,16,"Mario Bautista","Patchy Mix","Mario Bautista","Decision (unanimous) (29–28, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298679
+180,16,"Kevin Holland","Vicente Luque","Kevin Holland","Submission (brabo choke)",,,wikipedia,2025-07-12T02:54:50.298690
+181,16,"Joshua Van","Bruno Gustavo da Silva","Joshua Van","TKO (punches)",,,wikipedia,2025-07-12T02:54:50.298700
+182,16,"Azamat Murzakanov","Brendson Ribeiro","Azamat Murzakanov","TKO (submission to punches)",,,wikipedia,2025-07-12T02:54:50.298711
+183,16,"Waldo Cortes-Acosta","Serghei Spivac","Waldo Cortes-Acosta","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298721
+184,16,"Andreas Gustafsson","Khaos Williams","Andreas Gustafsson","Decision (unanimous) (30–27, 30–26, 30–26)",,,wikipedia,2025-07-12T02:54:50.298733
+185,16,"Wang Cong","Ariane da Silva","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298744
+186,16,"Yoo Joo-sang","Jeka Saragih","Yoo Joo-sang","KO (punch)",,,wikipedia,2025-07-12T02:54:50.298755
+187,16,"Quillan Salkilld","Yanal Ashmouz","Quillan Salkilld","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298765
+188,16,"MarQuel Mederos","Mark Choinski","MarQuel Mederos","Decision (unanimous) (30–27, 30–27, 29–28)",,,wikipedia,2025-07-12T02:54:50.298776
+189,17,"Jack Della Maddalena","Belal Muhammad","Jack Della Maddalena","Decision (unanimous) (48–47, 48–47, 49–46)",,,wikipedia,2025-07-12T02:54:50.298798
+190,17,"Valentina Shevchenko","Manon Fiorot","Valentina Shevchenko","Decision (unanimous) (48–47, 48–47, 48–47)",,,wikipedia,2025-07-12T02:54:50.298815
+191,17,"Aiemann Zahabi","José Aldo","Aiemann Zahabi","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.298828
+192,17,"Natália Silva","Alexa Grasso","Natália Silva","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298839
+193,17,"Benoît Saint Denis","Kyle Prepolec","Benoît Saint Denis","Submission (arm-triangle choke)",,,wikipedia,2025-07-12T02:54:50.298850
+194,17,"Mike Malott","Charles Radtke","Mike Malott","KO (punches)",,,wikipedia,2025-07-12T02:54:50.298861
+195,17,"Jasmine Jasudavicius","Jéssica Andrade","Jasmine Jasudavicius","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.298871
+196,17,"Modestas Bukauskas","Ion Cuțelaba","Modestas Bukauskas","Decision (split) (27–30, 30–27, 29–28)",,,wikipedia,2025-07-12T02:54:50.298882
+197,17,"Navajo Stirling","Ivan Erslan","Navajo Stirling","Decision (unanimous) (29–28, 29–28, 29–27)",,,wikipedia,2025-07-12T02:54:50.298892
+198,17,"Marc-André Barriault","Bruno Silva","Marc-André Barriault","KO (elbows and punches)",,,wikipedia,2025-07-12T02:54:50.298903
+199,17,"Daniel Santos","Lee Jeong-yeong","Daniel Santos","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298913
+200,17,"Bekzat Almakhan","Brad Katona","Bekzat Almakhan","KO (punches)",,,wikipedia,2025-07-12T02:54:50.298924
+201,18,"Alexander Volkanovski","Diego Lopes","Alexander Volkanovski","Decision (unanimous) (48–47, 49–46, 49–46)",,,wikipedia,2025-07-12T02:54:50.298947
+202,18,"Paddy Pimblett","Michael Chandler","Paddy Pimblett","TKO (elbows and punches)",,,wikipedia,2025-07-12T02:54:50.298957
+203,18,"Yair Rodríguez","Patrício Pitbull","Yair Rodríguez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.298972
+204,18,"Jean Silva","Bryce Mitchell","Jean Silva","Submission (ninja choke)",,,wikipedia,2025-07-12T02:54:50.298983
+205,18,"Dominick Reyes","Nikita Krylov","Dominick Reyes","KO (punch)",,,wikipedia,2025-07-12T02:54:50.298993
+206,18,"Dan Ige","Sean Woodson","Dan Ige","TKO (punches)",,,wikipedia,2025-07-12T02:54:50.299004
+207,18,"Virna Jandiroba","Yan Xiaonan","Virna Jandiroba","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T02:54:50.299014
+208,18,"Chase Hooper","Jim Miller","Chase Hooper","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.299025
+209,18,"Julian Erosa","Darren Elkins","Julian Erosa","TKO (punches)",,,wikipedia,2025-07-12T02:54:50.299035
+210,18,"Michał Oleksiejczuk","Sedriques Dumas","Michał Oleksiejczuk","TKO (punches and elbows)",,,wikipedia,2025-07-12T02:54:50.299045
+211,18,"Su Mudaerji","Mitch Raposo","Su Mudaerji","Decision (split) (28–29, 29–28, 29–28)",,,wikipedia,2025-07-12T02:54:50.299063
+212,18,"Marco Tulio","Tresean Gore","Marco Tulio","TKO (punch)",,,wikipedia,2025-07-12T02:54:50.299074
+213,18,"Nora Cornolle","Hailey Cowan","Nora Cornolle","Submission (rear-naked choke)",,,wikipedia,2025-07-12T02:54:50.299084
+214,19,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T03:53:05.199367
+215,19,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.200432
+216,19,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T03:53:05.200474
+217,19,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.200722
+218,19,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.200740
+219,19,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T03:53:05.200786
+220,19,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T03:53:05.200799
+221,19,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.200811
+222,19,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T03:53:05.200826
+223,19,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.200919
+224,19,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.200934
+225,20,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T03:53:05.200984
+226,20,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.201003
+227,20,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T03:53:05.201052
+228,20,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201066
+229,20,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201078
+230,20,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T03:53:05.201091
+231,20,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T03:53:05.201102
+232,20,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201114
+233,20,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T03:53:05.201127
+234,20,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.201300
+235,20,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201357
+236,21,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T03:53:05.201528
+237,21,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.201545
+238,21,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T03:53:05.201562
+239,21,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201576
+240,21,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201589
+241,21,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T03:53:05.201603
+242,21,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T03:53:05.201614
+243,21,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201627
+244,21,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T03:53:05.201639
+245,21,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.201651
+246,21,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201661
+247,22,"Merab Dvalishvili","Sean O'Malley","Merab Dvalishvili","Submission (north-south choke)",,,wikipedia,2025-07-12T03:53:05.201688
+248,22,"Kayla Harrison","Julianna Peña","Kayla Harrison","Submission (kimura)",,,wikipedia,2025-07-12T03:53:05.201700
+249,22,"Joe Pyfer","Kelvin Gastelum","Joe Pyfer","Decision (unanimous) (29–28, 29–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201712
+250,22,"Mario Bautista","Patchy Mix","Mario Bautista","Decision (unanimous) (29–28, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201724
+251,22,"Kevin Holland","Vicente Luque","Kevin Holland","Submission (brabo choke)",,,wikipedia,2025-07-12T03:53:05.201736
+252,22,"Joshua Van","Bruno Gustavo da Silva","Joshua Van","TKO (punches)",,,wikipedia,2025-07-12T03:53:05.201746
+253,22,"Azamat Murzakanov","Brendson Ribeiro","Azamat Murzakanov","TKO (submission to punches)",,,wikipedia,2025-07-12T03:53:05.201758
+254,22,"Waldo Cortes-Acosta","Serghei Spivac","Waldo Cortes-Acosta","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201769
+255,22,"Andreas Gustafsson","Khaos Williams","Andreas Gustafsson","Decision (unanimous) (30–27, 30–26, 30–26)",,,wikipedia,2025-07-12T03:53:05.201785
+256,22,"Wang Cong","Ariane da Silva","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201798
+257,22,"Yoo Joo-sang","Jeka Saragih","Yoo Joo-sang","KO (punch)",,,wikipedia,2025-07-12T03:53:05.201809
+258,22,"Quillan Salkilld","Yanal Ashmouz","Quillan Salkilld","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201821
+259,22,"MarQuel Mederos","Mark Choinski","MarQuel Mederos","Decision (unanimous) (30–27, 30–27, 29–28)",,,wikipedia,2025-07-12T03:53:05.201834
+260,23,"Jack Della Maddalena","Belal Muhammad","Jack Della Maddalena","Decision (unanimous) (48–47, 48–47, 49–46)",,,wikipedia,2025-07-12T03:53:05.201859
+261,23,"Valentina Shevchenko","Manon Fiorot","Valentina Shevchenko","Decision (unanimous) (48–47, 48–47, 48–47)",,,wikipedia,2025-07-12T03:53:05.201872
+262,23,"Aiemann Zahabi","José Aldo","Aiemann Zahabi","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.201884
+263,23,"Natália Silva","Alexa Grasso","Natália Silva","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201896
+264,23,"Benoît Saint Denis","Kyle Prepolec","Benoît Saint Denis","Submission (arm-triangle choke)",,,wikipedia,2025-07-12T03:53:05.201907
+265,23,"Mike Malott","Charles Radtke","Mike Malott","KO (punches)",,,wikipedia,2025-07-12T03:53:05.201919
+266,23,"Jasmine Jasudavicius","Jéssica Andrade","Jasmine Jasudavicius","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.201930
+267,23,"Modestas Bukauskas","Ion Cuțelaba","Modestas Bukauskas","Decision (split) (27–30, 30–27, 29–28)",,,wikipedia,2025-07-12T03:53:05.201941
+268,23,"Navajo Stirling","Ivan Erslan","Navajo Stirling","Decision (unanimous) (29–28, 29–28, 29–27)",,,wikipedia,2025-07-12T03:53:05.201966
+269,23,"Marc-André Barriault","Bruno Silva","Marc-André Barriault","KO (elbows and punches)",,,wikipedia,2025-07-12T03:53:05.201977
+270,23,"Daniel Santos","Lee Jeong-yeong","Daniel Santos","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.201990
+271,23,"Bekzat Almakhan","Brad Katona","Bekzat Almakhan","KO (punches)",,,wikipedia,2025-07-12T03:53:05.202001
+272,24,"Alexander Volkanovski","Diego Lopes","Alexander Volkanovski","Decision (unanimous) (48–47, 49–46, 49–46)",,,wikipedia,2025-07-12T03:53:05.202026
+273,24,"Paddy Pimblett","Michael Chandler","Paddy Pimblett","TKO (elbows and punches)",,,wikipedia,2025-07-12T03:53:05.202038
+274,24,"Yair Rodríguez","Patrício Pitbull","Yair Rodríguez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.202049
+275,24,"Jean Silva","Bryce Mitchell","Jean Silva","Submission (ninja choke)",,,wikipedia,2025-07-12T03:53:05.202060
+276,24,"Dominick Reyes","Nikita Krylov","Dominick Reyes","KO (punch)",,,wikipedia,2025-07-12T03:53:05.202071
+277,24,"Dan Ige","Sean Woodson","Dan Ige","TKO (punches)",,,wikipedia,2025-07-12T03:53:05.202082
+278,24,"Virna Jandiroba","Yan Xiaonan","Virna Jandiroba","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T03:53:05.202094
+279,24,"Chase Hooper","Jim Miller","Chase Hooper","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.202105
+280,24,"Julian Erosa","Darren Elkins","Julian Erosa","TKO (punches)",,,wikipedia,2025-07-12T03:53:05.202116
+281,24,"Michał Oleksiejczuk","Sedriques Dumas","Michał Oleksiejczuk","TKO (punches and elbows)",,,wikipedia,2025-07-12T03:53:05.202127
+282,24,"Su Mudaerji","Mitch Raposo","Su Mudaerji","Decision (split) (28–29, 29–28, 29–28)",,,wikipedia,2025-07-12T03:53:05.202140
+283,24,"Marco Tulio","Tresean Gore","Marco Tulio","TKO (punch)",,,wikipedia,2025-07-12T03:53:05.202151
+284,24,"Nora Cornolle","Hailey Cowan","Nora Cornolle","Submission (rear-naked choke)",,,wikipedia,2025-07-12T03:53:05.202161
+285,25,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T18:13:34.699435
+286,25,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.699745
+287,25,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T18:13:34.699767
+288,25,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.699836
+289,25,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.699852
+290,25,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T18:13:34.699921
+291,25,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T18:13:34.699935
+292,25,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.699947
+293,25,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T18:13:34.699960
+294,25,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.699972
+295,25,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700142
+296,26,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T18:13:34.700246
+297,26,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.700260
+298,26,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T18:13:34.700271
+299,26,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700283
+300,26,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700294
+301,26,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T18:13:34.700306
+302,26,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T18:13:34.700317
+303,26,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700328
+304,26,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T18:13:34.700339
+305,26,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.700351
+306,26,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700362
+307,27,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T18:13:34.700385
+308,27,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.700397
+309,27,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T18:13:34.700414
+310,27,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700428
+311,27,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700439
+312,27,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T18:13:34.700450
+313,27,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T18:13:34.700460
+314,27,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700471
+315,27,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T18:13:34.700486
+316,27,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.700498
+317,27,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700511
+318,28,"Merab Dvalishvili","Sean O'Malley","Merab Dvalishvili","Submission (north-south choke)",,,wikipedia,2025-07-12T18:13:34.700539
+319,28,"Kayla Harrison","Julianna Peña","Kayla Harrison","Submission (kimura)",,,wikipedia,2025-07-12T18:13:34.700550
+320,28,"Joe Pyfer","Kelvin Gastelum","Joe Pyfer","Decision (unanimous) (29–28, 29–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700575
+321,28,"Mario Bautista","Patchy Mix","Mario Bautista","Decision (unanimous) (29–28, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700590
+322,28,"Kevin Holland","Vicente Luque","Kevin Holland","Submission (brabo choke)",,,wikipedia,2025-07-12T18:13:34.700604
+323,28,"Joshua Van","Bruno Gustavo da Silva","Joshua Van","TKO (punches)",,,wikipedia,2025-07-12T18:13:34.700615
+324,28,"Azamat Murzakanov","Brendson Ribeiro","Azamat Murzakanov","TKO (submission to punches)",,,wikipedia,2025-07-12T18:13:34.700625
+325,28,"Waldo Cortes-Acosta","Serghei Spivac","Waldo Cortes-Acosta","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700636
+326,28,"Andreas Gustafsson","Khaos Williams","Andreas Gustafsson","Decision (unanimous) (30–27, 30–26, 30–26)",,,wikipedia,2025-07-12T18:13:34.700647
+327,28,"Wang Cong","Ariane da Silva","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700660
+328,28,"Yoo Joo-sang","Jeka Saragih","Yoo Joo-sang","KO (punch)",,,wikipedia,2025-07-12T18:13:34.700671
+329,28,"Quillan Salkilld","Yanal Ashmouz","Quillan Salkilld","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700681
+330,28,"MarQuel Mederos","Mark Choinski","MarQuel Mederos","Decision (unanimous) (30–27, 30–27, 29–28)",,,wikipedia,2025-07-12T18:13:34.700719
+331,29,"Jack Della Maddalena","Belal Muhammad","Jack Della Maddalena","Decision (unanimous) (48–47, 48–47, 49–46)",,,wikipedia,2025-07-12T18:13:34.700756
+332,29,"Valentina Shevchenko","Manon Fiorot","Valentina Shevchenko","Decision (unanimous) (48–47, 48–47, 48–47)",,,wikipedia,2025-07-12T18:13:34.700768
+333,29,"Aiemann Zahabi","José Aldo","Aiemann Zahabi","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.700780
+334,29,"Natália Silva","Alexa Grasso","Natália Silva","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700798
+335,29,"Benoît Saint Denis","Kyle Prepolec","Benoît Saint Denis","Submission (arm-triangle choke)",,,wikipedia,2025-07-12T18:13:34.700809
+336,29,"Mike Malott","Charles Radtke","Mike Malott","KO (punches)",,,wikipedia,2025-07-12T18:13:34.700821
+337,29,"Jasmine Jasudavicius","Jéssica Andrade","Jasmine Jasudavicius","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.700838
+338,29,"Modestas Bukauskas","Ion Cuțelaba","Modestas Bukauskas","Decision (split) (27–30, 30–27, 29–28)",,,wikipedia,2025-07-12T18:13:34.700860
+339,29,"Navajo Stirling","Ivan Erslan","Navajo Stirling","Decision (unanimous) (29–28, 29–28, 29–27)",,,wikipedia,2025-07-12T18:13:34.700872
+340,29,"Marc-André Barriault","Bruno Silva","Marc-André Barriault","KO (elbows and punches)",,,wikipedia,2025-07-12T18:13:34.700882
+341,29,"Daniel Santos","Lee Jeong-yeong","Daniel Santos","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700893
+342,29,"Bekzat Almakhan","Brad Katona","Bekzat Almakhan","KO (punches)",,,wikipedia,2025-07-12T18:13:34.700904
+343,30,"Alexander Volkanovski","Diego Lopes","Alexander Volkanovski","Decision (unanimous) (48–47, 49–46, 49–46)",,,wikipedia,2025-07-12T18:13:34.700927
+344,30,"Paddy Pimblett","Michael Chandler","Paddy Pimblett","TKO (elbows and punches)",,,wikipedia,2025-07-12T18:13:34.700938
+345,30,"Yair Rodríguez","Patrício Pitbull","Yair Rodríguez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700948
+346,30,"Jean Silva","Bryce Mitchell","Jean Silva","Submission (ninja choke)",,,wikipedia,2025-07-12T18:13:34.700959
+347,30,"Dominick Reyes","Nikita Krylov","Dominick Reyes","KO (punch)",,,wikipedia,2025-07-12T18:13:34.700971
+348,30,"Dan Ige","Sean Woodson","Dan Ige","TKO (punches)",,,wikipedia,2025-07-12T18:13:34.700982
+349,30,"Virna Jandiroba","Yan Xiaonan","Virna Jandiroba","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T18:13:34.700993
+350,30,"Chase Hooper","Jim Miller","Chase Hooper","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.701003
+351,30,"Julian Erosa","Darren Elkins","Julian Erosa","TKO (punches)",,,wikipedia,2025-07-12T18:13:34.701014
+352,30,"Michał Oleksiejczuk","Sedriques Dumas","Michał Oleksiejczuk","TKO (punches and elbows)",,,wikipedia,2025-07-12T18:13:34.701024
+353,30,"Su Mudaerji","Mitch Raposo","Su Mudaerji","Decision (split) (28–29, 29–28, 29–28)",,,wikipedia,2025-07-12T18:13:34.701036
+354,30,"Marco Tulio","Tresean Gore","Marco Tulio","TKO (punch)",,,wikipedia,2025-07-12T18:13:34.701047
+355,30,"Nora Cornolle","Hailey Cowan","Nora Cornolle","Submission (rear-naked choke)",,,wikipedia,2025-07-12T18:13:34.701057
+356,31,"Ilia Topuria","Charles Oliveira","Ilia Topuria","KO (punches)",,,wikipedia,2025-07-12T21:21:48.128912
+357,31,"Alexandre Pantoja","Kai Kara-France","Alexandre Pantoja","Submission (rear-naked choke)",,,wikipedia,2025-07-12T21:21:48.129553
+358,31,"Joshua Van","Brandon Royval","Joshua Van","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T21:21:48.129607
+359,31,"Beneil Dariush","Renato Moicano","Beneil Dariush","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.129627
+360,31,"Payton Talbott","Felipe Lima","Payton Talbott","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.129640
+361,31,"Gregory Rodrigues","Jack Hermansson","Gregory Rodrigues","KO (punch)",,,wikipedia,2025-07-12T21:21:48.129901
+362,31,"Jose Miguel Delgado","Hyder Amil","Jose Miguel Delgado","KO (knee and elbows)",,,wikipedia,2025-07-12T21:21:48.129922
+363,31,"Tracy Cortez","Viviane Araújo","Tracy Cortez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.129934
+364,31,"Terrance McKinney","Viacheslav Borshchev","Terrance McKinney","Submission (guillotine choke)",,,wikipedia,2025-07-12T21:21:48.129984
+365,31,"Jacobe Smith","Niko Price","Jacobe Smith","Submission (rear-naked choke)",,,wikipedia,2025-07-12T21:21:48.129996
+366,31,"Jhonata Diniz","Alvin Hines","Jhonata Diniz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130009
+367,32,"Merab Dvalishvili","Sean O'Malley","Merab Dvalishvili","Submission (north-south choke)",,,wikipedia,2025-07-12T21:21:48.130044
+368,32,"Kayla Harrison","Julianna Peña","Kayla Harrison","Submission (kimura)",,,wikipedia,2025-07-12T21:21:48.130055
+369,32,"Joe Pyfer","Kelvin Gastelum","Joe Pyfer","Decision (unanimous) (29–28, 29–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130067
+370,32,"Mario Bautista","Patchy Mix","Mario Bautista","Decision (unanimous) (29–28, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130079
+371,32,"Kevin Holland","Vicente Luque","Kevin Holland","Submission (brabo choke)",,,wikipedia,2025-07-12T21:21:48.130091
+372,32,"Joshua Van","Bruno Gustavo da Silva","Joshua Van","TKO (punches)",,,wikipedia,2025-07-12T21:21:48.130102
+373,32,"Azamat Murzakanov","Brendson Ribeiro","Azamat Murzakanov","TKO (submission to punches)",,,wikipedia,2025-07-12T21:21:48.130112
+374,32,"Waldo Cortes-Acosta","Serghei Spivac","Waldo Cortes-Acosta","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130429
+375,32,"Andreas Gustafsson","Khaos Williams","Andreas Gustafsson","Decision (unanimous) (30–27, 30–26, 30–26)",,,wikipedia,2025-07-12T21:21:48.130443
+376,32,"Wang Cong","Ariane da Silva","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130454
+377,32,"Yoo Joo-sang","Jeka Saragih","Yoo Joo-sang","KO (punch)",,,wikipedia,2025-07-12T21:21:48.130466
+378,32,"Quillan Salkilld","Yanal Ashmouz","Quillan Salkilld","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130475
+379,32,"MarQuel Mederos","Mark Choinski","MarQuel Mederos","Decision (unanimous) (30–27, 30–27, 29–28)",,,wikipedia,2025-07-12T21:21:48.130534
+380,33,"Jack Della Maddalena","Belal Muhammad","Jack Della Maddalena","Decision (unanimous) (48–47, 48–47, 49–46)",,,wikipedia,2025-07-12T21:21:48.130573
+381,33,"Valentina Shevchenko","Manon Fiorot","Valentina Shevchenko","Decision (unanimous) (48–47, 48–47, 48–47)",,,wikipedia,2025-07-12T21:21:48.130584
+382,33,"Aiemann Zahabi","José Aldo","Aiemann Zahabi","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130596
+383,33,"Natália Silva","Alexa Grasso","Natália Silva","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130606
+384,33,"Benoît Saint Denis","Kyle Prepolec","Benoît Saint Denis","Submission (arm-triangle choke)",,,wikipedia,2025-07-12T21:21:48.130616
+385,33,"Mike Malott","Charles Radtke","Mike Malott","KO (punches)",,,wikipedia,2025-07-12T21:21:48.130653
+386,33,"Jasmine Jasudavicius","Jéssica Andrade","Jasmine Jasudavicius","Submission (rear-naked choke)",,,wikipedia,2025-07-12T21:21:48.130664
+387,33,"Modestas Bukauskas","Ion Cuțelaba","Modestas Bukauskas","Decision (split) (27–30, 30–27, 29–28)",,,wikipedia,2025-07-12T21:21:48.130674
+388,33,"Navajo Stirling","Ivan Erslan","Navajo Stirling","Decision (unanimous) (29–28, 29–28, 29–27)",,,wikipedia,2025-07-12T21:21:48.130685
+389,33,"Marc-André Barriault","Bruno Silva","Marc-André Barriault","KO (elbows and punches)",,,wikipedia,2025-07-12T21:21:48.130696
+390,33,"Daniel Santos","Lee Jeong-yeong","Daniel Santos","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130705
+391,33,"Bekzat Almakhan","Brad Katona","Bekzat Almakhan","KO (punches)",,,wikipedia,2025-07-12T21:21:48.130715
+392,34,"Alexander Volkanovski","Diego Lopes","Alexander Volkanovski","Decision (unanimous) (48–47, 49–46, 49–46)",,,wikipedia,2025-07-12T21:21:48.130739
+393,34,"Paddy Pimblett","Michael Chandler","Paddy Pimblett","TKO (elbows and punches)",,,wikipedia,2025-07-12T21:21:48.130752
+394,34,"Yair Rodríguez","Patrício Pitbull","Yair Rodríguez","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130767
+395,34,"Jean Silva","Bryce Mitchell","Jean Silva","Submission (ninja choke)",,,wikipedia,2025-07-12T21:21:48.130778
+396,34,"Dominick Reyes","Nikita Krylov","Dominick Reyes","KO (punch)",,,wikipedia,2025-07-12T21:21:48.130788
+397,34,"Dan Ige","Sean Woodson","Dan Ige","TKO (punches)",,,wikipedia,2025-07-12T21:21:48.130805
+398,34,"Virna Jandiroba","Yan Xiaonan","Virna Jandiroba","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130818
+399,34,"Chase Hooper","Jim Miller","Chase Hooper","Decision (unanimous) (30–27, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130829
+400,34,"Julian Erosa","Darren Elkins","Julian Erosa","TKO (punches)",,,wikipedia,2025-07-12T21:21:48.130842
+401,34,"Michał Oleksiejczuk","Sedriques Dumas","Michał Oleksiejczuk","TKO (punches and elbows)",,,wikipedia,2025-07-12T21:21:48.130853
+402,34,"Su Mudaerji","Mitch Raposo","Su Mudaerji","Decision (split) (28–29, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130864
+403,34,"Marco Tulio","Tresean Gore","Marco Tulio","TKO (punch)",,,wikipedia,2025-07-12T21:21:48.130877
+404,34,"Nora Cornolle","Hailey Cowan","Nora Cornolle","Submission (rear-naked choke)",,,wikipedia,2025-07-12T21:21:48.130887
+405,35,"Magomed Ankalaev","Alex Pereira","Magomed Ankalaev","Decision (unanimous) (49–46, 48–47, 48–47)",,,wikipedia,2025-07-12T21:21:48.130912
+406,35,"Justin Gaethje","Rafael Fiziev","Justin Gaethje","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130923
+407,35,"Ignacio Bahamondes","Jalin Turner","Ignacio Bahamondes","Submission (triangle choke)",,,wikipedia,2025-07-12T21:21:48.130933
+408,35,"Amanda Lemos","Iasmin Lucindo","Amanda Lemos","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.130946
+409,35,"Maurício Ruffy","King Green","Maurício Ruffy","KO (spinning wheel kick)",,,wikipedia,2025-07-12T21:21:48.130970
+410,35,"Joshua Van","Rei Tsuruya","Joshua Van","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.130991
+411,35,"Brunno Ferreira","Armen Petrosyan","Brunno Ferreira","Submission (triangle armbar)",,,wikipedia,2025-07-12T21:21:48.131002
+412,35,"Carlos Leal","Alex Morono","Carlos Leal","TKO (punches)",,,wikipedia,2025-07-12T21:21:48.131013
+413,35,"Mairon Santos","Francis Marshall","Mairon Santos","Decision (split) (27–30, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.131025
+414,35,"Ozzy Diaz","Djorden Ribeiro dos Santos","Ozzy Diaz","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.131045
+415,36,"Dricus du Plessis","Sean Strickland","Dricus du Plessis","Decision (unanimous) (50–45, 50–45, 49–46)",,,wikipedia,2025-07-12T21:21:48.131066
+416,36,"Zhang Weili","Tatiana Suarez","Zhang Weili","Decision (unanimous) (49–46, 49–46, 49–45)",,,wikipedia,2025-07-12T21:21:48.131080
+417,36,"Tallison Teixeira","Justin Tafa","Tallison Teixeira","TKO (knee to the body and elbows)",,,wikipedia,2025-07-12T21:21:48.131122
+418,36,"Jake Matthews","Francisco Prado","Jake Matthews","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.131143
+419,36,"Gabriel Santos","Jack Jenkins","Gabriel Santos","Submission (rear-naked choke)",,,wikipedia,2025-07-12T21:21:48.131157
+420,36,"Tom Nolan","Viacheslav Borshchev","Tom Nolan","Decision (unanimous) (29–28, 29–28, 30–27)",,,wikipedia,2025-07-12T21:21:48.131179
+421,36,"Wang Cong","Bruna Brasil","Wang Cong","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.131190
+422,36,"Aleksandre Topuria","Colby Thicknesse","Aleksandre Topuria","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.131202
+423,36,"Rong Zhu","Kody Steele","Rong Zhu","Decision (unanimous) (30–27, 30–27, 30–27)",,,wikipedia,2025-07-12T21:21:48.131212
+424,36,"Jonathan Micallef","Kevin Jousset","Jonathan Micallef","Decision (unanimous) (29–28, 29–28, 29–28)",,,wikipedia,2025-07-12T21:21:48.131222
+425,36,"Quillan Salkilld","Anshul Jubli","Quillan Salkilld","TKO (punch)",,,wikipedia,2025-07-12T21:21:48.131234

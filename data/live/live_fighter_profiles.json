@@ -1,0 +1,1957 @@
+{
+  "profiles": [
+    {
+      "url": "https://www.ufc.com/athlete/ilia-topuria",
+      "scraped_at": "2025-07-14T01:38:30.019590",
+      "name": "Ilia Topuria",
+      "record": "17-0-0",
+      "division": "Lightweight Division17-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/islam-makhachev",
+      "scraped_at": "2025-07-14T01:38:31.083092",
+      "name": "Islam Makhachev",
+      "record": "27-1-0",
+      "division": "Lightweight Division27-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/merab-dvalishvili",
+      "scraped_at": "2025-07-14T01:38:32.146644",
+      "name": "Merab Dvalishvili",
+      "record": "20-4-0",
+      "division": "Bantamweight Division20-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/dricus-du-plessis",
+      "scraped_at": "2025-07-14T01:38:33.211847",
+      "name": "Dricus Du Plessis",
+      "record": "23-2-0",
+      "division": "Middleweight Division23-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alexandre-pantoja",
+      "scraped_at": "2025-07-14T01:38:34.272556",
+      "name": "Alexandre Pantoja",
+      "record": "30-5-0",
+      "division": "Flyweight Division30-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alexander-volkanovski",
+      "scraped_at": "2025-07-14T01:38:35.346373",
+      "name": "Alexander Volkanovski",
+      "record": "27-4-0",
+      "division": "Featherweight Division27-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/magomed-ankalaev",
+      "scraped_at": "2025-07-14T01:38:36.420048",
+      "name": "Magomed Ankalaev",
+      "record": "21-1-1",
+      "division": "Light Heavyweight Division21-1-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jack-della-maddalena",
+      "scraped_at": "2025-07-14T01:38:37.908525",
+      "name": "Jack Della Maddalena",
+      "record": "18-2-0",
+      "division": "Welterweight Division18-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tom-aspinall",
+      "scraped_at": "2025-07-14T01:38:39.540851",
+      "name": "Tom Aspinall",
+      "record": "15-3-0",
+      "division": "Heavyweight Division15-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alex-pereira",
+      "scraped_at": "2025-07-14T01:38:40.707505",
+      "name": "Alex Pereira",
+      "record": "12-3-0",
+      "division": "Light Heavyweight Division12-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/max-holloway",
+      "scraped_at": "2025-07-14T01:38:41.844114",
+      "name": "Max Holloway",
+      "record": "26-8-0",
+      "division": "Featherweight Division26-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/belal-muhammad",
+      "scraped_at": "2025-07-14T01:38:42.927726",
+      "name": "Belal Muhammad",
+      "record": "24-4-0",
+      "division": "Welterweight Division24-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/arman-tsarukyan",
+      "scraped_at": "2025-07-14T01:38:44.002904",
+      "name": "Arman Tsarukyan",
+      "record": "22-3-0",
+      "division": "Lightweight Division22-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/khamzat-chimaev",
+      "scraped_at": "2025-07-14T01:38:45.066729",
+      "name": "Khamzat Chimaev",
+      "record": "14-0-0",
+      "division": "Middleweight Division14-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/charles-oliveira",
+      "scraped_at": "2025-07-14T01:38:46.135276",
+      "name": "Charles Oliveira",
+      "record": "35-11-0",
+      "division": "Lightweight Division35-11-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/joshua-van",
+      "scraped_at": "2025-07-14T01:38:47.228693",
+      "name": "Joshua Van",
+      "record": "15-2-0",
+      "division": "Flyweight Division15-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/brandon-moreno",
+      "scraped_at": "2025-07-14T01:38:48.328179",
+      "name": "Brandon Moreno",
+      "record": "23-8-2",
+      "division": "Flyweight Division23-8-2 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/brandon-royval",
+      "scraped_at": "2025-07-14T01:38:49.418625",
+      "name": "Brandon Royval",
+      "record": "17-8-0",
+      "division": "Flyweight Division17-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/amir-albazi",
+      "scraped_at": "2025-07-14T01:38:50.499560",
+      "name": "Amir Albazi",
+      "record": "17-2-0",
+      "division": "Flyweight Division17-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/kai-kara-france",
+      "scraped_at": "2025-07-14T01:38:51.585629",
+      "name": "Kai Kara-France",
+      "record": "25-12-0",
+      "division": "Flyweight Division25-12-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tatsuro-taira",
+      "scraped_at": "2025-07-14T01:38:52.675149",
+      "name": "Tatsuro Taira",
+      "record": "16-1-0",
+      "division": "Flyweight Division16-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/manel-kape",
+      "scraped_at": "2025-07-14T01:38:53.757835",
+      "name": "Manel Kape",
+      "record": "21-7-0",
+      "division": "Flyweight Division21-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alex-perez",
+      "scraped_at": "2025-07-14T01:38:54.853867",
+      "name": "Alex Perez",
+      "record": "25-9-0",
+      "division": "Flyweight Division25-9-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/assu-almabayev",
+      "scraped_at": "2025-07-14T01:38:55.950199",
+      "name": "Asu Almabayev",
+      "record": "21-3-0",
+      "division": "Flyweight Division21-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/steve-erceg",
+      "scraped_at": "2025-07-14T01:38:57.054141",
+      "name": "Steve Erceg",
+      "record": "12-4-0",
+      "division": "Flyweight Division12-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tim-elliott",
+      "scraped_at": "2025-07-14T01:38:58.147392",
+      "name": "Tim Elliott",
+      "record": "21-13-1",
+      "division": "Flyweight Division21-13-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tagir-ulanbekov",
+      "scraped_at": "2025-07-14T01:38:59.236338",
+      "name": "Tagir Ulanbekov",
+      "record": "17-2-0",
+      "division": "Flyweight Division17-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/ramazan-temirov",
+      "scraped_at": "2025-07-14T01:39:00.304563",
+      "name": "Ramazan Temirov",
+      "record": "19-3-0",
+      "division": "Flyweight Division19-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/bruno-silva",
+      "scraped_at": "2025-07-14T01:39:01.394187",
+      "name": "Bruno Silva",
+      "record": "14-7-2",
+      "division": "Flyweight Division14-7-2 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/kai-asakura",
+      "scraped_at": "2025-07-14T01:39:02.478652",
+      "name": "Kai Asakura",
+      "record": "21-5-0",
+      "division": "Flyweight Division21-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/sean-omalley",
+      "scraped_at": "2025-07-14T01:39:03.555128",
+      "name": "Sean O'Malley",
+      "record": "18-3-0",
+      "division": "Bantamweight Division18-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/umar-nurmagomedov",
+      "scraped_at": "2025-07-14T01:39:04.643888",
+      "name": "Umar Nurmagomedov",
+      "record": "18-1-0",
+      "division": "Bantamweight Division18-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/petr-yan",
+      "scraped_at": "2025-07-14T01:39:05.739194",
+      "name": "Petr Yan",
+      "record": "18-5-0",
+      "division": "Bantamweight Division18-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/cory-sandhagen",
+      "scraped_at": "2025-07-14T01:39:06.836556",
+      "name": "Cory Sandhagen",
+      "record": "18-5-0",
+      "division": "Bantamweight Division18-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/yadong-song",
+      "scraped_at": "2025-07-14T01:39:07.925337",
+      "name": "Song Yadong",
+      "record": "22-8-1",
+      "division": "Bantamweight Division22-8-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/deiveson-figueiredo",
+      "scraped_at": "2025-07-14T01:39:09.015094",
+      "name": "Deiveson Figueiredo",
+      "record": "24-5-1",
+      "division": "Bantamweight Division24-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/marlon-vera",
+      "scraped_at": "2025-07-14T01:39:10.104800",
+      "name": "Marlon Vera",
+      "record": "23-10-1",
+      "division": "Bantamweight Division23-10-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/mario-bautista",
+      "scraped_at": "2025-07-14T01:39:11.196767",
+      "name": "Mario Bautista",
+      "record": "16-2-0",
+      "division": "Bantamweight Division16-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/rob-font",
+      "scraped_at": "2025-07-14T01:39:12.288737",
+      "name": "Rob Font",
+      "record": "22-8-0",
+      "division": "Bantamweight Division22-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/henry-cejudo",
+      "scraped_at": "2025-07-14T01:39:13.393369",
+      "name": "Henry Cejudo",
+      "record": "16-5-0",
+      "division": "Bantamweight Division16-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/aiemann-zahabi",
+      "scraped_at": "2025-07-14T01:39:14.470913",
+      "name": "Aiemann Zahabi",
+      "record": "13-2-0",
+      "division": "Featherweight Division13-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/kyler-phillips",
+      "scraped_at": "2025-07-14T01:39:15.553859",
+      "name": "Kyler Phillips",
+      "record": "12-3-0",
+      "division": "Bantamweight Division12-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/marcus-mcghee",
+      "scraped_at": "2025-07-14T01:39:16.637212",
+      "name": "Marcus McGhee",
+      "record": "10-1-0",
+      "division": "Bantamweight Division10-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/montel-jackson",
+      "scraped_at": "2025-07-14T01:39:17.727888",
+      "name": "Montel Jackson",
+      "record": "16-2-0",
+      "division": "Bantamweight Division16-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/vinicius-oliveira",
+      "scraped_at": "2025-07-14T01:39:18.827521",
+      "name": "Vinicius Oliveira",
+      "record": "22-3-0",
+      "division": "Bantamweight Division22-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/max-holloway",
+      "scraped_at": "2025-07-14T01:39:19.922336",
+      "name": "Max Holloway",
+      "record": "26-8-0",
+      "division": "Featherweight Division26-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/movsar-evloev",
+      "scraped_at": "2025-07-14T01:39:21.019534",
+      "name": "Movsar Evloev",
+      "record": "19-0-0",
+      "division": "Featherweight Division19-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/diego-lopes",
+      "scraped_at": "2025-07-14T01:39:22.114638",
+      "name": "Diego Lopes",
+      "record": "26-7-0",
+      "division": "Featherweight Division26-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/yair-rodriguez",
+      "scraped_at": "2025-07-14T01:39:23.211130",
+      "name": "Yair Rodriguez",
+      "record": "21-5-0",
+      "division": "Featherweight Division21-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/arnold-allen",
+      "scraped_at": "2025-07-14T01:39:24.307106",
+      "name": "Arnold Allen",
+      "record": "20-3-0",
+      "division": "Featherweight Division20-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/brian-ortega",
+      "scraped_at": "2025-07-14T01:39:25.405014",
+      "name": "Brian Ortega",
+      "record": "16-4-0",
+      "division": "Featherweight Division16-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/lerone-murphy",
+      "scraped_at": "2025-07-14T01:39:26.482228",
+      "name": "Lerone Murphy",
+      "record": "16-0-1",
+      "division": "Featherweight Division16-0-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/aljamain-sterling",
+      "scraped_at": "2025-07-14T01:39:27.569242",
+      "name": "Aljamain Sterling",
+      "record": "24-5-0",
+      "division": "Featherweight Division24-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/josh-emmett",
+      "scraped_at": "2025-07-14T01:39:28.665884",
+      "name": "Josh Emmett",
+      "record": "19-5-0",
+      "division": "Featherweight Division19-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jean-silva",
+      "scraped_at": "2025-07-14T01:39:29.763513",
+      "name": "Jean Silva",
+      "record": "16-2-0",
+      "division": "Featherweight Division16-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/youssef-zalal",
+      "scraped_at": "2025-07-14T01:39:30.842314",
+      "name": "Youssef Zalal",
+      "record": "17-5-1",
+      "division": "Featherweight Division17-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/dan-ige",
+      "scraped_at": "2025-07-14T01:39:31.942564",
+      "name": "Dan Ige",
+      "record": "19-9-0",
+      "division": "Featherweight Division19-9-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/david-onama",
+      "scraped_at": "2025-07-14T01:39:33.019647",
+      "name": "David Onama",
+      "record": "14-2-0",
+      "division": "Featherweight Division14-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/calvin-kattar",
+      "scraped_at": "2025-07-14T01:39:34.112305",
+      "name": "Calvin Kattar",
+      "record": "23-10-0",
+      "division": "Featherweight Division23-10-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/giga-chikadze",
+      "scraped_at": "2025-07-14T01:39:35.185747",
+      "name": "Giga Chikadze",
+      "record": "15-5-0",
+      "division": "Featherweight Division15-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/islam-makhachev",
+      "scraped_at": "2025-07-14T01:39:36.287872",
+      "name": "Islam Makhachev",
+      "record": "27-1-0",
+      "division": "Lightweight Division27-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/arman-tsarukyan",
+      "scraped_at": "2025-07-14T01:39:37.355506",
+      "name": "Arman Tsarukyan",
+      "record": "22-3-0",
+      "division": "Lightweight Division22-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/charles-oliveira",
+      "scraped_at": "2025-07-14T01:39:38.437691",
+      "name": "Charles Oliveira",
+      "record": "35-11-0",
+      "division": "Lightweight Division35-11-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/justin-gaethje",
+      "scraped_at": "2025-07-14T01:39:39.674915",
+      "name": "Justin Gaethje",
+      "record": "27-5-0",
+      "division": "Lightweight Division27-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/max-holloway",
+      "scraped_at": "2025-07-14T01:39:40.981824",
+      "name": "Max Holloway",
+      "record": "26-8-0",
+      "division": "Featherweight Division26-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/dustin-poirier",
+      "scraped_at": "2025-07-14T01:39:42.066552",
+      "name": "Dustin Poirier",
+      "record": "30-9-0",
+      "division": "Lightweight Division30-9-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/dan-hooker",
+      "scraped_at": "2025-07-14T01:39:43.140285",
+      "name": "Dan Hooker",
+      "record": "24-12-0",
+      "division": "Lightweight Division24-12-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/mateusz-gamrot",
+      "scraped_at": "2025-07-14T01:39:44.207141",
+      "name": "Mateusz Gamrot",
+      "record": "25-3-0",
+      "division": "Lightweight Division25-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/beneil-dariush",
+      "scraped_at": "2025-07-14T01:39:45.275209",
+      "name": "Beneil Dariush",
+      "record": "23-6-1",
+      "division": "Lightweight Division23-6-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/paddy-pimblett",
+      "scraped_at": "2025-07-14T01:39:46.347934",
+      "name": "Paddy Pimblett",
+      "record": "23-3-0",
+      "division": "Lightweight Division23-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/rafael-fiziev",
+      "scraped_at": "2025-07-14T01:39:47.411870",
+      "name": "Rafael Fiziev",
+      "record": "13-4-0",
+      "division": "Lightweight Division13-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/renato-moicano",
+      "scraped_at": "2025-07-14T01:39:48.481043",
+      "name": "Renato Moicano",
+      "record": "20-7-1",
+      "division": "Lightweight Division20-7-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/michael-chandler",
+      "scraped_at": "2025-07-14T01:39:49.548131",
+      "name": "Michael Chandler",
+      "record": "23-10-0",
+      "division": "Lightweight Division23-10-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/benoit-saint-denis",
+      "scraped_at": "2025-07-14T01:39:50.637749",
+      "name": "Beno\u00eet Saint Denis",
+      "record": "14-3-0",
+      "division": "Lightweight Division14-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/grant-dawson",
+      "scraped_at": "2025-07-14T01:39:51.700362",
+      "name": "Grant Dawson",
+      "record": "23-2-1",
+      "division": "Lightweight Division23-2-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/belal-muhammad",
+      "scraped_at": "2025-07-14T01:39:52.763402",
+      "name": "Belal Muhammad",
+      "record": "24-4-0",
+      "division": "Welterweight Division24-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/sean-brady",
+      "scraped_at": "2025-07-14T01:39:53.830342",
+      "name": "Sean Brady",
+      "record": "18-1-0",
+      "division": "Welterweight Division18-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/shavkat-rakhmonov",
+      "scraped_at": "2025-07-14T01:39:54.892766",
+      "name": "Shavkat Rakhmonov",
+      "record": "19-0-0",
+      "division": "Welterweight Division19-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/leon-edwards",
+      "scraped_at": "2025-07-14T01:39:55.957444",
+      "name": "Leon Edwards",
+      "record": "22-5-0",
+      "division": "Welterweight Division22-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/kamaru-usman",
+      "scraped_at": "2025-07-14T01:39:57.037412",
+      "name": "Kamaru Usman",
+      "record": "21-4-0",
+      "division": "Welterweight Division21-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/ian-garry",
+      "scraped_at": "2025-07-14T01:39:58.124351",
+      "name": "Ian Machado Garry",
+      "record": "16-1-0",
+      "division": "Welterweight Division16-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/michael-morales",
+      "scraped_at": "2025-07-14T01:39:59.200291",
+      "name": "Michael Morales",
+      "record": "18-0-0",
+      "division": "Welterweight Division18-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/joaquin-buckley",
+      "scraped_at": "2025-07-14T01:40:00.270685",
+      "name": "Joaquin Buckley",
+      "record": "21-7-0",
+      "division": "Welterweight Division21-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/colby-covington",
+      "scraped_at": "2025-07-14T01:40:01.348120",
+      "name": "Colby Covington",
+      "record": "17-5-0",
+      "division": "Welterweight Division17-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/gilbert-burns",
+      "scraped_at": "2025-07-14T01:40:02.433257",
+      "name": "Gilbert Burns",
+      "record": "22-9-0",
+      "division": "Welterweight Division22-9-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/geoff-neal",
+      "scraped_at": "2025-07-14T01:40:03.496672",
+      "name": "Geoff Neal",
+      "record": "16-6-0",
+      "division": "Welterweight Division16-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/stephen-thompson",
+      "scraped_at": "2025-07-14T01:40:04.560502",
+      "name": "Stephen Thompson",
+      "record": "17-9-1",
+      "division": "Welterweight Division17-9-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/carlos-prates",
+      "scraped_at": "2025-07-14T01:40:05.640839",
+      "name": "Carlos Prates",
+      "record": "21-7-0",
+      "division": "Welterweight Division21-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/kevin-holland",
+      "scraped_at": "2025-07-14T01:40:06.709430",
+      "name": "Kevin Holland",
+      "record": "28-13-0",
+      "division": "Welterweight Division28-13-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/michael-page",
+      "scraped_at": "2025-07-14T01:40:07.778843",
+      "name": "Michael Page",
+      "record": "23-3-0",
+      "division": "Welterweight Division23-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/nassourdine-imavov",
+      "scraped_at": "2025-07-14T01:40:08.843809",
+      "name": "Nassourdine Imavov",
+      "record": "16-4-0",
+      "division": "Middleweight Division16-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/sean-strickland",
+      "scraped_at": "2025-07-14T01:40:09.916560",
+      "name": "Sean Strickland",
+      "record": "29-7-0",
+      "division": "Middleweight Division29-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/khamzat-chimaev",
+      "scraped_at": "2025-07-14T01:40:11.043714",
+      "name": "Khamzat Chimaev",
+      "record": "14-0-0",
+      "division": "Middleweight Division14-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/israel-adesanya",
+      "scraped_at": "2025-07-14T01:40:12.161500",
+      "name": "Israel Adesanya",
+      "record": "24-5-0",
+      "division": "Middleweight Division24-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/robert-whittaker",
+      "scraped_at": "2025-07-14T01:40:13.276255",
+      "name": "Robert Whittaker",
+      "record": "27-8-0",
+      "division": "Middleweight Division27-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/caio-borralho",
+      "scraped_at": "2025-07-14T01:40:14.370348",
+      "name": "Caio Borralho",
+      "record": "17-1-0",
+      "division": "Middleweight Division17-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jared-cannonier",
+      "scraped_at": "2025-07-14T01:40:15.431478",
+      "name": "Jared Cannonier",
+      "record": "18-8-0",
+      "division": "Middleweight Division18-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/roman-dolidze",
+      "scraped_at": "2025-07-14T01:40:16.497420",
+      "name": "Roman Dolidze",
+      "record": "15-3-0",
+      "division": "Middleweight Division15-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/anthony-hernandez",
+      "scraped_at": "2025-07-14T01:40:17.610728",
+      "name": "Anthony Hernandez",
+      "record": "14-2-0",
+      "division": "Middleweight Division14-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/marvin-vettori",
+      "scraped_at": "2025-07-14T01:40:18.738740",
+      "name": "Marvin Vettori",
+      "record": "19-8-1",
+      "division": "Middleweight Division19-8-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/brendan-allen",
+      "scraped_at": "2025-07-14T01:40:19.856131",
+      "name": "Brendan Allen",
+      "record": "24-7-0",
+      "division": "Middleweight Division24-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/reinier-de-ridder",
+      "scraped_at": "2025-07-14T01:40:20.963135",
+      "name": "Reinier de Ridder",
+      "record": "20-2-0",
+      "division": "Middleweight Division20-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/paulo-costa",
+      "scraped_at": "2025-07-14T01:40:22.062382",
+      "name": "Paulo Costa",
+      "record": "14-4-0",
+      "division": "Middleweight Division14-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/roman-kopylov",
+      "scraped_at": "2025-07-14T01:40:23.159862",
+      "name": "Roman Kopylov",
+      "record": "14-3-0",
+      "division": "Middleweight Division14-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/abus-magomedov",
+      "scraped_at": "2025-07-14T01:40:24.256276",
+      "name": "Abus Magomedov",
+      "record": "28-6-1",
+      "division": "Middleweight Division28-6-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alex-pereira",
+      "scraped_at": "2025-07-14T01:40:25.375198",
+      "name": "Alex Pereira",
+      "record": "12-3-0",
+      "division": "Light Heavyweight Division12-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jiri-prochazka",
+      "scraped_at": "2025-07-14T01:40:26.692267",
+      "name": "Ji\u0159\u00ed Proch\u00e1zka",
+      "record": "31-5-1",
+      "division": "Light Heavyweight Division31-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/carlos-ulberg",
+      "scraped_at": "2025-07-14T01:40:27.821851",
+      "name": "Carlos Ulberg",
+      "record": "13-1-0",
+      "division": "Light Heavyweight Division13-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/khalil-rountree-jr",
+      "scraped_at": "2025-07-14T01:40:28.920123",
+      "name": "Khalil Rountree Jr.",
+      "record": "15-6-0",
+      "division": "Light Heavyweight Division15-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jan-blachowicz",
+      "scraped_at": "2025-07-14T01:40:30.059753",
+      "name": "Jan B\u0142achowicz",
+      "record": "29-11-1",
+      "division": "Light Heavyweight Division29-11-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jamahal-hill",
+      "scraped_at": "2025-07-14T01:40:31.172272",
+      "name": "Jamahal Hill",
+      "record": "12-4-0",
+      "division": "Light Heavyweight Division12-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/aleksandar-rakic",
+      "scraped_at": "2025-07-14T01:40:32.276173",
+      "name": "Aleksandar Raki\u0107",
+      "record": "14-5-0",
+      "division": "Light Heavyweight Division14-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/dominick-reyes",
+      "scraped_at": "2025-07-14T01:40:33.408852",
+      "name": "Dominick Reyes",
+      "record": "15-4-0",
+      "division": "Light Heavyweight Division15-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/volkan-oezdemir",
+      "scraped_at": "2025-07-14T01:40:34.520656",
+      "name": "Volkan Oezdemir",
+      "record": "20-8-0",
+      "division": "Light Heavyweight Division20-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/nikita-krylov",
+      "scraped_at": "2025-07-14T01:40:35.647053",
+      "name": "Nikita Krylov",
+      "record": "30-10-0",
+      "division": "Light Heavyweight Division30-10-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/azamat-murzakanov",
+      "scraped_at": "2025-07-14T01:40:37.324141",
+      "name": "Azamat Murzakanov",
+      "record": "15-0-0",
+      "division": "Light Heavyweight Division15-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/johnny-walker",
+      "scraped_at": "2025-07-14T01:40:38.551037",
+      "name": "Johnny Walker",
+      "record": "21-9-0",
+      "division": "Light Heavyweight Division21-9-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/bogdan-guskov",
+      "scraped_at": "2025-07-14T01:40:39.734743",
+      "name": "Bogdan Guskov",
+      "record": "17-3-0",
+      "division": "Light Heavyweight Division17-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/zhang-mingyang",
+      "scraped_at": "2025-07-14T01:40:41.091939",
+      "name": "Zhang Mingyang",
+      "record": "19-6-0",
+      "division": "Light Heavyweight Division19-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alonzo-menifield",
+      "scraped_at": "2025-07-14T01:40:42.841668",
+      "name": "Alonzo Menifield",
+      "record": "17-5-1",
+      "division": "Light Heavyweight Division17-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/ciryl-gane",
+      "scraped_at": "2025-07-14T01:40:43.984291",
+      "name": "Ciryl Gane",
+      "record": "13-2-0",
+      "division": "Heavyweight Division13-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alexander-volkov",
+      "scraped_at": "2025-07-14T01:40:45.153704",
+      "name": "Alexander Volkov",
+      "record": "38-11-0",
+      "division": "Heavyweight Division38-11-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/sergei-pavlovich",
+      "scraped_at": "2025-07-14T01:40:46.283259",
+      "name": "Sergei Pavlovich",
+      "record": "19-3-0",
+      "division": "Heavyweight Division19-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/curtis-blaydes",
+      "scraped_at": "2025-07-14T01:40:47.388073",
+      "name": "Curtis Blaydes",
+      "record": "19-5-0",
+      "division": "Heavyweight Division19-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jailton-almeida",
+      "scraped_at": "2025-07-14T01:40:48.479451",
+      "name": "Jailton Almeida",
+      "record": "22-3-0",
+      "division": "Heavyweight Division22-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/waldo-cortes-acosta",
+      "scraped_at": "2025-07-14T01:40:49.565414",
+      "name": "Waldo Cortes Acosta",
+      "record": "14-1-0",
+      "division": "Heavyweight Division14-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/marcin-tybura",
+      "scraped_at": "2025-07-14T01:40:50.677168",
+      "name": "Marcin Tybura",
+      "record": "27-9-0",
+      "division": "Heavyweight Division27-9-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/serghei-spivac",
+      "scraped_at": "2025-07-14T01:40:51.784818",
+      "name": "Serghei Spivac",
+      "record": "17-6-0",
+      "division": "Heavyweight Division17-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/derrick-lewis",
+      "scraped_at": "2025-07-14T01:40:52.868501",
+      "name": "Derrick Lewis",
+      "record": "29-12-0",
+      "division": "Heavyweight Division29-12-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tai-tuivasa",
+      "scraped_at": "2025-07-14T01:40:54.019667",
+      "name": "Tai Tuivasa",
+      "record": "15-8-0",
+      "division": "Heavyweight Division15-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/shamil-gaziev",
+      "scraped_at": "2025-07-14T01:40:55.145853",
+      "name": "Shamil Gaziev",
+      "record": "14-1-0",
+      "division": "Heavyweight Division14-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/mick-parkin",
+      "scraped_at": "2025-07-14T01:40:56.276620",
+      "name": "Mick Parkin",
+      "record": "10-1-0",
+      "division": "Heavyweight Division10-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tallison-teixeira",
+      "scraped_at": "2025-07-14T01:40:57.371797",
+      "name": "Tallison Teixeira",
+      "record": "8-0-0",
+      "division": "Heavyweight Division8-0-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/martin-buday",
+      "scraped_at": "2025-07-14T01:40:58.472361",
+      "name": "Martin Buday",
+      "record": "15-2-0",
+      "division": "Heavyweight Division15-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/rizvan-kuniev",
+      "scraped_at": "2025-07-14T01:40:59.575587",
+      "name": "Rizvan Kuniev",
+      "record": "12-3-1",
+      "division": "Heavyweight Division12-3-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/valentina-shevchenko",
+      "scraped_at": "2025-07-14T01:41:00.684027",
+      "name": "Valentina Shevchenko",
+      "record": "25-4-1",
+      "division": "Women's Flyweight Division25-4-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/weili-zhang",
+      "scraped_at": "2025-07-14T01:41:01.807437",
+      "name": "Zhang Weili",
+      "record": "26-3-0",
+      "division": "Women's Strawweight Division26-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/kayla-harrison",
+      "scraped_at": "2025-07-14T01:41:02.932329",
+      "name": "Kayla Harrison",
+      "record": "19-1-0",
+      "division": "Women's Bantamweight Division19-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/manon-fiorot",
+      "scraped_at": "2025-07-14T01:41:04.032130",
+      "name": "Manon Fiorot",
+      "record": "12-2-0",
+      "division": "Women's Flyweight Division12-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/julianna-pena",
+      "scraped_at": "2025-07-14T01:41:05.150971",
+      "name": "Julianna Pe\u00f1a",
+      "record": "13-6-0",
+      "division": "Women's Bantamweight Division13-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/natalia-silva",
+      "scraped_at": "2025-07-14T01:41:06.231977",
+      "name": "Natalia Silva",
+      "record": "19-5-1",
+      "division": "Women's Flyweight Division19-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alexa-grasso",
+      "scraped_at": "2025-07-14T01:41:07.367120",
+      "name": "Alexa Grasso",
+      "record": "16-5-1",
+      "division": "Women's Flyweight Division16-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/erin-blanchfield",
+      "scraped_at": "2025-07-14T01:41:08.591168",
+      "name": "Erin Blanchfield",
+      "record": "13-2-0",
+      "division": "Women's Flyweight Division13-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/virna-jandiroba",
+      "scraped_at": "2025-07-14T01:41:09.722993",
+      "name": "Virna Jandiroba",
+      "record": "22-3-0",
+      "division": "Women's Strawweight Division22-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/raquel-pennington",
+      "scraped_at": "2025-07-14T01:41:10.817912",
+      "name": "Raquel Pennington",
+      "record": "16-10-0",
+      "division": "Women's Bantamweight Division16-10-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tatiana-suarez",
+      "scraped_at": "2025-07-14T01:41:11.970494",
+      "name": "Tatiana Suarez",
+      "record": "11-1-0",
+      "division": "Women's Strawweight Division11-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/rose-namajunas",
+      "scraped_at": "2025-07-14T01:41:13.095379",
+      "name": "Rose Namajunas",
+      "record": "15-7-0",
+      "division": "Women's Flyweight Division15-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/xiaonan-yan",
+      "scraped_at": "2025-07-14T01:41:14.220745",
+      "name": "Yan Xiaonan",
+      "record": "19-5-0",
+      "division": "Women's Strawweight Division19-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/amanda-lemos",
+      "scraped_at": "2025-07-14T01:41:15.329256",
+      "name": "Amanda Lemos",
+      "record": "15-4-1",
+      "division": "Women's Strawweight Division15-4-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/maycee-barber",
+      "scraped_at": "2025-07-14T01:41:16.486465",
+      "name": "Maycee Barber",
+      "record": "14-2-0",
+      "division": "Women's Flyweight Division14-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/virna-jandiroba",
+      "scraped_at": "2025-07-14T01:41:17.564176",
+      "name": "Virna Jandiroba",
+      "record": "22-3-0",
+      "division": "Women's Strawweight Division22-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tatiana-suarez",
+      "scraped_at": "2025-07-14T01:41:18.701788",
+      "name": "Tatiana Suarez",
+      "record": "11-1-0",
+      "division": "Women's Strawweight Division11-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/xiaonan-yan",
+      "scraped_at": "2025-07-14T01:41:19.880043",
+      "name": "Yan Xiaonan",
+      "record": "19-5-0",
+      "division": "Women's Strawweight Division19-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/amanda-lemos",
+      "scraped_at": "2025-07-14T01:41:20.989547",
+      "name": "Amanda Lemos",
+      "record": "15-4-1",
+      "division": "Women's Strawweight Division15-4-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jessica-andrade",
+      "scraped_at": "2025-07-14T01:41:22.117523",
+      "name": "J\u00e9ssica Andrade",
+      "record": "26-14-0",
+      "division": "Women's Strawweight Division26-14-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/mackenzie-dern",
+      "scraped_at": "2025-07-14T01:41:23.330046",
+      "name": "Mackenzie Dern",
+      "record": "15-5-0",
+      "division": "Women's Strawweight Division15-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/amanda-ribas",
+      "scraped_at": "2025-07-14T01:41:24.613537",
+      "name": "Amanda Ribas",
+      "record": "12-6-0",
+      "division": "Women's Strawweight Division12-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/iasmin-lucindo",
+      "scraped_at": "2025-07-14T01:41:25.779374",
+      "name": "Iasmin Lucindo",
+      "record": "17-6-0",
+      "division": "Women's Strawweight Division17-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/gillian-robertson",
+      "scraped_at": "2025-07-14T01:41:26.947451",
+      "name": "Gillian Robertson",
+      "record": "16-8-0",
+      "division": "Women's Strawweight Division16-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tabatha-ricci",
+      "scraped_at": "2025-07-14T01:41:28.041301",
+      "name": "Tabatha Ricci",
+      "record": "11-3-0",
+      "division": "Women's Strawweight Division11-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/loopy-godinez",
+      "scraped_at": "2025-07-14T01:41:29.152535",
+      "name": "Loopy Godinez",
+      "record": "13-5-0",
+      "division": "Women's Strawweight Division13-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/angela-hill",
+      "scraped_at": "2025-07-14T01:41:30.290922",
+      "name": "Angela Hill",
+      "record": "18-14-0",
+      "division": "Women's Strawweight Division18-14-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tecia-pennington",
+      "scraped_at": "2025-07-14T01:41:31.415960",
+      "name": "Tecia Pennington",
+      "record": "15-7-0",
+      "division": "Women's Strawweight Division15-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/loma-lookboonmee",
+      "scraped_at": "2025-07-14T01:41:32.578144",
+      "name": "Loma Lookboonmee",
+      "record": "10-3-0",
+      "division": "Women's Strawweight Division10-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/denise-gomes",
+      "scraped_at": "2025-07-14T01:41:33.749905",
+      "name": "Denise Gomes",
+      "record": "11-3-0",
+      "division": "Women's Strawweight Division11-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/natalia-silva",
+      "scraped_at": "2025-07-14T01:41:34.842909",
+      "name": "Natalia Silva",
+      "record": "19-5-1",
+      "division": "Women's Flyweight Division19-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/manon-fiorot",
+      "scraped_at": "2025-07-14T01:41:35.924710",
+      "name": "Manon Fiorot",
+      "record": "12-2-0",
+      "division": "Women's Flyweight Division12-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alexa-grasso",
+      "scraped_at": "2025-07-14T01:41:37.024881",
+      "name": "Alexa Grasso",
+      "record": "16-5-1",
+      "division": "Women's Flyweight Division16-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/erin-blanchfield",
+      "scraped_at": "2025-07-14T01:41:38.109947",
+      "name": "Erin Blanchfield",
+      "record": "13-2-0",
+      "division": "Women's Flyweight Division13-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jasmine-jasudavicius",
+      "scraped_at": "2025-07-14T01:41:39.198011",
+      "name": "Jasmine Jasudavicius",
+      "record": "14-3-0",
+      "division": "Women's Flyweight Division14-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/maycee-barber",
+      "scraped_at": "2025-07-14T01:41:40.294068",
+      "name": "Maycee Barber",
+      "record": "14-2-0",
+      "division": "Women's Flyweight Division14-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/rose-namajunas",
+      "scraped_at": "2025-07-14T01:41:41.411038",
+      "name": "Rose Namajunas",
+      "record": "15-7-0",
+      "division": "Women's Flyweight Division15-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/tracy-cortez",
+      "scraped_at": "2025-07-14T01:41:43.157708",
+      "name": "Tracy Cortez",
+      "record": "12-2-0",
+      "division": "Women's Flyweight Division12-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jessica-andrade",
+      "scraped_at": "2025-07-14T01:41:44.741495",
+      "name": "J\u00e9ssica Andrade",
+      "record": "26-14-0",
+      "division": "Women's Strawweight Division26-14-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/viviane-araujo",
+      "scraped_at": "2025-07-14T01:41:45.975265",
+      "name": "Viviane Ara\u00fajo",
+      "record": "13-7-0",
+      "division": "Women's Flyweight Division13-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/miranda-maverick",
+      "scraped_at": "2025-07-14T01:41:47.172968",
+      "name": "Miranda Maverick",
+      "record": "17-6-0",
+      "division": "Women's Flyweight Division17-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/karine-silva",
+      "scraped_at": "2025-07-14T01:41:48.283791",
+      "name": "Karine Silva",
+      "record": "18-5-0",
+      "division": "Women's Flyweight Division18-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/casey-oneill",
+      "scraped_at": "2025-07-14T01:41:49.395974",
+      "name": "Casey O'Neill",
+      "record": "10-2-0",
+      "division": "Women's Flyweight Division10-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/wang-cong",
+      "scraped_at": "2025-07-14T01:41:50.469856",
+      "name": "Wang Cong",
+      "record": "8-1-0",
+      "division": "Women's Flyweight Division8-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jj-aldrich",
+      "scraped_at": "2025-07-14T01:41:51.555395",
+      "name": "JJ Aldrich",
+      "record": "14-7-0",
+      "division": "Women's Flyweight Division14-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/julianna-pena",
+      "scraped_at": "2025-07-14T01:41:52.677709",
+      "name": "Julianna Pe\u00f1a",
+      "record": "13-6-0",
+      "division": "Women's Bantamweight Division13-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/raquel-pennington",
+      "scraped_at": "2025-07-14T01:41:53.831891",
+      "name": "Raquel Pennington",
+      "record": "16-10-0",
+      "division": "Women's Bantamweight Division16-10-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/ketlen-vieira",
+      "scraped_at": "2025-07-14T01:41:55.099504",
+      "name": "Ketlen Vieira",
+      "record": "15-4-0",
+      "division": "Women's Featherweight Division15-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/norma-dumont",
+      "scraped_at": "2025-07-14T01:41:56.202583",
+      "name": "Norma Dumont",
+      "record": "12-2-0",
+      "division": "Women's Bantamweight Division12-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/macy-chiasson",
+      "scraped_at": "2025-07-14T01:41:57.313466",
+      "name": "Macy Chiasson",
+      "record": "11-4-0",
+      "division": "Women's Featherweight Division11-4-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/irene-aldana",
+      "scraped_at": "2025-07-14T01:41:58.402571",
+      "name": "Irene Aldana",
+      "record": "15-8-0",
+      "division": "Women's Bantamweight Division15-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/ailin-perez",
+      "scraped_at": "2025-07-14T01:41:59.559358",
+      "name": "Ailin Perez",
+      "record": "12-2-0",
+      "division": "Women's Bantamweight Division12-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/mayra-bueno-silva",
+      "scraped_at": "2025-07-14T01:42:00.684915",
+      "name": "Mayra Bueno Silva",
+      "record": "10-5-1",
+      "division": "Women's Flyweight Division10-5-1 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/yana-santos",
+      "scraped_at": "2025-07-14T01:42:01.772559",
+      "name": "Yana Santos",
+      "record": "16-8-0",
+      "division": "Women's Bantamweight Division16-8-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/karol-rosa",
+      "scraped_at": "2025-07-14T01:42:02.866702",
+      "name": "Karol Rosa",
+      "record": "18-7-0",
+      "division": "Women's Bantamweight Division18-7-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jacqueline-cavalcanti",
+      "scraped_at": "2025-07-14T01:42:03.987298",
+      "name": "Jacqueline Cavalcanti",
+      "record": "9-1-0",
+      "division": "Women's Bantamweight Division9-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/nora-cornolle",
+      "scraped_at": "2025-07-14T01:42:05.080016",
+      "name": "Nora Cornolle",
+      "record": "9-2-0",
+      "division": "Women's Bantamweight Division9-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/miesha-tate",
+      "scraped_at": "2025-07-14T01:42:06.190834",
+      "name": "Miesha Tate",
+      "record": "20-10-0",
+      "division": "Women's Bantamweight Division20-10-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/joselyne-edwards",
+      "scraped_at": "2025-07-14T01:42:07.275693",
+      "name": "Joselyne Edwards",
+      "record": "15-6-0",
+      "division": "Women's Bantamweight Division15-6-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/daria-zheleznyakova",
+      "scraped_at": "2025-07-14T01:42:08.456972",
+      "name": "Daria Zhelezniakova",
+      "record": "10-2-0",
+      "division": "Women's Bantamweight Division10-2-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    }
+  ],
+  "total_fighters": 195,
+  "scraped_at": "2025-07-14T01:42:09.531790",
+  "source": "UFC.com"
+}

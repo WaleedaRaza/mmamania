@@ -1,0 +1,80 @@
+{
+  "timestamp": "2025-07-22T10:33:01.891082",
+  "rankings_count": 196,
+  "profiles_count": 3,
+  "wiki_data": true,
+  "sample_rankings": [
+    {
+      "rank": "1",
+      "name": "Ilia Topuria",
+      "division": "Men's Pound-for-PoundTop Rank",
+      "url": "https://www.ufc.com/athlete/ilia-topuria",
+      "record": "",
+      "scraped_at": "2025-07-22T10:32:57.912196"
+    },
+    {
+      "rank": "2",
+      "name": "Islam Makhachev",
+      "division": "Men's Pound-for-PoundTop Rank",
+      "url": "https://www.ufc.com/athlete/islam-makhachev",
+      "record": "",
+      "scraped_at": "2025-07-22T10:32:57.912247"
+    },
+    {
+      "rank": "3",
+      "name": "Merab Dvalishvili",
+      "division": "Men's Pound-for-PoundTop Rank",
+      "url": "https://www.ufc.com/athlete/merab-dvalishvili",
+      "record": "",
+      "scraped_at": "2025-07-22T10:32:57.912285"
+    },
+    {
+      "rank": "4",
+      "name": "Dricus Du Plessis",
+      "division": "Men's Pound-for-PoundTop Rank",
+      "url": "https://www.ufc.com/athlete/dricus-du-plessis",
+      "record": "",
+      "scraped_at": "2025-07-22T10:32:57.912317"
+    },
+    {
+      "rank": "4",
+      "name": "Alexandre Pantoja",
+      "division": "Men's Pound-for-PoundTop Rank",
+      "url": "https://www.ufc.com/athlete/alexandre-pantoja",
+      "record": "",
+      "scraped_at": "2025-07-22T10:32:57.912346"
+    }
+  ],
+  "sample_profiles": [
+    {
+      "url": "https://www.ufc.com/athlete/israel-adesanya",
+      "scraped_at": "2025-07-22T10:32:57.998464",
+      "name": "Israel Adesanya",
+      "record": "24-5-0",
+      "division": "Middleweight Division24-5-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/alex-pereira",
+      "scraped_at": "2025-07-22T10:32:59.080582",
+      "name": "Alex Pereira",
+      "record": "12-3-0",
+      "division": "Light Heavyweight Division12-3-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    },
+    {
+      "url": "https://www.ufc.com/athlete/jon-jones",
+      "scraped_at": "2025-07-22T10:33:00.241112",
+      "name": "Jon Jones",
+      "record": "28-1-0",
+      "division": "Heavyweight Division28-1-0 (W-L-D)",
+      "stats": {},
+      "personal_info": {},
+      "fight_history": []
+    }
+  ]
+}

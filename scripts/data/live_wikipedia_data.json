@@ -1,0 +1,98 @@
+{
+  "events": [
+    {
+      "name": "UFC Fight Night 263",
+      "date": "Nov 22, 2025",
+      "venue": "Ali Bin Hamad al-Attiyah Arena",
+      "location": "Doha, Qatar",
+      "scraped_at": "2025-07-23T14:43:30.266051"
+    },
+    {
+      "name": "UFC 321: Aspinall vs. Gane",
+      "date": "Oct 25, 2025",
+      "venue": "Etihad Arena",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "scraped_at": "2025-07-23T14:43:30.266163"
+    },
+    {
+      "name": "UFC Fight Night 262",
+      "date": "Oct 18, 2025",
+      "venue": "Rogers Arena",
+      "location": "Vancouver,British Columbia, Canada",
+      "scraped_at": "2025-07-23T14:43:30.266231"
+    },
+    {
+      "name": "UFC Fight Night 261",
+      "date": "Oct 11, 2025",
+      "venue": "Farmasi Arena",
+      "location": "Rio de Janeiro, Brazil",
+      "scraped_at": "2025-07-23T14:43:30.266294"
+    },
+    {
+      "name": "UFC 320: Ankalaev vs. Pereira 2",
+      "date": "Oct 4, 2025",
+      "venue": "T-Mobile Arena",
+      "location": "Las Vegas,Nevada, U.S.",
+      "scraped_at": "2025-07-23T14:43:30.266358"
+    },
+    {
+      "name": "UFC Fight Night 260",
+      "date": "Sep 28, 2025",
+      "venue": "RAC Arena",
+      "location": "Perth, Australia",
+      "scraped_at": "2025-07-23T14:43:30.266412"
+    },
+    {
+      "name": "UFC Fight Night: Lopes vs. Silva",
+      "date": "Sep 13, 2025",
+      "venue": "Frost Bank Center",
+      "location": "San Antonio, Texas, U.S.",
+      "scraped_at": "2025-07-23T14:43:30.266466"
+    },
+    {
+      "name": "UFC Fight Night: Imavov vs. Borralho",
+      "date": "Sep 6, 2025",
+      "venue": "Accor Arena",
+      "location": "Paris, France",
+      "scraped_at": "2025-07-23T14:43:30.266519"
+    },
+    {
+      "name": "UFC Fight Night: Walker vs. Zhang",
+      "date": "Aug 23, 2025",
+      "venue": "Shanghai Indoor Stadium",
+      "location": "Shanghai, China",
+      "scraped_at": "2025-07-23T14:43:30.266577"
+    },
+    {
+      "name": "UFC 319: du Plessis vs. Chimaev",
+      "date": "Aug 16, 2025",
+      "venue": "United Center",
+      "location": "Chicago, Illinois, U.S.",
+      "scraped_at": "2025-07-23T14:43:30.266633"
+    },
+    {
+      "name": "UFC on ESPN: Dolidze vs. Hernandez",
+      "date": "Aug 9, 2025",
+      "venue": "UFC Apex",
+      "location": "Las Vegas, Nevada, U.S.",
+      "scraped_at": "2025-07-23T14:43:30.266686"
+    },
+    {
+      "name": "UFC on ESPN: Albazi vs. Taira",
+      "date": "Aug 2, 2025",
+      "venue": "[20]",
+      "location": "",
+      "scraped_at": "2025-07-23T14:43:30.266732"
+    },
+    {
+      "name": "UFC on ABC: Whittaker vs. de Ridder",
+      "date": "Jul 26, 2025",
+      "venue": "Etihad Arena",
+      "location": "Abu Dhabi, United Arab Emirates",
+      "scraped_at": "2025-07-23T14:43:30.266791"
+    }
+  ],
+  "total_items": 13,
+  "scraped_at": "2025-07-23T14:43:30.346759",
+  "source": "Wikipedia"
+}

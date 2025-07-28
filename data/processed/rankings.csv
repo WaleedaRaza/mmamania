@@ -1,0 +1,207 @@
+id,division,rank,fighter_name,fighter_url,wins,losses,draws,rank_change,is_champion,scraped_at,source
+3299,"Men's Pound-for-Pound",3,"Merab Dvalishvili",/athlete/merab-dvalishvili,20,4,0,"Rank decreased by1",0,2025-07-12T21:14:08.716106,UFC.com
+3300,"Men's Pound-for-Pound",4,"Dricus Du Plessis",/athlete/dricus-du-plessis,23,2,0,"",0,2025-07-12T21:14:08.716145,UFC.com
+3301,"Men's Pound-for-Pound",5,"Alexandre Pantoja",/athlete/alexandre-pantoja,30,5,0,"Rank increased by4",0,2025-07-12T21:14:08.716160,UFC.com
+3302,"Men's Pound-for-Pound",6,"Alexander Volkanovski",/athlete/alexander-volkanovski,27,4,0,"",0,2025-07-12T21:14:08.716166,UFC.com
+3303,"Men's Pound-for-Pound",7,"Magomed Ankalaev",/athlete/magomed-ankalaev,21,1,1,"Rank decreased by2",0,2025-07-12T21:14:08.716170,UFC.com
+3304,"Men's Pound-for-Pound",8,"Jack Della Maddalena",/athlete/jack-della-maddalena,18,2,0,"Rank decreased by1",0,2025-07-12T21:14:08.716174,UFC.com
+3305,"Men's Pound-for-Pound",9,"Tom Aspinall",/athlete/tom-aspinall,15,3,0,"Rank decreased by1",0,2025-07-12T21:14:08.716178,UFC.com
+3306,"Men's Pound-for-Pound",10,"Alex Pereira",/athlete/alex-pereira,12,3,0,"Rank decreased by1",0,2025-07-12T21:14:08.716182,UFC.com
+3307,"Men's Pound-for-Pound",11,"Max Holloway",/athlete/max-holloway,26,8,0,"",0,2025-07-12T21:14:08.716186,UFC.com
+3308,"Men's Pound-for-Pound",12,"Belal Muhammad",/athlete/belal-muhammad,24,4,0,"",0,2025-07-12T21:14:08.716190,UFC.com
+3309,"Men's Pound-for-Pound",13,"Arman Tsarukyan",/athlete/arman-tsarukyan,22,3,0,"Rank increased by1",0,2025-07-12T21:14:08.716194,UFC.com
+3310,"Men's Pound-for-Pound",14,"Khamzat Chimaev",/athlete/khamzat-chimaev,14,0,0,"Rank increased by1",0,2025-07-12T21:14:08.716215,UFC.com
+3311,"Men's Pound-for-Pound",15,"Charles Oliveira",/athlete/charles-oliveira,35,11,0,"Rank decreased by2",0,2025-07-12T21:14:08.716220,UFC.com
+3314,Flyweight,2,"Brandon Moreno",/athlete/brandon-moreno,23,8,2,"",0,2025-07-12T21:14:08.716233,UFC.com
+3315,Flyweight,3,"Brandon Royval",/athlete/brandon-royval,17,8,0,"Rank decreased by2",0,2025-07-12T21:14:08.716237,UFC.com
+3316,Flyweight,4,"Amir Albazi",/athlete/amir-albazi,17,2,0,"Rank decreased by1",0,2025-07-12T21:14:08.716240,UFC.com
+3317,Flyweight,5,"Kai Kara-France",/athlete/kai-kara-france,25,12,0,"Rank decreased by1",0,2025-07-12T21:14:08.716406,UFC.com
+3318,Flyweight,6,"Tatsuro Taira",/athlete/tatsuro-taira,16,1,0,"Rank decreased by1",0,2025-07-12T21:14:08.716411,UFC.com
+3319,Flyweight,7,"Manel Kape",/athlete/manel-kape,21,7,0,"Rank decreased by1",0,2025-07-12T21:14:08.716415,UFC.com
+3320,Flyweight,8,"Alex Perez",/athlete/alex-perez,25,9,0,"Rank decreased by1",0,2025-07-12T21:14:08.716419,UFC.com
+3321,Flyweight,9,"Asu Almabayev",/athlete/assu-almabayev,21,3,0,"Rank decreased by1",0,2025-07-12T21:14:08.716422,UFC.com
+3322,Flyweight,10,"Steve Erceg",/athlete/steve-erceg,12,4,0,"Rank decreased by1",0,2025-07-12T21:14:08.716426,UFC.com
+3323,Flyweight,11,"Tim Elliott",/athlete/tim-elliott,21,13,1,"Rank decreased by1",0,2025-07-12T21:14:08.716430,UFC.com
+3324,Flyweight,12,"Tagir Ulanbekov",/athlete/tagir-ulanbekov,17,2,0,"Rank decreased by1",0,2025-07-12T21:14:08.716433,UFC.com
+3325,Flyweight,13,"Ramazan Temirov",/athlete/ramazan-temirov,19,3,0,"",0,2025-07-12T21:14:08.716437,UFC.com
+3326,Flyweight,14,"Bruno Silva",/athlete/bruno-silva,14,7,2,"Rank increased by1",0,2025-07-12T21:14:08.716441,UFC.com
+3327,Flyweight,15,"Kai Asakura",/athlete/kai-asakura,21,5,0,"Rank decreased by1",0,2025-07-12T21:14:08.716445,UFC.com
+3330,Bantamweight,2,"Umar Nurmagomedov",/athlete/umar-nurmagomedov,18,1,0,"",0,2025-07-12T21:14:08.716457,UFC.com
+3331,Bantamweight,3,"Petr Yan",/athlete/petr-yan,18,5,0,"",0,2025-07-12T21:14:08.716460,UFC.com
+3332,Bantamweight,4,"Cory Sandhagen",/athlete/cory-sandhagen,18,5,0,"",0,2025-07-12T21:14:08.716464,UFC.com
+3333,Bantamweight,5,"Song Yadong",/athlete/yadong-song,22,8,1,"",0,2025-07-12T21:14:08.716468,UFC.com
+3334,Bantamweight,6,"Deiveson Figueiredo",/athlete/deiveson-figueiredo,24,5,1,"",0,2025-07-12T21:14:08.716473,UFC.com
+3335,Bantamweight,7,"Marlon Vera",/athlete/marlon-vera,23,10,1,"",0,2025-07-12T21:14:08.716477,UFC.com
+3336,Bantamweight,8,"Mario Bautista",/athlete/mario-bautista,16,2,0,"",0,2025-07-12T21:14:08.716480,UFC.com
+3337,Bantamweight,8,"Rob Font",/athlete/rob-font,22,8,0,"",0,2025-07-12T21:14:08.716484,UFC.com
+3338,Bantamweight,10,"Henry Cejudo",/athlete/henry-cejudo,16,5,0,"",0,2025-07-12T21:14:08.716488,UFC.com
+3339,Bantamweight,11,"Aiemann Zahabi",/athlete/aiemann-zahabi,13,2,0,"",0,2025-07-12T21:14:08.716500,UFC.com
+3340,Bantamweight,12,"Kyler Phillips",/athlete/kyler-phillips,12,3,0,"",0,2025-07-12T21:14:08.716504,UFC.com
+3341,Bantamweight,13,"Marcus McGhee",/athlete/marcus-mcghee,10,1,0,"",0,2025-07-12T21:14:08.716507,UFC.com
+3342,Bantamweight,14,"Montel Jackson",/athlete/montel-jackson,16,2,0,"",0,2025-07-12T21:14:08.716511,UFC.com
+3343,Bantamweight,15,"Vinicius Oliveira",/athlete/vinicius-oliveira,22,3,0,"",0,2025-07-12T21:14:08.716514,UFC.com
+3346,Featherweight,2,"Movsar Evloev",/athlete/movsar-evloev,19,0,0,"Rank increased by2",0,2025-07-12T21:14:08.716526,UFC.com
+3347,Featherweight,3,"Diego Lopes",/athlete/diego-lopes,26,7,0,"Rank decreased by1",0,2025-07-12T21:14:08.716530,UFC.com
+3348,Featherweight,4,"Yair Rodriguez",/athlete/yair-rodriguez,21,5,0,"Rank increased by1",0,2025-07-12T21:14:08.716533,UFC.com
+3349,Featherweight,5,"Brian Ortega",/athlete/brian-ortega,16,4,0,"Rank increased by1",0,2025-07-12T21:14:08.716537,UFC.com
+3350,Featherweight,5,"Arnold Allen",/athlete/arnold-allen,20,3,0,"Rank increased by1",0,2025-07-12T21:14:08.716541,UFC.com
+3351,Featherweight,7,"Lerone Murphy",/athlete/lerone-murphy,16,0,1,"Rank increased by1",0,2025-07-12T21:14:08.716545,UFC.com
+3352,Featherweight,8,"Aljamain Sterling",/athlete/aljamain-sterling,24,5,0,"Rank increased by1",0,2025-07-12T21:14:08.716548,UFC.com
+3353,Featherweight,9,"Josh Emmett",/athlete/josh-emmett,19,5,0,"Rank increased by1",0,2025-07-12T21:14:08.716552,UFC.com
+3354,Featherweight,10,"Jean Silva",/athlete/jean-silva,16,2,0,"Rank increased by1",0,2025-07-12T21:14:08.716568,UFC.com
+3355,Featherweight,11,"Youssef Zalal",/athlete/youssef-zalal,17,5,1,"Rank increased by1",0,2025-07-12T21:14:08.716572,UFC.com
+3356,Featherweight,12,"Dan Ige",/athlete/dan-ige,19,9,0,"Rank increased by2",0,2025-07-12T21:14:08.716576,UFC.com
+3357,Featherweight,13,"David Onama",/athlete/david-onama,14,2,0,"",0,2025-07-12T21:14:08.716580,UFC.com
+3358,Featherweight,14,"Calvin Kattar",/athlete/calvin-kattar,23,9,0,"Rank increased by1",0,2025-07-12T21:14:08.716583,UFC.com
+3359,Featherweight,15,"Giga Chikadze",/athlete/giga-chikadze,15,5,0,"",0,2025-07-12T21:14:08.716587,UFC.com
+3362,Lightweight,2,"Arman Tsarukyan",/athlete/arman-tsarukyan,22,3,0,"Rank decreased by1",0,2025-07-12T21:14:08.716599,UFC.com
+3363,Lightweight,3,"Charles Oliveira",/athlete/charles-oliveira,35,11,0,"Rank decreased by1",0,2025-07-12T21:14:08.716603,UFC.com
+3364,Lightweight,4,"Justin Gaethje",/athlete/justin-gaethje,27,5,0,"Rank decreased by1",0,2025-07-12T21:14:08.716607,UFC.com
+3365,Lightweight,5,"Max Holloway",/athlete/max-holloway,26,8,0,"Rank decreased by1",0,2025-07-12T21:14:08.716610,UFC.com
+3366,Lightweight,6,"Dustin Poirier",/athlete/dustin-poirier,30,9,0,"Rank decreased by1",0,2025-07-12T21:14:08.716614,UFC.com
+3367,Lightweight,7,"Dan Hooker",/athlete/dan-hooker,24,12,0,"Rank decreased by1",0,2025-07-12T21:14:08.716618,UFC.com
+3368,Lightweight,8,"Mateusz Gamrot",/athlete/mateusz-gamrot,25,3,0,"Rank decreased by1",0,2025-07-12T21:14:08.716622,UFC.com
+3369,Lightweight,9,"Beneil Dariush",/athlete/beneil-dariush,23,6,1,"",0,2025-07-12T21:14:08.716625,UFC.com
+3370,Lightweight,10,"Paddy Pimblett",/athlete/paddy-pimblett,23,3,0,"Rank decreased by2",0,2025-07-12T21:14:08.716629,UFC.com
+3371,Lightweight,11,"Rafael Fiziev",/athlete/rafael-fiziev,13,4,0,"Rank decreased by1",0,2025-07-12T21:14:08.716634,UFC.com
+3372,Lightweight,12,"Renato Moicano",/athlete/renato-moicano,20,7,1,"Rank decreased by1",0,2025-07-12T21:14:08.716638,UFC.com
+3373,Lightweight,13,"Michael Chandler",/athlete/michael-chandler,23,10,0,"Rank decreased by1",0,2025-07-12T21:14:08.716642,UFC.com
+3374,Lightweight,14,"Benoît Saint Denis",/athlete/benoit-saint-denis,14,3,0,"",0,2025-07-12T21:14:08.716645,UFC.com
+3375,Lightweight,15,"Grant Dawson",/athlete/grant-dawson,23,2,1,"Rank decreased by2",0,2025-07-12T21:14:08.716649,UFC.com
+3378,Welterweight,2,"Sean Brady",/athlete/sean-brady,18,1,0,"",0,2025-07-12T21:14:08.716674,UFC.com
+3379,Welterweight,3,"Shavkat Rakhmonov",/athlete/shavkat-rakhmonov,19,0,0,"",0,2025-07-12T21:14:08.716678,UFC.com
+3380,Welterweight,4,"Leon Edwards",/athlete/leon-edwards,22,5,0,"",0,2025-07-12T21:14:08.716681,UFC.com
+3381,Welterweight,5,"Kamaru Usman",/athlete/kamaru-usman,21,4,0,"",0,2025-07-12T21:14:08.716685,UFC.com
+3382,Welterweight,6,"Ian Machado Garry",/athlete/ian-garry,16,1,0,"",0,2025-07-12T21:14:08.716689,UFC.com
+3383,Welterweight,7,"Joaquin Buckley",/athlete/joaquin-buckley,21,7,0,"",0,2025-07-12T21:14:08.716692,UFC.com
+3384,Welterweight,7,"Michael Morales",/athlete/michael-morales,18,0,0,"",0,2025-07-12T21:14:08.716696,UFC.com
+3385,Welterweight,9,"Colby Covington",/athlete/colby-covington,17,5,0,"",0,2025-07-12T21:14:08.716700,UFC.com
+3386,Welterweight,10,"Gilbert Burns",/athlete/gilbert-burns,22,9,0,"",0,2025-07-12T21:14:08.716703,UFC.com
+3387,Welterweight,11,"Geoff Neal",/athlete/geoff-neal,16,6,0,"",0,2025-07-12T21:14:08.716707,UFC.com
+3388,Welterweight,12,"Stephen Thompson",/athlete/stephen-thompson,17,8,1,"",0,2025-07-12T21:14:08.716710,UFC.com
+3389,Welterweight,13,"Carlos Prates",/athlete/carlos-prates,21,7,0,"",0,2025-07-12T21:14:08.716714,UFC.com
+3390,Welterweight,14,"Kevin Holland",/athlete/kevin-holland,28,13,0,"",0,2025-07-12T21:14:08.716884,UFC.com
+3391,Welterweight,15,"Michael Page",/athlete/michael-page,23,3,0,"",0,2025-07-12T21:14:08.716888,UFC.com
+3394,Middleweight,2,"Sean Strickland",/athlete/sean-strickland,29,7,0,"",0,2025-07-12T21:14:08.716907,UFC.com
+3395,Middleweight,3,"Khamzat Chimaev",/athlete/khamzat-chimaev,14,0,0,"",0,2025-07-12T21:14:08.716911,UFC.com
+3396,Middleweight,4,"Israel Adesanya",/athlete/israel-adesanya,24,5,0,"",0,2025-07-12T21:14:08.716914,UFC.com
+3397,Middleweight,5,"Robert Whittaker",/athlete/robert-whittaker,27,8,0,"",0,2025-07-12T21:14:08.716918,UFC.com
+3398,Middleweight,6,"Caio Borralho",/athlete/caio-borralho,17,1,0,"",0,2025-07-12T21:14:08.716921,UFC.com
+3399,Middleweight,7,"Jared Cannonier",/athlete/jared-cannonier,18,8,0,"",0,2025-07-12T21:14:08.716925,UFC.com
+3400,Middleweight,8,"Roman Dolidze",/athlete/roman-dolidze,15,3,0,"",0,2025-07-12T21:14:08.716928,UFC.com
+3401,Middleweight,9,"Anthony Hernandez",/athlete/anthony-hernandez,14,2,0,"",0,2025-07-12T21:14:08.716932,UFC.com
+3402,Middleweight,10,"Marvin Vettori",/athlete/marvin-vettori,19,8,1,"",0,2025-07-12T21:14:08.716936,UFC.com
+3403,Middleweight,11,"Brendan Allen",/athlete/brendan-allen,24,7,0,"",0,2025-07-12T21:14:08.716939,UFC.com
+3404,Middleweight,12,"Reinier de Ridder",/athlete/reinier-de-ridder,20,2,0,"",0,2025-07-12T21:14:08.716943,UFC.com
+3405,Middleweight,13,"Paulo Costa",/athlete/paulo-costa,14,4,0,"",0,2025-07-12T21:14:08.716946,UFC.com
+3406,Middleweight,14,"Roman Kopylov",/athlete/roman-kopylov,14,3,0,"",0,2025-07-12T21:14:08.716950,UFC.com
+3407,Middleweight,15,"Abus Magomedov",/athlete/abus-magomedov,28,6,1,"Rank decreased by1",0,2025-07-12T21:14:08.716953,UFC.com
+3410,"Light Heavyweight",2,"Jiří Procházka",/athlete/jiri-prochazka,31,5,1,"",0,2025-07-12T21:14:08.716967,UFC.com
+3411,"Light Heavyweight",3,"Carlos Ulberg",/athlete/carlos-ulberg,13,1,0,"",0,2025-07-12T21:14:08.716971,UFC.com
+3412,"Light Heavyweight",4,"Khalil Rountree Jr.",/athlete/khalil-rountree-jr,15,6,0,"",0,2025-07-12T21:14:08.716974,UFC.com
+3413,"Light Heavyweight",5,"Jan Błachowicz",/athlete/jan-blachowicz,29,11,1,"",0,2025-07-12T21:14:08.716978,UFC.com
+3414,"Light Heavyweight",6,"Jamahal Hill",/athlete/jamahal-hill,12,4,0,"",0,2025-07-12T21:14:08.716982,UFC.com
+3415,"Light Heavyweight",7,"Aleksandar Rakić",/athlete/aleksandar-rakic,14,5,0,"",0,2025-07-12T21:14:08.716985,UFC.com
+3416,"Light Heavyweight",8,"Dominick Reyes",/athlete/dominick-reyes,15,4,0,"",0,2025-07-12T21:14:08.716989,UFC.com
+3417,"Light Heavyweight",9,"Volkan Oezdemir",/athlete/volkan-oezdemir,20,8,0,"",0,2025-07-12T21:14:08.716992,UFC.com
+3418,"Light Heavyweight",10,"Nikita Krylov",/athlete/nikita-krylov,30,10,0,"",0,2025-07-12T21:14:08.716996,UFC.com
+3419,"Light Heavyweight",11,"Azamat Murzakanov",/athlete/azamat-murzakanov,15,0,0,"",0,2025-07-12T21:14:08.717000,UFC.com
+3420,"Light Heavyweight",12,"Johnny Walker",/athlete/johnny-walker,21,9,0,"",0,2025-07-12T21:14:08.717003,UFC.com
+3421,"Light Heavyweight",13,"Bogdan Guskov",/athlete/bogdan-guskov,17,3,0,"",0,2025-07-12T21:14:08.717007,UFC.com
+3422,"Light Heavyweight",14,"Zhang Mingyang",/athlete/zhang-mingyang,19,6,0,"",0,2025-07-12T21:14:08.717011,UFC.com
+3423,"Light Heavyweight",15,"Alonzo Menifield",/athlete/alonzo-menifield,17,5,1,"",0,2025-07-12T21:14:08.717014,UFC.com
+3426,Heavyweight,2,"Alexander Volkov",/athlete/alexander-volkov,38,11,0,"",0,2025-07-12T21:14:08.717026,UFC.com
+3427,Heavyweight,3,"Sergei Pavlovich",/athlete/sergei-pavlovich,19,3,0,"",0,2025-07-12T21:14:08.717029,UFC.com
+3428,Heavyweight,4,"Curtis Blaydes",/athlete/curtis-blaydes,19,5,0,"",0,2025-07-12T21:14:08.717034,UFC.com
+3429,Heavyweight,5,"Jailton Almeida",/athlete/jailton-almeida,22,3,0,"",0,2025-07-12T21:14:08.717038,UFC.com
+3430,Heavyweight,6,"Waldo Cortes Acosta",/athlete/waldo-cortes-acosta,14,1,0,"",0,2025-07-12T21:14:08.717042,UFC.com
+3431,Heavyweight,7,"Marcin Tybura",/athlete/marcin-tybura,27,9,0,"",0,2025-07-12T21:14:08.717046,UFC.com
+3432,Heavyweight,8,"Serghei Spivac",/athlete/serghei-spivac,17,6,0,"",0,2025-07-12T21:14:08.717049,UFC.com
+3433,Heavyweight,9,"Derrick Lewis",/athlete/derrick-lewis,28,12,0,"",0,2025-07-12T21:14:08.717053,UFC.com
+3434,Heavyweight,10,"Tai Tuivasa",/athlete/tai-tuivasa,15,8,0,"",0,2025-07-12T21:14:08.717057,UFC.com
+3435,Heavyweight,11,"Shamil Gaziev",/athlete/shamil-gaziev,14,1,0,"",0,2025-07-12T21:14:08.717060,UFC.com
+3436,Heavyweight,12,"Mick Parkin",/athlete/mick-parkin,10,1,0,"",0,2025-07-12T21:14:08.717064,UFC.com
+3437,Heavyweight,13,"Tallison Teixeira",/athlete/tallison-teixeira,8,0,0,"",0,2025-07-12T21:14:08.717068,UFC.com
+3438,Heavyweight,14,"Martin Buday",/athlete/martin-buday,15,2,0,"",0,2025-07-12T21:14:08.717071,UFC.com
+3439,Heavyweight,15,"Rizvan Kuniev",/athlete/rizvan-kuniev,12,3,1,"",0,2025-07-12T21:14:08.717075,UFC.com
+3442,"Women's Pound-for-Pound",3,"Kayla Harrison",/athlete/kayla-harrison,19,1,0,"",0,2025-07-12T21:14:08.717087,UFC.com
+3443,"Women's Pound-for-Pound",4,"Manon Fiorot",/athlete/manon-fiorot,12,2,0,"",0,2025-07-12T21:14:08.717090,UFC.com
+3444,"Women's Pound-for-Pound",5,"Julianna Peña",/athlete/julianna-pena,13,6,0,"",0,2025-07-12T21:14:08.717094,UFC.com
+3445,"Women's Pound-for-Pound",6,"Natalia Silva",/athlete/natalia-silva,19,5,1,"",0,2025-07-12T21:14:08.717098,UFC.com
+3446,"Women's Pound-for-Pound",7,"Alexa Grasso",/athlete/alexa-grasso,16,5,1,"",0,2025-07-12T21:14:08.717103,UFC.com
+3447,"Women's Pound-for-Pound",8,"Erin Blanchfield",/athlete/erin-blanchfield,13,2,0,"",0,2025-07-12T21:14:08.717106,UFC.com
+3448,"Women's Pound-for-Pound",9,"Virna Jandiroba",/athlete/virna-jandiroba,22,3,0,"",0,2025-07-12T21:14:08.717110,UFC.com
+3449,"Women's Pound-for-Pound",10,"Raquel Pennington",/athlete/raquel-pennington,16,10,0,"",0,2025-07-12T21:14:08.717114,UFC.com
+3450,"Women's Pound-for-Pound",11,"Tatiana Suarez",/athlete/tatiana-suarez,11,1,0,"",0,2025-07-12T21:14:08.717118,UFC.com
+3451,"Women's Pound-for-Pound",12,"Rose Namajunas",/athlete/rose-namajunas,15,7,0,"",0,2025-07-12T21:14:08.717122,UFC.com
+3452,"Women's Pound-for-Pound",13,"Yan Xiaonan",/athlete/xiaonan-yan,19,5,0,"",0,2025-07-12T21:14:08.717125,UFC.com
+3453,"Women's Pound-for-Pound",14,"Amanda Lemos",/athlete/amanda-lemos,15,4,1,"",0,2025-07-12T21:14:08.717129,UFC.com
+3454,"Women's Pound-for-Pound",15,"Maycee Barber",/athlete/maycee-barber,14,2,0,"",0,2025-07-12T21:14:08.717133,UFC.com
+3457,"Women's Strawweight",2,"Tatiana Suarez",/athlete/tatiana-suarez,11,1,0,"",0,2025-07-12T21:14:08.717144,UFC.com
+3458,"Women's Strawweight",3,"Yan Xiaonan",/athlete/xiaonan-yan,19,5,0,"",0,2025-07-12T21:14:08.717147,UFC.com
+3459,"Women's Strawweight",4,"Amanda Lemos",/athlete/amanda-lemos,15,4,1,"",0,2025-07-12T21:14:08.717151,UFC.com
+3460,"Women's Strawweight",5,"Jéssica Andrade",/athlete/jessica-andrade,26,14,0,"",0,2025-07-12T21:14:08.717154,UFC.com
+3461,"Women's Strawweight",6,"Mackenzie Dern",/athlete/mackenzie-dern,15,5,0,"",0,2025-07-12T21:14:08.717158,UFC.com
+3462,"Women's Strawweight",7,"Amanda Ribas",/athlete/amanda-ribas,12,6,0,"",0,2025-07-12T21:14:08.717161,UFC.com
+3463,"Women's Strawweight",8,"Iasmin Lucindo",/athlete/iasmin-lucindo,17,6,0,"",0,2025-07-12T21:14:08.717165,UFC.com
+3464,"Women's Strawweight",9,"Gillian Robertson",/athlete/gillian-robertson,16,8,0,"",0,2025-07-12T21:14:08.717168,UFC.com
+3465,"Women's Strawweight",10,"Tabatha Ricci",/athlete/tabatha-ricci,11,3,0,"",0,2025-07-12T21:14:08.717173,UFC.com
+3466,"Women's Strawweight",11,"Loopy Godinez",/athlete/loopy-godinez,13,5,0,"",0,2025-07-12T21:14:08.717177,UFC.com
+3467,"Women's Strawweight",12,"Angela Hill",/athlete/angela-hill,18,14,0,"",0,2025-07-12T21:14:08.717181,UFC.com
+3468,"Women's Strawweight",13,"Tecia Pennington",/athlete/tecia-pennington,15,7,0,"",0,2025-07-12T21:14:08.717184,UFC.com
+3469,"Women's Strawweight",14,"Loma Lookboonmee",/athlete/loma-lookboonmee,10,3,0,"",0,2025-07-12T21:14:08.717188,UFC.com
+3470,"Women's Strawweight",15,"Denise Gomes",/athlete/denise-gomes,11,3,0,"",0,2025-07-12T21:14:08.717191,UFC.com
+3473,"Women's Flyweight",2,"Manon Fiorot",/athlete/manon-fiorot,12,2,0,"",0,2025-07-12T21:14:08.717203,UFC.com
+3474,"Women's Flyweight",3,"Alexa Grasso",/athlete/alexa-grasso,16,5,1,"",0,2025-07-12T21:14:08.717206,UFC.com
+3475,"Women's Flyweight",4,"Erin Blanchfield",/athlete/erin-blanchfield,13,2,0,"",0,2025-07-12T21:14:08.717210,UFC.com
+3476,"Women's Flyweight",5,"Jasmine Jasudavicius",/athlete/jasmine-jasudavicius,14,3,0,"",0,2025-07-12T21:14:08.717214,UFC.com
+3477,"Women's Flyweight",6,"Maycee Barber",/athlete/maycee-barber,14,2,0,"Rank decreased by1",0,2025-07-12T21:14:08.717217,UFC.com
+3478,"Women's Flyweight",7,"Rose Namajunas",/athlete/rose-namajunas,15,7,0,"",0,2025-07-12T21:14:08.717221,UFC.com
+3479,"Women's Flyweight",8,"Tracy Cortez",/athlete/tracy-cortez,12,2,0,"Rank increased by2",0,2025-07-12T21:14:08.717225,UFC.com
+3480,"Women's Flyweight",9,"Jéssica Andrade",/athlete/jessica-andrade,26,14,0,"",0,2025-07-12T21:14:08.717228,UFC.com
+3481,"Women's Flyweight",10,"Viviane Araújo",/athlete/viviane-araujo,13,7,0,"Rank decreased by2",0,2025-07-12T21:14:08.717232,UFC.com
+3482,"Women's Flyweight",11,"Miranda Maverick",/athlete/miranda-maverick,17,6,0,"",0,2025-07-12T21:14:08.717235,UFC.com
+3483,"Women's Flyweight",12,"Karine Silva",/athlete/karine-silva,18,5,0,"",0,2025-07-12T21:14:08.717240,UFC.com
+3484,"Women's Flyweight",13,"Casey O'Neill",/athlete/casey-oneill,10,2,0,"",0,2025-07-12T21:14:08.717244,UFC.com
+3485,"Women's Flyweight",14,"Wang Cong",/athlete/wang-cong,8,1,0,"",0,2025-07-12T21:14:08.717248,UFC.com
+3486,"Women's Flyweight",15,"JJ Aldrich",/athlete/jj-aldrich,14,7,0,"",0,2025-07-12T21:14:08.717251,UFC.com
+3489,"Women's Bantamweight",2,"Raquel Pennington",/athlete/raquel-pennington,16,10,0,"",0,2025-07-12T21:14:08.717263,UFC.com
+3490,"Women's Bantamweight",3,"Ketlen Vieira",/athlete/ketlen-vieira,15,4,0,"",0,2025-07-12T21:14:08.717267,UFC.com
+3491,"Women's Bantamweight",4,"Norma Dumont",/athlete/norma-dumont,12,2,0,"",0,2025-07-12T21:14:08.717270,UFC.com
+3492,"Women's Bantamweight",5,"Macy Chiasson",/athlete/macy-chiasson,11,4,0,"",0,2025-07-12T21:14:08.717274,UFC.com
+3493,"Women's Bantamweight",6,"Irene Aldana",/athlete/irene-aldana,15,8,0,"",0,2025-07-12T21:14:08.717278,UFC.com
+3494,"Women's Bantamweight",7,"Ailin Perez",/athlete/ailin-perez,12,2,0,"",0,2025-07-12T21:14:08.717281,UFC.com
+3495,"Women's Bantamweight",8,"Mayra Bueno Silva",/athlete/mayra-bueno-silva,10,5,1,"",0,2025-07-12T21:14:08.717285,UFC.com
+3496,"Women's Bantamweight",9,"Yana Santos",/athlete/yana-santos,16,8,0,"",0,2025-07-12T21:14:08.717288,UFC.com
+3497,"Women's Bantamweight",10,"Karol Rosa",/athlete/karol-rosa,18,7,0,"",0,2025-07-12T21:14:08.717291,UFC.com
+3498,"Women's Bantamweight",11,"Jacqueline Cavalcanti",/athlete/jacqueline-cavalcanti,9,1,0,"",0,2025-07-12T21:14:08.717295,UFC.com
+3499,"Women's Bantamweight",12,"Nora Cornolle",/athlete/nora-cornolle,9,2,0,"",0,2025-07-12T21:14:08.717299,UFC.com
+3500,"Women's Bantamweight",13,"Miesha Tate",/athlete/miesha-tate,20,10,0,"",0,2025-07-12T21:14:08.717302,UFC.com
+3501,"Women's Bantamweight",14,"Joselyne Edwards",/athlete/joselyne-edwards,15,6,0,"",0,2025-07-12T21:14:08.717305,UFC.com
+3502,"Women's Bantamweight",15,"Daria Zhelezniakova",/athlete/daria-zheleznyakova,10,2,0,"",0,2025-07-12T21:14:08.717309,UFC.com
+3529,"Men's Pound-for-Pound",0,"Ilia Topuria",/athlete/ilia-topuria,17,0,0,"",1,2025-07-12T21:31:27.681548,UFC.com
+3530,"Men's Pound-for-Pound",2,"Islam Makhachev",/athlete/islam-makhachev,27,1,0,"Rank decreased by1",0,2025-07-12T21:31:27.684286,UFC.com
+3531,Flyweight,0,"Alexandre Pantoja",/athlete/alexandre-pantoja,30,5,0,"",1,2025-07-12T21:31:27.684302,UFC.com
+3532,Flyweight,1,"Joshua Van",/athlete/joshua-van,15,2,0,"Rank increased by11",0,2025-07-12T21:31:27.684398,UFC.com
+3533,Bantamweight,0,"Merab Dvalishvili",/athlete/merab-dvalishvili,20,4,0,"",1,2025-07-12T21:31:27.684410,UFC.com
+3534,Bantamweight,1,"Sean O'Malley",/athlete/sean-omalley,18,3,0,"",0,2025-07-12T21:31:27.684415,UFC.com
+3535,Featherweight,0,"Alexander Volkanovski",/athlete/alexander-volkanovski,27,4,0,"",1,2025-07-12T21:31:27.684420,UFC.com
+3536,Featherweight,1,"Max Holloway",/athlete/max-holloway,26,8,0,"",0,2025-07-12T21:31:27.684424,UFC.com
+3537,Lightweight,0,"Ilia Topuria",/athlete/ilia-topuria,17,0,0,"",1,2025-07-12T21:31:27.684429,UFC.com
+3538,Lightweight,1,"Islam Makhachev",/athlete/islam-makhachev,27,1,0,"Rank decreased by1",0,2025-07-12T21:31:27.684433,UFC.com
+3539,Welterweight,0,"Jack Della Maddalena",/athlete/jack-della-maddalena,18,2,0,"",1,2025-07-12T21:31:27.684438,UFC.com
+3540,Welterweight,1,"Belal Muhammad",/athlete/belal-muhammad,24,4,0,"",0,2025-07-12T21:31:27.684466,UFC.com
+3541,Middleweight,0,"Dricus Du Plessis",/athlete/dricus-du-plessis,23,2,0,"",1,2025-07-12T21:31:27.684472,UFC.com
+3542,Middleweight,1,"Nassourdine Imavov",/athlete/nassourdine-imavov,16,4,0,"",0,2025-07-12T21:31:27.684476,UFC.com
+3543,"Light Heavyweight",0,"Magomed Ankalaev",/athlete/magomed-ankalaev,21,1,1,"",1,2025-07-12T21:31:27.684481,UFC.com
+3544,"Light Heavyweight",1,"Alex Pereira",/athlete/alex-pereira,12,3,0,"",0,2025-07-12T21:31:27.684486,UFC.com
+3545,Heavyweight,0,"Tom Aspinall",/athlete/tom-aspinall,15,3,0,"",1,2025-07-12T21:31:27.684490,UFC.com
+3546,Heavyweight,1,"Ciryl Gane",/athlete/ciryl-gane,13,2,0,"",0,2025-07-12T21:31:27.684495,UFC.com
+3547,"Women's Pound-for-Pound",0,"Valentina Shevchenko",/athlete/valentina-shevchenko,25,4,1,"",1,2025-07-12T21:31:27.684499,UFC.com
+3548,"Women's Pound-for-Pound",2,"Zhang Weili",/athlete/weili-zhang,26,3,0,"",0,2025-07-12T21:31:27.684504,UFC.com
+3549,"Women's Strawweight",0,"Zhang Weili",/athlete/weili-zhang,26,3,0,"",1,2025-07-12T21:31:27.684509,UFC.com
+3550,"Women's Strawweight",1,"Virna Jandiroba",/athlete/virna-jandiroba,22,3,0,"",0,2025-07-12T21:31:27.684513,UFC.com
+3551,"Women's Flyweight",0,"Valentina Shevchenko",/athlete/valentina-shevchenko,25,4,1,"",1,2025-07-12T21:31:27.684517,UFC.com
+3552,"Women's Flyweight",1,"Natalia Silva",/athlete/natalia-silva,19,5,1,"",0,2025-07-12T21:31:27.684521,UFC.com
+3553,"Women's Bantamweight",0,"Kayla Harrison",/athlete/kayla-harrison,19,1,0,"",1,2025-07-12T21:31:27.684525,UFC.com
+3554,"Women's Bantamweight",1,"Julianna Peña",/athlete/julianna-pena,13,6,0,"",0,2025-07-12T21:31:27.684530,UFC.com

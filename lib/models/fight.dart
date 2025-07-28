@@ -1,0 +1,139 @@
+import 'fighter.dart';
+
+class Fight {
+  final String id;
+  final String eventId;
+  final String fighter1Id;
+  final String fighter2Id;
+  final Fighter? fighter1;
+  final Fighter? fighter2;
+  final DateTime date;
+  final String weightClass;
+  final int rounds;
+  final String? result;
+  final String? winnerId;
+  final String? method;
+  final String? round;
+  final String? time;
+  final bool isMainEvent;
+  final bool isTitleFight;
+  final String status;
+
+  Fight({
+    required this.id,
+    required this.eventId,
+    required this.fighter1Id,
+    required this.fighter2Id,
+    this.fighter1,
+    this.fighter2,
+    required this.date,
+    required this.weightClass,
+    required this.rounds,
+    this.result,
+    this.winnerId,
+    this.method,
+    this.round,
+    this.time,
+    this.isMainEvent = false,
+    this.isTitleFight = false,
+    this.status = 'scheduled',
+  });
+
+  factory Fight.fromJson(Map<String, dynamic> json) {
+    return Fight(
+      id: json['id'] ?? '',
+      eventId: json['event_id'] ?? '',
+      fighter1Id: json['fighter1_id'] ?? '',
+      fighter2Id: json['fighter2_id'] ?? '',
+      fighter1: json['fighter1'] != null ? Fighter.fromJson(json['fighter1']) : null,
+      fighter2: json['fighter2'] != null ? Fighter.fromJson(json['fighter2']) : null,
+      date: DateTime.tryParse(json['date'] ?? '') ?? DateTime.now(),
+      weightClass: json['weight_class'] ?? '',
+      rounds: json['rounds'] ?? 3,
+      result: json['result'],
+      winnerId: json['winner_id'],
+      method: json['method'],
+      round: json['round'],
+      time: json['time'],
+      isMainEvent: json['is_main_event'] ?? false,
+      isTitleFight: json['is_title_fight'] ?? false,
+      status: json['status'] ?? 'scheduled',
+    );
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'event_id': eventId,
+      'fighter1_id': fighter1Id,
+      'fighter2_id': fighter2Id,
+      'fighter1': fighter1?.toJson(),
+      'fighter2': fighter2?.toJson(),
+      'date': date.toIso8601String(),
+      'weight_class': weightClass,
+      'rounds': rounds,
+      'result': result,
+      'winner_id': winnerId,
+      'method': method,
+      'round': round,
+      'time': time,
+      'is_main_event': isMainEvent,
+      'is_title_fight': isTitleFight,
+      'status': status,
+    };
+  }
+
+  Fight copyWith({
+    String? id,
+    String? eventId,
+    String? fighter1Id,
+    String? fighter2Id,
+    Fighter? fighter1,
+    Fighter? fighter2,
+    DateTime? date,
+    String? weightClass,
+    int? rounds,
+    String? result,
+    String? winnerId,
+    String? method,
+    String? round,
+    String? time,
+    bool? isMainEvent,
+    bool? isTitleFight,
+    String? status,
+  }) {
+    return Fight(
+      id: id ?? this.id,
+      eventId: eventId ?? this.eventId,
+      fighter1Id: fighter1Id ?? this.fighter1Id,
+      fighter2Id: fighter2Id ?? this.fighter2Id,
+      fighter1: fighter1 ?? this.fighter1,
+      fighter2: fighter2 ?? this.fighter2,
+      date: date ?? this.date,
+      weightClass: weightClass ?? this.weightClass,
+      rounds: rounds ?? this.rounds,
+      result: result ?? this.result,
+      winnerId: winnerId ?? this.winnerId,
+      method: method ?? this.method,
+      round: round ?? this.round,
+      time: time ?? this.time,
+      isMainEvent: isMainEvent ?? this.isMainEvent,
+      isTitleFight: isTitleFight ?? this.isTitleFight,
+      status: status ?? this.status,
+    );
+  }
+
+  @override
+  String toString() {
+    return 'Fight(id: $id, fighter1: ${fighter1?.name}, fighter2: ${fighter2?.name}, date: $date)';
+  }
+
+  @override
+  bool operator ==(Object other) {
+    if (identical(this, other)) return true;
+    return other is Fight && other.id == id;
+  }
+
+  @override
+  int get hashCode => id.hashCode;
+} 
