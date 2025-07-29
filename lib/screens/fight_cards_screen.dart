@@ -53,8 +53,20 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
 
     try {
       final upcoming = _selectedTab == 0;
+      print('🔍 Loading data for tab: ${_tabs[_selectedTab]} (upcoming: $upcoming)');
+      
       final events = await SimpleDatabaseService.instance.getEvents(upcoming: upcoming);
+      print('📊 Loaded ${events.length} events');
+      
       final fights = await SimpleDatabaseService.instance.getFights(upcoming: upcoming);
+      print('🥊 Loaded ${fights.length} fights');
+      
+      // Debug: Print first few fights
+      if (fights.isNotEmpty) {
+        print('📋 First fight: ${fights.first}');
+        print('📋 First fight status: ${fights.first.status}');
+        print('📋 First fight fighters: ${fights.first.fighter1?.name} vs ${fights.first.fighter2?.name}');
+      }
       
       setState(() {
         _events = events;
@@ -63,6 +75,7 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
       });
       _animationController.forward();
     } catch (e) {
+      print('❌ Error loading data: $e');
       setState(() {
         _error = e.toString();
         _isLoading = false;

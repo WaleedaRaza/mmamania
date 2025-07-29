@@ -173,6 +173,8 @@ class SimpleDatabaseService {
     int offset = 0,
   }) async {
     try {
+      print('🔍 Getting fights from Supabase (upcoming: $upcoming, limit: $limit)');
+      
       // First get all fights
       final response = await _client
           .from('fights')
@@ -180,11 +182,15 @@ class SimpleDatabaseService {
           .limit(limit)
           .range(offset, offset + limit - 1);
       
+      print('📊 Raw fights response: ${response.length} fights');
+      
       List<Fight> fights = [];
       
       // For each fight, get the fighter details separately
       for (var fightJson in response) {
         try {
+          print('🔍 Processing fight: ${fightJson['id']} - status: ${fightJson['status']}');
+          
           // Get fighter1 details
           Fighter? fighter1;
           if (fightJson['fighter1_id'] != null) {
@@ -196,6 +202,9 @@ class SimpleDatabaseService {
             
             if (fighter1Response != null) {
               fighter1 = Fighter.fromJson(fighter1Response);
+              print('✅ Found fighter1: ${fighter1.name}');
+            } else {
+              print('❌ Fighter1 not found: ${fightJson['fighter1_id']}');
             }
           }
           
@@ -210,6 +219,9 @@ class SimpleDatabaseService {
             
             if (fighter2Response != null) {
               fighter2 = Fighter.fromJson(fighter2Response);
+              print('✅ Found fighter2: ${fighter2.name}');
+            } else {
+              print('❌ Fighter2 not found: ${fightJson['fighter2_id']}');
             }
           }
           
@@ -221,16 +233,21 @@ class SimpleDatabaseService {
           });
           
           fights.add(fight);
+          print('✅ Added fight: ${fighter1?.name} vs ${fighter2?.name}');
         } catch (e) {
           print('Error processing fight: $e');
         }
       }
       
+      print('📊 Total fights before filtering: ${fights.length}');
+      
       // Filter in Dart instead of SQL
       if (upcoming) {
         fights = fights.where((f) => f.status == 'scheduled').toList();
+        print('📊 Fights after filtering for upcoming: ${fights.length}');
       }
       
+      print('🎉 Returning ${fights.length} fights');
       return fights;
     } catch (e) {
       print('Error getting fights: $e');
