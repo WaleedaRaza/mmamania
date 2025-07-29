@@ -40,6 +40,45 @@ class Fight {
   });
 
   factory Fight.fromJson(Map<String, dynamic> json) {
+    // Handle result field which might be a JSON object
+    String? resultString;
+    if (json['result'] != null) {
+      if (json['result'] is String) {
+        resultString = json['result'];
+      } else if (json['result'] is Map<String, dynamic>) {
+        // Extract method from result object
+        final resultMap = json['result'] as Map<String, dynamic>;
+        resultString = resultMap['method']?.toString();
+      }
+    }
+    
+    // Handle method field which might be nested in result
+    String? methodString;
+    if (json['method'] != null) {
+      methodString = json['method'].toString();
+    } else if (json['result'] is Map<String, dynamic>) {
+      final resultMap = json['result'] as Map<String, dynamic>;
+      methodString = resultMap['method']?.toString();
+    }
+    
+    // Handle round field which might be nested in result
+    String? roundString;
+    if (json['round'] != null) {
+      roundString = json['round'].toString();
+    } else if (json['result'] is Map<String, dynamic>) {
+      final resultMap = json['result'] as Map<String, dynamic>;
+      roundString = resultMap['round']?.toString();
+    }
+    
+    // Handle time field which might be nested in result
+    String? timeString;
+    if (json['time'] != null) {
+      timeString = json['time'].toString();
+    } else if (json['result'] is Map<String, dynamic>) {
+      final resultMap = json['result'] as Map<String, dynamic>;
+      timeString = resultMap['time']?.toString();
+    }
+    
     return Fight(
       id: json['id'] ?? '',
       eventId: json['event_id'] ?? '',
@@ -50,11 +89,11 @@ class Fight {
       date: DateTime.tryParse(json['date'] ?? '') ?? DateTime.now(),
       weightClass: json['weight_class'] ?? '',
       rounds: json['rounds'] ?? 3,
-      result: json['result'],
-      winnerId: json['winner_id'],
-      method: json['method'],
-      round: json['round'],
-      time: json['time'],
+      result: resultString,
+      winnerId: json['winner_id']?.toString(),
+      method: methodString,
+      round: roundString,
+      time: timeString,
       isMainEvent: json['is_main_event'] ?? false,
       isTitleFight: json['is_title_fight'] ?? false,
       status: json['status'] ?? 'scheduled',
