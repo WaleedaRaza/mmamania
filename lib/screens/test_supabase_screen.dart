@@ -167,7 +167,7 @@ class _TestSupabaseScreenState extends State<TestSupabaseScreen> {
                       _buildTestSection(
                         'Events Test',
                         events.length,
-                        events.take(3).map((e) => '${e.name} (${e.date?.toString().substring(0, 10) ?? 'No date'})').toList(),
+                        events.take(3).map((e) => '${e.title} (${e.date?.toString().substring(0, 10) ?? 'No date'})').toList(),
                         Icons.event,
                       ),
                       SizedBox(height: 24),

@@ -1,0 +1,10 @@
+/athlete/sean-omalley
+/athlete/umar-nurmagomedov
+/athlete/petr-yan
+/athlete/cory-sandhagen
+/athlete/yadong-song
+/athlete/deiveson-figueiredo
+/athlete/marlon-vera
+/athlete/mario-bautista
+/athlete/rob-font
+/athlete/henry-cejudo

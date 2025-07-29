@@ -1,0 +1,20 @@
+[
+  {
+    "fighter_url": "/athlete/alexandre-pantoja",
+    "scraped_at": "2025-06-30T21:07:14.556985",
+    "source": "html",
+    "name": "Alexandre Pantoja"
+  },
+  {
+    "fighter_url": "/athlete/islam-makhachev",
+    "scraped_at": "2025-06-30T21:07:18.072465",
+    "source": "html",
+    "name": "Islam Makhachev"
+  },
+  {
+    "fighter_url": "/athlete/merab-dvalishvili",
+    "scraped_at": "2025-06-30T21:07:21.572611",
+    "source": "html",
+    "name": "Merab Dvalishvili"
+  }
+]

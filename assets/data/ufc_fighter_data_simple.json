@@ -1,0 +1,26 @@
+[
+  {
+    "fighter_url": "/athlete/alexandre-pantoja",
+    "scraped_at": "2025-06-30T21:05:38.047586",
+    "name": "Alexandre Pantoja",
+    "personal_info": {},
+    "stats": {},
+    "fight_history": []
+  },
+  {
+    "fighter_url": "/athlete/islam-makhachev",
+    "scraped_at": "2025-06-30T21:05:40.156226",
+    "name": "Islam Makhachev",
+    "personal_info": {},
+    "stats": {},
+    "fight_history": []
+  },
+  {
+    "fighter_url": "/athlete/merab-dvalishvili",
+    "scraped_at": "2025-06-30T21:05:42.308436",
+    "name": "Merab Dvalishvili",
+    "personal_info": {},
+    "stats": {},
+    "fight_history": []
+  }
+]

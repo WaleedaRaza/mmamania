@@ -59,34 +59,6 @@ class User {
     };
   }
 
-  User copyWith({
-    String? id,
-    String? email,
-    String? username,
-    String? displayName,
-    String? avatarUrl,
-    DateTime? createdAt,
-    DateTime? lastLoginAt,
-    Map<String, dynamic>? preferences,
-    int? totalPredictions,
-    int? correctPredictions,
-    double? accuracy,
-  }) {
-    return User(
-      id: id ?? this.id,
-      email: email ?? this.email,
-      username: username ?? this.username,
-      displayName: displayName ?? this.displayName,
-      avatarUrl: avatarUrl ?? this.avatarUrl,
-      createdAt: createdAt ?? this.createdAt,
-      lastLoginAt: lastLoginAt ?? this.lastLoginAt,
-      preferences: preferences ?? this.preferences,
-      totalPredictions: totalPredictions ?? this.totalPredictions,
-      correctPredictions: correctPredictions ?? this.correctPredictions,
-      accuracy: accuracy ?? this.accuracy,
-    );
-  }
-
   @override
   String toString() {
     return 'User(id: $id, username: $username, email: $email)';

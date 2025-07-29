@@ -1,0 +1,10 @@
+/athlete/dan-hooker
+/athlete/mateusz-gamrot
+/athlete/paddy-pimblett
+/athlete/beneil-dariush
+/athlete/rafael-fiziev
+/athlete/renato-moicano
+/athlete/michael-chandler
+/athlete/grant-dawson
+/athlete/benoit-saint-denis
+/athlete/joel-alvarez

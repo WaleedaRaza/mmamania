@@ -1,0 +1,126 @@
+[
+  {
+    "fighter_url": "/athlete/aleksandar-rakic",
+    "scraped_at": "2025-06-30T21:16:44.414444",
+    "source": "real_ufc_scraper",
+    "name": "Aleksandar Raki\u0107",
+    "record": {
+      "wins": 14,
+      "losses": 5,
+      "draws": 0
+    },
+    "division": "Light Heavyweight Division",
+    "personal_info": {
+      "status": "Active",
+      "place_of_birth": "Vienna, Austria",
+      "trains_at": "American Top Team Zagreb",
+      "fighting_style": "Freestyle",
+      "age": "33",
+      "height": "76.00",
+      "weight": "206.00",
+      "reach": "78.00",
+      "leg_reach": "46.00",
+      "octagon_debut": "Sep. 2, 2017"
+    },
+    "fight_history": []
+  },
+  {
+    "fighter_url": "/athlete/jean-silva-lord",
+    "scraped_at": "2025-06-30T21:16:47.574397",
+    "source": "real_ufc_scraper",
+    "name": "Jean Silva",
+    "record": {
+      "wins": 16,
+      "losses": 2,
+      "draws": 0
+    },
+    "division": "Featherweight Division",
+    "personal_info": {
+      "status": "Active",
+      "place_of_birth": "Foz do Igua\u00e7u, Brazil",
+      "trains_at": "The Fighting Nerds",
+      "fighting_style": "Striker",
+      "age": "28",
+      "height": "67.00",
+      "weight": "146.00",
+      "reach": "69.00",
+      "leg_reach": "36.50",
+      "octagon_debut": "Jan. 13, 2024"
+    },
+    "fight_history": []
+  },
+  {
+    "fighter_url": "/athlete/assu-almabayev",
+    "scraped_at": "2025-06-30T21:16:51.275344",
+    "source": "real_ufc_scraper",
+    "name": "Asu Almabayev",
+    "record": {
+      "wins": 21,
+      "losses": 3,
+      "draws": 0
+    },
+    "division": "Flyweight Division",
+    "personal_info": {
+      "status": "Active",
+      "place_of_birth": "Kazakhstan",
+      "trains_at": "Dar Team",
+      "fighting_style": "Jiu-Jitsu",
+      "age": "31",
+      "height": "64.00",
+      "weight": "126.00",
+      "reach": "65.00",
+      "leg_reach": "36.00",
+      "octagon_debut": "Aug. 5, 2023"
+    },
+    "fight_history": []
+  },
+  {
+    "fighter_url": "/athlete/irene-aldana",
+    "scraped_at": "2025-06-30T21:16:55.406153",
+    "source": "real_ufc_scraper",
+    "name": "Irene Aldana",
+    "record": {
+      "wins": 15,
+      "losses": 8,
+      "draws": 0
+    },
+    "division": "Bantamweight Division",
+    "personal_info": {
+      "status": "Active",
+      "place_of_birth": "Culiac\u00e1n, Mexico",
+      "fighting_style": "Striker",
+      "age": "37",
+      "height": "69.00",
+      "weight": "136.00",
+      "reach": "68.50",
+      "leg_reach": "38.50",
+      "octagon_debut": "Dec. 18, 2016"
+    },
+    "fight_history": []
+  },
+  {
+    "fighter_url": "/athlete/marvin-vettori",
+    "scraped_at": "2025-06-30T21:16:59.147455",
+    "source": "real_ufc_scraper",
+    "name": "Marvin Vettori",
+    "record": {
+      "wins": 19,
+      "losses": 8,
+      "draws": 1
+    },
+    "division": "Middleweight Division",
+    "personal_info": {
+      "status": "Active",
+      "place_of_birth": "Trento, Italy",
+      "trains_at": "Kings MMA - Huntington Beach, CA",
+      "fighting_style": "MMA",
+      "age": "31",
+      "height": "72.00",
+      "weight": "186.00",
+      "reach": "74.00",
+      "leg_reach": "41.00",
+      "octagon_debut": "Aug. 21, 2016"
+    },
+    "fight_history": []
+  }
+]

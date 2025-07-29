@@ -1,0 +1,10 @@
+/athlete/zhang-mingyang
+/athlete/alonzo-menifield
+/athlete/ciryl-gane
+/athlete/alexander-volkov
+/athlete/sergei-pavlovich
+/athlete/curtis-blaydes
+/athlete/jailton-almeida
+/athlete/waldo-cortes-acosta
+/athlete/marcin-tybura
+/athlete/serghei-spivac

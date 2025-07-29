@@ -100,41 +100,9 @@ class Fighter {
     };
   }
 
-  Fighter copyWith({
-    String? id,
-    String? name,
-    String? nickname,
-    String? weightClass,
-    String? record,
-    String? country,
-    String? team,
-    bool? isActive,
-    String? imageUrl,
-    DateTime? lastFightDate,
-    String? lastFightResult,
-    int? ranking,
-    String? rankingWeightClass,
-  }) {
-    return Fighter(
-      id: id ?? this.id,
-      name: name ?? this.name,
-      nickname: nickname ?? this.nickname,
-      weightClass: weightClass ?? this.weightClass,
-      record: record ?? this.record,
-      country: country ?? this.country,
-      team: team ?? this.team,
-      isActive: isActive ?? this.isActive,
-      imageUrl: imageUrl ?? this.imageUrl,
-      lastFightDate: lastFightDate ?? this.lastFightDate,
-      lastFightResult: lastFightResult ?? this.lastFightResult,
-      ranking: ranking ?? this.ranking,
-      rankingWeightClass: rankingWeightClass ?? this.rankingWeightClass,
-    );
-  }
-
   @override
   String toString() {
-    return 'Fighter(id: $id, name: $name, nickname: $nickname, weightClass: $weightClass)';
+    return 'Fighter(id: $id, name: $name, weightClass: $weightClass, record: $record)';
   }
 
   @override

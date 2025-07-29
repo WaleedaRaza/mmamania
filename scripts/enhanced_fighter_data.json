@@ -1,0 +1,95 @@
+{
+  "fighter_url": "https://www.ufc.com/athlete/alexandre-pantoja",
+  "scraped_at": "2025-06-30T21:28:30.816314",
+  "source": "enhanced_ufc_scraper",
+  "name": "Alexandre Pantoja",
+  "nickname": "The Cannibal",
+  "division": "Flyweight",
+  "record": {
+    "wins": 30,
+    "losses": 5,
+    "draws": 0,
+    "formatted": "30-5-0"
+  },
+  "status": "Active",
+  "stats": {
+    "wins_by_ko": 8,
+    "wins_by_submission": 12,
+    "first_round_finishes": 10,
+    "striking_accuracy": 50,
+    "significant_strikes_landed": 935,
+    "takedown_accuracy": 48,
+    "takedowns_landed": 3
+  },
+  "fight_history": [
+    {
+      "result": "Win"
+    },
+    {
+      "result": "Win",
+      "method": "Submission"
+    },
+    {
+      "opponent": "France"
+    },
+    {
+      "opponent": "Oliveira"
+    },
+    {
+      "opponent": "Oliveira"
+    },
+    {
+      "opponent": "Oliveira"
+    },
+    {
+      "opponent": "Oliveira"
+    },
+    {
+      "opponent": "Oliveira"
+    },
+    {
+      "result": "Win"
+    },
+    {
+      "result": "Win",
+      "method": "Submission"
+    },
+    {
+      "result": "Win",
+      "method": "KO/TKO"
+    },
+    {
+      "opponent": "France"
+    },
+    {
+      "result": "Win"
+    },
+    {
+      "method": "Submission",
+      "round": 2,
+      "time": "2:05",
+      "opponent": "Asakura"
+    },
+    {
+      "result": "Win"
+    },
+    {
+      "method": "Decision - Unanimous",
+      "round": 5,
+      "time": "5:00",
+      "opponent": "Erceg"
+    }
+  ],
+  "personal_info": {
+    "status": "Active",
+    "place_of_birth": "Brazil",
+    "trains_at": "American Top Team",
+    "fighting_style": "MMA",
+    "age": 35,
+    "height": 65.0,
+    "weight": 125.0,
+    "reach": 67.0,
+    "leg_reach": 36.5,
+    "octagon_debut": "Jan. 29, 2017"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "islam-makhachev",
+  "name": "ISLAM MAKHACHEV",
+  "division": "Lightweight Division",
+  "record": {
+    "wins": 27,
+    "losses": 1,
+    "draws": 0
+  },
+  "stats": {
+    "fight_win_streak": 15,
+    "wins_by_knockout": 5,
+    "wins_by_submission": 13,
+    "striking_accuracy": 0.0,
+    "sig_strikes_landed": 0,
+    "sig_strikes_attempted": 455,
+    "takedown_accuracy": 0.0,
+    "takedowns_landed": 0,
+    "takedowns_attempted": 13,
+    "sig_strikes_landed_per_min": 0.0,
+    "sig_strikes_absorbed_per_min": 0.0,
+    "takedown_avg_per_15_min": 0.0,
+    "submission_avg_per_15_min": 0.0,
+    "sig_strikes_defense": 0.0,
+    "takedown_defense": 0.0,
+    "knockdown_avg": 0.35,
+    "average_fight_time": "10:12"
+  },
+  "fight_history": [
+    {
+      "result": "WIN",
+      "opponent": "MOICANO",
+      "event": "MAKHACHEV VS MOICANO",
+      "date": "JAN. 18, 2025",
+      "round": "Unknown",
+      "time": "Unknown",
+      "method": "Unknown"
+    }
+  ],
+  "personal_info": {
+    "status": "Active",
+    "place_of_birth": "Unknown",
+    "training_at": "Unknown",
+    "fighting_style": "Unknown",
+    "age": 0,
+    "height": 0.0,
+    "weight": 0.0,
+    "octagon_debut": "Unknown",
+    "reach": 0.0,
+    "leg_reach": 0.0
+  },
+  "fighter_url": "/athlete/islam-makhachev",
+  "scraped_at": "2025-06-29T22:31:21.032050"
+}

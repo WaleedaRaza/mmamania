@@ -1,0 +1,10 @@
+/athlete/islam-makhachev
+/athlete/merab-dvalishvili
+/athlete/ilia-topuria
+/athlete/dricus-du-plessis
+/athlete/magomed-ankalaev
+/athlete/alexander-volkanovski
+/athlete/jack-della-maddalena
+/athlete/tom-aspinall
+/athlete/alex-pereira
+/athlete/alexandre-pantoja

@@ -1,0 +1,4718 @@
+{
+  "fighters": [
+    {
+      "name": "Tom",
+      "nickname": "Aaron",
+      "height": "",
+      "weight": "--",
+      "reach": "155 lbs.",
+      "stance": "--",
+      "wins": "",
+      "losses": "5",
+      "draws": "3",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/93fe7332d16c6ad9"
+    },
+    {
+      "name": "Danny",
+      "nickname": "Abbadi",
+      "height": "The Assassin",
+      "weight": "5' 11\"",
+      "reach": "155 lbs.",
+      "stance": "--",
+      "wins": "Orthodox",
+      "losses": "4",
+      "draws": "6",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/15df64c02b6b0fde"
+    },
+    {
+      "name": "Nariman",
+      "nickname": "Abbasov",
+      "height": "Bayraktar",
+      "weight": "5' 8\"",
+      "reach": "155 lbs.",
+      "stance": "66.0\"",
+      "wins": "Orthodox",
+      "losses": "28",
+      "draws": "4",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/59a9d6dac61c2540"
+    },
+    {
+      "name": "David",
+      "nickname": "Abbott",
+      "height": "Tank",
+      "weight": "6' 0\"",
+      "reach": "265 lbs.",
+      "stance": "--",
+      "wins": "Switch",
+      "losses": "10",
+      "draws": "15",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/b361180739bed4b0"
+    },
+    {
+      "name": "Hamdy",
+      "nickname": "Abdelwahab",
+      "height": "The Hammer",
+      "weight": "6' 2\"",
+      "reach": "264 lbs.",
+      "stance": "72.0\"",
+      "wins": "Southpaw",
+      "losses": "6",
+      "draws": "1",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/3329d692aea4dc28"
+    },
+    {
+      "name": "Mansur",
+      "nickname": "Abdul-Malik",
+      "height": "",
+      "weight": "6' 2\"",
+      "reach": "185 lbs.",
+      "stance": "80.0\"",
+      "wins": "Orthodox",
+      "losses": "9",
+      "draws": "0",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/841695e02c99a521"
+    },
+    {
+      "name": "Shamil",
+      "nickname": "Abdurakhimov",
+      "height": "Abrek",
+      "weight": "6' 3\"",
+      "reach": "235 lbs.",
+      "stance": "76.0\"",
+      "wins": "Orthodox",
+      "losses": "20",
+      "draws": "8",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/2f5cbecbbe18bac4"
+    },
+    {
+      "name": "Hiroyuki",
+      "nickname": "Abe",
+      "height": "Abe Ani",
+      "weight": "5' 6\"",
+      "reach": "145 lbs.",
+      "stance": "--",
+      "wins": "Orthodox",
+      "losses": "8",
+      "draws": "15",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/c0ed7b208197e8de"
+    },
+    {
+      "name": "Daichi",
+      "nickname": "Abe",
+      "height": "",
+      "weight": "5' 11\"",
+      "reach": "170 lbs.",
+      "stance": "71.0\"",
+      "wins": "Orthodox",
+      "losses": "6",
+      "draws": "2",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/5140122c3eecd307"
+    },
+    {
+      "name": "Papy",
+      "nickname": "Abedi",
+      "height": "Makambo",
+      "weight": "5' 11\"",
+      "reach": "185 lbs.",
+      "stance": "--",
+      "wins": "Southpaw",
+      "losses": "10",
+      "draws": "4",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/c9f6385af6df66d7"
+    },
+    {
+      "name": "Ricardo",
+      "nickname": "Abreu",
+      "height": "Demente",
+      "weight": "5' 11\"",
+      "reach": "185 lbs.",
+      "stance": "--",
+      "wins": "Orthodox",
+      "losses": "5",
+      "draws": "1",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/aa6e591c2a2cdecd"
+    },
+    {
+      "name": "Klidson",
+      "nickname": "Abreu",
+      "height": "White Bear",
+      "weight": "6' 0\"",
+      "reach": "205 lbs.",
+      "stance": "74.0\"",
+      "wins": "Orthodox",
+      "losses": "15",
+      "draws": "4",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/7279654c7674cd24"
+    },
+    {
+      "name": "Cyborg",
+      "nickname": "Abreu",
+      "height": "",
+      "weight": "--",
+      "reach": "--",
+      "stance": "--",
+      "wins": "",
+      "losses": "0",
+      "draws": "0",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/f689bd7bbd14b392"
+    },
+    {
+      "name": "Daniel",
+      "nickname": "Acacio",
+      "height": "",
+      "weight": "5' 8\"",
+      "reach": "180 lbs.",
+      "stance": "--",
+      "wins": "Orthodox",
+      "losses": "30",
+      "draws": "18",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/1c5879330d42255f"
+    },
+    {
+      "name": "John",
+      "nickname": "Adajar",
+      "height": "The Outlaw",
+      "weight": "5' 9\"",
+      "reach": "170 lbs.",
+      "stance": "75.0\"",
+      "wins": "Orthodox",
+      "losses": "6",
+      "draws": "2",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/989b85f6540c86b1"
+    },
+    {
+      "name": "Scott",
+      "nickname": "Adams",
+      "height": "",
+      "weight": "6' 0\"",
+      "reach": "225 lbs.",
+      "stance": "--",
+      "wins": "Southpaw",
+      "losses": "8",
+      "draws": "1",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/2620f3eb21c79614"
+    },
+    {
+      "name": "Juan",
+      "nickname": "Adams",
+      "height": "The Kraken",
+      "weight": "6' 5\"",
+      "reach": "265 lbs.",
+      "stance": "80.0\"",
+      "wins": "Orthodox",
+      "losses": "5",
+      "draws": "3",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/83b00f7597e5ac83"
+    },
+    {
+      "name": "Anthony",
+      "nickname": "Adams",
+      "height": "Sugafoot",
+      "weight": "6' 1\"",
+      "reach": "185 lbs.",
+      "stance": "76.0\"",
+      "wins": "Orthodox",
+      "losses": "8",
+      "draws": "2",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/a77633a989013265"
+    },
+    {
+      "name": "Zarrukh",
+      "nickname": "Adashev",
+      "height": "The Lion",
+      "weight": "5' 5\"",
+      "reach": "125 lbs.",
+      "stance": "65.0\"",
+      "wins": "Southpaw",
+      "losses": "4",
+      "draws": "4",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/79cb2a690b9ba5e8"
+    },
+    {
+      "name": "Israel",
+      "nickname": "Adesanya",
+      "height": "The Last Stylebender",
+      "weight": "6' 4\"",
+      "reach": "185 lbs.",
+      "stance": "80.0\"",
+      "wins": "Switch",
+      "losses": "24",
+      "draws": "5",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/1338e2c7480bdf9e"
+    },
+    {
+      "name": "Sam",
+      "nickname": "Adkins",
+      "height": "The Experience",
+      "weight": "6' 3\"",
+      "reach": "225 lbs.",
+      "stance": "--",
+      "wins": "Orthodox",
+      "losses": "7",
+      "draws": "20",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/0e9869d712e81f8f"
+    },
+    {
+      "name": "Mohamed",
+      "nickname": "Ado",
+      "height": "",
+      "weight": "5' 11\"",
+      "reach": "170 lbs.",
+      "stance": "76.0\"",
+      "wins": "Switch",
+      "losses": "5",
+      "draws": "1",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/7a846fcbf182a7c8"
+    },
+    {
+      "name": "Nick",
+      "nickname": "Agallar",
+      "height": "",
+      "weight": "5' 8\"",
+      "reach": "155 lbs.",
+      "stance": "--",
+      "wins": "Orthodox",
+      "losses": "24",
+      "draws": "6",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/ebc5af72ad5a28cb"
+    },
+    {
+      "name": "Mariya",
+      "nickname": "Agapova",
+      "height": "Money Mashka",
+      "weight": "5' 6\"",
+      "reach": "125 lbs.",
+      "stance": "68.0\"",
+      "wins": "Southpaw",
+      "losses": "10",
+      "draws": "5",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/a08ddd04eaffd81d"
+    },
+    {
+      "name": "Kantharaj",
+      "nickname": "Agasa",
+      "height": "Kannadiga",
+      "weight": "--",
+      "reach": "135 lbs.",
+      "stance": "--",
+      "wins": "",
+      "losses": "12",
+      "draws": "3",
+      "source": "ufcstats",
+      "profile_url": "http://www.ufcstats.com/fighter-details/26f4288e83188c61"
+    }
+  ],
+  "rankings": [
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "C",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "1",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "2",
+      "fighter_name": "Merab Dvalishvili",
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "3",
+      "fighter_name": "Ilia Topuria",
+      "fighter_url": "/athlete/ilia-topuria",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "4",
+      "fighter_name": "Dricus Du Plessis",
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "5",
+      "fighter_name": "Magomed Ankalaev",
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "6",
+      "fighter_name": "Alexander Volkanovski",
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "7",
+      "fighter_name": "Jack Della Maddalena",
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "8",
+      "fighter_name": "Tom Aspinall",
+      "fighter_url": "/athlete/tom-aspinall",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "9",
+      "fighter_name": "Alex Pereira",
+      "fighter_url": "/athlete/alex-pereira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "10",
+      "fighter_name": "Alexandre Pantoja",
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "11",
+      "fighter_name": "Max Holloway",
+      "fighter_url": "/athlete/max-holloway",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "12",
+      "fighter_name": "Belal Muhammad",
+      "fighter_url": "/athlete/belal-muhammad",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "13",
+      "fighter_name": "Charles Oliveira",
+      "fighter_url": "/athlete/charles-oliveira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "14",
+      "fighter_name": "Arman Tsarukyan",
+      "fighter_url": "/athlete/arman-tsarukyan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "15",
+      "fighter_name": "Khamzat Chimaev",
+      "fighter_url": "/athlete/khamzat-chimaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "16",
+      "fighter_name": "Alexandre Pantoja",
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "17",
+      "fighter_name": "Brandon Royval",
+      "fighter_url": "/athlete/brandon-royval",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "18",
+      "fighter_name": "Brandon Moreno",
+      "fighter_url": "/athlete/brandon-moreno",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "19",
+      "fighter_name": "Amir Albazi",
+      "fighter_url": "/athlete/amir-albazi",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "20",
+      "fighter_name": "Kai Kara-France",
+      "fighter_url": "/athlete/kai-kara-france",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "21",
+      "fighter_name": "Tatsuro Taira",
+      "fighter_url": "/athlete/tatsuro-taira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "22",
+      "fighter_name": "Manel Kape",
+      "fighter_url": "/athlete/manel-kape",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "23",
+      "fighter_name": "Alex Perez",
+      "fighter_url": "/athlete/alex-perez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "24",
+      "fighter_name": "Asu Almabayev",
+      "fighter_url": "/athlete/assu-almabayev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "25",
+      "fighter_name": "Steve Erceg",
+      "fighter_url": "/athlete/steve-erceg",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "26",
+      "fighter_name": "Tim Elliott",
+      "fighter_url": "/athlete/tim-elliott",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "27",
+      "fighter_name": "Tagir Ulanbekov",
+      "fighter_url": "/athlete/tagir-ulanbekov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "28",
+      "fighter_name": "Joshua Van",
+      "fighter_url": "/athlete/joshua-van",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "29",
+      "fighter_name": "Ramazan Temirov",
+      "fighter_url": "/athlete/ramazan-temirov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "30",
+      "fighter_name": "Kai Asakura",
+      "fighter_url": "/athlete/kai-asakura",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "31",
+      "fighter_name": "Bruno Silva",
+      "fighter_url": "/athlete/bruno-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "32",
+      "fighter_name": "Merab Dvalishvili",
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "33",
+      "fighter_name": "Sean O'Malley",
+      "fighter_url": "/athlete/sean-omalley",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "34",
+      "fighter_name": "Umar Nurmagomedov",
+      "fighter_url": "/athlete/umar-nurmagomedov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "35",
+      "fighter_name": "Petr Yan",
+      "fighter_url": "/athlete/petr-yan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "36",
+      "fighter_name": "Cory Sandhagen",
+      "fighter_url": "/athlete/cory-sandhagen",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "37",
+      "fighter_name": "Song Yadong",
+      "fighter_url": "/athlete/yadong-song",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "38",
+      "fighter_name": "Deiveson Figueiredo",
+      "fighter_url": "/athlete/deiveson-figueiredo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "39",
+      "fighter_name": "Marlon Vera",
+      "fighter_url": "/athlete/marlon-vera",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "40",
+      "fighter_name": "Mario Bautista",
+      "fighter_url": "/athlete/mario-bautista",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "41",
+      "fighter_name": "Rob Font",
+      "fighter_url": "/athlete/rob-font",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "42",
+      "fighter_name": "Henry Cejudo",
+      "fighter_url": "/athlete/henry-cejudo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "43",
+      "fighter_name": "Aiemann Zahabi",
+      "fighter_url": "/athlete/aiemann-zahabi",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "44",
+      "fighter_name": "Kyler Phillips",
+      "fighter_url": "/athlete/kyler-phillips",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "45",
+      "fighter_name": "Marcus McGhee",
+      "fighter_url": "/athlete/marcus-mcghee",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "46",
+      "fighter_name": "Montel Jackson",
+      "fighter_url": "/athlete/montel-jackson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "47",
+      "fighter_name": "Vinicius Oliveira",
+      "fighter_url": "/athlete/vinicius-oliveira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "48",
+      "fighter_name": "Alexander Volkanovski",
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "49",
+      "fighter_name": "Max Holloway",
+      "fighter_url": "/athlete/max-holloway",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "50",
+      "fighter_name": "Diego Lopes",
+      "fighter_url": "/athlete/diego-lopes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "51",
+      "fighter_name": "Ilia Topuria",
+      "fighter_url": "/athlete/ilia-topuria",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "52",
+      "fighter_name": "Movsar Evloev",
+      "fighter_url": "/athlete/movsar-evloev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "53",
+      "fighter_name": "Yair Rodriguez",
+      "fighter_url": "/athlete/yair-rodriguez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "54",
+      "fighter_name": "Arnold Allen",
+      "fighter_url": "/athlete/arnold-allen",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "55",
+      "fighter_name": "Brian Ortega",
+      "fighter_url": "/athlete/brian-ortega",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "56",
+      "fighter_name": "Lerone Murphy",
+      "fighter_url": "/athlete/lerone-murphy",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "57",
+      "fighter_name": "Aljamain Sterling",
+      "fighter_url": "/athlete/aljamain-sterling",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "58",
+      "fighter_name": "Josh Emmett",
+      "fighter_url": "/athlete/josh-emmett",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "59",
+      "fighter_name": "Jean Silva",
+      "fighter_url": "/athlete/jean-silva-lord",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "60",
+      "fighter_name": "Youssef Zalal",
+      "fighter_url": "/athlete/youssef-zalal",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "61",
+      "fighter_name": "David Onama",
+      "fighter_url": "/athlete/david-onama",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "62",
+      "fighter_name": "Dan Ige",
+      "fighter_url": "/athlete/dan-ige",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "63",
+      "fighter_name": "Calvin Kattar",
+      "fighter_url": "/athlete/calvin-kattar",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "64",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "65",
+      "fighter_name": "Arman Tsarukyan",
+      "fighter_url": "/athlete/arman-tsarukyan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "66",
+      "fighter_name": "Charles Oliveira",
+      "fighter_url": "/athlete/charles-oliveira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "67",
+      "fighter_name": "Justin Gaethje",
+      "fighter_url": "/athlete/justin-gaethje",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "68",
+      "fighter_name": "Max Holloway",
+      "fighter_url": "/athlete/max-holloway",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "69",
+      "fighter_name": "Dustin Poirier",
+      "fighter_url": "/athlete/dustin-poirier",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "70",
+      "fighter_name": "Dan Hooker",
+      "fighter_url": "/athlete/dan-hooker",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "71",
+      "fighter_name": "Mateusz Gamrot",
+      "fighter_url": "/athlete/mateusz-gamrot",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "72",
+      "fighter_name": "Paddy Pimblett",
+      "fighter_url": "/athlete/paddy-pimblett",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "73",
+      "fighter_name": "Beneil Dariush",
+      "fighter_url": "/athlete/beneil-dariush",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "74",
+      "fighter_name": "Rafael Fiziev",
+      "fighter_url": "/athlete/rafael-fiziev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "75",
+      "fighter_name": "Renato Moicano",
+      "fighter_url": "/athlete/renato-moicano",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "76",
+      "fighter_name": "Michael Chandler",
+      "fighter_url": "/athlete/michael-chandler",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "77",
+      "fighter_name": "Grant Dawson",
+      "fighter_url": "/athlete/grant-dawson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "78",
+      "fighter_name": "Beno\u00eet Saint Denis",
+      "fighter_url": "/athlete/benoit-saint-denis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "79",
+      "fighter_name": "Joel \u00c1lvarez",
+      "fighter_url": "/athlete/joel-alvarez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "80",
+      "fighter_name": "Jack Della Maddalena",
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "81",
+      "fighter_name": "Belal Muhammad",
+      "fighter_url": "/athlete/belal-muhammad",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "82",
+      "fighter_name": "Sean Brady",
+      "fighter_url": "/athlete/sean-brady",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "83",
+      "fighter_name": "Shavkat Rakhmonov",
+      "fighter_url": "/athlete/shavkat-rakhmonov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "84",
+      "fighter_name": "Leon Edwards",
+      "fighter_url": "/athlete/leon-edwards",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "85",
+      "fighter_name": "Kamaru Usman",
+      "fighter_url": "/athlete/kamaru-usman",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "86",
+      "fighter_name": "Ian Machado Garry",
+      "fighter_url": "/athlete/ian-garry",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "87",
+      "fighter_name": "Michael Morales",
+      "fighter_url": "/athlete/michael-morales",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "88",
+      "fighter_name": "Joaquin Buckley",
+      "fighter_url": "/athlete/joaquin-buckley",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "89",
+      "fighter_name": "Colby Covington",
+      "fighter_url": "/athlete/colby-covington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "90",
+      "fighter_name": "Gilbert Burns",
+      "fighter_url": "/athlete/gilbert-burns",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "91",
+      "fighter_name": "Geoff Neal",
+      "fighter_url": "/athlete/geoff-neal",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "92",
+      "fighter_name": "Stephen Thompson",
+      "fighter_url": "/athlete/stephen-thompson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "93",
+      "fighter_name": "Carlos Prates",
+      "fighter_url": "/athlete/carlos-prates",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "94",
+      "fighter_name": "Kevin Holland",
+      "fighter_url": "/athlete/kevin-holland",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "95",
+      "fighter_name": "Michael Page",
+      "fighter_url": "/athlete/michael-page",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "96",
+      "fighter_name": "Dricus Du Plessis",
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "97",
+      "fighter_name": "Nassourdine Imavov",
+      "fighter_url": "/athlete/nassourdine-imavov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "98",
+      "fighter_name": "Sean Strickland",
+      "fighter_url": "/athlete/sean-strickland",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "99",
+      "fighter_name": "Khamzat Chimaev",
+      "fighter_url": "/athlete/khamzat-chimaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "100",
+      "fighter_name": "Israel Adesanya",
+      "fighter_url": "/athlete/israel-adesanya",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "101",
+      "fighter_name": "Robert Whittaker",
+      "fighter_url": "/athlete/robert-whittaker",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "102",
+      "fighter_name": "Caio Borralho",
+      "fighter_url": "/athlete/caio-borralho",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "103",
+      "fighter_name": "Jared Cannonier",
+      "fighter_url": "/athlete/jared-cannonier",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "104",
+      "fighter_name": "Roman Dolidze",
+      "fighter_url": "/athlete/roman-dolidze",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "105",
+      "fighter_name": "Anthony Hernandez",
+      "fighter_url": "/athlete/anthony-hernandez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "106",
+      "fighter_name": "Marvin Vettori",
+      "fighter_url": "/athlete/marvin-vettori",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "107",
+      "fighter_name": "Brendan Allen",
+      "fighter_url": "/athlete/brendan-allen",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "108",
+      "fighter_name": "Reinier de Ridder",
+      "fighter_url": "/athlete/reinier-de-ridder",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "109",
+      "fighter_name": "Paulo Costa",
+      "fighter_url": "/athlete/paulo-costa",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "110",
+      "fighter_name": "Abus Magomedov",
+      "fighter_url": "/athlete/abus-magomedov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "111",
+      "fighter_name": "Roman Kopylov",
+      "fighter_url": "/athlete/roman-kopylov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "112",
+      "fighter_name": "Magomed Ankalaev",
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "113",
+      "fighter_name": "Alex Pereira",
+      "fighter_url": "/athlete/alex-pereira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "114",
+      "fighter_name": "Ji\u0159\u00ed Proch\u00e1zka",
+      "fighter_url": "/athlete/jiri-prochazka",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "115",
+      "fighter_name": "Carlos Ulberg",
+      "fighter_url": "/athlete/carlos-ulberg",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "116",
+      "fighter_name": "Khalil Rountree Jr.",
+      "fighter_url": "/athlete/khalil-rountree-jr",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "117",
+      "fighter_name": "Jan B\u0142achowicz",
+      "fighter_url": "/athlete/jan-blachowicz",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "118",
+      "fighter_name": "Jamahal Hill",
+      "fighter_url": "/athlete/jamahal-hill",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "119",
+      "fighter_name": "Aleksandar Raki\u0107",
+      "fighter_url": "/athlete/aleksandar-rakic",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "120",
+      "fighter_name": "Dominick Reyes",
+      "fighter_url": "/athlete/dominick-reyes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "121",
+      "fighter_name": "Volkan Oezdemir",
+      "fighter_url": "/athlete/volkan-oezdemir",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "122",
+      "fighter_name": "Nikita Krylov",
+      "fighter_url": "/athlete/nikita-krylov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "123",
+      "fighter_name": "Azamat Murzakanov",
+      "fighter_url": "/athlete/azamat-murzakanov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "124",
+      "fighter_name": "Johnny Walker",
+      "fighter_url": "/athlete/johnny-walker",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "125",
+      "fighter_name": "Bogdan Guskov",
+      "fighter_url": "/athlete/bogdan-guskov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "126",
+      "fighter_name": "Zhang Mingyang",
+      "fighter_url": "/athlete/zhang-mingyang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "127",
+      "fighter_name": "Alonzo Menifield",
+      "fighter_url": "/athlete/alonzo-menifield",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "128",
+      "fighter_name": "Tom Aspinall",
+      "fighter_url": "/athlete/tom-aspinall",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "129",
+      "fighter_name": "Ciryl Gane",
+      "fighter_url": "/athlete/ciryl-gane",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "130",
+      "fighter_name": "Alexander Volkov",
+      "fighter_url": "/athlete/alexander-volkov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "131",
+      "fighter_name": "Sergei Pavlovich",
+      "fighter_url": "/athlete/sergei-pavlovich",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "132",
+      "fighter_name": "Curtis Blaydes",
+      "fighter_url": "/athlete/curtis-blaydes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "133",
+      "fighter_name": "Jailton Almeida",
+      "fighter_url": "/athlete/jailton-almeida",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "134",
+      "fighter_name": "Waldo Cortes Acosta",
+      "fighter_url": "/athlete/waldo-cortes-acosta",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "135",
+      "fighter_name": "Marcin Tybura",
+      "fighter_url": "/athlete/marcin-tybura",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "136",
+      "fighter_name": "Serghei Spivac",
+      "fighter_url": "/athlete/serghei-spivac",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "137",
+      "fighter_name": "Derrick Lewis",
+      "fighter_url": "/athlete/derrick-lewis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "138",
+      "fighter_name": "Tai Tuivasa",
+      "fighter_url": "/athlete/tai-tuivasa",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "139",
+      "fighter_name": "Shamil Gaziev",
+      "fighter_url": "/athlete/shamil-gaziev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "140",
+      "fighter_name": "Mick Parkin",
+      "fighter_url": "/athlete/mick-parkin",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "141",
+      "fighter_name": "Tallison Teixeira",
+      "fighter_url": "/athlete/tallison-teixeira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "142",
+      "fighter_name": "Martin Buday",
+      "fighter_url": "/athlete/martin-buday",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "143",
+      "fighter_name": "Rizvan Kuniev",
+      "fighter_url": "/athlete/rizvan-kuniev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "144",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "145",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "146",
+      "fighter_name": "Zhang Weili",
+      "fighter_url": "/athlete/weili-zhang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "147",
+      "fighter_name": "Kayla Harrison",
+      "fighter_url": "/athlete/kayla-harrison",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "148",
+      "fighter_name": "Manon Fiorot",
+      "fighter_url": "/athlete/manon-fiorot",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "149",
+      "fighter_name": "Julianna Pe\u00f1a",
+      "fighter_url": "/athlete/julianna-pena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "150",
+      "fighter_name": "Natalia Silva",
+      "fighter_url": "/athlete/natalia-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "151",
+      "fighter_name": "Alexa Grasso",
+      "fighter_url": "/athlete/alexa-grasso",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "152",
+      "fighter_name": "Erin Blanchfield",
+      "fighter_url": "/athlete/erin-blanchfield",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "153",
+      "fighter_name": "Virna Jandiroba",
+      "fighter_url": "/athlete/virna-jandiroba",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "154",
+      "fighter_name": "Raquel Pennington",
+      "fighter_url": "/athlete/raquel-pennington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "155",
+      "fighter_name": "Tatiana Suarez",
+      "fighter_url": "/athlete/tatiana-suarez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "156",
+      "fighter_name": "Rose Namajunas",
+      "fighter_url": "/athlete/rose-namajunas",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "157",
+      "fighter_name": "Yan Xiaonan",
+      "fighter_url": "/athlete/xiaonan-yan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "158",
+      "fighter_name": "Amanda Lemos",
+      "fighter_url": "/athlete/amanda-lemos",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "159",
+      "fighter_name": "Maycee Barber",
+      "fighter_url": "/athlete/maycee-barber",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "160",
+      "fighter_name": "Zhang Weili",
+      "fighter_url": "/athlete/weili-zhang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "161",
+      "fighter_name": "Virna Jandiroba",
+      "fighter_url": "/athlete/virna-jandiroba",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "162",
+      "fighter_name": "Tatiana Suarez",
+      "fighter_url": "/athlete/tatiana-suarez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "163",
+      "fighter_name": "Yan Xiaonan",
+      "fighter_url": "/athlete/xiaonan-yan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "164",
+      "fighter_name": "Amanda Lemos",
+      "fighter_url": "/athlete/amanda-lemos",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "165",
+      "fighter_name": "J\u00e9ssica Andrade",
+      "fighter_url": "/athlete/jessica-andrade",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "166",
+      "fighter_name": "Mackenzie Dern",
+      "fighter_url": "/athlete/mackenzie-dern",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "167",
+      "fighter_name": "Amanda Ribas",
+      "fighter_url": "/athlete/amanda-ribas",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "168",
+      "fighter_name": "Iasmin Lucindo",
+      "fighter_url": "/athlete/iasmin-lucindo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "169",
+      "fighter_name": "Gillian Robertson",
+      "fighter_url": "/athlete/gillian-robertson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "170",
+      "fighter_name": "Tabatha Ricci",
+      "fighter_url": "/athlete/tabatha-ricci",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "171",
+      "fighter_name": "Loopy Godinez",
+      "fighter_url": "/athlete/loopy-godinez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "172",
+      "fighter_name": "Angela Hill",
+      "fighter_url": "/athlete/angela-hill",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "173",
+      "fighter_name": "Tecia Pennington",
+      "fighter_url": "/athlete/tecia-pennington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "174",
+      "fighter_name": "Loma Lookboonmee",
+      "fighter_url": "/athlete/loma-lookboonmee",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "175",
+      "fighter_name": "Denise Gomes",
+      "fighter_url": "/athlete/denise-gomes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "176",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "177",
+      "fighter_name": "Natalia Silva",
+      "fighter_url": "/athlete/natalia-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "178",
+      "fighter_name": "Manon Fiorot",
+      "fighter_url": "/athlete/manon-fiorot",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "179",
+      "fighter_name": "Alexa Grasso",
+      "fighter_url": "/athlete/alexa-grasso",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "180",
+      "fighter_name": "Erin Blanchfield",
+      "fighter_url": "/athlete/erin-blanchfield",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "181",
+      "fighter_name": "Jasmine Jasudavicius",
+      "fighter_url": "/athlete/jasmine-jasudavicius",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "182",
+      "fighter_name": "Maycee Barber",
+      "fighter_url": "/athlete/maycee-barber",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "183",
+      "fighter_name": "Rose Namajunas",
+      "fighter_url": "/athlete/rose-namajunas",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "184",
+      "fighter_name": "Viviane Ara\u00fajo",
+      "fighter_url": "/athlete/viviane-araujo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "185",
+      "fighter_name": "J\u00e9ssica Andrade",
+      "fighter_url": "/athlete/jessica-andrade",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "186",
+      "fighter_name": "Tracy Cortez",
+      "fighter_url": "/athlete/tracy-cortez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "187",
+      "fighter_name": "Miranda Maverick",
+      "fighter_url": "/athlete/miranda-maverick",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "188",
+      "fighter_name": "Karine Silva",
+      "fighter_url": "/athlete/karine-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "189",
+      "fighter_name": "Casey O'Neill",
+      "fighter_url": "/athlete/casey-oneill",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "190",
+      "fighter_name": "Wang Cong",
+      "fighter_url": "/athlete/wang-cong",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "191",
+      "fighter_name": "JJ Aldrich",
+      "fighter_url": "/athlete/jj-aldrich",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "192",
+      "fighter_name": "Kayla Harrison",
+      "fighter_url": "/athlete/kayla-harrison",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "193",
+      "fighter_name": "Julianna Pe\u00f1a",
+      "fighter_url": "/athlete/julianna-pena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "194",
+      "fighter_name": "Raquel Pennington",
+      "fighter_url": "/athlete/raquel-pennington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "195",
+      "fighter_name": "Ketlen Vieira",
+      "fighter_url": "/athlete/ketlen-vieira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "196",
+      "fighter_name": "Norma Dumont",
+      "fighter_url": "/athlete/norma-dumont",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "197",
+      "fighter_name": "Macy Chiasson",
+      "fighter_url": "/athlete/macy-chiasson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "198",
+      "fighter_name": "Irene Aldana",
+      "fighter_url": "/athlete/irene-aldana",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "199",
+      "fighter_name": "Ailin Perez",
+      "fighter_url": "/athlete/ailin-perez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "200",
+      "fighter_name": "Mayra Bueno Silva",
+      "fighter_url": "/athlete/mayra-bueno-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "201",
+      "fighter_name": "Yana Santos",
+      "fighter_url": "/athlete/yana-santos",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "202",
+      "fighter_name": "Karol Rosa",
+      "fighter_url": "/athlete/karol-rosa",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "203",
+      "fighter_name": "Jacqueline Cavalcanti",
+      "fighter_url": "/athlete/jacqueline-cavalcanti",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "204",
+      "fighter_name": "Nora Cornolle",
+      "fighter_url": "/athlete/nora-cornolle",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "205",
+      "fighter_name": "Miesha Tate",
+      "fighter_url": "/athlete/miesha-tate",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "206",
+      "fighter_name": "Joselyne Edwards",
+      "fighter_url": "/athlete/joselyne-edwards",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "207",
+      "fighter_name": "Daria Zhelezniakova",
+      "fighter_url": "/athlete/daria-zheleznyakova",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "C",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "1",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "2",
+      "fighter_name": "Merab Dvalishvili",
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "3",
+      "fighter_name": "Ilia Topuria",
+      "fighter_url": "/athlete/ilia-topuria",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "4",
+      "fighter_name": "Dricus Du Plessis",
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "5",
+      "fighter_name": "Magomed Ankalaev",
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "6",
+      "fighter_name": "Alexander Volkanovski",
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "7",
+      "fighter_name": "Jack Della Maddalena",
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "8",
+      "fighter_name": "Tom Aspinall",
+      "fighter_url": "/athlete/tom-aspinall",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "9",
+      "fighter_name": "Alex Pereira",
+      "fighter_url": "/athlete/alex-pereira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "10",
+      "fighter_name": "Alexandre Pantoja",
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "11",
+      "fighter_name": "Max Holloway",
+      "fighter_url": "/athlete/max-holloway",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "12",
+      "fighter_name": "Belal Muhammad",
+      "fighter_url": "/athlete/belal-muhammad",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "13",
+      "fighter_name": "Charles Oliveira",
+      "fighter_url": "/athlete/charles-oliveira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "14",
+      "fighter_name": "Arman Tsarukyan",
+      "fighter_url": "/athlete/arman-tsarukyan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "15",
+      "fighter_name": "Khamzat Chimaev",
+      "fighter_url": "/athlete/khamzat-chimaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "16",
+      "fighter_name": "Alexandre Pantoja",
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "17",
+      "fighter_name": "Brandon Royval",
+      "fighter_url": "/athlete/brandon-royval",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "18",
+      "fighter_name": "Brandon Moreno",
+      "fighter_url": "/athlete/brandon-moreno",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "19",
+      "fighter_name": "Amir Albazi",
+      "fighter_url": "/athlete/amir-albazi",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "20",
+      "fighter_name": "Kai Kara-France",
+      "fighter_url": "/athlete/kai-kara-france",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "21",
+      "fighter_name": "Tatsuro Taira",
+      "fighter_url": "/athlete/tatsuro-taira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "22",
+      "fighter_name": "Manel Kape",
+      "fighter_url": "/athlete/manel-kape",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "23",
+      "fighter_name": "Alex Perez",
+      "fighter_url": "/athlete/alex-perez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "24",
+      "fighter_name": "Asu Almabayev",
+      "fighter_url": "/athlete/assu-almabayev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "25",
+      "fighter_name": "Steve Erceg",
+      "fighter_url": "/athlete/steve-erceg",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "26",
+      "fighter_name": "Tim Elliott",
+      "fighter_url": "/athlete/tim-elliott",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "27",
+      "fighter_name": "Tagir Ulanbekov",
+      "fighter_url": "/athlete/tagir-ulanbekov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "28",
+      "fighter_name": "Joshua Van",
+      "fighter_url": "/athlete/joshua-van",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "29",
+      "fighter_name": "Ramazan Temirov",
+      "fighter_url": "/athlete/ramazan-temirov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "30",
+      "fighter_name": "Kai Asakura",
+      "fighter_url": "/athlete/kai-asakura",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "31",
+      "fighter_name": "Bruno Silva",
+      "fighter_url": "/athlete/bruno-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "32",
+      "fighter_name": "Merab Dvalishvili",
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "33",
+      "fighter_name": "Sean O'Malley",
+      "fighter_url": "/athlete/sean-omalley",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "34",
+      "fighter_name": "Umar Nurmagomedov",
+      "fighter_url": "/athlete/umar-nurmagomedov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "35",
+      "fighter_name": "Petr Yan",
+      "fighter_url": "/athlete/petr-yan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "36",
+      "fighter_name": "Cory Sandhagen",
+      "fighter_url": "/athlete/cory-sandhagen",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "37",
+      "fighter_name": "Song Yadong",
+      "fighter_url": "/athlete/yadong-song",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "38",
+      "fighter_name": "Deiveson Figueiredo",
+      "fighter_url": "/athlete/deiveson-figueiredo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "39",
+      "fighter_name": "Marlon Vera",
+      "fighter_url": "/athlete/marlon-vera",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "40",
+      "fighter_name": "Mario Bautista",
+      "fighter_url": "/athlete/mario-bautista",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "41",
+      "fighter_name": "Rob Font",
+      "fighter_url": "/athlete/rob-font",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "42",
+      "fighter_name": "Henry Cejudo",
+      "fighter_url": "/athlete/henry-cejudo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "43",
+      "fighter_name": "Aiemann Zahabi",
+      "fighter_url": "/athlete/aiemann-zahabi",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "44",
+      "fighter_name": "Kyler Phillips",
+      "fighter_url": "/athlete/kyler-phillips",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "45",
+      "fighter_name": "Marcus McGhee",
+      "fighter_url": "/athlete/marcus-mcghee",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "46",
+      "fighter_name": "Montel Jackson",
+      "fighter_url": "/athlete/montel-jackson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "47",
+      "fighter_name": "Vinicius Oliveira",
+      "fighter_url": "/athlete/vinicius-oliveira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "48",
+      "fighter_name": "Alexander Volkanovski",
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "49",
+      "fighter_name": "Max Holloway",
+      "fighter_url": "/athlete/max-holloway",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "50",
+      "fighter_name": "Diego Lopes",
+      "fighter_url": "/athlete/diego-lopes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "51",
+      "fighter_name": "Ilia Topuria",
+      "fighter_url": "/athlete/ilia-topuria",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "52",
+      "fighter_name": "Movsar Evloev",
+      "fighter_url": "/athlete/movsar-evloev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "53",
+      "fighter_name": "Yair Rodriguez",
+      "fighter_url": "/athlete/yair-rodriguez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "54",
+      "fighter_name": "Arnold Allen",
+      "fighter_url": "/athlete/arnold-allen",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "55",
+      "fighter_name": "Brian Ortega",
+      "fighter_url": "/athlete/brian-ortega",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "56",
+      "fighter_name": "Lerone Murphy",
+      "fighter_url": "/athlete/lerone-murphy",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "57",
+      "fighter_name": "Aljamain Sterling",
+      "fighter_url": "/athlete/aljamain-sterling",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "58",
+      "fighter_name": "Josh Emmett",
+      "fighter_url": "/athlete/josh-emmett",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "59",
+      "fighter_name": "Jean Silva",
+      "fighter_url": "/athlete/jean-silva-lord",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "60",
+      "fighter_name": "Youssef Zalal",
+      "fighter_url": "/athlete/youssef-zalal",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "61",
+      "fighter_name": "David Onama",
+      "fighter_url": "/athlete/david-onama",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "62",
+      "fighter_name": "Dan Ige",
+      "fighter_url": "/athlete/dan-ige",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "63",
+      "fighter_name": "Calvin Kattar",
+      "fighter_url": "/athlete/calvin-kattar",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "64",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "65",
+      "fighter_name": "Arman Tsarukyan",
+      "fighter_url": "/athlete/arman-tsarukyan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "66",
+      "fighter_name": "Charles Oliveira",
+      "fighter_url": "/athlete/charles-oliveira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "67",
+      "fighter_name": "Justin Gaethje",
+      "fighter_url": "/athlete/justin-gaethje",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "68",
+      "fighter_name": "Max Holloway",
+      "fighter_url": "/athlete/max-holloway",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "69",
+      "fighter_name": "Dustin Poirier",
+      "fighter_url": "/athlete/dustin-poirier",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "70",
+      "fighter_name": "Dan Hooker",
+      "fighter_url": "/athlete/dan-hooker",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "71",
+      "fighter_name": "Mateusz Gamrot",
+      "fighter_url": "/athlete/mateusz-gamrot",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "72",
+      "fighter_name": "Paddy Pimblett",
+      "fighter_url": "/athlete/paddy-pimblett",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "73",
+      "fighter_name": "Beneil Dariush",
+      "fighter_url": "/athlete/beneil-dariush",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "74",
+      "fighter_name": "Rafael Fiziev",
+      "fighter_url": "/athlete/rafael-fiziev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "75",
+      "fighter_name": "Renato Moicano",
+      "fighter_url": "/athlete/renato-moicano",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "76",
+      "fighter_name": "Michael Chandler",
+      "fighter_url": "/athlete/michael-chandler",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "77",
+      "fighter_name": "Grant Dawson",
+      "fighter_url": "/athlete/grant-dawson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "78",
+      "fighter_name": "Beno\u00eet Saint Denis",
+      "fighter_url": "/athlete/benoit-saint-denis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "79",
+      "fighter_name": "Joel \u00c1lvarez",
+      "fighter_url": "/athlete/joel-alvarez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "80",
+      "fighter_name": "Jack Della Maddalena",
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "81",
+      "fighter_name": "Belal Muhammad",
+      "fighter_url": "/athlete/belal-muhammad",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "82",
+      "fighter_name": "Sean Brady",
+      "fighter_url": "/athlete/sean-brady",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "83",
+      "fighter_name": "Shavkat Rakhmonov",
+      "fighter_url": "/athlete/shavkat-rakhmonov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "84",
+      "fighter_name": "Leon Edwards",
+      "fighter_url": "/athlete/leon-edwards",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "85",
+      "fighter_name": "Kamaru Usman",
+      "fighter_url": "/athlete/kamaru-usman",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "86",
+      "fighter_name": "Ian Machado Garry",
+      "fighter_url": "/athlete/ian-garry",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "87",
+      "fighter_name": "Michael Morales",
+      "fighter_url": "/athlete/michael-morales",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "88",
+      "fighter_name": "Joaquin Buckley",
+      "fighter_url": "/athlete/joaquin-buckley",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "89",
+      "fighter_name": "Colby Covington",
+      "fighter_url": "/athlete/colby-covington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "90",
+      "fighter_name": "Gilbert Burns",
+      "fighter_url": "/athlete/gilbert-burns",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "91",
+      "fighter_name": "Geoff Neal",
+      "fighter_url": "/athlete/geoff-neal",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "92",
+      "fighter_name": "Stephen Thompson",
+      "fighter_url": "/athlete/stephen-thompson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "93",
+      "fighter_name": "Carlos Prates",
+      "fighter_url": "/athlete/carlos-prates",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "94",
+      "fighter_name": "Kevin Holland",
+      "fighter_url": "/athlete/kevin-holland",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "95",
+      "fighter_name": "Michael Page",
+      "fighter_url": "/athlete/michael-page",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "96",
+      "fighter_name": "Dricus Du Plessis",
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "97",
+      "fighter_name": "Nassourdine Imavov",
+      "fighter_url": "/athlete/nassourdine-imavov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "98",
+      "fighter_name": "Sean Strickland",
+      "fighter_url": "/athlete/sean-strickland",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "99",
+      "fighter_name": "Khamzat Chimaev",
+      "fighter_url": "/athlete/khamzat-chimaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "100",
+      "fighter_name": "Israel Adesanya",
+      "fighter_url": "/athlete/israel-adesanya",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "101",
+      "fighter_name": "Robert Whittaker",
+      "fighter_url": "/athlete/robert-whittaker",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "102",
+      "fighter_name": "Caio Borralho",
+      "fighter_url": "/athlete/caio-borralho",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "103",
+      "fighter_name": "Jared Cannonier",
+      "fighter_url": "/athlete/jared-cannonier",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "104",
+      "fighter_name": "Roman Dolidze",
+      "fighter_url": "/athlete/roman-dolidze",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "105",
+      "fighter_name": "Anthony Hernandez",
+      "fighter_url": "/athlete/anthony-hernandez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "106",
+      "fighter_name": "Marvin Vettori",
+      "fighter_url": "/athlete/marvin-vettori",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "107",
+      "fighter_name": "Brendan Allen",
+      "fighter_url": "/athlete/brendan-allen",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "108",
+      "fighter_name": "Reinier de Ridder",
+      "fighter_url": "/athlete/reinier-de-ridder",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "109",
+      "fighter_name": "Paulo Costa",
+      "fighter_url": "/athlete/paulo-costa",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "110",
+      "fighter_name": "Abus Magomedov",
+      "fighter_url": "/athlete/abus-magomedov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "111",
+      "fighter_name": "Roman Kopylov",
+      "fighter_url": "/athlete/roman-kopylov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "112",
+      "fighter_name": "Magomed Ankalaev",
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "113",
+      "fighter_name": "Alex Pereira",
+      "fighter_url": "/athlete/alex-pereira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "114",
+      "fighter_name": "Ji\u0159\u00ed Proch\u00e1zka",
+      "fighter_url": "/athlete/jiri-prochazka",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "115",
+      "fighter_name": "Carlos Ulberg",
+      "fighter_url": "/athlete/carlos-ulberg",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "116",
+      "fighter_name": "Khalil Rountree Jr.",
+      "fighter_url": "/athlete/khalil-rountree-jr",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "117",
+      "fighter_name": "Jan B\u0142achowicz",
+      "fighter_url": "/athlete/jan-blachowicz",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "118",
+      "fighter_name": "Jamahal Hill",
+      "fighter_url": "/athlete/jamahal-hill",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "119",
+      "fighter_name": "Aleksandar Raki\u0107",
+      "fighter_url": "/athlete/aleksandar-rakic",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "120",
+      "fighter_name": "Dominick Reyes",
+      "fighter_url": "/athlete/dominick-reyes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "121",
+      "fighter_name": "Volkan Oezdemir",
+      "fighter_url": "/athlete/volkan-oezdemir",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "122",
+      "fighter_name": "Nikita Krylov",
+      "fighter_url": "/athlete/nikita-krylov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "123",
+      "fighter_name": "Azamat Murzakanov",
+      "fighter_url": "/athlete/azamat-murzakanov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "124",
+      "fighter_name": "Johnny Walker",
+      "fighter_url": "/athlete/johnny-walker",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "125",
+      "fighter_name": "Bogdan Guskov",
+      "fighter_url": "/athlete/bogdan-guskov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "126",
+      "fighter_name": "Zhang Mingyang",
+      "fighter_url": "/athlete/zhang-mingyang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "127",
+      "fighter_name": "Alonzo Menifield",
+      "fighter_url": "/athlete/alonzo-menifield",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "128",
+      "fighter_name": "Tom Aspinall",
+      "fighter_url": "/athlete/tom-aspinall",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "129",
+      "fighter_name": "Ciryl Gane",
+      "fighter_url": "/athlete/ciryl-gane",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "130",
+      "fighter_name": "Alexander Volkov",
+      "fighter_url": "/athlete/alexander-volkov",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "131",
+      "fighter_name": "Sergei Pavlovich",
+      "fighter_url": "/athlete/sergei-pavlovich",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "132",
+      "fighter_name": "Curtis Blaydes",
+      "fighter_url": "/athlete/curtis-blaydes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "133",
+      "fighter_name": "Jailton Almeida",
+      "fighter_url": "/athlete/jailton-almeida",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "134",
+      "fighter_name": "Waldo Cortes Acosta",
+      "fighter_url": "/athlete/waldo-cortes-acosta",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "135",
+      "fighter_name": "Marcin Tybura",
+      "fighter_url": "/athlete/marcin-tybura",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "136",
+      "fighter_name": "Serghei Spivac",
+      "fighter_url": "/athlete/serghei-spivac",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "137",
+      "fighter_name": "Derrick Lewis",
+      "fighter_url": "/athlete/derrick-lewis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "138",
+      "fighter_name": "Tai Tuivasa",
+      "fighter_url": "/athlete/tai-tuivasa",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "139",
+      "fighter_name": "Shamil Gaziev",
+      "fighter_url": "/athlete/shamil-gaziev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "140",
+      "fighter_name": "Mick Parkin",
+      "fighter_url": "/athlete/mick-parkin",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "141",
+      "fighter_name": "Tallison Teixeira",
+      "fighter_url": "/athlete/tallison-teixeira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "142",
+      "fighter_name": "Martin Buday",
+      "fighter_url": "/athlete/martin-buday",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "143",
+      "fighter_name": "Rizvan Kuniev",
+      "fighter_url": "/athlete/rizvan-kuniev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "144",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "145",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "146",
+      "fighter_name": "Zhang Weili",
+      "fighter_url": "/athlete/weili-zhang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "147",
+      "fighter_name": "Kayla Harrison",
+      "fighter_url": "/athlete/kayla-harrison",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "148",
+      "fighter_name": "Manon Fiorot",
+      "fighter_url": "/athlete/manon-fiorot",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "149",
+      "fighter_name": "Julianna Pe\u00f1a",
+      "fighter_url": "/athlete/julianna-pena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "150",
+      "fighter_name": "Natalia Silva",
+      "fighter_url": "/athlete/natalia-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "151",
+      "fighter_name": "Alexa Grasso",
+      "fighter_url": "/athlete/alexa-grasso",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "152",
+      "fighter_name": "Erin Blanchfield",
+      "fighter_url": "/athlete/erin-blanchfield",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "153",
+      "fighter_name": "Virna Jandiroba",
+      "fighter_url": "/athlete/virna-jandiroba",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "154",
+      "fighter_name": "Raquel Pennington",
+      "fighter_url": "/athlete/raquel-pennington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "155",
+      "fighter_name": "Tatiana Suarez",
+      "fighter_url": "/athlete/tatiana-suarez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "156",
+      "fighter_name": "Rose Namajunas",
+      "fighter_url": "/athlete/rose-namajunas",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "157",
+      "fighter_name": "Yan Xiaonan",
+      "fighter_url": "/athlete/xiaonan-yan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "158",
+      "fighter_name": "Amanda Lemos",
+      "fighter_url": "/athlete/amanda-lemos",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "159",
+      "fighter_name": "Maycee Barber",
+      "fighter_url": "/athlete/maycee-barber",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "160",
+      "fighter_name": "Zhang Weili",
+      "fighter_url": "/athlete/weili-zhang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "161",
+      "fighter_name": "Virna Jandiroba",
+      "fighter_url": "/athlete/virna-jandiroba",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "162",
+      "fighter_name": "Tatiana Suarez",
+      "fighter_url": "/athlete/tatiana-suarez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "163",
+      "fighter_name": "Yan Xiaonan",
+      "fighter_url": "/athlete/xiaonan-yan",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "164",
+      "fighter_name": "Amanda Lemos",
+      "fighter_url": "/athlete/amanda-lemos",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "165",
+      "fighter_name": "J\u00e9ssica Andrade",
+      "fighter_url": "/athlete/jessica-andrade",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "166",
+      "fighter_name": "Mackenzie Dern",
+      "fighter_url": "/athlete/mackenzie-dern",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "167",
+      "fighter_name": "Amanda Ribas",
+      "fighter_url": "/athlete/amanda-ribas",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "168",
+      "fighter_name": "Iasmin Lucindo",
+      "fighter_url": "/athlete/iasmin-lucindo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "169",
+      "fighter_name": "Gillian Robertson",
+      "fighter_url": "/athlete/gillian-robertson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "170",
+      "fighter_name": "Tabatha Ricci",
+      "fighter_url": "/athlete/tabatha-ricci",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "171",
+      "fighter_name": "Loopy Godinez",
+      "fighter_url": "/athlete/loopy-godinez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "172",
+      "fighter_name": "Angela Hill",
+      "fighter_url": "/athlete/angela-hill",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "173",
+      "fighter_name": "Tecia Pennington",
+      "fighter_url": "/athlete/tecia-pennington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "174",
+      "fighter_name": "Loma Lookboonmee",
+      "fighter_url": "/athlete/loma-lookboonmee",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "175",
+      "fighter_name": "Denise Gomes",
+      "fighter_url": "/athlete/denise-gomes",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "176",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "177",
+      "fighter_name": "Natalia Silva",
+      "fighter_url": "/athlete/natalia-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "178",
+      "fighter_name": "Manon Fiorot",
+      "fighter_url": "/athlete/manon-fiorot",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "179",
+      "fighter_name": "Alexa Grasso",
+      "fighter_url": "/athlete/alexa-grasso",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "180",
+      "fighter_name": "Erin Blanchfield",
+      "fighter_url": "/athlete/erin-blanchfield",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "181",
+      "fighter_name": "Jasmine Jasudavicius",
+      "fighter_url": "/athlete/jasmine-jasudavicius",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "182",
+      "fighter_name": "Maycee Barber",
+      "fighter_url": "/athlete/maycee-barber",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "183",
+      "fighter_name": "Rose Namajunas",
+      "fighter_url": "/athlete/rose-namajunas",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "184",
+      "fighter_name": "Viviane Ara\u00fajo",
+      "fighter_url": "/athlete/viviane-araujo",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "185",
+      "fighter_name": "J\u00e9ssica Andrade",
+      "fighter_url": "/athlete/jessica-andrade",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "186",
+      "fighter_name": "Tracy Cortez",
+      "fighter_url": "/athlete/tracy-cortez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "187",
+      "fighter_name": "Miranda Maverick",
+      "fighter_url": "/athlete/miranda-maverick",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "188",
+      "fighter_name": "Karine Silva",
+      "fighter_url": "/athlete/karine-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "189",
+      "fighter_name": "Casey O'Neill",
+      "fighter_url": "/athlete/casey-oneill",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "190",
+      "fighter_name": "Wang Cong",
+      "fighter_url": "/athlete/wang-cong",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "191",
+      "fighter_name": "JJ Aldrich",
+      "fighter_url": "/athlete/jj-aldrich",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "192",
+      "fighter_name": "Kayla Harrison",
+      "fighter_url": "/athlete/kayla-harrison",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "193",
+      "fighter_name": "Julianna Pe\u00f1a",
+      "fighter_url": "/athlete/julianna-pena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "194",
+      "fighter_name": "Raquel Pennington",
+      "fighter_url": "/athlete/raquel-pennington",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "195",
+      "fighter_name": "Ketlen Vieira",
+      "fighter_url": "/athlete/ketlen-vieira",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "196",
+      "fighter_name": "Norma Dumont",
+      "fighter_url": "/athlete/norma-dumont",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "197",
+      "fighter_name": "Macy Chiasson",
+      "fighter_url": "/athlete/macy-chiasson",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "198",
+      "fighter_name": "Irene Aldana",
+      "fighter_url": "/athlete/irene-aldana",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "199",
+      "fighter_name": "Ailin Perez",
+      "fighter_url": "/athlete/ailin-perez",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "200",
+      "fighter_name": "Mayra Bueno Silva",
+      "fighter_url": "/athlete/mayra-bueno-silva",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "201",
+      "fighter_name": "Yana Santos",
+      "fighter_url": "/athlete/yana-santos",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "202",
+      "fighter_name": "Karol Rosa",
+      "fighter_url": "/athlete/karol-rosa",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "203",
+      "fighter_name": "Jacqueline Cavalcanti",
+      "fighter_url": "/athlete/jacqueline-cavalcanti",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "204",
+      "fighter_name": "Nora Cornolle",
+      "fighter_url": "/athlete/nora-cornolle",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "205",
+      "fighter_name": "Miesha Tate",
+      "fighter_url": "/athlete/miesha-tate",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "206",
+      "fighter_name": "Joselyne Edwards",
+      "fighter_url": "/athlete/joselyne-edwards",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "207",
+      "fighter_name": "Daria Zhelezniakova",
+      "fighter_url": "/athlete/daria-zheleznyakova",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Men's Pound-for-Pound Top Rank",
+      "rank": "C",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Flyweight",
+      "rank": "C",
+      "fighter_name": "Alexandre Pantoja",
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Bantamweight",
+      "rank": "C",
+      "fighter_name": "Merab Dvalishvili",
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Featherweight",
+      "rank": "C",
+      "fighter_name": "Alexander Volkanovski",
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Lightweight",
+      "rank": "C",
+      "fighter_name": "Islam Makhachev",
+      "fighter_url": "/athlete/islam-makhachev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Welterweight",
+      "rank": "C",
+      "fighter_name": "Jack Della Maddalena",
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Middleweight",
+      "rank": "C",
+      "fighter_name": "Dricus Du Plessis",
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Light Heavyweight",
+      "rank": "C",
+      "fighter_name": "Magomed Ankalaev",
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Heavyweight",
+      "rank": "C",
+      "fighter_name": "Tom Aspinall",
+      "fighter_url": "/athlete/tom-aspinall",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Women's Pound-for-Pound Top Rank",
+      "rank": "C",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Women's Strawweight",
+      "rank": "C",
+      "fighter_name": "Zhang Weili",
+      "fighter_url": "/athlete/weili-zhang",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Women's Flyweight",
+      "rank": "C",
+      "fighter_name": "Valentina Shevchenko",
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    },
+    {
+      "division": "Women's Bantamweight",
+      "rank": "C",
+      "fighter_name": "Kayla Harrison",
+      "fighter_url": "/athlete/kayla-harrison",
+      "record": "",
+      "source": "ufc_rankings_alternative"
+    }
+  ],
+  "events": [],
+  "fights": [],
+  "scraped_at": "2025-06-30T21:31:19.801118",
+  "source": "comprehensive_ufc_scraper_v2",
+  "enhanced_fighter_profiles": [
+    {
+      "fighter_url": "https://www.ufc.com/athlete/islam-makhachev",
+      "scraped_at": "2025-06-30T21:31:20.123737",
+      "source": "enhanced_ufc_scraper",
+      "name": "Islam Makhachev",
+      "division": "Lightweight",
+      "record": {
+        "wins": 27,
+        "losses": 1,
+        "draws": 0,
+        "formatted": "27-1-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 5,
+        "wins_by_submission": 13,
+        "striking_accuracy": 59,
+        "significant_strikes_landed": 455,
+        "takedown_accuracy": 54,
+        "takedowns_landed": 13
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "opponent": "Moicano"
+        },
+        {
+          "opponent": "Moicano"
+        },
+        {
+          "opponent": "Moicano"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "round": 1,
+          "time": "4:05",
+          "opponent": "Moicano"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "round": 5,
+          "time": "2:42",
+          "opponent": "Poirier"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "3:06",
+          "opponent": "Volkanovski"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Dagestan Republic, Russia",
+        "trains_at": "AKA (American Kickboxing Academy) San Jose",
+        "fighting_style": "Sambo",
+        "age": 33,
+        "height": 70.0,
+        "weight": 154.5,
+        "reach": 70.5,
+        "leg_reach": 40.5,
+        "octagon_debut": "May. 23, 2015"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/islam-makhachev",
+      "scraped_at": "2025-06-30T21:31:22.230898",
+      "source": "enhanced_ufc_scraper",
+      "name": "Islam Makhachev",
+      "division": "Lightweight",
+      "record": {
+        "wins": 27,
+        "losses": 1,
+        "draws": 0,
+        "formatted": "27-1-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 5,
+        "wins_by_submission": 13,
+        "striking_accuracy": 59,
+        "significant_strikes_landed": 455,
+        "takedown_accuracy": 54,
+        "takedowns_landed": 13
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "opponent": "Moicano"
+        },
+        {
+          "opponent": "Moicano"
+        },
+        {
+          "opponent": "Moicano"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "round": 1,
+          "time": "4:05",
+          "opponent": "Moicano"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "round": 5,
+          "time": "2:42",
+          "opponent": "Poirier"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "3:06",
+          "opponent": "Volkanovski"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Dagestan Republic, Russia",
+        "trains_at": "AKA (American Kickboxing Academy) San Jose",
+        "fighting_style": "Sambo",
+        "age": 33,
+        "height": 70.0,
+        "weight": 154.5,
+        "reach": 70.5,
+        "leg_reach": 40.5,
+        "octagon_debut": "May. 23, 2015"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/merab-dvalishvili",
+      "scraped_at": "2025-06-30T21:31:24.342658",
+      "source": "enhanced_ufc_scraper",
+      "name": "Merab Dvalishvili",
+      "nickname": "The Machine",
+      "division": "Bantamweight",
+      "record": {
+        "wins": 20,
+        "losses": 4,
+        "draws": 0,
+        "formatted": "20-4-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 3,
+        "wins_by_submission": 2,
+        "striking_accuracy": 42,
+        "significant_strikes_landed": 1074,
+        "takedown_accuracy": 36,
+        "takedowns_landed": 17
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "round": 3,
+          "time": "4:42"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Nurmagomedov"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Dvalishvili"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Tbilisi, Georgia",
+        "trains_at": "Team Serra/Longo",
+        "fighting_style": "Freestyle",
+        "age": 34,
+        "height": 66.0,
+        "weight": 134.0,
+        "reach": 68.0,
+        "leg_reach": 38.0,
+        "octagon_debut": "Dec. 9, 2017"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/ilia-topuria",
+      "scraped_at": "2025-06-30T21:31:26.456452",
+      "source": "enhanced_ufc_scraper",
+      "name": "Ilia Topuria",
+      "nickname": "El Matador",
+      "division": "Lightweight",
+      "record": {
+        "wins": 17,
+        "losses": 0,
+        "draws": 0,
+        "formatted": "17-0-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 7,
+        "wins_by_submission": 8,
+        "first_round_finishes": 9,
+        "striking_accuracy": 48,
+        "significant_strikes_landed": 405,
+        "takedown_accuracy": 61,
+        "takedowns_landed": 5
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "opponent": "Oliveira"
+        },
+        {
+          "opponent": "Oliveira"
+        },
+        {
+          "round": 1,
+          "opponent": "Oliveira"
+        },
+        {
+          "opponent": "Oliveira"
+        },
+        {
+          "opponent": "Oliveira"
+        },
+        {
+          "opponent": "Oliveira"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "opponent": "Oliveira"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 3,
+          "time": "1:34",
+          "opponent": "Holloway"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 2,
+          "time": "3:32",
+          "opponent": "Topuria"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Germany",
+        "fighting_style": "Brazilian Jiu-Jitsu",
+        "age": 28,
+        "height": 67.0,
+        "weight": 155.0,
+        "reach": 69.0,
+        "leg_reach": 37.0,
+        "octagon_debut": "Oct. 10, 2020"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/dricus-du-plessis",
+      "scraped_at": "2025-06-30T21:31:28.583270",
+      "source": "enhanced_ufc_scraper",
+      "name": "Dricus Du Plessis",
+      "nickname": "Stillknocks",
+      "division": "Middleweight",
+      "record": {
+        "wins": 23,
+        "losses": 2,
+        "draws": 0,
+        "formatted": "23-2-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 9,
+        "wins_by_submission": 11,
+        "striking_accuracy": 49,
+        "significant_strikes_landed": 757,
+        "takedown_accuracy": 50,
+        "takedowns_landed": 2
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "opponent": "Strickland"
+        },
+        {
+          "opponent": "Chimaev"
+        },
+        {
+          "opponent": "Strickland"
+        },
+        {
+          "opponent": "Strickland"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Strickland"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Submission",
+          "round": 4,
+          "time": "3:38",
+          "opponent": "Adesanya"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Split",
+          "round": 5,
+          "time": "5:00"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Welkom, South Africa",
+        "trains_at": "CIT MMA",
+        "fighting_style": "MMA",
+        "age": 31,
+        "height": 73.0,
+        "weight": 185.0,
+        "reach": 76.0,
+        "leg_reach": 43.0,
+        "octagon_debut": "Oct. 10, 2020"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/magomed-ankalaev",
+      "scraped_at": "2025-06-30T21:31:30.945768",
+      "source": "enhanced_ufc_scraper",
+      "name": "Magomed Ankalaev",
+      "division": "Heavyweight",
+      "record": {
+        "wins": 21,
+        "losses": 1,
+        "draws": 1,
+        "formatted": "21-1-1"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 11,
+        "first_round_finishes": 6,
+        "striking_accuracy": 53,
+        "significant_strikes_landed": 686,
+        "takedown_accuracy": 23
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Ankalaev"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 3,
+          "time": "5:00",
+          "opponent": "Rakic"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 2,
+          "time": "2:42",
+          "opponent": "Walker"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Russia",
+        "fighting_style": "MMA",
+        "age": 33,
+        "height": 75.0,
+        "weight": 205.0,
+        "reach": 75.0,
+        "leg_reach": 46.0,
+        "octagon_debut": "Mar. 17, 2018"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/alexander-volkanovski",
+      "scraped_at": "2025-06-30T21:31:33.077797",
+      "source": "enhanced_ufc_scraper",
+      "name": "Alexander Volkanovski",
+      "nickname": "The Great",
+      "division": "Featherweight",
+      "record": {
+        "wins": 27,
+        "losses": 4,
+        "draws": 0,
+        "formatted": "27-4-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 13,
+        "wins_by_submission": 3,
+        "first_round_finishes": 7,
+        "striking_accuracy": 57,
+        "significant_strikes_landed": 1717,
+        "takedown_accuracy": 34,
+        "takedowns_landed": 16
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "opponent": "Lopes"
+        },
+        {
+          "opponent": "Lopes"
+        },
+        {
+          "opponent": "Lopes"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Lopes"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 2,
+          "time": "3:32",
+          "opponent": "Topuria"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "3:06",
+          "opponent": "Volkanovski"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Wollongong, Australia",
+        "trains_at": "Freestyle Fighting Gym",
+        "age": 36,
+        "height": 66.0,
+        "weight": 145.0,
+        "reach": 71.5,
+        "leg_reach": 36.0,
+        "octagon_debut": "Oct. 15, 2016"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/jack-della-maddalena",
+      "scraped_at": "2025-06-30T21:31:35.217658",
+      "source": "enhanced_ufc_scraper",
+      "name": "Jack Della Maddalena",
+      "division": "Welterweight",
+      "record": {
+        "wins": 18,
+        "losses": 2,
+        "draws": 0,
+        "formatted": "18-2-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 12,
+        "wins_by_submission": 2,
+        "first_round_finishes": 8
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "opponent": "Della"
+        },
+        {
+          "opponent": "Della"
+        },
+        {
+          "opponent": "Della"
+        },
+        {
+          "opponent": "Della"
+        },
+        {
+          "opponent": "Della"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Della"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 3,
+          "time": "3:43",
+          "opponent": "Della"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Split",
+          "round": 3,
+          "time": "5:00",
+          "opponent": "Della"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Australia",
+        "fighting_style": "MMA",
+        "age": 28,
+        "height": 71.0,
+        "weight": 170.0,
+        "reach": 73.0,
+        "leg_reach": 40.5,
+        "octagon_debut": "Jan. 22, 2022"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/tom-aspinall",
+      "scraped_at": "2025-06-30T21:31:37.354072",
+      "source": "enhanced_ufc_scraper",
+      "name": "Tom Aspinall",
+      "division": "Heavyweight",
+      "record": {
+        "wins": 15,
+        "losses": 3,
+        "draws": 0,
+        "formatted": "15-3-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 12,
+        "wins_by_submission": 3,
+        "first_round_finishes": 14,
+        "striking_accuracy": 67,
+        "significant_strikes_landed": 148,
+        "takedown_accuracy": 100,
+        "takedowns_landed": 2
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "opponent": "Blaydes"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "1:00",
+          "opponent": "Blaydes"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "1:09",
+          "opponent": "Aspinall"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 1,
+          "time": "1:13",
+          "opponent": "Tybura"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "Salford, England",
+        "trains_at": "Team Kaobon",
+        "fighting_style": "Freestyle",
+        "age": 32,
+        "height": 77.0,
+        "weight": 255.0,
+        "reach": 78.0,
+        "leg_reach": 44.0,
+        "octagon_debut": "Mar. 21, 2020"
+      }
+    },
+    {
+      "fighter_url": "https://www.ufc.com/athlete/alex-pereira",
+      "scraped_at": "2025-06-30T21:31:39.484936",
+      "source": "enhanced_ufc_scraper",
+      "name": "Alex Pereira",
+      "nickname": "Poatan",
+      "division": "Heavyweight",
+      "record": {
+        "wins": 12,
+        "losses": 3,
+        "draws": 0,
+        "formatted": "12-3-0"
+      },
+      "status": "Active",
+      "stats": {
+        "wins_by_ko": 10,
+        "first_round_finishes": 4,
+        "striking_accuracy": 62,
+        "significant_strikes_landed": 657,
+        "takedown_accuracy": 50
+      },
+      "fight_history": [
+        {
+          "result": "Win"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "opponent": "Ankalaev"
+        },
+        {
+          "result": "Win",
+          "method": "Submission"
+        },
+        {
+          "result": "Win",
+          "method": "KO/TKO"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "Decision - Unanimous",
+          "round": 5,
+          "time": "5:00",
+          "opponent": "Ankalaev"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 4,
+          "time": "4:32",
+          "opponent": "Rountree"
+        },
+        {
+          "result": "Win"
+        },
+        {
+          "method": "KO/TKO",
+          "round": 2,
+          "time": "0:13",
+          "opponent": "Prochazka"
+        }
+      ],
+      "personal_info": {
+        "status": "Active",
+        "place_of_birth": "S\u00e3o Bernardo do Campo, Brazil",
+        "trains_at": "Teixeira MMA & Fitness-Bethel, CT",
+        "fighting_style": "Kickboxer",
+        "age": 37,
+        "height": 76.0,
+        "weight": 205.0,
+        "reach": 79.0,
+        "leg_reach": 44.0,
+        "octagon_debut": "Nov. 6, 2021"
+      }
+    }
+  ]
+}

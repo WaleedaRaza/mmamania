@@ -83,49 +83,9 @@ class Fight {
     };
   }
 
-  Fight copyWith({
-    String? id,
-    String? eventId,
-    String? fighter1Id,
-    String? fighter2Id,
-    Fighter? fighter1,
-    Fighter? fighter2,
-    DateTime? date,
-    String? weightClass,
-    int? rounds,
-    String? result,
-    String? winnerId,
-    String? method,
-    String? round,
-    String? time,
-    bool? isMainEvent,
-    bool? isTitleFight,
-    String? status,
-  }) {
-    return Fight(
-      id: id ?? this.id,
-      eventId: eventId ?? this.eventId,
-      fighter1Id: fighter1Id ?? this.fighter1Id,
-      fighter2Id: fighter2Id ?? this.fighter2Id,
-      fighter1: fighter1 ?? this.fighter1,
-      fighter2: fighter2 ?? this.fighter2,
-      date: date ?? this.date,
-      weightClass: weightClass ?? this.weightClass,
-      rounds: rounds ?? this.rounds,
-      result: result ?? this.result,
-      winnerId: winnerId ?? this.winnerId,
-      method: method ?? this.method,
-      round: round ?? this.round,
-      time: time ?? this.time,
-      isMainEvent: isMainEvent ?? this.isMainEvent,
-      isTitleFight: isTitleFight ?? this.isTitleFight,
-      status: status ?? this.status,
-    );
-  }
-
   @override
   String toString() {
-    return 'Fight(id: $id, fighter1: ${fighter1?.name}, fighter2: ${fighter2?.name}, date: $date)';
+    return 'Fight(id: $id, fighter1: ${fighter1?.name}, fighter2: ${fighter2?.name}, date: $date, weightClass: $weightClass)';
   }
 
   @override

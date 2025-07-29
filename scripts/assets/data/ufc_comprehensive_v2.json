@@ -1,0 +1,2755 @@
+{
+  "fighters": {
+    "Tom Aaron": {
+      "name": "Tom Aaron",
+      "first_name": "Tom",
+      "last_name": "Aaron",
+      "nickname": "",
+      "height": "--",
+      "weight": "155 lbs.",
+      "reach": "--",
+      "stance": "",
+      "record": {
+        "wins": 5,
+        "losses": 3,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:11.775773",
+      "stats": {
+        "height": "--",
+        "weight": "155 lbs.",
+        "reach": "--",
+        "stance": "",
+        "dob": "Jul 13, 1978"
+      },
+      "fight_history": [
+        {
+          "opponent": "Tom AaronMatt Ricehouse",
+          "result": "----",
+          "method": "----",
+          "round": "----",
+          "time": "----",
+          "event": "Strikeforce - Henderson vs. BabaluDec. 04, 2010",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Tom AaronEric Steenberg",
+          "result": "----",
+          "method": "----",
+          "round": "----",
+          "time": "----",
+          "event": "Strikeforce - Heavy ArtilleryMay. 15, 2010",
+          "date": "SUBGuillotine Choke"
+        }
+      ]
+    },
+    "Danny Abbadi \"The Assassin\"": {
+      "name": "Danny Abbadi",
+      "first_name": "Danny",
+      "last_name": "Abbadi",
+      "nickname": "The Assassin",
+      "height": "5' 11\"",
+      "weight": "155 lbs.",
+      "reach": "--",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 4,
+        "losses": 6,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:12.971080",
+      "stats": {
+        "height": "5' 11\"",
+        "weight": "155 lbs.",
+        "reach": "--",
+        "stance": "Orthodox",
+        "dob": "Jul 03, 1983"
+      },
+      "fight_history": [
+        {
+          "opponent": "Danny AbbadiJorge Gurgel",
+          "result": "00",
+          "method": "5658",
+          "round": "01",
+          "time": "01",
+          "event": "UFC 63: Hughes vs PennSep. 23, 2006",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Danny AbbadiKalib Starnes",
+          "result": "00",
+          "method": "321",
+          "round": "01",
+          "time": "01",
+          "event": "The Ultimate Fighter: Team Ortiz vs. Team Shamrock FinaleJun. 24, 2006",
+          "date": "SUBRear Naked Choke"
+        }
+      ]
+    },
+    "Nariman Abbasov \"Bayraktar\"": {
+      "name": "Nariman Abbasov",
+      "first_name": "Nariman",
+      "last_name": "Abbasov",
+      "nickname": "Bayraktar",
+      "height": "5' 8\"",
+      "weight": "155 lbs.",
+      "reach": "66.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 28,
+        "losses": 4,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:14.148572",
+      "stats": {
+        "height": "5' 8\"",
+        "weight": "155 lbs.",
+        "reach": "66\"",
+        "stance": "Orthodox",
+        "dob": "Feb 01, 1994"
+      },
+      "fight_history": [
+        {
+          "opponent": "Nariman AbbasovIsmael Bonfim",
+          "result": "01",
+          "method": "4585",
+          "round": "01",
+          "time": "00",
+          "event": "DWCS 6.7Sep. 06, 2022",
+          "date": "U-DEC"
+        }
+      ]
+    },
+    "David Abbott \"Tank\"": {
+      "name": "David Abbott",
+      "first_name": "David",
+      "last_name": "Abbott",
+      "nickname": "Tank",
+      "height": "6' 0\"",
+      "weight": "265 lbs.",
+      "reach": "--",
+      "stance": "Switch",
+      "record": {
+        "wins": 10,
+        "losses": 15,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:15.493079",
+      "stats": {
+        "height": "6' 0\"",
+        "weight": "265 lbs.",
+        "reach": "--",
+        "stance": "Switch",
+        "dob": "Apr 26, 1965"
+      },
+      "fight_history": [
+        {
+          "opponent": "David AbbottKevin Ferguson",
+          "result": "02",
+          "method": "113",
+          "round": "00",
+          "time": "00",
+          "event": "EliteXC - Street CertifiedFeb. 16, 2008",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "David AbbottPaul Buentello",
+          "result": "01",
+          "method": "49",
+          "round": "00",
+          "time": "00",
+          "event": "Strikeforce - Tank vs. BuentelloOct. 07, 2006",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "David AbbottHidehiko Yoshida",
+          "result": "00",
+          "method": "214",
+          "round": "10",
+          "time": "01",
+          "event": "PRIDE Final Conflict 2005Aug. 28, 2005",
+          "date": "SUBGi Choke"
+        },
+        {
+          "opponent": "David AbbottWesley Correira",
+          "result": "01",
+          "method": "1113",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 45: RevolutionNov. 21, 2003",
+          "date": "KO/TKO"
+        },
+        {
+          "opponent": "David AbbottKimo Leopoldo",
+          "result": "00",
+          "method": "01",
+          "round": "01",
+          "time": "01",
+          "event": "UFC 43: MeltdownJun. 06, 2003",
+          "date": "SUBArm Triangle"
+        },
+        {
+          "opponent": "David AbbottFrank Mir",
+          "result": "00",
+          "method": "10",
+          "round": "00",
+          "time": "02",
+          "event": "UFC 41: OnslaughtFeb. 28, 2003",
+          "date": "SUBToe Hold"
+        },
+        {
+          "opponent": "David AbbottPedro Rizzo",
+          "result": "02",
+          "method": "1624",
+          "round": "10",
+          "time": "00",
+          "event": "UFC - Ultimate BrazilOct. 16, 1998",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "David AbbottHugo Duarte",
+          "result": "00",
+          "method": "110",
+          "round": "01",
+          "time": "00",
+          "event": "UFC 17: RedemptionMay. 15, 1998",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "David AbbottYoji Anjo",
+          "result": "00",
+          "method": "139",
+          "round": "30",
+          "time": "01",
+          "event": "UFC - Ultimate JapanDec. 21, 1997",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "David AbbottMaurice Smith",
+          "result": "10",
+          "method": "512",
+          "round": "00",
+          "time": "01",
+          "event": "UFC 15: Collision CourseOct. 17, 1997",
+          "date": "SUBOther"
+        },
+        {
+          "opponent": "David AbbottVitor Belfort",
+          "result": "00",
+          "method": "215",
+          "round": "01",
+          "time": "00",
+          "event": "UFC 13: The Ultimate ForceMay. 30, 1997",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "David AbbottDon Frye",
+          "result": "00",
+          "method": "136",
+          "round": "00",
+          "time": "02",
+          "event": "UFC - Ultimate Ultimate '96Dec. 07, 1996",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "David AbbottSteve Nelmark",
+          "result": "10",
+          "method": "92",
+          "round": "10",
+          "time": "00",
+          "event": "UFC - Ultimate Ultimate '96Dec. 07, 1996",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "David AbbottCal Worsham",
+          "result": "00",
+          "method": "45",
+          "round": "00",
+          "time": "10",
+          "event": "UFC - Ultimate Ultimate '96Dec. 07, 1996",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "David AbbottScott Ferrozzo",
+          "result": "00",
+          "method": "2160",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 11: The Proving GroundSep. 20, 1996",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "David AbbottSam Adkins",
+          "result": "00",
+          "method": "80",
+          "round": "10",
+          "time": "10",
+          "event": "UFC 11: The Proving GroundSep. 20, 1996",
+          "date": "SUBForearm Choke"
+        },
+        {
+          "opponent": "David AbbottDan Severn",
+          "result": "00",
+          "method": "357",
+          "round": "01",
+          "time": "00",
+          "event": "UFC - Ultimate Ultimate '95Dec. 16, 1995",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "David AbbottSteve Jennum",
+          "result": "00",
+          "method": "10",
+          "round": "10",
+          "time": "10",
+          "event": "UFC - Ultimate Ultimate '95Dec. 16, 1995",
+          "date": "SUBNeck Crank"
+        },
+        {
+          "opponent": "David AbbottOleg Taktarov",
+          "result": "00",
+          "method": "174",
+          "round": "20",
+          "time": "14",
+          "event": "UFC 6: Clash of the TitansJul. 14, 1995",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "David AbbottPaul Varelans",
+          "result": "00",
+          "method": "141",
+          "round": "10",
+          "time": "00",
+          "event": "UFC 6: Clash of the TitansJul. 14, 1995",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "David AbbottJohn Matua",
+          "result": "20",
+          "method": "70",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 6: Clash of the TitansJul. 14, 1995",
+          "date": "KO/TKOPunches"
+        }
+      ]
+    },
+    "Hamdy Abdelwahab \"The Hammer\"": {
+      "name": "Hamdy Abdelwahab",
+      "first_name": "Hamdy",
+      "last_name": "Abdelwahab",
+      "nickname": "The Hammer",
+      "height": "6' 2\"",
+      "weight": "264 lbs.",
+      "reach": "72.0\"",
+      "stance": "Southpaw",
+      "record": {
+        "wins": 6,
+        "losses": 1,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:16.832037",
+      "stats": {
+        "height": "6' 2\"",
+        "weight": "264 lbs.",
+        "reach": "72\"",
+        "stance": "Southpaw",
+        "dob": "Jan 22, 1993"
+      },
+      "fight_history": [
+        {
+          "opponent": "Hamdy AbdelwahabMohammed Usman",
+          "result": "00",
+          "method": "5586",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Hill vs. Rountree Jr.Jun. 21, 2025",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Hamdy AbdelwahabJamal Pogues",
+          "result": "00",
+          "method": "4469",
+          "round": "10",
+          "time": "00",
+          "event": "UFC Fight Night: Adesanya vs. ImavovFeb. 01, 2025",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Hamdy AbdelwahabDon'Tale Mayes",
+          "result": "10",
+          "method": "5847",
+          "round": "30",
+          "time": "00",
+          "event": "UFC 277: Pena vs. Nunes 2Jul. 30, 2022",
+          "date": "Overturned"
+        }
+      ]
+    },
+    "Mansur Abdul-Malik": {
+      "name": "Mansur Abdul-Malik",
+      "first_name": "Mansur",
+      "last_name": "Abdul-Malik",
+      "nickname": "",
+      "height": "6' 2\"",
+      "weight": "185 lbs.",
+      "reach": "80.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 9,
+        "losses": 0,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:18.087870",
+      "stats": {
+        "height": "6' 2\"",
+        "weight": "185 lbs.",
+        "reach": "80\"",
+        "stance": "Orthodox",
+        "dob": "Oct 07, 1997"
+      },
+      "fight_history": [
+        {
+          "opponent": "Mansur Abdul-MalikCody Brundage",
+          "result": "00",
+          "method": "2530",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Usman vs. BuckleyJun. 14, 2025",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Mansur Abdul-MalikNick Klein",
+          "result": "00",
+          "method": "2928",
+          "round": "11",
+          "time": "00",
+          "event": "UFC Fight Night: Cejudo vs. SongFeb. 22, 2025",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Mansur Abdul-MalikDusko Todorovic",
+          "result": "10",
+          "method": "293",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Magny vs. PratesNov. 09, 2024",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Mansur Abdul-MalikWes Schultz",
+          "result": "00",
+          "method": "4846",
+          "round": "02",
+          "time": "00",
+          "event": "DWCS 8.1Aug. 13, 2024",
+          "date": "KO/TKOElbows"
+        }
+      ]
+    },
+    "Shamil Abdurakhimov \"Abrek\"": {
+      "name": "Shamil Abdurakhimov",
+      "first_name": "Shamil",
+      "last_name": "Abdurakhimov",
+      "nickname": "Abrek",
+      "height": "6' 3\"",
+      "weight": "235 lbs.",
+      "reach": "76.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 20,
+        "losses": 8,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:19.305822",
+      "stats": {
+        "height": "6' 3\"",
+        "weight": "235 lbs.",
+        "reach": "76\"",
+        "stance": "Orthodox",
+        "dob": "Sep 02, 1981"
+      },
+      "fight_history": [
+        {
+          "opponent": "Shamil AbdurakhimovJailton Almeida",
+          "result": "00",
+          "method": "145",
+          "round": "03",
+          "time": "00",
+          "event": "UFC 283: Teixeira vs. HillJan. 21, 2023",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovSergei Pavlovich",
+          "result": "01",
+          "method": "1721",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Volkov vs. AspinallMar. 19, 2022",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovChris Daukaus",
+          "result": "02",
+          "method": "2338",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 266: Volkanovski vs. OrtegaSep. 25, 2021",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovCurtis Blaydes",
+          "result": "00",
+          "method": "325",
+          "round": "05",
+          "time": "00",
+          "event": "UFC 242: Khabib vs. PoirierSep. 07, 2019",
+          "date": "KO/TKOElbow"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovMarcin Tybura",
+          "result": "10",
+          "method": "3628",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Overeem vs. OleinikApr. 20, 2019",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovAndrei Arlovski",
+          "result": "00",
+          "method": "3218",
+          "round": "22",
+          "time": "00",
+          "event": "UFC Fight Night: Hunt vs. OleinikSep. 15, 2018",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovChase Sherman",
+          "result": "10",
+          "method": "65",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Bisping vs. GastelumNov. 25, 2017",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovDerrick Lewis",
+          "result": "00",
+          "method": "1539",
+          "round": "41",
+          "time": "10",
+          "event": "UFC Fight Night: Lewis vs. AbdurakhimovDec. 09, 2016",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovWalt Harris",
+          "result": "00",
+          "method": "4733",
+          "round": "10",
+          "time": "01",
+          "event": "UFC Fight Night: Lineker vs. DodsonOct. 01, 2016",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovAnthony Hamilton",
+          "result": "00",
+          "method": "6240",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Cowboy vs CowboyFeb. 21, 2016",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Shamil AbdurakhimovTimothy Johnson",
+          "result": "00",
+          "method": "922",
+          "round": "01",
+          "time": "00",
+          "event": "UFC Fight Night: Mendes vs LamasApr. 04, 2015",
+          "date": "KO/TKOPunches"
+        }
+      ]
+    },
+    "Hiroyuki Abe \"Abe Ani\"": {
+      "name": "Hiroyuki Abe",
+      "first_name": "Hiroyuki",
+      "last_name": "Abe",
+      "nickname": "Abe Ani",
+      "height": "5' 6\"",
+      "weight": "145 lbs.",
+      "reach": "--",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 8,
+        "losses": 15,
+        "draws": 3
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:20.688617",
+      "stats": {
+        "height": "5' 6\"",
+        "weight": "145 lbs.",
+        "reach": "--",
+        "stance": "Orthodox",
+        "dob": "--"
+      },
+      "fight_history": [
+        {
+          "opponent": "Hiroyuki AbeNaoki Matsushita",
+          "result": "00",
+          "method": "2233",
+          "round": "01",
+          "time": "00",
+          "event": "PRIDE Bushido 12Aug. 27, 2006",
+          "date": "Other"
+        },
+        {
+          "opponent": "Hiroyuki AbeLuiz Firmino",
+          "result": "01",
+          "method": "07",
+          "round": "01",
+          "time": "01",
+          "event": "PRIDE Bushido 4Jul. 19, 2004",
+          "date": "SUBArm Triangle"
+        }
+      ]
+    },
+    "Daichi Abe": {
+      "name": "Daichi Abe",
+      "first_name": "Daichi",
+      "last_name": "Abe",
+      "nickname": "",
+      "height": "5' 11\"",
+      "weight": "170 lbs.",
+      "reach": "71.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 6,
+        "losses": 2,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:22.251724",
+      "stats": {
+        "height": "5' 11\"",
+        "weight": "170 lbs.",
+        "reach": "71\"",
+        "stance": "Orthodox",
+        "dob": "Nov 27, 1991"
+      },
+      "fight_history": [
+        {
+          "opponent": "Daichi AbeLi Jingliang",
+          "result": "00",
+          "method": "4596",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Cowboy vs. EdwardsJun. 23, 2018",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Daichi AbeLuke Jumeau",
+          "result": "00",
+          "method": "6363",
+          "round": "01",
+          "time": "00",
+          "event": "UFC 221: Romero vs. RockholdFeb. 10, 2018",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Daichi AbeHyun Gyu Lim",
+          "result": "10",
+          "method": "6343",
+          "round": "10",
+          "time": "00",
+          "event": "UFC Fight Night: Saint Preux vs. OkamiSep. 22, 2017",
+          "date": "U-DEC"
+        }
+      ]
+    },
+    "Papy Abedi \"Makambo\"": {
+      "name": "Papy Abedi",
+      "first_name": "Papy",
+      "last_name": "Abedi",
+      "nickname": "Makambo",
+      "height": "5' 11\"",
+      "weight": "185 lbs.",
+      "reach": "--",
+      "stance": "Southpaw",
+      "record": {
+        "wins": 10,
+        "losses": 4,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:23.462977",
+      "stats": {
+        "height": "5' 11\"",
+        "weight": "185 lbs.",
+        "reach": "--",
+        "stance": "Southpaw",
+        "dob": "Jun 30, 1978"
+      },
+      "fight_history": [
+        {
+          "opponent": "Papy AbediDylan Andrews",
+          "result": "00",
+          "method": "1920",
+          "round": "32",
+          "time": "30",
+          "event": "UFC Fight Night: Condit vs Kampmann 2Aug. 28, 2013",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Papy AbediBesam Yousef",
+          "result": "00",
+          "method": "5343",
+          "round": "42",
+          "time": "00",
+          "event": "UFC on FUEL TV: Mousasi vs LatifiApr. 06, 2013",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Papy AbediJames Head",
+          "result": "00",
+          "method": "1121",
+          "round": "10",
+          "time": "01",
+          "event": "UFC on FUEL TV: Gustafsson vs SilvaApr. 14, 2012",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "Papy AbediThiago Alves",
+          "result": "01",
+          "method": "1425",
+          "round": "00",
+          "time": "01",
+          "event": "UFC 138: Leben vs MunozNov. 05, 2011",
+          "date": "SUBRear Naked Choke"
+        }
+      ]
+    },
+    "Ricardo Abreu \"Demente\"": {
+      "name": "Ricardo Abreu",
+      "first_name": "Ricardo",
+      "last_name": "Abreu",
+      "nickname": "Demente",
+      "height": "5' 11\"",
+      "weight": "185 lbs.",
+      "reach": "--",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 5,
+        "losses": 1,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:24.705898",
+      "stats": {
+        "height": "5' 11\"",
+        "weight": "185 lbs.",
+        "reach": "--",
+        "stance": "Orthodox",
+        "dob": "Apr 27, 1984"
+      },
+      "fight_history": [
+        {
+          "opponent": "Ricardo AbreuJake Collier",
+          "result": "00",
+          "method": "4767",
+          "round": "30",
+          "time": "00",
+          "event": "UFC Fight Night: Boetsch vs HendersonJun. 06, 2015",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Ricardo AbreuWagner Silva",
+          "result": "20",
+          "method": "3317",
+          "round": "00",
+          "time": "10",
+          "event": "UFC Fight Night: Miocic vs MaldonadoMay. 31, 2014",
+          "date": "SUBRear Naked Choke"
+        }
+      ]
+    },
+    "Klidson Abreu \"White Bear\"": {
+      "name": "Klidson Abreu",
+      "first_name": "Klidson",
+      "last_name": "Abreu",
+      "nickname": "White Bear",
+      "height": "6' 0\"",
+      "weight": "205 lbs.",
+      "reach": "74.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 15,
+        "losses": 4,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:26.128558",
+      "stats": {
+        "height": "6' 0\"",
+        "weight": "205 lbs.",
+        "reach": "74\"",
+        "stance": "Orthodox",
+        "dob": "Dec 24, 1992"
+      },
+      "fight_history": [
+        {
+          "opponent": "Klidson AbreuJamahal Hill",
+          "result": "02",
+          "method": "514",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Woodley vs. BurnsMay. 30, 2020",
+          "date": "OverturnedKnee"
+        },
+        {
+          "opponent": "Klidson AbreuShamil Gamzatov",
+          "result": "00",
+          "method": "3264",
+          "round": "10",
+          "time": "00",
+          "event": "UFC Fight Night: Zabit vs. KattarNov. 09, 2019",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Klidson AbreuSam Alvey",
+          "result": "00",
+          "method": "3628",
+          "round": "10",
+          "time": "00",
+          "event": "UFC Fight Night: Dos Anjos vs. EdwardsJul. 20, 2019",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Klidson AbreuMagomed Ankalaev",
+          "result": "01",
+          "method": "2330",
+          "round": "01",
+          "time": "00",
+          "event": "UFC Fight Night: Blachowicz vs. SantosFeb. 23, 2019",
+          "date": "U-DEC"
+        }
+      ]
+    },
+    "Cyborg Abreu": {
+      "name": "Cyborg Abreu",
+      "first_name": "Cyborg",
+      "last_name": "Abreu",
+      "nickname": "",
+      "height": "--",
+      "weight": "--",
+      "reach": "--",
+      "stance": "",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:27.305673",
+      "stats": {
+        "height": "--",
+        "weight": "--",
+        "reach": "--",
+        "stance": "",
+        "dob": "Dec 20, 1980"
+      },
+      "fight_history": []
+    },
+    "Daniel Acacio": {
+      "name": "Daniel Acacio",
+      "first_name": "Daniel",
+      "last_name": "Acacio",
+      "nickname": "",
+      "height": "5' 8\"",
+      "weight": "180 lbs.",
+      "reach": "--",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 30,
+        "losses": 18,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:28.483505",
+      "stats": {
+        "height": "5' 8\"",
+        "weight": "180 lbs.",
+        "reach": "--",
+        "stance": "Orthodox",
+        "dob": "Dec 27, 1977"
+      },
+      "fight_history": [
+        {
+          "opponent": "Daniel AcacioRousimar Palhares",
+          "result": "00",
+          "method": "06",
+          "round": "02",
+          "time": "01",
+          "event": "Fury FC 5: Final ConflictDec. 06, 2007",
+          "date": "SUBHeel Hook"
+        },
+        {
+          "opponent": "Daniel AcacioAkihiro Gono",
+          "result": "10",
+          "method": "4755",
+          "round": "00",
+          "time": "00",
+          "event": "PRIDE Bushido 9: The TournamentSep. 25, 2005",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Daniel AcacioKazuo Misaki",
+          "result": "00",
+          "method": "6658",
+          "round": "10",
+          "time": "00",
+          "event": "PRIDE Bushido 8Jul. 17, 2005",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Daniel AcacioDaiju Takase",
+          "result": "00",
+          "method": "459",
+          "round": "00",
+          "time": "01",
+          "event": "PRIDE Bushido 6Apr. 03, 2005",
+          "date": "KO/TKO"
+        }
+      ]
+    },
+    "John Adajar \"The Outlaw\"": {
+      "name": "John Adajar",
+      "first_name": "John",
+      "last_name": "Adajar",
+      "nickname": "The Outlaw",
+      "height": "5' 9\"",
+      "weight": "170 lbs.",
+      "reach": "75.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 6,
+        "losses": 2,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:29.698876",
+      "stats": {
+        "height": "5' 9\"",
+        "weight": "170 lbs.",
+        "reach": "75\"",
+        "stance": "Orthodox",
+        "dob": "Jun 22, 1991"
+      },
+      "fight_history": [
+        {
+          "opponent": "John AdajarHanSeul Kim",
+          "result": "01",
+          "method": "1829",
+          "round": "00",
+          "time": "03",
+          "event": "Road to UFC 1.4Jun. 10, 2022",
+          "date": "SUBTriangle Armbar"
+        }
+      ]
+    },
+    "Scott Adams": {
+      "name": "Scott Adams",
+      "first_name": "Scott",
+      "last_name": "Adams",
+      "nickname": "",
+      "height": "6' 0\"",
+      "weight": "225 lbs.",
+      "reach": "--",
+      "stance": "Southpaw",
+      "record": {
+        "wins": 8,
+        "losses": 1,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:30.918647",
+      "stats": {
+        "height": "6' 0\"",
+        "weight": "225 lbs.",
+        "reach": "--",
+        "stance": "Southpaw",
+        "dob": "--"
+      },
+      "fight_history": [
+        {
+          "opponent": "Scott AdamsIan Freeman",
+          "result": "00",
+          "method": "00",
+          "round": "10",
+          "time": "41",
+          "event": "UFC 24: First DefenseMar. 10, 2000",
+          "date": "SUBHeel Hook"
+        }
+      ]
+    },
+    "Juan Adams \"The Kraken\"": {
+      "name": "Juan Adams",
+      "first_name": "Juan",
+      "last_name": "Adams",
+      "nickname": "The Kraken",
+      "height": "6' 5\"",
+      "weight": "265 lbs.",
+      "reach": "80.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 5,
+        "losses": 3,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:32.171469",
+      "stats": {
+        "height": "6' 5\"",
+        "weight": "265 lbs.",
+        "reach": "80\"",
+        "stance": "Orthodox",
+        "dob": "Jan 16, 1992"
+      },
+      "fight_history": [
+        {
+          "opponent": "Juan AdamsJustin Tafa",
+          "result": "01",
+          "method": "710",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 247: Jones vs. ReyesFeb. 08, 2020",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Juan AdamsGreg Hardy",
+          "result": "00",
+          "method": "336",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Dos Anjos vs. EdwardsJul. 20, 2019",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Juan AdamsArjan Bhullar",
+          "result": "00",
+          "method": "8141",
+          "round": "02",
+          "time": "00",
+          "event": "UFC Fight Night: Iaquinta vs. CowboyMay. 04, 2019",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Juan AdamsChris de la Rocha",
+          "result": "00",
+          "method": "8641",
+          "round": "21",
+          "time": "00",
+          "event": "UFC Fight Night: Lee vs. IaquintaDec. 15, 2018",
+          "date": "KO/TKOKnee"
+        },
+        {
+          "opponent": "Juan AdamsShawn Teed",
+          "result": "00",
+          "method": "576",
+          "round": "00",
+          "time": "00",
+          "event": "DWCS 2.7Jul. 31, 2018",
+          "date": "KO/TKOPunches"
+        }
+      ]
+    },
+    "Anthony Adams \"Sugafoot\"": {
+      "name": "Anthony Adams",
+      "first_name": "Anthony",
+      "last_name": "Adams",
+      "nickname": "Sugafoot",
+      "height": "6' 1\"",
+      "weight": "185 lbs.",
+      "reach": "76.0\"",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 8,
+        "losses": 2,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:33.444197",
+      "stats": {
+        "height": "6' 1\"",
+        "weight": "185 lbs.",
+        "reach": "76\"",
+        "stance": "Orthodox",
+        "dob": "Jan 13, 1988"
+      },
+      "fight_history": [
+        {
+          "opponent": "Anthony AdamsImpa Kasanganay",
+          "result": "00",
+          "method": "4494",
+          "round": "03",
+          "time": "00",
+          "event": "DWCS 4.2Aug. 11, 2020",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Anthony AdamsChibwikem Onyenegecha",
+          "result": "00",
+          "method": "5184",
+          "round": "00",
+          "time": "00",
+          "event": "DWCS 2.5Jul. 17, 2018",
+          "date": "S-DEC"
+        }
+      ]
+    },
+    "Zarrukh Adashev \"The Lion\"": {
+      "name": "Zarrukh Adashev",
+      "first_name": "Zarrukh",
+      "last_name": "Adashev",
+      "nickname": "The Lion",
+      "height": "5' 5\"",
+      "weight": "125 lbs.",
+      "reach": "65.0\"",
+      "stance": "Southpaw",
+      "record": {
+        "wins": 4,
+        "losses": 4,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:34.700205",
+      "stats": {
+        "height": "5' 5\"",
+        "weight": "125 lbs.",
+        "reach": "65\"",
+        "stance": "Southpaw",
+        "dob": "Jul 29, 1992"
+      },
+      "fight_history": [
+        {
+          "opponent": "Zarrukh AdashevOde Osbourne",
+          "result": "01",
+          "method": "77",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Volkov vs. RozenstruikJun. 04, 2022",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Zarrukh AdashevRyan Benoit",
+          "result": "01",
+          "method": "7837",
+          "round": "00",
+          "time": "10",
+          "event": "UFC Fight Night: Hall vs. StricklandJul. 31, 2021",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Zarrukh AdashevSumudaerji",
+          "result": "00",
+          "method": "2850",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Chiesa vs. MagnyJan. 20, 2021",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Zarrukh AdashevTyson Nam",
+          "result": "01",
+          "method": "22",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Eye vs. CalvilloJun. 13, 2020",
+          "date": "KO/TKOPunch"
+        }
+      ]
+    },
+    "Israel Adesanya \"The Last Stylebender\"": {
+      "name": "Israel Adesanya",
+      "first_name": "Israel",
+      "last_name": "Adesanya",
+      "nickname": "The Last Stylebender",
+      "height": "6' 4\"",
+      "weight": "185 lbs.",
+      "reach": "80.0\"",
+      "stance": "Switch",
+      "record": {
+        "wins": 24,
+        "losses": 5,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:35.776819",
+      "stats": {
+        "height": "6' 4\"",
+        "weight": "185 lbs.",
+        "reach": "80\"",
+        "stance": "Switch",
+        "dob": "Jul 22, 1989"
+      },
+      "fight_history": [
+        {
+          "opponent": "Israel AdesanyaNassourdine Imavov",
+          "result": "01",
+          "method": "2615",
+          "round": "00",
+          "time": "00",
+          "event": "UFC Fight Night: Adesanya vs. ImavovFeb. 01, 2025",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Israel AdesanyaDricus Du Plessis",
+          "result": "00",
+          "method": "9790",
+          "round": "04",
+          "time": "02",
+          "event": "UFC 305: Du Plessis vs. AdesanyaAug. 17, 2024",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "Israel AdesanyaSean Strickland",
+          "result": "01",
+          "method": "94137",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 293: Adesanya vs. StricklandSep. 09, 2023",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaAlex Pereira",
+          "result": "10",
+          "method": "4149",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 287: Pereira vs. Adesanya 2Apr. 08, 2023",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Israel AdesanyaAlex Pereira",
+          "result": "00",
+          "method": "8691",
+          "round": "11",
+          "time": "00",
+          "event": "UFC 281: Adesanya vs. PereiraNov. 12, 2022",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Israel AdesanyaJared Cannonier",
+          "result": "00",
+          "method": "11690",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 276: Adesanya vs. CannonierJul. 02, 2022",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaRobert Whittaker",
+          "result": "10",
+          "method": "7959",
+          "round": "04",
+          "time": "00",
+          "event": "UFC 271: Adesanya vs. Whittaker 2Feb. 12, 2022",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaMarvin Vettori",
+          "result": "00",
+          "method": "9658",
+          "round": "04",
+          "time": "00",
+          "event": "UFC 263: Adesanya vs. Vettori 2Jun. 12, 2021",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaJan Blachowicz",
+          "result": "00",
+          "method": "78107",
+          "round": "03",
+          "time": "00",
+          "event": "UFC 259: Blachowicz vs. AdesanyaMar. 06, 2021",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaPaulo Costa",
+          "result": "10",
+          "method": "5512",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 253: Adesanya vs. CostaSep. 26, 2020",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Israel AdesanyaYoel Romero",
+          "result": "00",
+          "method": "4840",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 248: Adesanya vs. RomeroMar. 07, 2020",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaRobert Whittaker",
+          "result": "20",
+          "method": "4032",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 243: Whittaker vs. AdesanyaOct. 05, 2019",
+          "date": "KO/TKOPunch"
+        },
+        {
+          "opponent": "Israel AdesanyaKelvin Gastelum",
+          "result": "40",
+          "method": "10991",
+          "round": "01",
+          "time": "20",
+          "event": "UFC 236: Holloway vs. Poirier 2Apr. 13, 2019",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaAnderson Silva",
+          "result": "00",
+          "method": "6531",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 234: Adesanya vs. SilvaFeb. 09, 2019",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaDerek Brunson",
+          "result": "30",
+          "method": "133",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 230: Cormier vs. LewisNov. 03, 2018",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Israel AdesanyaBrad Tavares",
+          "result": "00",
+          "method": "11940",
+          "round": "01",
+          "time": "10",
+          "event": "The Ultimate Fighter: Undefeated FinaleJul. 06, 2018",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaMarvin Vettori",
+          "result": "00",
+          "method": "5746",
+          "round": "02",
+          "time": "00",
+          "event": "UFC Fight Night: Poirier vs. GaethjeApr. 14, 2018",
+          "date": "S-DEC"
+        },
+        {
+          "opponent": "Israel AdesanyaRob Wilkinson",
+          "result": "10",
+          "method": "5222",
+          "round": "03",
+          "time": "00",
+          "event": "UFC 221: Romero vs. RockholdFeb. 10, 2018",
+          "date": "KO/TKOPunches"
+        }
+      ]
+    },
+    "Sam Adkins \"The Experience\"": {
+      "name": "Sam Adkins",
+      "first_name": "Sam",
+      "last_name": "Adkins",
+      "nickname": "The Experience",
+      "height": "6' 3\"",
+      "weight": "225 lbs.",
+      "reach": "--",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 7,
+        "losses": 20,
+        "draws": 2
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:36.969711",
+      "stats": {
+        "height": "6' 3\"",
+        "weight": "225 lbs.",
+        "reach": "--",
+        "stance": "Orthodox",
+        "dob": "Apr 26, 1965"
+      },
+      "fight_history": [
+        {
+          "opponent": "Sam AdkinsDavid Abbott",
+          "result": "00",
+          "method": "08",
+          "round": "01",
+          "time": "01",
+          "event": "UFC 11: The Proving GroundSep. 20, 1996",
+          "date": "SUBForearm Choke"
+        },
+        {
+          "opponent": "Sam AdkinsFelix Lee Mitchell",
+          "result": "----",
+          "method": "----",
+          "round": "----",
+          "time": "----",
+          "event": "UFC 10: The TournamentJul. 12, 1996",
+          "date": "U-DEC"
+        },
+        {
+          "opponent": "Sam AdkinsDon Frye",
+          "result": "00",
+          "method": "05",
+          "round": "01",
+          "time": "00",
+          "event": "UFC 8: David vs GoliathFeb. 16, 1996",
+          "date": "KO/TKO"
+        },
+        {
+          "opponent": "Sam AdkinsKeith Mielke",
+          "result": "----",
+          "method": "----",
+          "round": "----",
+          "time": "----",
+          "event": "UFC 8: David vs GoliathFeb. 16, 1996",
+          "date": "KO/TKOPunches"
+        }
+      ]
+    },
+    "Mohamed Ado": {
+      "name": "Mohamed Ado",
+      "first_name": "Mohamed",
+      "last_name": "Ado",
+      "nickname": "",
+      "height": "5' 11\"",
+      "weight": "170 lbs.",
+      "reach": "76.0\"",
+      "stance": "Switch",
+      "record": {
+        "wins": 5,
+        "losses": 1,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:38.198992",
+      "stats": {
+        "height": "5' 11\"",
+        "weight": "170 lbs.",
+        "reach": "76\"",
+        "stance": "Switch",
+        "dob": "May 03, 2000"
+      },
+      "fight_history": [
+        {
+          "opponent": "Mohamed AdoJonathan Micallef",
+          "result": "00",
+          "method": "51",
+          "round": "11",
+          "time": "11",
+          "event": "DWCS 8.10Oct. 15, 2024",
+          "date": "SUBTriangle Choke"
+        }
+      ]
+    },
+    "Nick Agallar": {
+      "name": "Nick Agallar",
+      "first_name": "Nick",
+      "last_name": "Agallar",
+      "nickname": "",
+      "height": "5' 8\"",
+      "weight": "155 lbs.",
+      "reach": "--",
+      "stance": "Orthodox",
+      "record": {
+        "wins": 24,
+        "losses": 6,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:39.636537",
+      "stats": {
+        "height": "5' 8\"",
+        "weight": "155 lbs.",
+        "reach": "--",
+        "stance": "Orthodox",
+        "dob": "Jan 13, 1979"
+      },
+      "fight_history": [
+        {
+          "opponent": "Nick AgallarYves Edwards",
+          "result": "01",
+          "method": "533",
+          "round": "00",
+          "time": "00",
+          "event": "UFC 45: RevolutionNov. 21, 2003",
+          "date": "KO/TKOPunch"
+        }
+      ]
+    },
+    "Mariya Agapova \"Money Mashka\"": {
+      "name": "Mariya Agapova",
+      "first_name": "Mariya",
+      "last_name": "Agapova",
+      "nickname": "Money Mashka",
+      "height": "5' 6\"",
+      "weight": "125 lbs.",
+      "reach": "68.0\"",
+      "stance": "Southpaw",
+      "record": {
+        "wins": 10,
+        "losses": 5,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:41.024291",
+      "stats": {
+        "height": "5' 6\"",
+        "weight": "125 lbs.",
+        "reach": "68\"",
+        "stance": "Southpaw",
+        "dob": "Apr 07, 1997"
+      },
+      "fight_history": [
+        {
+          "opponent": "Mariya AgapovaLuana Santos",
+          "result": "00",
+          "method": "32",
+          "round": "01",
+          "time": "03",
+          "event": "UFC Fight Night: Namajunas vs. CortezJul. 13, 2024",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "Mariya AgapovaGillian Robertson",
+          "result": "00",
+          "method": "394",
+          "round": "03",
+          "time": "11",
+          "event": "UFC Fight Night: Sandhagen vs. SongSep. 17, 2022",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "Mariya AgapovaMaryna Moroz",
+          "result": "00",
+          "method": "1628",
+          "round": "02",
+          "time": "03",
+          "event": "UFC 272: Covington vs. MasvidalMar. 05, 2022",
+          "date": "SUBArm Triangle"
+        },
+        {
+          "opponent": "Mariya AgapovaSabina Mazo",
+          "result": "10",
+          "method": "9362",
+          "round": "00",
+          "time": "10",
+          "event": "UFC Fight Night: Dern vs. RodriguezOct. 09, 2021",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "Mariya AgapovaShana Dobson",
+          "result": "00",
+          "method": "2224",
+          "round": "22",
+          "time": "00",
+          "event": "UFC Fight Night: Munhoz vs. EdgarAug. 22, 2020",
+          "date": "KO/TKOPunches"
+        },
+        {
+          "opponent": "Mariya AgapovaHannah Cifers",
+          "result": "10",
+          "method": "2911",
+          "round": "00",
+          "time": "10",
+          "event": "UFC Fight Night: Eye vs. CalvilloJun. 13, 2020",
+          "date": "SUBRear Naked Choke"
+        },
+        {
+          "opponent": "Mariya AgapovaTracy Cortez",
+          "result": "00",
+          "method": "3966",
+          "round": "04",
+          "time": "00",
+          "event": "DWCS 3.6Jul. 30, 2019",
+          "date": "U-DEC"
+        }
+      ]
+    },
+    "Kantharaj Agasa \"Kannadiga\"": {
+      "name": "Kantharaj Agasa",
+      "first_name": "Kantharaj",
+      "last_name": "Agasa",
+      "nickname": "Kannadiga",
+      "height": "--",
+      "weight": "135 lbs.",
+      "reach": "--",
+      "stance": "",
+      "record": {
+        "wins": 12,
+        "losses": 3,
+        "draws": 0
+      },
+      "source": "ufcstats.com",
+      "scraped_at": "2025-06-30T12:22:42.226191",
+      "stats": {
+        "height": "--",
+        "weight": "135 lbs.",
+        "reach": "--",
+        "stance": "",
+        "dob": "Feb 16, 1992"
+      },
+      "fight_history": []
+    },
+    "islam-makhachev": {
+      "source": "ufc.com",
+      "scraped_at": "2025-06-30T12:23:02.520133",
+      "name": "ISLAM MAKHACHEV",
+      "record": {
+        "wins": 2018,
+        "losses": 9,
+        "draws": 14
+      },
+      "division": "Lightweight Division\n27-1-0 (W-L-D)",
+      "stats": {
+        "fight_win_streak": 15,
+        "wins_by_submission": 13
+      }
+    },
+    "alexander-volkanovski": {
+      "source": "ufc.com",
+      "scraped_at": "2025-06-30T12:23:05.310331",
+      "name": "ALEXANDER VOLKANOVSKI",
+      "record": {
+        "wins": 2018,
+        "losses": 9,
+        "draws": 14
+      },
+      "division": "Featherweight Division\n27-4-0 (W-L-D)",
+      "stats": {
+        "wins_by_submission": 3
+      }
+    },
+    "charles-oliveira": {
+      "source": "ufc.com",
+      "scraped_at": "2025-06-30T12:23:08.156521",
+      "name": "CHARLES OLIVEIRA",
+      "record": {
+        "wins": 2018,
+        "losses": 9,
+        "draws": 14
+      },
+      "division": "Lightweight Division\n35-11-0 (W-L-D)",
+      "stats": {
+        "wins_by_submission": 21
+      }
+    },
+    "justin-gaethje": {
+      "source": "ufc.com",
+      "scraped_at": "2025-06-30T12:23:11.897699",
+      "name": "JUSTIN GAETHJE",
+      "record": {
+        "wins": 2018,
+        "losses": 9,
+        "draws": 14
+      },
+      "division": "Lightweight Division\n27-5-0 (W-L-D)"
+    },
+    "dustin-poirier": {
+      "source": "ufc.com",
+      "scraped_at": "2025-06-30T12:23:15.650289",
+      "name": "DUSTIN POIRIER",
+      "record": {
+        "wins": 2018,
+        "losses": 9,
+        "draws": 14
+      },
+      "division": "Lightweight Division\n30-9-0 (W-L-D)",
+      "stats": {
+        "wins_by_submission": 7
+      }
+    }
+  },
+  "rankings": {
+    "MEN'S POUND-FOR-POUND TOP RANK": [
+      {
+        "name": "ISLAM MAKHACHEV",
+        "url": "https://www.ufc.com/athlete/islam-makhachev",
+        "rank": 0
+      }
+    ],
+    "FLYWEIGHT": [
+      {
+        "name": "ALEXANDRE PANTOJA",
+        "url": "https://www.ufc.com/athlete/alexandre-pantoja",
+        "rank": 0
+      }
+    ],
+    "BANTAMWEIGHT": [
+      {
+        "name": "MERAB DVALISHVILI",
+        "url": "https://www.ufc.com/athlete/merab-dvalishvili",
+        "rank": 0
+      }
+    ],
+    "FEATHERWEIGHT": [
+      {
+        "name": "ALEXANDER VOLKANOVSKI",
+        "url": "https://www.ufc.com/athlete/alexander-volkanovski",
+        "rank": 0
+      }
+    ]
+  },
+  "events": [
+    {
+      "title": "LEWIS VS TEIXEIRA",
+      "date": "",
+      "location": "Bridgestone Arena\nNashville\n,\nTN\n\nUnited States",
+      "source": "ufc.com"
+    },
+    {
+      "title": "LEWIS VS TEIXEIRA",
+      "date": "",
+      "location": "Bridgestone Arena\nNashville\n,\nTN\n\nUnited States",
+      "source": "ufc.com"
+    },
+    {
+      "title": "LEWIS VS TEIXEIRA",
+      "date": "",
+      "location": "Bridgestone Arena\nNashville\n,\nTN\n\nUnited States",
+      "source": "ufc.com"
+    }
+  ],
+  "fight_history": {
+    "Tom Aaron": [
+      {
+        "opponent": "Tom AaronMatt Ricehouse",
+        "result": "----",
+        "method": "----",
+        "round": "----",
+        "time": "----",
+        "event": "Strikeforce - Henderson vs. BabaluDec. 04, 2010",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Tom AaronEric Steenberg",
+        "result": "----",
+        "method": "----",
+        "round": "----",
+        "time": "----",
+        "event": "Strikeforce - Heavy ArtilleryMay. 15, 2010",
+        "date": "SUBGuillotine Choke"
+      }
+    ],
+    "Danny Abbadi \"The Assassin\"": [
+      {
+        "opponent": "Danny AbbadiJorge Gurgel",
+        "result": "00",
+        "method": "5658",
+        "round": "01",
+        "time": "01",
+        "event": "UFC 63: Hughes vs PennSep. 23, 2006",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Danny AbbadiKalib Starnes",
+        "result": "00",
+        "method": "321",
+        "round": "01",
+        "time": "01",
+        "event": "The Ultimate Fighter: Team Ortiz vs. Team Shamrock FinaleJun. 24, 2006",
+        "date": "SUBRear Naked Choke"
+      }
+    ],
+    "Nariman Abbasov \"Bayraktar\"": [
+      {
+        "opponent": "Nariman AbbasovIsmael Bonfim",
+        "result": "01",
+        "method": "4585",
+        "round": "01",
+        "time": "00",
+        "event": "DWCS 6.7Sep. 06, 2022",
+        "date": "U-DEC"
+      }
+    ],
+    "David Abbott \"Tank\"": [
+      {
+        "opponent": "David AbbottKevin Ferguson",
+        "result": "02",
+        "method": "113",
+        "round": "00",
+        "time": "00",
+        "event": "EliteXC - Street CertifiedFeb. 16, 2008",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "David AbbottPaul Buentello",
+        "result": "01",
+        "method": "49",
+        "round": "00",
+        "time": "00",
+        "event": "Strikeforce - Tank vs. BuentelloOct. 07, 2006",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "David AbbottHidehiko Yoshida",
+        "result": "00",
+        "method": "214",
+        "round": "10",
+        "time": "01",
+        "event": "PRIDE Final Conflict 2005Aug. 28, 2005",
+        "date": "SUBGi Choke"
+      },
+      {
+        "opponent": "David AbbottWesley Correira",
+        "result": "01",
+        "method": "1113",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 45: RevolutionNov. 21, 2003",
+        "date": "KO/TKO"
+      },
+      {
+        "opponent": "David AbbottKimo Leopoldo",
+        "result": "00",
+        "method": "01",
+        "round": "01",
+        "time": "01",
+        "event": "UFC 43: MeltdownJun. 06, 2003",
+        "date": "SUBArm Triangle"
+      },
+      {
+        "opponent": "David AbbottFrank Mir",
+        "result": "00",
+        "method": "10",
+        "round": "00",
+        "time": "02",
+        "event": "UFC 41: OnslaughtFeb. 28, 2003",
+        "date": "SUBToe Hold"
+      },
+      {
+        "opponent": "David AbbottPedro Rizzo",
+        "result": "02",
+        "method": "1624",
+        "round": "10",
+        "time": "00",
+        "event": "UFC - Ultimate BrazilOct. 16, 1998",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "David AbbottHugo Duarte",
+        "result": "00",
+        "method": "110",
+        "round": "01",
+        "time": "00",
+        "event": "UFC 17: RedemptionMay. 15, 1998",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "David AbbottYoji Anjo",
+        "result": "00",
+        "method": "139",
+        "round": "30",
+        "time": "01",
+        "event": "UFC - Ultimate JapanDec. 21, 1997",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "David AbbottMaurice Smith",
+        "result": "10",
+        "method": "512",
+        "round": "00",
+        "time": "01",
+        "event": "UFC 15: Collision CourseOct. 17, 1997",
+        "date": "SUBOther"
+      },
+      {
+        "opponent": "David AbbottVitor Belfort",
+        "result": "00",
+        "method": "215",
+        "round": "01",
+        "time": "00",
+        "event": "UFC 13: The Ultimate ForceMay. 30, 1997",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "David AbbottDon Frye",
+        "result": "00",
+        "method": "136",
+        "round": "00",
+        "time": "02",
+        "event": "UFC - Ultimate Ultimate '96Dec. 07, 1996",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "David AbbottSteve Nelmark",
+        "result": "10",
+        "method": "92",
+        "round": "10",
+        "time": "00",
+        "event": "UFC - Ultimate Ultimate '96Dec. 07, 1996",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "David AbbottCal Worsham",
+        "result": "00",
+        "method": "45",
+        "round": "00",
+        "time": "10",
+        "event": "UFC - Ultimate Ultimate '96Dec. 07, 1996",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "David AbbottScott Ferrozzo",
+        "result": "00",
+        "method": "2160",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 11: The Proving GroundSep. 20, 1996",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "David AbbottSam Adkins",
+        "result": "00",
+        "method": "80",
+        "round": "10",
+        "time": "10",
+        "event": "UFC 11: The Proving GroundSep. 20, 1996",
+        "date": "SUBForearm Choke"
+      },
+      {
+        "opponent": "David AbbottDan Severn",
+        "result": "00",
+        "method": "357",
+        "round": "01",
+        "time": "00",
+        "event": "UFC - Ultimate Ultimate '95Dec. 16, 1995",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "David AbbottSteve Jennum",
+        "result": "00",
+        "method": "10",
+        "round": "10",
+        "time": "10",
+        "event": "UFC - Ultimate Ultimate '95Dec. 16, 1995",
+        "date": "SUBNeck Crank"
+      },
+      {
+        "opponent": "David AbbottOleg Taktarov",
+        "result": "00",
+        "method": "174",
+        "round": "20",
+        "time": "14",
+        "event": "UFC 6: Clash of the TitansJul. 14, 1995",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "David AbbottPaul Varelans",
+        "result": "00",
+        "method": "141",
+        "round": "10",
+        "time": "00",
+        "event": "UFC 6: Clash of the TitansJul. 14, 1995",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "David AbbottJohn Matua",
+        "result": "20",
+        "method": "70",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 6: Clash of the TitansJul. 14, 1995",
+        "date": "KO/TKOPunches"
+      }
+    ],
+    "Hamdy Abdelwahab \"The Hammer\"": [
+      {
+        "opponent": "Hamdy AbdelwahabMohammed Usman",
+        "result": "00",
+        "method": "5586",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Hill vs. Rountree Jr.Jun. 21, 2025",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Hamdy AbdelwahabJamal Pogues",
+        "result": "00",
+        "method": "4469",
+        "round": "10",
+        "time": "00",
+        "event": "UFC Fight Night: Adesanya vs. ImavovFeb. 01, 2025",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Hamdy AbdelwahabDon'Tale Mayes",
+        "result": "10",
+        "method": "5847",
+        "round": "30",
+        "time": "00",
+        "event": "UFC 277: Pena vs. Nunes 2Jul. 30, 2022",
+        "date": "Overturned"
+      }
+    ],
+    "Mansur Abdul-Malik": [
+      {
+        "opponent": "Mansur Abdul-MalikCody Brundage",
+        "result": "00",
+        "method": "2530",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Usman vs. BuckleyJun. 14, 2025",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Mansur Abdul-MalikNick Klein",
+        "result": "00",
+        "method": "2928",
+        "round": "11",
+        "time": "00",
+        "event": "UFC Fight Night: Cejudo vs. SongFeb. 22, 2025",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Mansur Abdul-MalikDusko Todorovic",
+        "result": "10",
+        "method": "293",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Magny vs. PratesNov. 09, 2024",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Mansur Abdul-MalikWes Schultz",
+        "result": "00",
+        "method": "4846",
+        "round": "02",
+        "time": "00",
+        "event": "DWCS 8.1Aug. 13, 2024",
+        "date": "KO/TKOElbows"
+      }
+    ],
+    "Shamil Abdurakhimov \"Abrek\"": [
+      {
+        "opponent": "Shamil AbdurakhimovJailton Almeida",
+        "result": "00",
+        "method": "145",
+        "round": "03",
+        "time": "00",
+        "event": "UFC 283: Teixeira vs. HillJan. 21, 2023",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovSergei Pavlovich",
+        "result": "01",
+        "method": "1721",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Volkov vs. AspinallMar. 19, 2022",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovChris Daukaus",
+        "result": "02",
+        "method": "2338",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 266: Volkanovski vs. OrtegaSep. 25, 2021",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovCurtis Blaydes",
+        "result": "00",
+        "method": "325",
+        "round": "05",
+        "time": "00",
+        "event": "UFC 242: Khabib vs. PoirierSep. 07, 2019",
+        "date": "KO/TKOElbow"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovMarcin Tybura",
+        "result": "10",
+        "method": "3628",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Overeem vs. OleinikApr. 20, 2019",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovAndrei Arlovski",
+        "result": "00",
+        "method": "3218",
+        "round": "22",
+        "time": "00",
+        "event": "UFC Fight Night: Hunt vs. OleinikSep. 15, 2018",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovChase Sherman",
+        "result": "10",
+        "method": "65",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Bisping vs. GastelumNov. 25, 2017",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovDerrick Lewis",
+        "result": "00",
+        "method": "1539",
+        "round": "41",
+        "time": "10",
+        "event": "UFC Fight Night: Lewis vs. AbdurakhimovDec. 09, 2016",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovWalt Harris",
+        "result": "00",
+        "method": "4733",
+        "round": "10",
+        "time": "01",
+        "event": "UFC Fight Night: Lineker vs. DodsonOct. 01, 2016",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovAnthony Hamilton",
+        "result": "00",
+        "method": "6240",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Cowboy vs CowboyFeb. 21, 2016",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Shamil AbdurakhimovTimothy Johnson",
+        "result": "00",
+        "method": "922",
+        "round": "01",
+        "time": "00",
+        "event": "UFC Fight Night: Mendes vs LamasApr. 04, 2015",
+        "date": "KO/TKOPunches"
+      }
+    ],
+    "Hiroyuki Abe \"Abe Ani\"": [
+      {
+        "opponent": "Hiroyuki AbeNaoki Matsushita",
+        "result": "00",
+        "method": "2233",
+        "round": "01",
+        "time": "00",
+        "event": "PRIDE Bushido 12Aug. 27, 2006",
+        "date": "Other"
+      },
+      {
+        "opponent": "Hiroyuki AbeLuiz Firmino",
+        "result": "01",
+        "method": "07",
+        "round": "01",
+        "time": "01",
+        "event": "PRIDE Bushido 4Jul. 19, 2004",
+        "date": "SUBArm Triangle"
+      }
+    ],
+    "Daichi Abe": [
+      {
+        "opponent": "Daichi AbeLi Jingliang",
+        "result": "00",
+        "method": "4596",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Cowboy vs. EdwardsJun. 23, 2018",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Daichi AbeLuke Jumeau",
+        "result": "00",
+        "method": "6363",
+        "round": "01",
+        "time": "00",
+        "event": "UFC 221: Romero vs. RockholdFeb. 10, 2018",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Daichi AbeHyun Gyu Lim",
+        "result": "10",
+        "method": "6343",
+        "round": "10",
+        "time": "00",
+        "event": "UFC Fight Night: Saint Preux vs. OkamiSep. 22, 2017",
+        "date": "U-DEC"
+      }
+    ],
+    "Papy Abedi \"Makambo\"": [
+      {
+        "opponent": "Papy AbediDylan Andrews",
+        "result": "00",
+        "method": "1920",
+        "round": "32",
+        "time": "30",
+        "event": "UFC Fight Night: Condit vs Kampmann 2Aug. 28, 2013",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Papy AbediBesam Yousef",
+        "result": "00",
+        "method": "5343",
+        "round": "42",
+        "time": "00",
+        "event": "UFC on FUEL TV: Mousasi vs LatifiApr. 06, 2013",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Papy AbediJames Head",
+        "result": "00",
+        "method": "1121",
+        "round": "10",
+        "time": "01",
+        "event": "UFC on FUEL TV: Gustafsson vs SilvaApr. 14, 2012",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "Papy AbediThiago Alves",
+        "result": "01",
+        "method": "1425",
+        "round": "00",
+        "time": "01",
+        "event": "UFC 138: Leben vs MunozNov. 05, 2011",
+        "date": "SUBRear Naked Choke"
+      }
+    ],
+    "Ricardo Abreu \"Demente\"": [
+      {
+        "opponent": "Ricardo AbreuJake Collier",
+        "result": "00",
+        "method": "4767",
+        "round": "30",
+        "time": "00",
+        "event": "UFC Fight Night: Boetsch vs HendersonJun. 06, 2015",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Ricardo AbreuWagner Silva",
+        "result": "20",
+        "method": "3317",
+        "round": "00",
+        "time": "10",
+        "event": "UFC Fight Night: Miocic vs MaldonadoMay. 31, 2014",
+        "date": "SUBRear Naked Choke"
+      }
+    ],
+    "Klidson Abreu \"White Bear\"": [
+      {
+        "opponent": "Klidson AbreuJamahal Hill",
+        "result": "02",
+        "method": "514",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Woodley vs. BurnsMay. 30, 2020",
+        "date": "OverturnedKnee"
+      },
+      {
+        "opponent": "Klidson AbreuShamil Gamzatov",
+        "result": "00",
+        "method": "3264",
+        "round": "10",
+        "time": "00",
+        "event": "UFC Fight Night: Zabit vs. KattarNov. 09, 2019",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Klidson AbreuSam Alvey",
+        "result": "00",
+        "method": "3628",
+        "round": "10",
+        "time": "00",
+        "event": "UFC Fight Night: Dos Anjos vs. EdwardsJul. 20, 2019",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Klidson AbreuMagomed Ankalaev",
+        "result": "01",
+        "method": "2330",
+        "round": "01",
+        "time": "00",
+        "event": "UFC Fight Night: Blachowicz vs. SantosFeb. 23, 2019",
+        "date": "U-DEC"
+      }
+    ],
+    "Cyborg Abreu": [],
+    "Daniel Acacio": [
+      {
+        "opponent": "Daniel AcacioRousimar Palhares",
+        "result": "00",
+        "method": "06",
+        "round": "02",
+        "time": "01",
+        "event": "Fury FC 5: Final ConflictDec. 06, 2007",
+        "date": "SUBHeel Hook"
+      },
+      {
+        "opponent": "Daniel AcacioAkihiro Gono",
+        "result": "10",
+        "method": "4755",
+        "round": "00",
+        "time": "00",
+        "event": "PRIDE Bushido 9: The TournamentSep. 25, 2005",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Daniel AcacioKazuo Misaki",
+        "result": "00",
+        "method": "6658",
+        "round": "10",
+        "time": "00",
+        "event": "PRIDE Bushido 8Jul. 17, 2005",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Daniel AcacioDaiju Takase",
+        "result": "00",
+        "method": "459",
+        "round": "00",
+        "time": "01",
+        "event": "PRIDE Bushido 6Apr. 03, 2005",
+        "date": "KO/TKO"
+      }
+    ],
+    "John Adajar \"The Outlaw\"": [
+      {
+        "opponent": "John AdajarHanSeul Kim",
+        "result": "01",
+        "method": "1829",
+        "round": "00",
+        "time": "03",
+        "event": "Road to UFC 1.4Jun. 10, 2022",
+        "date": "SUBTriangle Armbar"
+      }
+    ],
+    "Scott Adams": [
+      {
+        "opponent": "Scott AdamsIan Freeman",
+        "result": "00",
+        "method": "00",
+        "round": "10",
+        "time": "41",
+        "event": "UFC 24: First DefenseMar. 10, 2000",
+        "date": "SUBHeel Hook"
+      }
+    ],
+    "Juan Adams \"The Kraken\"": [
+      {
+        "opponent": "Juan AdamsJustin Tafa",
+        "result": "01",
+        "method": "710",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 247: Jones vs. ReyesFeb. 08, 2020",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Juan AdamsGreg Hardy",
+        "result": "00",
+        "method": "336",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Dos Anjos vs. EdwardsJul. 20, 2019",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Juan AdamsArjan Bhullar",
+        "result": "00",
+        "method": "8141",
+        "round": "02",
+        "time": "00",
+        "event": "UFC Fight Night: Iaquinta vs. CowboyMay. 04, 2019",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Juan AdamsChris de la Rocha",
+        "result": "00",
+        "method": "8641",
+        "round": "21",
+        "time": "00",
+        "event": "UFC Fight Night: Lee vs. IaquintaDec. 15, 2018",
+        "date": "KO/TKOKnee"
+      },
+      {
+        "opponent": "Juan AdamsShawn Teed",
+        "result": "00",
+        "method": "576",
+        "round": "00",
+        "time": "00",
+        "event": "DWCS 2.7Jul. 31, 2018",
+        "date": "KO/TKOPunches"
+      }
+    ],
+    "Anthony Adams \"Sugafoot\"": [
+      {
+        "opponent": "Anthony AdamsImpa Kasanganay",
+        "result": "00",
+        "method": "4494",
+        "round": "03",
+        "time": "00",
+        "event": "DWCS 4.2Aug. 11, 2020",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Anthony AdamsChibwikem Onyenegecha",
+        "result": "00",
+        "method": "5184",
+        "round": "00",
+        "time": "00",
+        "event": "DWCS 2.5Jul. 17, 2018",
+        "date": "S-DEC"
+      }
+    ],
+    "Zarrukh Adashev \"The Lion\"": [
+      {
+        "opponent": "Zarrukh AdashevOde Osbourne",
+        "result": "01",
+        "method": "77",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Volkov vs. RozenstruikJun. 04, 2022",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Zarrukh AdashevRyan Benoit",
+        "result": "01",
+        "method": "7837",
+        "round": "00",
+        "time": "10",
+        "event": "UFC Fight Night: Hall vs. StricklandJul. 31, 2021",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Zarrukh AdashevSumudaerji",
+        "result": "00",
+        "method": "2850",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Chiesa vs. MagnyJan. 20, 2021",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Zarrukh AdashevTyson Nam",
+        "result": "01",
+        "method": "22",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Eye vs. CalvilloJun. 13, 2020",
+        "date": "KO/TKOPunch"
+      }
+    ],
+    "Israel Adesanya \"The Last Stylebender\"": [
+      {
+        "opponent": "Israel AdesanyaNassourdine Imavov",
+        "result": "01",
+        "method": "2615",
+        "round": "00",
+        "time": "00",
+        "event": "UFC Fight Night: Adesanya vs. ImavovFeb. 01, 2025",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Israel AdesanyaDricus Du Plessis",
+        "result": "00",
+        "method": "9790",
+        "round": "04",
+        "time": "02",
+        "event": "UFC 305: Du Plessis vs. AdesanyaAug. 17, 2024",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "Israel AdesanyaSean Strickland",
+        "result": "01",
+        "method": "94137",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 293: Adesanya vs. StricklandSep. 09, 2023",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaAlex Pereira",
+        "result": "10",
+        "method": "4149",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 287: Pereira vs. Adesanya 2Apr. 08, 2023",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Israel AdesanyaAlex Pereira",
+        "result": "00",
+        "method": "8691",
+        "round": "11",
+        "time": "00",
+        "event": "UFC 281: Adesanya vs. PereiraNov. 12, 2022",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Israel AdesanyaJared Cannonier",
+        "result": "00",
+        "method": "11690",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 276: Adesanya vs. CannonierJul. 02, 2022",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaRobert Whittaker",
+        "result": "10",
+        "method": "7959",
+        "round": "04",
+        "time": "00",
+        "event": "UFC 271: Adesanya vs. Whittaker 2Feb. 12, 2022",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaMarvin Vettori",
+        "result": "00",
+        "method": "9658",
+        "round": "04",
+        "time": "00",
+        "event": "UFC 263: Adesanya vs. Vettori 2Jun. 12, 2021",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaJan Blachowicz",
+        "result": "00",
+        "method": "78107",
+        "round": "03",
+        "time": "00",
+        "event": "UFC 259: Blachowicz vs. AdesanyaMar. 06, 2021",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaPaulo Costa",
+        "result": "10",
+        "method": "5512",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 253: Adesanya vs. CostaSep. 26, 2020",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Israel AdesanyaYoel Romero",
+        "result": "00",
+        "method": "4840",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 248: Adesanya vs. RomeroMar. 07, 2020",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaRobert Whittaker",
+        "result": "20",
+        "method": "4032",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 243: Whittaker vs. AdesanyaOct. 05, 2019",
+        "date": "KO/TKOPunch"
+      },
+      {
+        "opponent": "Israel AdesanyaKelvin Gastelum",
+        "result": "40",
+        "method": "10991",
+        "round": "01",
+        "time": "20",
+        "event": "UFC 236: Holloway vs. Poirier 2Apr. 13, 2019",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaAnderson Silva",
+        "result": "00",
+        "method": "6531",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 234: Adesanya vs. SilvaFeb. 09, 2019",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaDerek Brunson",
+        "result": "30",
+        "method": "133",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 230: Cormier vs. LewisNov. 03, 2018",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Israel AdesanyaBrad Tavares",
+        "result": "00",
+        "method": "11940",
+        "round": "01",
+        "time": "10",
+        "event": "The Ultimate Fighter: Undefeated FinaleJul. 06, 2018",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaMarvin Vettori",
+        "result": "00",
+        "method": "5746",
+        "round": "02",
+        "time": "00",
+        "event": "UFC Fight Night: Poirier vs. GaethjeApr. 14, 2018",
+        "date": "S-DEC"
+      },
+      {
+        "opponent": "Israel AdesanyaRob Wilkinson",
+        "result": "10",
+        "method": "5222",
+        "round": "03",
+        "time": "00",
+        "event": "UFC 221: Romero vs. RockholdFeb. 10, 2018",
+        "date": "KO/TKOPunches"
+      }
+    ],
+    "Sam Adkins \"The Experience\"": [
+      {
+        "opponent": "Sam AdkinsDavid Abbott",
+        "result": "00",
+        "method": "08",
+        "round": "01",
+        "time": "01",
+        "event": "UFC 11: The Proving GroundSep. 20, 1996",
+        "date": "SUBForearm Choke"
+      },
+      {
+        "opponent": "Sam AdkinsFelix Lee Mitchell",
+        "result": "----",
+        "method": "----",
+        "round": "----",
+        "time": "----",
+        "event": "UFC 10: The TournamentJul. 12, 1996",
+        "date": "U-DEC"
+      },
+      {
+        "opponent": "Sam AdkinsDon Frye",
+        "result": "00",
+        "method": "05",
+        "round": "01",
+        "time": "00",
+        "event": "UFC 8: David vs GoliathFeb. 16, 1996",
+        "date": "KO/TKO"
+      },
+      {
+        "opponent": "Sam AdkinsKeith Mielke",
+        "result": "----",
+        "method": "----",
+        "round": "----",
+        "time": "----",
+        "event": "UFC 8: David vs GoliathFeb. 16, 1996",
+        "date": "KO/TKOPunches"
+      }
+    ],
+    "Mohamed Ado": [
+      {
+        "opponent": "Mohamed AdoJonathan Micallef",
+        "result": "00",
+        "method": "51",
+        "round": "11",
+        "time": "11",
+        "event": "DWCS 8.10Oct. 15, 2024",
+        "date": "SUBTriangle Choke"
+      }
+    ],
+    "Nick Agallar": [
+      {
+        "opponent": "Nick AgallarYves Edwards",
+        "result": "01",
+        "method": "533",
+        "round": "00",
+        "time": "00",
+        "event": "UFC 45: RevolutionNov. 21, 2003",
+        "date": "KO/TKOPunch"
+      }
+    ],
+    "Mariya Agapova \"Money Mashka\"": [
+      {
+        "opponent": "Mariya AgapovaLuana Santos",
+        "result": "00",
+        "method": "32",
+        "round": "01",
+        "time": "03",
+        "event": "UFC Fight Night: Namajunas vs. CortezJul. 13, 2024",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "Mariya AgapovaGillian Robertson",
+        "result": "00",
+        "method": "394",
+        "round": "03",
+        "time": "11",
+        "event": "UFC Fight Night: Sandhagen vs. SongSep. 17, 2022",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "Mariya AgapovaMaryna Moroz",
+        "result": "00",
+        "method": "1628",
+        "round": "02",
+        "time": "03",
+        "event": "UFC 272: Covington vs. MasvidalMar. 05, 2022",
+        "date": "SUBArm Triangle"
+      },
+      {
+        "opponent": "Mariya AgapovaSabina Mazo",
+        "result": "10",
+        "method": "9362",
+        "round": "00",
+        "time": "10",
+        "event": "UFC Fight Night: Dern vs. RodriguezOct. 09, 2021",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "Mariya AgapovaShana Dobson",
+        "result": "00",
+        "method": "2224",
+        "round": "22",
+        "time": "00",
+        "event": "UFC Fight Night: Munhoz vs. EdgarAug. 22, 2020",
+        "date": "KO/TKOPunches"
+      },
+      {
+        "opponent": "Mariya AgapovaHannah Cifers",
+        "result": "10",
+        "method": "2911",
+        "round": "00",
+        "time": "10",
+        "event": "UFC Fight Night: Eye vs. CalvilloJun. 13, 2020",
+        "date": "SUBRear Naked Choke"
+      },
+      {
+        "opponent": "Mariya AgapovaTracy Cortez",
+        "result": "00",
+        "method": "3966",
+        "round": "04",
+        "time": "00",
+        "event": "DWCS 3.6Jul. 30, 2019",
+        "date": "U-DEC"
+      }
+    ],
+    "Kantharaj Agasa \"Kannadiga\"": []
+  },
+  "scraped_at": "2025-06-30T12:22:11.505108",
+  "sources": [
+    "ufcstats.com",
+    "ufc.com/rankings",
+    "ufc.com/events",
+    "espn.com/mma",
+    "ufc.com/athletes",
+    "statleaders.ufc.com"
+  ]
+}

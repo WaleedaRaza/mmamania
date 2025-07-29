@@ -3,6 +3,8 @@ import '../models/fighter.dart';
 import '../models/fight.dart';
 import '../models/event.dart';
 import '../models/ranking_item.dart';
+import '../models/prediction.dart';
+import '../models/user_stats.dart';
 
 class SimpleDatabaseService {
   static SimpleDatabaseService? _instance;
@@ -223,7 +225,7 @@ class SimpleDatabaseService {
       
       // Filter in Dart instead of SQL
       if (upcoming) {
-        events = events.where((e) => e.status == 'scheduled').toList();
+        events = events.where((e) => e.type == 'upcoming').toList();
       }
       
       return events;
@@ -245,6 +247,136 @@ class SimpleDatabaseService {
     } catch (e) {
       print('Error getting event: $e');
       return null;
+    }
+  }
+
+  // Predictions
+  Future<List<Prediction>> getUserPredictions(String userId) async {
+    try {
+      final response = await _client
+          .from('predictions')
+          .select('*, fights(*)')
+          .eq('user_id', userId)
+          .order('created_at', ascending: false);
+      
+      return response.map((json) => Prediction.fromJson(json)).toList();
+    } catch (e) {
+      print('Error getting user predictions: $e');
+      return [];
+    }
+  }
+
+  Future<Prediction?> getPrediction(String id) async {
+    try {
+      final response = await _client
+          .from('predictions')
+          .select('*, fights(*)')
+          .eq('id', id)
+          .maybeSingle();
+      
+      return response != null ? Prediction.fromJson(response) : null;
+    } catch (e) {
+      print('Error getting prediction: $e');
+      return null;
+    }
+  }
+
+  Future<Prediction?> createPrediction({
+    required String userId,
+    required String fightId,
+    required String predictedWinnerId,
+    String? predictedMethod,
+    int? predictedRound,
+  }) async {
+    try {
+      final response = await _client
+          .from('predictions')
+          .insert({
+            'user_id': userId,
+            'fight_id': fightId,
+            'predicted_winner_id': predictedWinnerId,
+            'predicted_method': predictedMethod,
+            'predicted_round': predictedRound,
+            'result': 'pending',
+          })
+          .select()
+          .single();
+      
+      return Prediction.fromJson(response);
+    } catch (e) {
+      print('Error creating prediction: $e');
+      return null;
+    }
+  }
+
+  Future<bool> updatePredictionResult(String predictionId, PredictionResult result, {
+    String? actualWinnerId,
+    String? actualMethod,
+    int? actualRound,
+    int? eloChange,
+  }) async {
+    try {
+      await _client
+          .from('predictions')
+          .update({
+            'result': result.toString().split('.').last,
+            'actual_winner_id': actualWinnerId,
+            'actual_method': actualMethod,
+            'actual_round': actualRound,
+            'elo_change': eloChange,
+          })
+          .eq('id', predictionId);
+      
+      return true;
+    } catch (e) {
+      print('Error updating prediction result: $e');
+      return false;
+    }
+  }
+
+  // User Stats
+  Future<UserStats?> getUserStats(String userId) async {
+    try {
+      final response = await _client
+          .from('user_stats')
+          .select()
+          .eq('user_id', userId)
+          .maybeSingle();
+      
+      if (response != null) {
+        return UserStats.fromJson(response);
+      } else {
+        // Create default stats for new user
+        final defaultStats = UserStats(
+          userId: userId,
+          lastPredictionDate: DateTime.now(),
+        );
+        
+        final createdResponse = await _client
+            .from('user_stats')
+            .insert(defaultStats.toJson())
+            .select()
+            .single();
+        
+        return UserStats.fromJson(createdResponse);
+      }
+    } catch (e) {
+      print('Error getting user stats: $e');
+      return null;
+    }
+  }
+
+  Future<bool> updateUserStats(UserStats stats) async {
+    try {
+      await _client
+          .from('user_stats')
+          .upsert(stats.toJson())
+          .eq('user_id', stats.userId);
+      
+      return true;
+    } catch (e) {
+      print('Error updating user stats: $e');
+      return false;
     }
   }
 

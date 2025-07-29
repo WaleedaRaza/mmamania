@@ -29,12 +29,21 @@ class FightHubApp extends StatelessWidget {
       title: 'FightHub',
       theme: ThemeData(
         primarySwatch: Colors.red,
+        brightness: Brightness.dark,
+        scaffoldBackgroundColor: Color(0xFF1A1A1A),
         primaryColor: Colors.red.shade600,
-        scaffoldBackgroundColor: Colors.grey.shade50,
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Colors.red,
+        appBarTheme: AppBarTheme(
+          backgroundColor: Color(0xFF2D2D2D),
           foregroundColor: Colors.white,
           elevation: 0,
+          centerTitle: true,
+        ),
+        cardTheme: CardThemeData(
+          color: Color(0xFF2D2D2D),
+          elevation: 4,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(12),
+          ),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
@@ -53,12 +62,6 @@ class FightHubApp extends StatelessWidget {
           focusedBorder: OutlineInputBorder(
             borderRadius: BorderRadius.circular(8),
             borderSide: BorderSide(color: Colors.red.shade600),
-          ),
-        ),
-        cardTheme: CardThemeData(
-          elevation: 2,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(12),
           ),
         ),
       ),
@@ -84,8 +87,10 @@ class MainScaffold extends StatefulWidget {
   _MainScaffoldState createState() => _MainScaffoldState();
 }
 
-class _MainScaffoldState extends State<MainScaffold> {
+class _MainScaffoldState extends State<MainScaffold> with TickerProviderStateMixin {
   int _currentIndex = 0;
+  late AnimationController _animationController;
+  late Animation<double> _fadeAnimation;
   
   static final List<Widget> _screens = <Widget>[
     HomeScreen(),
@@ -99,9 +104,34 @@ class _MainScaffoldState extends State<MainScaffold> {
   ];
 
   @override
+  void initState() {
+    super.initState();
+    _animationController = AnimationController(
+      duration: const Duration(milliseconds: 300),
+      vsync: this,
+    );
+    _fadeAnimation = Tween<double>(begin: 0.0, end: 1.0).animate(
+      CurvedAnimation(parent: _animationController, curve: Curves.easeInOut),
+    );
+    _animationController.forward();
+  }
+
+  @override
+  void dispose() {
+    _animationController.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: _screens[_currentIndex],
+      body: FadeTransition(
+        opacity: _fadeAnimation,
+        child: IndexedStack(
+          index: _currentIndex,
+          children: _screens,
+        ),
+      ),
       bottomNavigationBar: Container(
         decoration: BoxDecoration(
           gradient: LinearGradient(
@@ -131,7 +161,7 @@ class _MainScaffoldState extends State<MainScaffold> {
                 _buildNavItem(1, Icons.sports_martial_arts, 'Rankings'),
                 _buildNavItem(2, Icons.sports_mma, 'Fights'),
                 _buildNavItem(3, Icons.forum, 'Feed'),
-                _buildNavItem(4, Icons.analytics, 'Stats'),
+                _buildNavItem(4, Icons.analytics, 'Analytics'),
                 _buildNavItem(5, Icons.chat, 'Debates'),
                 _buildNavItem(6, Icons.person, 'Profile'),
                 _buildNavItem(7, Icons.bug_report, 'Test'), // Temporary test nav
@@ -151,8 +181,11 @@ class _MainScaffoldState extends State<MainScaffold> {
         setState(() {
           _currentIndex = index;
         });
+        _animationController.reset();
+        _animationController.forward();
       },
-      child: Container(
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 200),
         padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
         decoration: BoxDecoration(
           gradient: isSelected
@@ -187,8 +220,6 @@ class _MainScaffoldState extends State<MainScaffold> {
 }
 
 class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(

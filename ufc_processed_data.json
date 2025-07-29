@@ -1,0 +1,7171 @@
+{
+  "rankings": [
+    {
+      "id": "78f73bfd",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 0,
+      "fighter_name": "Islam Makhachev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/islam-makhachev",
+      "scraped_at": "2025-06-29T22:34:03.043379"
+    },
+    {
+      "id": "78f73bfd",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 1,
+      "fighter_name": "Islam Makhachev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/islam-makhachev",
+      "scraped_at": "2025-06-29T22:34:03.043453"
+    },
+    {
+      "id": "5ea45965",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 2,
+      "fighter_name": "Merab Dvalishvili",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "scraped_at": "2025-06-29T22:34:03.043471"
+    },
+    {
+      "id": "875c9f59",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 3,
+      "fighter_name": "Ilia Topuria",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ilia-topuria",
+      "scraped_at": "2025-06-29T22:34:03.043484"
+    },
+    {
+      "id": "7000b0fb",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 4,
+      "fighter_name": "Dricus Du Plessis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "scraped_at": "2025-06-29T22:34:03.043496"
+    },
+    {
+      "id": "69646a0a",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 5,
+      "fighter_name": "Magomed Ankalaev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "scraped_at": "2025-06-29T22:34:03.043507"
+    },
+    {
+      "id": "00ccd78f",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 6,
+      "fighter_name": "Alexander Volkanovski",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "scraped_at": "2025-06-29T22:34:03.043518"
+    },
+    {
+      "id": "a265afb7",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 7,
+      "fighter_name": "Jack Della Maddalena",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "scraped_at": "2025-06-29T22:34:03.043528"
+    },
+    {
+      "id": "c84679ce",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 8,
+      "fighter_name": "Tom Aspinall",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tom-aspinall",
+      "scraped_at": "2025-06-29T22:34:03.043539"
+    },
+    {
+      "id": "a3837393",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 9,
+      "fighter_name": "Alex Pereira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alex-pereira",
+      "scraped_at": "2025-06-29T22:34:03.043549"
+    },
+    {
+      "id": "491c47c9",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 9,
+      "fighter_name": "Alexandre Pantoja",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "scraped_at": "2025-06-29T22:34:03.043559"
+    },
+    {
+      "id": "fe8d8a8c",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 11,
+      "fighter_name": "Max Holloway",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/max-holloway",
+      "scraped_at": "2025-06-29T22:34:03.043569"
+    },
+    {
+      "id": "dd22fdf9",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 12,
+      "fighter_name": "Belal Muhammad",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/belal-muhammad",
+      "scraped_at": "2025-06-29T22:34:03.043580"
+    },
+    {
+      "id": "01827249",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 13,
+      "fighter_name": "Charles Oliveira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/charles-oliveira",
+      "scraped_at": "2025-06-29T22:34:03.043590"
+    },
+    {
+      "id": "1c2caae1",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 14,
+      "fighter_name": "Arman Tsarukyan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/arman-tsarukyan",
+      "scraped_at": "2025-06-29T22:34:03.043600"
+    },
+    {
+      "id": "54c960e5",
+      "division": "Men'S Pound For Poundtop Rank",
+      "rank": 15,
+      "fighter_name": "Khamzat Chimaev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/khamzat-chimaev",
+      "scraped_at": "2025-06-29T22:34:03.043610"
+    },
+    {
+      "id": "491c47c9",
+      "division": "Flyweight",
+      "rank": 0,
+      "fighter_name": "Alexandre Pantoja",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexandre-pantoja",
+      "scraped_at": "2025-06-29T22:34:03.043667"
+    },
+    {
+      "id": "22c98820",
+      "division": "Flyweight",
+      "rank": 1,
+      "fighter_name": "Brandon Royval",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/brandon-royval",
+      "scraped_at": "2025-06-29T22:34:03.043734"
+    },
+    {
+      "id": "37ac5668",
+      "division": "Flyweight",
+      "rank": 2,
+      "fighter_name": "Brandon Moreno",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/brandon-moreno",
+      "scraped_at": "2025-06-29T22:34:03.043747"
+    },
+    {
+      "id": "693be865",
+      "division": "Flyweight",
+      "rank": 3,
+      "fighter_name": "Amir Albazi",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/amir-albazi",
+      "scraped_at": "2025-06-29T22:34:03.043757"
+    },
+    {
+      "id": "f5f17134",
+      "division": "Flyweight",
+      "rank": 4,
+      "fighter_name": "Kai Kara-France",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kai-kara-france",
+      "scraped_at": "2025-06-29T22:34:03.043767"
+    },
+    {
+      "id": "8b558a8b",
+      "division": "Flyweight",
+      "rank": 5,
+      "fighter_name": "Tatsuro Taira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tatsuro-taira",
+      "scraped_at": "2025-06-29T22:34:03.043776"
+    },
+    {
+      "id": "0cdf094e",
+      "division": "Flyweight",
+      "rank": 6,
+      "fighter_name": "Manel Kape",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/manel-kape",
+      "scraped_at": "2025-06-29T22:34:03.043787"
+    },
+    {
+      "id": "245f661e",
+      "division": "Flyweight",
+      "rank": 7,
+      "fighter_name": "Alex Perez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alex-perez",
+      "scraped_at": "2025-06-29T22:34:03.043797"
+    },
+    {
+      "id": "31bcb5ce",
+      "division": "Flyweight",
+      "rank": 8,
+      "fighter_name": "Asu Almabayev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/assu-almabayev",
+      "scraped_at": "2025-06-29T22:34:03.043807"
+    },
+    {
+      "id": "d85578e8",
+      "division": "Flyweight",
+      "rank": 9,
+      "fighter_name": "Steve Erceg",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/steve-erceg",
+      "scraped_at": "2025-06-29T22:34:03.043816"
+    },
+    {
+      "id": "eb6e138c",
+      "division": "Flyweight",
+      "rank": 10,
+      "fighter_name": "Tim Elliott",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tim-elliott",
+      "scraped_at": "2025-06-29T22:34:03.043826"
+    },
+    {
+      "id": "b4e998ae",
+      "division": "Flyweight",
+      "rank": 11,
+      "fighter_name": "Tagir Ulanbekov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tagir-ulanbekov",
+      "scraped_at": "2025-06-29T22:34:03.043838"
+    },
+    {
+      "id": "eff3824c",
+      "division": "Flyweight",
+      "rank": 12,
+      "fighter_name": "Joshua Van",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/joshua-van",
+      "scraped_at": "2025-06-29T22:34:03.043848"
+    },
+    {
+      "id": "fea9efc9",
+      "division": "Flyweight",
+      "rank": 13,
+      "fighter_name": "Ramazan Temirov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ramazan-temirov",
+      "scraped_at": "2025-06-29T22:34:03.043858"
+    },
+    {
+      "id": "74bb53e7",
+      "division": "Flyweight",
+      "rank": 14,
+      "fighter_name": "Kai Asakura",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kai-asakura",
+      "scraped_at": "2025-06-29T22:34:03.043867"
+    },
+    {
+      "id": "0125dc31",
+      "division": "Flyweight",
+      "rank": 15,
+      "fighter_name": "Bruno Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/bruno-silva",
+      "scraped_at": "2025-06-29T22:34:03.043877"
+    },
+    {
+      "id": "5ea45965",
+      "division": "Bantamweight",
+      "rank": 0,
+      "fighter_name": "Merab Dvalishvili",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/merab-dvalishvili",
+      "scraped_at": "2025-06-29T22:34:03.043929"
+    },
+    {
+      "id": "bbcaf7b5",
+      "division": "Bantamweight",
+      "rank": 1,
+      "fighter_name": "Sean O'Malley",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/sean-omalley",
+      "scraped_at": "2025-06-29T22:34:03.043988"
+    },
+    {
+      "id": "6f151471",
+      "division": "Bantamweight",
+      "rank": 2,
+      "fighter_name": "Umar Nurmagomedov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/umar-nurmagomedov",
+      "scraped_at": "2025-06-29T22:34:03.043998"
+    },
+    {
+      "id": "e5c5bf33",
+      "division": "Bantamweight",
+      "rank": 3,
+      "fighter_name": "Petr Yan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/petr-yan",
+      "scraped_at": "2025-06-29T22:34:03.044007"
+    },
+    {
+      "id": "bf88971d",
+      "division": "Bantamweight",
+      "rank": 4,
+      "fighter_name": "Cory Sandhagen",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/cory-sandhagen",
+      "scraped_at": "2025-06-29T22:34:03.044017"
+    },
+    {
+      "id": "6e8a5fe4",
+      "division": "Bantamweight",
+      "rank": 5,
+      "fighter_name": "Song Yadong",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/yadong-song",
+      "scraped_at": "2025-06-29T22:34:03.044027"
+    },
+    {
+      "id": "087d5e2b",
+      "division": "Bantamweight",
+      "rank": 6,
+      "fighter_name": "Deiveson Figueiredo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/deiveson-figueiredo",
+      "scraped_at": "2025-06-29T22:34:03.044036"
+    },
+    {
+      "id": "8fef3909",
+      "division": "Bantamweight",
+      "rank": 7,
+      "fighter_name": "Marlon Vera",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/marlon-vera",
+      "scraped_at": "2025-06-29T22:34:03.044045"
+    },
+    {
+      "id": "deb2e9b4",
+      "division": "Bantamweight",
+      "rank": 8,
+      "fighter_name": "Rob Font",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/rob-font",
+      "scraped_at": "2025-06-29T22:34:03.044055"
+    },
+    {
+      "id": "fb282113",
+      "division": "Bantamweight",
+      "rank": 8,
+      "fighter_name": "Mario Bautista",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/mario-bautista",
+      "scraped_at": "2025-06-29T22:34:03.044065"
+    },
+    {
+      "id": "fa09a52a",
+      "division": "Bantamweight",
+      "rank": 10,
+      "fighter_name": "Henry Cejudo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/henry-cejudo",
+      "scraped_at": "2025-06-29T22:34:03.044075"
+    },
+    {
+      "id": "a5430ac8",
+      "division": "Bantamweight",
+      "rank": 11,
+      "fighter_name": "Aiemann Zahabi",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/aiemann-zahabi",
+      "scraped_at": "2025-06-29T22:34:03.044084"
+    },
+    {
+      "id": "ce34ff82",
+      "division": "Bantamweight",
+      "rank": 12,
+      "fighter_name": "Kyler Phillips",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kyler-phillips",
+      "scraped_at": "2025-06-29T22:34:03.044093"
+    },
+    {
+      "id": "3a70cd0d",
+      "division": "Bantamweight",
+      "rank": 13,
+      "fighter_name": "Marcus McGhee",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/marcus-mcghee",
+      "scraped_at": "2025-06-29T22:34:03.044103"
+    },
+    {
+      "id": "960a4938",
+      "division": "Bantamweight",
+      "rank": 14,
+      "fighter_name": "Montel Jackson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/montel-jackson",
+      "scraped_at": "2025-06-29T22:34:03.044112"
+    },
+    {
+      "id": "aad8e247",
+      "division": "Bantamweight",
+      "rank": 15,
+      "fighter_name": "Vinicius Oliveira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/vinicius-oliveira",
+      "scraped_at": "2025-06-29T22:34:03.044121"
+    },
+    {
+      "id": "00ccd78f",
+      "division": "Featherweight",
+      "rank": 0,
+      "fighter_name": "Alexander Volkanovski",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexander-volkanovski",
+      "scraped_at": "2025-06-29T22:34:03.044168"
+    },
+    {
+      "id": "fe8d8a8c",
+      "division": "Featherweight",
+      "rank": 1,
+      "fighter_name": "Max Holloway",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/max-holloway",
+      "scraped_at": "2025-06-29T22:34:03.044227"
+    },
+    {
+      "id": "bf14e890",
+      "division": "Featherweight",
+      "rank": 2,
+      "fighter_name": "Diego Lopes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/diego-lopes",
+      "scraped_at": "2025-06-29T22:34:03.044236"
+    },
+    {
+      "id": "875c9f59",
+      "division": "Featherweight",
+      "rank": 3,
+      "fighter_name": "Ilia Topuria",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ilia-topuria",
+      "scraped_at": "2025-06-29T22:34:03.044246"
+    },
+    {
+      "id": "eb764bb6",
+      "division": "Featherweight",
+      "rank": 4,
+      "fighter_name": "Movsar Evloev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/movsar-evloev",
+      "scraped_at": "2025-06-29T22:34:03.044255"
+    },
+    {
+      "id": "5a9c4dff",
+      "division": "Featherweight",
+      "rank": 5,
+      "fighter_name": "Yair Rodriguez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/yair-rodriguez",
+      "scraped_at": "2025-06-29T22:34:03.044265"
+    },
+    {
+      "id": "7b2ab75a",
+      "division": "Featherweight",
+      "rank": 6,
+      "fighter_name": "Arnold Allen",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/arnold-allen",
+      "scraped_at": "2025-06-29T22:34:03.044274"
+    },
+    {
+      "id": "3f3f9072",
+      "division": "Featherweight",
+      "rank": 6,
+      "fighter_name": "Brian Ortega",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/brian-ortega",
+      "scraped_at": "2025-06-29T22:34:03.044286"
+    },
+    {
+      "id": "7468010a",
+      "division": "Featherweight",
+      "rank": 8,
+      "fighter_name": "Lerone Murphy",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/lerone-murphy",
+      "scraped_at": "2025-06-29T22:34:03.044295"
+    },
+    {
+      "id": "9cbf77b6",
+      "division": "Featherweight",
+      "rank": 9,
+      "fighter_name": "Aljamain Sterling",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/aljamain-sterling",
+      "scraped_at": "2025-06-29T22:34:03.044305"
+    },
+    {
+      "id": "470ffc8f",
+      "division": "Featherweight",
+      "rank": 10,
+      "fighter_name": "Josh Emmett",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/josh-emmett",
+      "scraped_at": "2025-06-29T22:34:03.044315"
+    },
+    {
+      "id": "fa859b94",
+      "division": "Featherweight",
+      "rank": 11,
+      "fighter_name": "Jean Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jean-silva-lord",
+      "scraped_at": "2025-06-29T22:34:03.044324"
+    },
+    {
+      "id": "645456ef",
+      "division": "Featherweight",
+      "rank": 12,
+      "fighter_name": "Youssef Zalal",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/youssef-zalal",
+      "scraped_at": "2025-06-29T22:34:03.044334"
+    },
+    {
+      "id": "5ae43941",
+      "division": "Featherweight",
+      "rank": 13,
+      "fighter_name": "David Onama",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/david-onama",
+      "scraped_at": "2025-06-29T22:34:03.044343"
+    },
+    {
+      "id": "217d1a93",
+      "division": "Featherweight",
+      "rank": 14,
+      "fighter_name": "Dan Ige",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/dan-ige",
+      "scraped_at": "2025-06-29T22:34:03.044352"
+    },
+    {
+      "id": "b015a1a9",
+      "division": "Featherweight",
+      "rank": 15,
+      "fighter_name": "Calvin Kattar",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/calvin-kattar",
+      "scraped_at": "2025-06-29T22:34:03.044363"
+    },
+    {
+      "id": "78f73bfd",
+      "division": "Lightweight",
+      "rank": 0,
+      "fighter_name": "Islam Makhachev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/islam-makhachev",
+      "scraped_at": "2025-06-29T22:34:03.044413"
+    },
+    {
+      "id": "1c2caae1",
+      "division": "Lightweight",
+      "rank": 1,
+      "fighter_name": "Arman Tsarukyan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/arman-tsarukyan",
+      "scraped_at": "2025-06-29T22:34:03.044481"
+    },
+    {
+      "id": "01827249",
+      "division": "Lightweight",
+      "rank": 2,
+      "fighter_name": "Charles Oliveira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/charles-oliveira",
+      "scraped_at": "2025-06-29T22:34:03.044494"
+    },
+    {
+      "id": "d5ebb512",
+      "division": "Lightweight",
+      "rank": 3,
+      "fighter_name": "Justin Gaethje",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/justin-gaethje",
+      "scraped_at": "2025-06-29T22:34:03.044509"
+    },
+    {
+      "id": "fe8d8a8c",
+      "division": "Lightweight",
+      "rank": 4,
+      "fighter_name": "Max Holloway",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/max-holloway",
+      "scraped_at": "2025-06-29T22:34:03.044523"
+    },
+    {
+      "id": "3831bcbe",
+      "division": "Lightweight",
+      "rank": 5,
+      "fighter_name": "Dustin Poirier",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/dustin-poirier",
+      "scraped_at": "2025-06-29T22:34:03.044536"
+    },
+    {
+      "id": "fc949bd3",
+      "division": "Lightweight",
+      "rank": 6,
+      "fighter_name": "Dan Hooker",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/dan-hooker",
+      "scraped_at": "2025-06-29T22:34:03.044548"
+    },
+    {
+      "id": "6f8b8d1f",
+      "division": "Lightweight",
+      "rank": 7,
+      "fighter_name": "Mateusz Gamrot",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/mateusz-gamrot",
+      "scraped_at": "2025-06-29T22:34:03.044557"
+    },
+    {
+      "id": "3495d04b",
+      "division": "Lightweight",
+      "rank": 8,
+      "fighter_name": "Paddy Pimblett",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/paddy-pimblett",
+      "scraped_at": "2025-06-29T22:34:03.044567"
+    },
+    {
+      "id": "07c24c4c",
+      "division": "Lightweight",
+      "rank": 9,
+      "fighter_name": "Beneil Dariush",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/beneil-dariush",
+      "scraped_at": "2025-06-29T22:34:03.044576"
+    },
+    {
+      "id": "4e08ff21",
+      "division": "Lightweight",
+      "rank": 10,
+      "fighter_name": "Rafael Fiziev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/rafael-fiziev",
+      "scraped_at": "2025-06-29T22:34:03.044586"
+    },
+    {
+      "id": "f91a8fe9",
+      "division": "Lightweight",
+      "rank": 11,
+      "fighter_name": "Renato Moicano",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/renato-moicano",
+      "scraped_at": "2025-06-29T22:34:03.044596"
+    },
+    {
+      "id": "2ec8d26e",
+      "division": "Lightweight",
+      "rank": 12,
+      "fighter_name": "Michael Chandler",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/michael-chandler",
+      "scraped_at": "2025-06-29T22:34:03.044605"
+    },
+    {
+      "id": "4baf4a92",
+      "division": "Lightweight",
+      "rank": 13,
+      "fighter_name": "Grant Dawson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/grant-dawson",
+      "scraped_at": "2025-06-29T22:34:03.044616"
+    },
+    {
+      "id": "040cbaff",
+      "division": "Lightweight",
+      "rank": 14,
+      "fighter_name": "Beno\u00eet Saint Denis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/benoit-saint-denis",
+      "scraped_at": "2025-06-29T22:34:03.044627"
+    },
+    {
+      "id": "a7ab09d1",
+      "division": "Lightweight",
+      "rank": 15,
+      "fighter_name": "Joel \u00c1lvarez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/joel-alvarez",
+      "scraped_at": "2025-06-29T22:34:03.044636"
+    },
+    {
+      "id": "a265afb7",
+      "division": "Welterweight",
+      "rank": 0,
+      "fighter_name": "Jack Della Maddalena",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jack-della-maddalena",
+      "scraped_at": "2025-06-29T22:34:03.044688"
+    },
+    {
+      "id": "dd22fdf9",
+      "division": "Welterweight",
+      "rank": 1,
+      "fighter_name": "Belal Muhammad",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/belal-muhammad",
+      "scraped_at": "2025-06-29T22:34:03.044746"
+    },
+    {
+      "id": "25398aa8",
+      "division": "Welterweight",
+      "rank": 2,
+      "fighter_name": "Sean Brady",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/sean-brady",
+      "scraped_at": "2025-06-29T22:34:03.044756"
+    },
+    {
+      "id": "04af9104",
+      "division": "Welterweight",
+      "rank": 3,
+      "fighter_name": "Shavkat Rakhmonov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/shavkat-rakhmonov",
+      "scraped_at": "2025-06-29T22:34:03.044765"
+    },
+    {
+      "id": "e3e2d122",
+      "division": "Welterweight",
+      "rank": 4,
+      "fighter_name": "Leon Edwards",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/leon-edwards",
+      "scraped_at": "2025-06-29T22:34:03.044774"
+    },
+    {
+      "id": "09c4ebb5",
+      "division": "Welterweight",
+      "rank": 5,
+      "fighter_name": "Kamaru Usman",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kamaru-usman",
+      "scraped_at": "2025-06-29T22:34:03.044784"
+    },
+    {
+      "id": "302c7dcb",
+      "division": "Welterweight",
+      "rank": 6,
+      "fighter_name": "Ian Machado Garry",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ian-garry",
+      "scraped_at": "2025-06-29T22:34:03.044793"
+    },
+    {
+      "id": "9af1cc34",
+      "division": "Welterweight",
+      "rank": 7,
+      "fighter_name": "Joaquin Buckley",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/joaquin-buckley",
+      "scraped_at": "2025-06-29T22:34:03.044811"
+    },
+    {
+      "id": "5561fca8",
+      "division": "Welterweight",
+      "rank": 7,
+      "fighter_name": "Michael Morales",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/michael-morales",
+      "scraped_at": "2025-06-29T22:34:03.044821"
+    },
+    {
+      "id": "b7f5a832",
+      "division": "Welterweight",
+      "rank": 9,
+      "fighter_name": "Colby Covington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/colby-covington",
+      "scraped_at": "2025-06-29T22:34:03.044831"
+    },
+    {
+      "id": "68c94eea",
+      "division": "Welterweight",
+      "rank": 10,
+      "fighter_name": "Gilbert Burns",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/gilbert-burns",
+      "scraped_at": "2025-06-29T22:34:03.044840"
+    },
+    {
+      "id": "deee560a",
+      "division": "Welterweight",
+      "rank": 11,
+      "fighter_name": "Geoff Neal",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/geoff-neal",
+      "scraped_at": "2025-06-29T22:34:03.044849"
+    },
+    {
+      "id": "c5156b7a",
+      "division": "Welterweight",
+      "rank": 12,
+      "fighter_name": "Stephen Thompson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/stephen-thompson",
+      "scraped_at": "2025-06-29T22:34:03.044859"
+    },
+    {
+      "id": "c72157b5",
+      "division": "Welterweight",
+      "rank": 13,
+      "fighter_name": "Carlos Prates",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/carlos-prates",
+      "scraped_at": "2025-06-29T22:34:03.044868"
+    },
+    {
+      "id": "b577c6fa",
+      "division": "Welterweight",
+      "rank": 14,
+      "fighter_name": "Kevin Holland",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kevin-holland",
+      "scraped_at": "2025-06-29T22:34:03.044878"
+    },
+    {
+      "id": "de9b370a",
+      "division": "Welterweight",
+      "rank": 15,
+      "fighter_name": "Michael Page",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/michael-page",
+      "scraped_at": "2025-06-29T22:34:03.044887"
+    },
+    {
+      "id": "7000b0fb",
+      "division": "Middleweight",
+      "rank": 0,
+      "fighter_name": "Dricus Du Plessis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/dricus-du-plessis",
+      "scraped_at": "2025-06-29T22:34:03.044932"
+    },
+    {
+      "id": "4a39d90a",
+      "division": "Middleweight",
+      "rank": 1,
+      "fighter_name": "Nassourdine Imavov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/nassourdine-imavov",
+      "scraped_at": "2025-06-29T22:34:03.044993"
+    },
+    {
+      "id": "4a637c0f",
+      "division": "Middleweight",
+      "rank": 2,
+      "fighter_name": "Sean Strickland",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/sean-strickland",
+      "scraped_at": "2025-06-29T22:34:03.045002"
+    },
+    {
+      "id": "54c960e5",
+      "division": "Middleweight",
+      "rank": 3,
+      "fighter_name": "Khamzat Chimaev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/khamzat-chimaev",
+      "scraped_at": "2025-06-29T22:34:03.045012"
+    },
+    {
+      "id": "5842f43e",
+      "division": "Middleweight",
+      "rank": 4,
+      "fighter_name": "Israel Adesanya",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/israel-adesanya",
+      "scraped_at": "2025-06-29T22:34:03.045021"
+    },
+    {
+      "id": "40531c8f",
+      "division": "Middleweight",
+      "rank": 5,
+      "fighter_name": "Robert Whittaker",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/robert-whittaker",
+      "scraped_at": "2025-06-29T22:34:03.045030"
+    },
+    {
+      "id": "b483569c",
+      "division": "Middleweight",
+      "rank": 6,
+      "fighter_name": "Caio Borralho",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/caio-borralho",
+      "scraped_at": "2025-06-29T22:34:03.045040"
+    },
+    {
+      "id": "fef78cb6",
+      "division": "Middleweight",
+      "rank": 7,
+      "fighter_name": "Jared Cannonier",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jared-cannonier",
+      "scraped_at": "2025-06-29T22:34:03.045049"
+    },
+    {
+      "id": "90010505",
+      "division": "Middleweight",
+      "rank": 8,
+      "fighter_name": "Roman Dolidze",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/roman-dolidze",
+      "scraped_at": "2025-06-29T22:34:03.045059"
+    },
+    {
+      "id": "9583d6bf",
+      "division": "Middleweight",
+      "rank": 9,
+      "fighter_name": "Anthony Hernandez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/anthony-hernandez",
+      "scraped_at": "2025-06-29T22:34:03.045068"
+    },
+    {
+      "id": "e5157499",
+      "division": "Middleweight",
+      "rank": 10,
+      "fighter_name": "Marvin Vettori",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/marvin-vettori",
+      "scraped_at": "2025-06-29T22:34:03.045077"
+    },
+    {
+      "id": "58b6dee8",
+      "division": "Middleweight",
+      "rank": 11,
+      "fighter_name": "Brendan Allen",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/brendan-allen",
+      "scraped_at": "2025-06-29T22:34:03.045091"
+    },
+    {
+      "id": "db3f5063",
+      "division": "Middleweight",
+      "rank": 12,
+      "fighter_name": "Reinier de Ridder",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/reinier-de-ridder",
+      "scraped_at": "2025-06-29T22:34:03.045101"
+    },
+    {
+      "id": "7b6300b2",
+      "division": "Middleweight",
+      "rank": 13,
+      "fighter_name": "Paulo Costa",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/paulo-costa",
+      "scraped_at": "2025-06-29T22:34:03.045111"
+    },
+    {
+      "id": "87802ddd",
+      "division": "Middleweight",
+      "rank": 14,
+      "fighter_name": "Roman Kopylov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/roman-kopylov",
+      "scraped_at": "2025-06-29T22:34:03.045120"
+    },
+    {
+      "id": "1be0a07a",
+      "division": "Middleweight",
+      "rank": 14,
+      "fighter_name": "Abus Magomedov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/abus-magomedov",
+      "scraped_at": "2025-06-29T22:34:03.045130"
+    },
+    {
+      "id": "69646a0a",
+      "division": "Light Heavyweight",
+      "rank": 0,
+      "fighter_name": "Magomed Ankalaev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/magomed-ankalaev",
+      "scraped_at": "2025-06-29T22:34:03.045178"
+    },
+    {
+      "id": "a3837393",
+      "division": "Light Heavyweight",
+      "rank": 1,
+      "fighter_name": "Alex Pereira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alex-pereira",
+      "scraped_at": "2025-06-29T22:34:03.045237"
+    },
+    {
+      "id": "6ca0b57b",
+      "division": "Light Heavyweight",
+      "rank": 2,
+      "fighter_name": "Ji\u0159\u00ed Proch\u00e1zka",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jiri-prochazka",
+      "scraped_at": "2025-06-29T22:34:03.045247"
+    },
+    {
+      "id": "6a36f7b9",
+      "division": "Light Heavyweight",
+      "rank": 3,
+      "fighter_name": "Carlos Ulberg",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/carlos-ulberg",
+      "scraped_at": "2025-06-29T22:34:03.045257"
+    },
+    {
+      "id": "2cc62c24",
+      "division": "Light Heavyweight",
+      "rank": 4,
+      "fighter_name": "Khalil Rountree Jr.",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/khalil-rountree-jr",
+      "scraped_at": "2025-06-29T22:34:03.045267"
+    },
+    {
+      "id": "7e142138",
+      "division": "Light Heavyweight",
+      "rank": 5,
+      "fighter_name": "Jan B\u0142achowicz",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jan-blachowicz",
+      "scraped_at": "2025-06-29T22:34:03.045277"
+    },
+    {
+      "id": "fa92f349",
+      "division": "Light Heavyweight",
+      "rank": 6,
+      "fighter_name": "Jamahal Hill",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jamahal-hill",
+      "scraped_at": "2025-06-29T22:34:03.045286"
+    },
+    {
+      "id": "fab549e5",
+      "division": "Light Heavyweight",
+      "rank": 7,
+      "fighter_name": "Aleksandar Raki\u0107",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/aleksandar-rakic",
+      "scraped_at": "2025-06-29T22:34:03.045297"
+    },
+    {
+      "id": "ae7ec1ba",
+      "division": "Light Heavyweight",
+      "rank": 8,
+      "fighter_name": "Dominick Reyes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/dominick-reyes",
+      "scraped_at": "2025-06-29T22:34:03.045306"
+    },
+    {
+      "id": "86c8b561",
+      "division": "Light Heavyweight",
+      "rank": 9,
+      "fighter_name": "Volkan Oezdemir",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/volkan-oezdemir",
+      "scraped_at": "2025-06-29T22:34:03.045315"
+    },
+    {
+      "id": "9dd8a4f6",
+      "division": "Light Heavyweight",
+      "rank": 10,
+      "fighter_name": "Nikita Krylov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/nikita-krylov",
+      "scraped_at": "2025-06-29T22:34:03.045324"
+    },
+    {
+      "id": "75591a46",
+      "division": "Light Heavyweight",
+      "rank": 11,
+      "fighter_name": "Azamat Murzakanov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/azamat-murzakanov",
+      "scraped_at": "2025-06-29T22:34:03.045334"
+    },
+    {
+      "id": "f52a7724",
+      "division": "Light Heavyweight",
+      "rank": 12,
+      "fighter_name": "Johnny Walker",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/johnny-walker",
+      "scraped_at": "2025-06-29T22:34:03.045343"
+    },
+    {
+      "id": "aec9dc5a",
+      "division": "Light Heavyweight",
+      "rank": 13,
+      "fighter_name": "Bogdan Guskov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/bogdan-guskov",
+      "scraped_at": "2025-06-29T22:34:03.045353"
+    },
+    {
+      "id": "81d3fc04",
+      "division": "Light Heavyweight",
+      "rank": 14,
+      "fighter_name": "Zhang Mingyang",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/zhang-mingyang",
+      "scraped_at": "2025-06-29T22:34:03.045362"
+    },
+    {
+      "id": "990efe11",
+      "division": "Light Heavyweight",
+      "rank": 15,
+      "fighter_name": "Alonzo Menifield",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alonzo-menifield",
+      "scraped_at": "2025-06-29T22:34:03.045372"
+    },
+    {
+      "id": "c84679ce",
+      "division": "Heavyweight",
+      "rank": 0,
+      "fighter_name": "Tom Aspinall",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tom-aspinall",
+      "scraped_at": "2025-06-29T22:34:03.045417"
+    },
+    {
+      "id": "d405f6e1",
+      "division": "Heavyweight",
+      "rank": 1,
+      "fighter_name": "Ciryl Gane",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ciryl-gane",
+      "scraped_at": "2025-06-29T22:34:03.045481"
+    },
+    {
+      "id": "65960493",
+      "division": "Heavyweight",
+      "rank": 2,
+      "fighter_name": "Alexander Volkov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexander-volkov",
+      "scraped_at": "2025-06-29T22:34:03.045494"
+    },
+    {
+      "id": "d38d32ac",
+      "division": "Heavyweight",
+      "rank": 3,
+      "fighter_name": "Sergei Pavlovich",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/sergei-pavlovich",
+      "scraped_at": "2025-06-29T22:34:03.045507"
+    },
+    {
+      "id": "de831203",
+      "division": "Heavyweight",
+      "rank": 4,
+      "fighter_name": "Curtis Blaydes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/curtis-blaydes",
+      "scraped_at": "2025-06-29T22:34:03.045521"
+    },
+    {
+      "id": "c17b1fa1",
+      "division": "Heavyweight",
+      "rank": 5,
+      "fighter_name": "Jailton Almeida",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jailton-almeida",
+      "scraped_at": "2025-06-29T22:34:03.045533"
+    },
+    {
+      "id": "34808451",
+      "division": "Heavyweight",
+      "rank": 6,
+      "fighter_name": "Waldo Cortes Acosta",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/waldo-cortes-acosta",
+      "scraped_at": "2025-06-29T22:34:03.045555"
+    },
+    {
+      "id": "3a7dd104",
+      "division": "Heavyweight",
+      "rank": 7,
+      "fighter_name": "Marcin Tybura",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/marcin-tybura",
+      "scraped_at": "2025-06-29T22:34:03.045565"
+    },
+    {
+      "id": "e61d5100",
+      "division": "Heavyweight",
+      "rank": 8,
+      "fighter_name": "Serghei Spivac",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/serghei-spivac",
+      "scraped_at": "2025-06-29T22:34:03.045576"
+    },
+    {
+      "id": "957522be",
+      "division": "Heavyweight",
+      "rank": 9,
+      "fighter_name": "Derrick Lewis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/derrick-lewis",
+      "scraped_at": "2025-06-29T22:34:03.045587"
+    },
+    {
+      "id": "629bc2bb",
+      "division": "Heavyweight",
+      "rank": 10,
+      "fighter_name": "Tai Tuivasa",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tai-tuivasa",
+      "scraped_at": "2025-06-29T22:34:03.045597"
+    },
+    {
+      "id": "dcf805bf",
+      "division": "Heavyweight",
+      "rank": 11,
+      "fighter_name": "Shamil Gaziev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/shamil-gaziev",
+      "scraped_at": "2025-06-29T22:34:03.045608"
+    },
+    {
+      "id": "a0cd4255",
+      "division": "Heavyweight",
+      "rank": 12,
+      "fighter_name": "Mick Parkin",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/mick-parkin",
+      "scraped_at": "2025-06-29T22:34:03.045618"
+    },
+    {
+      "id": "395835d1",
+      "division": "Heavyweight",
+      "rank": 13,
+      "fighter_name": "Tallison Teixeira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tallison-teixeira",
+      "scraped_at": "2025-06-29T22:34:03.045628"
+    },
+    {
+      "id": "04c39775",
+      "division": "Heavyweight",
+      "rank": 14,
+      "fighter_name": "Martin Buday",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/martin-buday",
+      "scraped_at": "2025-06-29T22:34:03.045638"
+    },
+    {
+      "id": "16862aff",
+      "division": "Heavyweight",
+      "rank": 15,
+      "fighter_name": "Rizvan Kuniev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/rizvan-kuniev",
+      "scraped_at": "2025-06-29T22:34:03.045648"
+    },
+    {
+      "id": "db8b8bd9",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 0,
+      "fighter_name": "Valentina Shevchenko",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "scraped_at": "2025-06-29T22:34:03.045699"
+    },
+    {
+      "id": "db8b8bd9",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 1,
+      "fighter_name": "Valentina Shevchenko",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "scraped_at": "2025-06-29T22:34:03.045757"
+    },
+    {
+      "id": "934bd39f",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 2,
+      "fighter_name": "Zhang Weili",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/weili-zhang",
+      "scraped_at": "2025-06-29T22:34:03.045767"
+    },
+    {
+      "id": "e8904c85",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 3,
+      "fighter_name": "Kayla Harrison",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kayla-harrison",
+      "scraped_at": "2025-06-29T22:34:03.045781"
+    },
+    {
+      "id": "0084e6f1",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 4,
+      "fighter_name": "Manon Fiorot",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/manon-fiorot",
+      "scraped_at": "2025-06-29T22:34:03.045791"
+    },
+    {
+      "id": "eca72ce6",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 5,
+      "fighter_name": "Julianna Pe\u00f1a",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/julianna-pena",
+      "scraped_at": "2025-06-29T22:34:03.045801"
+    },
+    {
+      "id": "a47925a4",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 6,
+      "fighter_name": "Natalia Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/natalia-silva",
+      "scraped_at": "2025-06-29T22:34:03.045810"
+    },
+    {
+      "id": "2f089bd2",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 7,
+      "fighter_name": "Alexa Grasso",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexa-grasso",
+      "scraped_at": "2025-06-29T22:34:03.045819"
+    },
+    {
+      "id": "aaa797b5",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 8,
+      "fighter_name": "Erin Blanchfield",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/erin-blanchfield",
+      "scraped_at": "2025-06-29T22:34:03.045828"
+    },
+    {
+      "id": "c677e653",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 9,
+      "fighter_name": "Virna Jandiroba",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/virna-jandiroba",
+      "scraped_at": "2025-06-29T22:34:03.045838"
+    },
+    {
+      "id": "045c822c",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 10,
+      "fighter_name": "Raquel Pennington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/raquel-pennington",
+      "scraped_at": "2025-06-29T22:34:03.045847"
+    },
+    {
+      "id": "950f97f6",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 11,
+      "fighter_name": "Tatiana Suarez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tatiana-suarez",
+      "scraped_at": "2025-06-29T22:34:03.045857"
+    },
+    {
+      "id": "41197a2a",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 12,
+      "fighter_name": "Rose Namajunas",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/rose-namajunas",
+      "scraped_at": "2025-06-29T22:34:03.045866"
+    },
+    {
+      "id": "c58c3a86",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 13,
+      "fighter_name": "Yan Xiaonan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/xiaonan-yan",
+      "scraped_at": "2025-06-29T22:34:03.045876"
+    },
+    {
+      "id": "deadb348",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 14,
+      "fighter_name": "Amanda Lemos",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/amanda-lemos",
+      "scraped_at": "2025-06-29T22:34:03.045885"
+    },
+    {
+      "id": "c9bce4b5",
+      "division": "Women'S Pound For Poundtop Rank",
+      "rank": 15,
+      "fighter_name": "Maycee Barber",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/maycee-barber",
+      "scraped_at": "2025-06-29T22:34:03.045895"
+    },
+    {
+      "id": "934bd39f",
+      "division": "Women'S Strawweight",
+      "rank": 0,
+      "fighter_name": "Zhang Weili",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/weili-zhang",
+      "scraped_at": "2025-06-29T22:34:03.045939"
+    },
+    {
+      "id": "c677e653",
+      "division": "Women'S Strawweight",
+      "rank": 1,
+      "fighter_name": "Virna Jandiroba",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/virna-jandiroba",
+      "scraped_at": "2025-06-29T22:34:03.045998"
+    },
+    {
+      "id": "950f97f6",
+      "division": "Women'S Strawweight",
+      "rank": 2,
+      "fighter_name": "Tatiana Suarez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tatiana-suarez",
+      "scraped_at": "2025-06-29T22:34:03.046008"
+    },
+    {
+      "id": "c58c3a86",
+      "division": "Women'S Strawweight",
+      "rank": 3,
+      "fighter_name": "Yan Xiaonan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/xiaonan-yan",
+      "scraped_at": "2025-06-29T22:34:03.046017"
+    },
+    {
+      "id": "deadb348",
+      "division": "Women'S Strawweight",
+      "rank": 4,
+      "fighter_name": "Amanda Lemos",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/amanda-lemos",
+      "scraped_at": "2025-06-29T22:34:03.046027"
+    },
+    {
+      "id": "0eb0d19b",
+      "division": "Women'S Strawweight",
+      "rank": 5,
+      "fighter_name": "J\u00e9ssica Andrade",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jessica-andrade",
+      "scraped_at": "2025-06-29T22:34:03.046036"
+    },
+    {
+      "id": "1868597d",
+      "division": "Women'S Strawweight",
+      "rank": 6,
+      "fighter_name": "Mackenzie Dern",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/mackenzie-dern",
+      "scraped_at": "2025-06-29T22:34:03.046045"
+    },
+    {
+      "id": "60bc6c8b",
+      "division": "Women'S Strawweight",
+      "rank": 7,
+      "fighter_name": "Amanda Ribas",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/amanda-ribas",
+      "scraped_at": "2025-06-29T22:34:03.046055"
+    },
+    {
+      "id": "49c2ef91",
+      "division": "Women'S Strawweight",
+      "rank": 8,
+      "fighter_name": "Iasmin Lucindo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/iasmin-lucindo",
+      "scraped_at": "2025-06-29T22:34:03.046064"
+    },
+    {
+      "id": "bd86cff5",
+      "division": "Women'S Strawweight",
+      "rank": 9,
+      "fighter_name": "Gillian Robertson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/gillian-robertson",
+      "scraped_at": "2025-06-29T22:34:03.046074"
+    },
+    {
+      "id": "f27df414",
+      "division": "Women'S Strawweight",
+      "rank": 10,
+      "fighter_name": "Tabatha Ricci",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tabatha-ricci",
+      "scraped_at": "2025-06-29T22:34:03.046083"
+    },
+    {
+      "id": "b0959ad7",
+      "division": "Women'S Strawweight",
+      "rank": 11,
+      "fighter_name": "Loopy Godinez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/loopy-godinez",
+      "scraped_at": "2025-06-29T22:34:03.046092"
+    },
+    {
+      "id": "dddaac19",
+      "division": "Women'S Strawweight",
+      "rank": 12,
+      "fighter_name": "Angela Hill",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/angela-hill",
+      "scraped_at": "2025-06-29T22:34:03.046102"
+    },
+    {
+      "id": "b228d39d",
+      "division": "Women'S Strawweight",
+      "rank": 13,
+      "fighter_name": "Tecia Pennington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tecia-pennington",
+      "scraped_at": "2025-06-29T22:34:03.046112"
+    },
+    {
+      "id": "2b4f0961",
+      "division": "Women'S Strawweight",
+      "rank": 14,
+      "fighter_name": "Loma Lookboonmee",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/loma-lookboonmee",
+      "scraped_at": "2025-06-29T22:34:03.046121"
+    },
+    {
+      "id": "092a12fb",
+      "division": "Women'S Strawweight",
+      "rank": 15,
+      "fighter_name": "Denise Gomes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/denise-gomes",
+      "scraped_at": "2025-06-29T22:34:03.046131"
+    },
+    {
+      "id": "db8b8bd9",
+      "division": "Women'S Flyweight",
+      "rank": 0,
+      "fighter_name": "Valentina Shevchenko",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/valentina-shevchenko",
+      "scraped_at": "2025-06-29T22:34:03.046179"
+    },
+    {
+      "id": "a47925a4",
+      "division": "Women'S Flyweight",
+      "rank": 1,
+      "fighter_name": "Natalia Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/natalia-silva",
+      "scraped_at": "2025-06-29T22:34:03.046238"
+    },
+    {
+      "id": "0084e6f1",
+      "division": "Women'S Flyweight",
+      "rank": 2,
+      "fighter_name": "Manon Fiorot",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/manon-fiorot",
+      "scraped_at": "2025-06-29T22:34:03.046247"
+    },
+    {
+      "id": "2f089bd2",
+      "division": "Women'S Flyweight",
+      "rank": 3,
+      "fighter_name": "Alexa Grasso",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/alexa-grasso",
+      "scraped_at": "2025-06-29T22:34:03.046256"
+    },
+    {
+      "id": "aaa797b5",
+      "division": "Women'S Flyweight",
+      "rank": 4,
+      "fighter_name": "Erin Blanchfield",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/erin-blanchfield",
+      "scraped_at": "2025-06-29T22:34:03.046266"
+    },
+    {
+      "id": "c9bce4b5",
+      "division": "Women'S Flyweight",
+      "rank": 5,
+      "fighter_name": "Maycee Barber",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/maycee-barber",
+      "scraped_at": "2025-06-29T22:34:03.046275"
+    },
+    {
+      "id": "8652f0cd",
+      "division": "Women'S Flyweight",
+      "rank": 5,
+      "fighter_name": "Jasmine Jasudavicius",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jasmine-jasudavicius",
+      "scraped_at": "2025-06-29T22:34:03.046285"
+    },
+    {
+      "id": "41197a2a",
+      "division": "Women'S Flyweight",
+      "rank": 7,
+      "fighter_name": "Rose Namajunas",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/rose-namajunas",
+      "scraped_at": "2025-06-29T22:34:03.046294"
+    },
+    {
+      "id": "f5d51b0a",
+      "division": "Women'S Flyweight",
+      "rank": 8,
+      "fighter_name": "Viviane Ara\u00fajo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/viviane-araujo",
+      "scraped_at": "2025-06-29T22:34:03.046303"
+    },
+    {
+      "id": "0eb0d19b",
+      "division": "Women'S Flyweight",
+      "rank": 9,
+      "fighter_name": "J\u00e9ssica Andrade",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jessica-andrade",
+      "scraped_at": "2025-06-29T22:34:03.046337"
+    },
+    {
+      "id": "f23f5caa",
+      "division": "Women'S Flyweight",
+      "rank": 10,
+      "fighter_name": "Tracy Cortez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/tracy-cortez",
+      "scraped_at": "2025-06-29T22:34:03.046346"
+    },
+    {
+      "id": "00cc7715",
+      "division": "Women'S Flyweight",
+      "rank": 11,
+      "fighter_name": "Miranda Maverick",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/miranda-maverick",
+      "scraped_at": "2025-06-29T22:34:03.046360"
+    },
+    {
+      "id": "06b4c878",
+      "division": "Women'S Flyweight",
+      "rank": 12,
+      "fighter_name": "Karine Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/karine-silva",
+      "scraped_at": "2025-06-29T22:34:03.046370"
+    },
+    {
+      "id": "357346d5",
+      "division": "Women'S Flyweight",
+      "rank": 13,
+      "fighter_name": "Casey O'Neill",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/casey-oneill",
+      "scraped_at": "2025-06-29T22:34:03.046379"
+    },
+    {
+      "id": "58cfe903",
+      "division": "Women'S Flyweight",
+      "rank": 14,
+      "fighter_name": "Wang Cong",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/wang-cong",
+      "scraped_at": "2025-06-29T22:34:03.046388"
+    },
+    {
+      "id": "1fdd3b0f",
+      "division": "Women'S Flyweight",
+      "rank": 15,
+      "fighter_name": "JJ Aldrich",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jj-aldrich",
+      "scraped_at": "2025-06-29T22:34:03.046397"
+    },
+    {
+      "id": "e8904c85",
+      "division": "Women'S Bantamweight",
+      "rank": 0,
+      "fighter_name": "Kayla Harrison",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/kayla-harrison",
+      "scraped_at": "2025-06-29T22:34:03.046442"
+    },
+    {
+      "id": "eca72ce6",
+      "division": "Women'S Bantamweight",
+      "rank": 1,
+      "fighter_name": "Julianna Pe\u00f1a",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/julianna-pena",
+      "scraped_at": "2025-06-29T22:34:03.046500"
+    },
+    {
+      "id": "045c822c",
+      "division": "Women'S Bantamweight",
+      "rank": 2,
+      "fighter_name": "Raquel Pennington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/raquel-pennington",
+      "scraped_at": "2025-06-29T22:34:03.046513"
+    },
+    {
+      "id": "34c605d6",
+      "division": "Women'S Bantamweight",
+      "rank": 3,
+      "fighter_name": "Ketlen Vieira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ketlen-vieira",
+      "scraped_at": "2025-06-29T22:34:03.046523"
+    },
+    {
+      "id": "79c76b8b",
+      "division": "Women'S Bantamweight",
+      "rank": 4,
+      "fighter_name": "Norma Dumont",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/norma-dumont",
+      "scraped_at": "2025-06-29T22:34:03.046532"
+    },
+    {
+      "id": "882b8b96",
+      "division": "Women'S Bantamweight",
+      "rank": 5,
+      "fighter_name": "Macy Chiasson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/macy-chiasson",
+      "scraped_at": "2025-06-29T22:34:03.046542"
+    },
+    {
+      "id": "1b1d9afb",
+      "division": "Women'S Bantamweight",
+      "rank": 6,
+      "fighter_name": "Irene Aldana",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/irene-aldana",
+      "scraped_at": "2025-06-29T22:34:03.046551"
+    },
+    {
+      "id": "e7adbb01",
+      "division": "Women'S Bantamweight",
+      "rank": 7,
+      "fighter_name": "Ailin Perez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/ailin-perez",
+      "scraped_at": "2025-06-29T22:34:03.046572"
+    },
+    {
+      "id": "45b16cfb",
+      "division": "Women'S Bantamweight",
+      "rank": 8,
+      "fighter_name": "Mayra Bueno Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/mayra-bueno-silva",
+      "scraped_at": "2025-06-29T22:34:03.046581"
+    },
+    {
+      "id": "d8b0f82a",
+      "division": "Women'S Bantamweight",
+      "rank": 9,
+      "fighter_name": "Yana Santos",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/yana-santos",
+      "scraped_at": "2025-06-29T22:34:03.046591"
+    },
+    {
+      "id": "b9df3acc",
+      "division": "Women'S Bantamweight",
+      "rank": 10,
+      "fighter_name": "Karol Rosa",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/karol-rosa",
+      "scraped_at": "2025-06-29T22:34:03.046600"
+    },
+    {
+      "id": "6b78ac6d",
+      "division": "Women'S Bantamweight",
+      "rank": 11,
+      "fighter_name": "Jacqueline Cavalcanti",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/jacqueline-cavalcanti",
+      "scraped_at": "2025-06-29T22:34:03.046609"
+    },
+    {
+      "id": "89d57701",
+      "division": "Women'S Bantamweight",
+      "rank": 12,
+      "fighter_name": "Nora Cornolle",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/nora-cornolle",
+      "scraped_at": "2025-06-29T22:34:03.046620"
+    },
+    {
+      "id": "adae0f47",
+      "division": "Women'S Bantamweight",
+      "rank": 13,
+      "fighter_name": "Miesha Tate",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/miesha-tate",
+      "scraped_at": "2025-06-29T22:34:03.046633"
+    },
+    {
+      "id": "651799fd",
+      "division": "Women'S Bantamweight",
+      "rank": 14,
+      "fighter_name": "Joselyne Edwards",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/joselyne-edwards",
+      "scraped_at": "2025-06-29T22:34:03.046646"
+    },
+    {
+      "id": "d2806a49",
+      "division": "Women'S Bantamweight",
+      "rank": 15,
+      "fighter_name": "Daria Zhelezniakova",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "fighter_url": "/athlete/daria-zheleznyakova",
+      "scraped_at": "2025-06-29T22:34:03.046658"
+    }
+  ],
+  "upcoming_events": [],
+  "past_events": [],
+  "upcoming_fights": [],
+  "past_results": [],
+  "fighters": [
+    {
+      "id": "78f73bfd",
+      "name": "Islam Makhachev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.043379"
+        },
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.043453"
+        },
+        {
+          "division": "Lightweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.044413"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "5ea45965",
+      "name": "Merab Dvalishvili",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.043471"
+        },
+        {
+          "division": "Bantamweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.043929"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "875c9f59",
+      "name": "Ilia Topuria",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.043484"
+        },
+        {
+          "division": "Featherweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.044246"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "7000b0fb",
+      "name": "Dricus Du Plessis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.043496"
+        },
+        {
+          "division": "Middleweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.044932"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "69646a0a",
+      "name": "Magomed Ankalaev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.043507"
+        },
+        {
+          "division": "Light Heavyweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.045178"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "00ccd78f",
+      "name": "Alexander Volkanovski",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.043518"
+        },
+        {
+          "division": "Featherweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.044168"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "a265afb7",
+      "name": "Jack Della Maddalena",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.043528"
+        },
+        {
+          "division": "Welterweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.044688"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c84679ce",
+      "name": "Tom Aspinall",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.043539"
+        },
+        {
+          "division": "Heavyweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.045417"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "a3837393",
+      "name": "Alex Pereira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.043549"
+        },
+        {
+          "division": "Light Heavyweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.045237"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "491c47c9",
+      "name": "Alexandre Pantoja",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.043559"
+        },
+        {
+          "division": "Flyweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.043667"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fe8d8a8c",
+      "name": "Max Holloway",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.043569"
+        },
+        {
+          "division": "Featherweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.044227"
+        },
+        {
+          "division": "Lightweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.044523"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "dd22fdf9",
+      "name": "Belal Muhammad",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.043580"
+        },
+        {
+          "division": "Welterweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.044746"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "01827249",
+      "name": "Charles Oliveira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.043590"
+        },
+        {
+          "division": "Lightweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.044494"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "1c2caae1",
+      "name": "Arman Tsarukyan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.043600"
+        },
+        {
+          "division": "Lightweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.044481"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "54c960e5",
+      "name": "Khamzat Chimaev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Men'S Pound For Poundtop Rank",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.043610"
+        },
+        {
+          "division": "Middleweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.045012"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "22c98820",
+      "name": "Brandon Royval",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.043734"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "37ac5668",
+      "name": "Brandon Moreno",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.043747"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "693be865",
+      "name": "Amir Albazi",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.043757"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "f5f17134",
+      "name": "Kai Kara-France",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.043767"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "8b558a8b",
+      "name": "Tatsuro Taira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.043776"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "0cdf094e",
+      "name": "Manel Kape",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.043787"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "245f661e",
+      "name": "Alex Perez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.043797"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "31bcb5ce",
+      "name": "Asu Almabayev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.043807"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "d85578e8",
+      "name": "Steve Erceg",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.043816"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "eb6e138c",
+      "name": "Tim Elliott",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.043826"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b4e998ae",
+      "name": "Tagir Ulanbekov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.043838"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "eff3824c",
+      "name": "Joshua Van",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.043848"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fea9efc9",
+      "name": "Ramazan Temirov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.043858"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "74bb53e7",
+      "name": "Kai Asakura",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.043867"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "0125dc31",
+      "name": "Bruno Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Flyweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.043877"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "bbcaf7b5",
+      "name": "Sean O'Malley",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.043988"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "6f151471",
+      "name": "Umar Nurmagomedov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.043998"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "e5c5bf33",
+      "name": "Petr Yan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.044007"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "bf88971d",
+      "name": "Cory Sandhagen",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.044017"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "6e8a5fe4",
+      "name": "Song Yadong",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.044027"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "087d5e2b",
+      "name": "Deiveson Figueiredo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.044036"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "8fef3909",
+      "name": "Marlon Vera",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.044045"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "deb2e9b4",
+      "name": "Rob Font",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.044055"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fb282113",
+      "name": "Mario Bautista",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.044065"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fa09a52a",
+      "name": "Henry Cejudo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.044075"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "a5430ac8",
+      "name": "Aiemann Zahabi",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.044084"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "ce34ff82",
+      "name": "Kyler Phillips",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.044093"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "3a70cd0d",
+      "name": "Marcus McGhee",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.044103"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "960a4938",
+      "name": "Montel Jackson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.044112"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "aad8e247",
+      "name": "Vinicius Oliveira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Bantamweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.044121"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "bf14e890",
+      "name": "Diego Lopes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.044236"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "eb764bb6",
+      "name": "Movsar Evloev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.044255"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "5a9c4dff",
+      "name": "Yair Rodriguez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.044265"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "7b2ab75a",
+      "name": "Arnold Allen",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.044274"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "3f3f9072",
+      "name": "Brian Ortega",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.044286"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "7468010a",
+      "name": "Lerone Murphy",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.044295"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "9cbf77b6",
+      "name": "Aljamain Sterling",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.044305"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "470ffc8f",
+      "name": "Josh Emmett",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.044315"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fa859b94",
+      "name": "Jean Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.044324"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "645456ef",
+      "name": "Youssef Zalal",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.044334"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "5ae43941",
+      "name": "David Onama",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.044343"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "217d1a93",
+      "name": "Dan Ige",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.044352"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b015a1a9",
+      "name": "Calvin Kattar",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Featherweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.044363"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "d5ebb512",
+      "name": "Justin Gaethje",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.044509"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "3831bcbe",
+      "name": "Dustin Poirier",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.044536"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fc949bd3",
+      "name": "Dan Hooker",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.044548"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "6f8b8d1f",
+      "name": "Mateusz Gamrot",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.044557"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "3495d04b",
+      "name": "Paddy Pimblett",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.044567"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "07c24c4c",
+      "name": "Beneil Dariush",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.044576"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "4e08ff21",
+      "name": "Rafael Fiziev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.044586"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "f91a8fe9",
+      "name": "Renato Moicano",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.044596"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "2ec8d26e",
+      "name": "Michael Chandler",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.044605"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "4baf4a92",
+      "name": "Grant Dawson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.044616"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "040cbaff",
+      "name": "Beno\u00eet Saint Denis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.044627"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "a7ab09d1",
+      "name": "Joel \u00c1lvarez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Lightweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.044636"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "25398aa8",
+      "name": "Sean Brady",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.044756"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "04af9104",
+      "name": "Shavkat Rakhmonov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.044765"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "e3e2d122",
+      "name": "Leon Edwards",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.044774"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "09c4ebb5",
+      "name": "Kamaru Usman",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.044784"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "302c7dcb",
+      "name": "Ian Machado Garry",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.044793"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "9af1cc34",
+      "name": "Joaquin Buckley",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.044811"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "5561fca8",
+      "name": "Michael Morales",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.044821"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b7f5a832",
+      "name": "Colby Covington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.044831"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "68c94eea",
+      "name": "Gilbert Burns",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.044840"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "deee560a",
+      "name": "Geoff Neal",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.044849"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c5156b7a",
+      "name": "Stephen Thompson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.044859"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c72157b5",
+      "name": "Carlos Prates",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.044868"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b577c6fa",
+      "name": "Kevin Holland",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.044878"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "de9b370a",
+      "name": "Michael Page",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Welterweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.044887"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "4a39d90a",
+      "name": "Nassourdine Imavov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.044993"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "4a637c0f",
+      "name": "Sean Strickland",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.045002"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "5842f43e",
+      "name": "Israel Adesanya",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.045021"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "40531c8f",
+      "name": "Robert Whittaker",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.045030"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b483569c",
+      "name": "Caio Borralho",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.045040"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fef78cb6",
+      "name": "Jared Cannonier",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.045049"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "90010505",
+      "name": "Roman Dolidze",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.045059"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "9583d6bf",
+      "name": "Anthony Hernandez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.045068"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "e5157499",
+      "name": "Marvin Vettori",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.045077"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "58b6dee8",
+      "name": "Brendan Allen",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.045091"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "db3f5063",
+      "name": "Reinier de Ridder",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.045101"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "7b6300b2",
+      "name": "Paulo Costa",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.045111"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "87802ddd",
+      "name": "Roman Kopylov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.045120"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "1be0a07a",
+      "name": "Abus Magomedov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Middleweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.045130"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "6ca0b57b",
+      "name": "Ji\u0159\u00ed Proch\u00e1zka",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.045247"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "6a36f7b9",
+      "name": "Carlos Ulberg",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.045257"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "2cc62c24",
+      "name": "Khalil Rountree Jr.",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.045267"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "7e142138",
+      "name": "Jan B\u0142achowicz",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.045277"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fa92f349",
+      "name": "Jamahal Hill",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.045286"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "fab549e5",
+      "name": "Aleksandar Raki\u0107",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.045297"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "ae7ec1ba",
+      "name": "Dominick Reyes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.045306"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "86c8b561",
+      "name": "Volkan Oezdemir",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.045315"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "9dd8a4f6",
+      "name": "Nikita Krylov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.045324"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "75591a46",
+      "name": "Azamat Murzakanov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.045334"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "f52a7724",
+      "name": "Johnny Walker",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.045343"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "aec9dc5a",
+      "name": "Bogdan Guskov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.045353"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "81d3fc04",
+      "name": "Zhang Mingyang",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.045362"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "990efe11",
+      "name": "Alonzo Menifield",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Light Heavyweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.045372"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "d405f6e1",
+      "name": "Ciryl Gane",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.045481"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "65960493",
+      "name": "Alexander Volkov",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.045494"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "d38d32ac",
+      "name": "Sergei Pavlovich",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.045507"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "de831203",
+      "name": "Curtis Blaydes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.045521"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c17b1fa1",
+      "name": "Jailton Almeida",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.045533"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "34808451",
+      "name": "Waldo Cortes Acosta",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.045555"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "3a7dd104",
+      "name": "Marcin Tybura",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.045565"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "e61d5100",
+      "name": "Serghei Spivac",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.045576"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "957522be",
+      "name": "Derrick Lewis",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.045587"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "629bc2bb",
+      "name": "Tai Tuivasa",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.045597"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "dcf805bf",
+      "name": "Shamil Gaziev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.045608"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "a0cd4255",
+      "name": "Mick Parkin",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.045618"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "395835d1",
+      "name": "Tallison Teixeira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.045628"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "04c39775",
+      "name": "Martin Buday",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.045638"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "16862aff",
+      "name": "Rizvan Kuniev",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Heavyweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.045648"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "db8b8bd9",
+      "name": "Valentina Shevchenko",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.045699"
+        },
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.045757"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.046179"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "934bd39f",
+      "name": "Zhang Weili",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.045767"
+        },
+        {
+          "division": "Women'S Strawweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.045939"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "e8904c85",
+      "name": "Kayla Harrison",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.045781"
+        },
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 0,
+          "scraped_at": "2025-06-29T22:34:03.046442"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "0084e6f1",
+      "name": "Manon Fiorot",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.045791"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.046247"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "eca72ce6",
+      "name": "Julianna Pe\u00f1a",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.045801"
+        },
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.046500"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "a47925a4",
+      "name": "Natalia Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.045810"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.046238"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "2f089bd2",
+      "name": "Alexa Grasso",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.045819"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.046256"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "aaa797b5",
+      "name": "Erin Blanchfield",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.045828"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.046266"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c677e653",
+      "name": "Virna Jandiroba",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.045838"
+        },
+        {
+          "division": "Women'S Strawweight",
+          "rank": 1,
+          "scraped_at": "2025-06-29T22:34:03.045998"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "045c822c",
+      "name": "Raquel Pennington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.045847"
+        },
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.046513"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "950f97f6",
+      "name": "Tatiana Suarez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.045857"
+        },
+        {
+          "division": "Women'S Strawweight",
+          "rank": 2,
+          "scraped_at": "2025-06-29T22:34:03.046008"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "41197a2a",
+      "name": "Rose Namajunas",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.045866"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.046294"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c58c3a86",
+      "name": "Yan Xiaonan",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.045876"
+        },
+        {
+          "division": "Women'S Strawweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.046017"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "deadb348",
+      "name": "Amanda Lemos",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.045885"
+        },
+        {
+          "division": "Women'S Strawweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.046027"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "c9bce4b5",
+      "name": "Maycee Barber",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Pound For Poundtop Rank",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.045895"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.046275"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "0eb0d19b",
+      "name": "J\u00e9ssica Andrade",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.046036"
+        },
+        {
+          "division": "Women'S Flyweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.046337"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "1868597d",
+      "name": "Mackenzie Dern",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.046045"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "60bc6c8b",
+      "name": "Amanda Ribas",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.046055"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "49c2ef91",
+      "name": "Iasmin Lucindo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.046064"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "bd86cff5",
+      "name": "Gillian Robertson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.046074"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "f27df414",
+      "name": "Tabatha Ricci",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.046083"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b0959ad7",
+      "name": "Loopy Godinez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.046092"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "dddaac19",
+      "name": "Angela Hill",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.046102"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b228d39d",
+      "name": "Tecia Pennington",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.046112"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "2b4f0961",
+      "name": "Loma Lookboonmee",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.046121"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "092a12fb",
+      "name": "Denise Gomes",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Strawweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.046131"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "8652f0cd",
+      "name": "Jasmine Jasudavicius",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.046285"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "f5d51b0a",
+      "name": "Viviane Ara\u00fajo",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.046303"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "f23f5caa",
+      "name": "Tracy Cortez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.046346"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "00cc7715",
+      "name": "Miranda Maverick",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.046360"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "06b4c878",
+      "name": "Karine Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.046370"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "357346d5",
+      "name": "Casey O'Neill",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.046379"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "58cfe903",
+      "name": "Wang Cong",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.046388"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "1fdd3b0f",
+      "name": "JJ Aldrich",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Flyweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.046397"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "34c605d6",
+      "name": "Ketlen Vieira",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 3,
+          "scraped_at": "2025-06-29T22:34:03.046523"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "79c76b8b",
+      "name": "Norma Dumont",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 4,
+          "scraped_at": "2025-06-29T22:34:03.046532"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "882b8b96",
+      "name": "Macy Chiasson",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 5,
+          "scraped_at": "2025-06-29T22:34:03.046542"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "1b1d9afb",
+      "name": "Irene Aldana",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 6,
+          "scraped_at": "2025-06-29T22:34:03.046551"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "e7adbb01",
+      "name": "Ailin Perez",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 7,
+          "scraped_at": "2025-06-29T22:34:03.046572"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "45b16cfb",
+      "name": "Mayra Bueno Silva",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 8,
+          "scraped_at": "2025-06-29T22:34:03.046581"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "d8b0f82a",
+      "name": "Yana Santos",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 9,
+          "scraped_at": "2025-06-29T22:34:03.046591"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "b9df3acc",
+      "name": "Karol Rosa",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 10,
+          "scraped_at": "2025-06-29T22:34:03.046600"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "6b78ac6d",
+      "name": "Jacqueline Cavalcanti",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 11,
+          "scraped_at": "2025-06-29T22:34:03.046609"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "89d57701",
+      "name": "Nora Cornolle",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 12,
+          "scraped_at": "2025-06-29T22:34:03.046620"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "adae0f47",
+      "name": "Miesha Tate",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 13,
+          "scraped_at": "2025-06-29T22:34:03.046633"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "651799fd",
+      "name": "Joselyne Edwards",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 14,
+          "scraped_at": "2025-06-29T22:34:03.046646"
+        }
+      ],
+      "fights": [],
+      "results": []
+    },
+    {
+      "id": "d2806a49",
+      "name": "Daria Zhelezniakova",
+      "record": {
+        "wins": 0,
+        "losses": 0,
+        "draws": 0
+      },
+      "wins": 0,
+      "losses": 0,
+      "draws": 0,
+      "rankings": [
+        {
+          "division": "Women'S Bantamweight",
+          "rank": 15,
+          "scraped_at": "2025-06-29T22:34:03.046658"
+        }
+      ],
+      "fights": [],
+      "results": []
+    }
+  ],
+  "processed_at": "2025-06-29T22:36:15.491328",
+  "metadata": {
+    "total_rankings": 208,
+    "total_upcoming_events": 0,
+    "total_past_events": 0,
+    "total_upcoming_fights": 0,
+    "total_past_results": 0,
+    "total_fighters": 174
+  }
+}
