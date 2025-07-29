@@ -115,13 +115,60 @@ class SupabaseService {
     int offset = 0,
   }) async {
     try {
+      // First get all fights
       final response = await _client
           .from('fights')
-          .select('*, fighter1:fighters!fights_fighter1_id(*), fighter2:fighters!fights_fighter2_id(*)')
+          .select('*')
           .limit(limit)
           .range(offset, offset + limit - 1);
       
-      return response.map((json) => Fight.fromJson(json)).toList();
+      List<Fight> fights = [];
+      
+      // For each fight, get the fighter details separately
+      for (var fightJson in response) {
+        try {
+          // Get fighter1 details
+          Fighter? fighter1;
+          if (fightJson['fighter1_id'] != null) {
+            final fighter1Response = await _client
+                .from('fighters')
+                .select('*')
+                .eq('id', fightJson['fighter1_id'])
+                .maybeSingle();
+            
+            if (fighter1Response != null) {
+              fighter1 = Fighter.fromJson(fighter1Response);
+            }
+          }
+          
+          // Get fighter2 details
+          Fighter? fighter2;
+          if (fightJson['fighter2_id'] != null) {
+            final fighter2Response = await _client
+                .from('fighters')
+                .select('*')
+                .eq('id', fightJson['fighter2_id'])
+                .maybeSingle();
+            
+            if (fighter2Response != null) {
+              fighter2 = Fighter.fromJson(fighter2Response);
+            }
+          }
+          
+          // Create fight with fighter details
+          final fight = Fight.fromJson({
+            ...fightJson,
+            'fighter1': fighter1?.toJson(),
+            'fighter2': fighter2?.toJson(),
+          });
+          
+          fights.add(fight);
+        } catch (e) {
+          print('Error processing fight: $e');
+        }
+      }
+      
+      return fights;
     } catch (e) {
       print('Error getting fights: $e');
       return [];
@@ -132,11 +179,46 @@ class SupabaseService {
     try {
       final response = await _client
           .from('fights')
-          .select('*, fighter1:fighters!fights_fighter1_id(*), fighter2:fighters!fights_fighter2_id(*)')
+          .select('*')
           .eq('id', id)
           .maybeSingle();
       
-      return response != null ? Fight.fromJson(response) : null;
+      if (response == null) return null;
+      
+      // Get fighter1 details
+      Fighter? fighter1;
+      if (response['fighter1_id'] != null) {
+        final fighter1Response = await _client
+            .from('fighters')
+            .select('*')
+            .eq('id', response['fighter1_id'])
+            .maybeSingle();
+        
+        if (fighter1Response != null) {
+          fighter1 = Fighter.fromJson(fighter1Response);
+        }
+      }
+      
+      // Get fighter2 details
+      Fighter? fighter2;
+      if (response['fighter2_id'] != null) {
+        final fighter2Response = await _client
+            .from('fighters')
+            .select('*')
+            .eq('id', response['fighter2_id'])
+            .maybeSingle();
+        
+        if (fighter2Response != null) {
+          fighter2 = Fighter.fromJson(fighter2Response);
+        }
+      }
+      
+      // Create fight with fighter details
+      return Fight.fromJson({
+        ...response,
+        'fighter1': fighter1?.toJson(),
+        'fighter2': fighter2?.toJson(),
+      });
     } catch (e) {
       print('Error getting fight: $e');
       return null;
