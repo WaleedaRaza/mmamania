@@ -18,6 +18,7 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
   final List<String> _tabs = ['Upcoming', 'Past', 'All'];
   List<Event> _events = [];
   List<Fight> _fights = [];
+  Map<String, List<Fight>> _eventFights = {};
   bool _isLoading = false;
   String? _error;
   late AnimationController _animationController;
@@ -55,22 +56,33 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
       final upcoming = _selectedTab == 0;
       print('🔍 Loading data for tab: ${_tabs[_selectedTab]} (upcoming: $upcoming)');
       
+      // Load events first
       final events = await SimpleDatabaseService.instance.getEvents(upcoming: upcoming);
       print('📊 Loaded ${events.length} events');
       
-      final fights = await SimpleDatabaseService.instance.getFights(upcoming: upcoming);
-      print('🥊 Loaded ${fights.length} fights');
+      // Group fights by event
+      final allFights = await SimpleDatabaseService.instance.getFights(upcoming: upcoming);
+      print('🥊 Loaded ${allFights.length} total fights');
       
-      // Debug: Print first few fights
-      if (fights.isNotEmpty) {
-        print('📋 First fight: ${fights.first}');
-        print('📋 First fight status: ${fights.first.status}');
-        print('📋 First fight fighters: ${fights.first.fighter1?.name} vs ${fights.first.fighter2?.name}');
+      // Create event-fight mapping
+      final Map<String, List<Fight>> eventFights = {};
+      for (final fight in allFights) {
+        if (fight.eventId != null) {
+          eventFights.putIfAbsent(fight.eventId, () => []).add(fight);
+        }
+      }
+      
+      // Debug: Print event-fight mapping
+      print('📋 Event-fight mapping:');
+      for (final event in events) {
+        final eventFightsList = eventFights[event.id] ?? [];
+        print('  ${event.title}: ${eventFightsList.length} fights');
       }
       
       setState(() {
         _events = events;
-        _fights = fights;
+        _fights = allFights;
+        _eventFights = eventFights;
         _isLoading = false;
       });
       _animationController.forward();
@@ -264,7 +276,7 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
       );
     }
 
-    if (_fights.isEmpty) {
+    if (_events.isEmpty) {
       return Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
@@ -276,7 +288,7 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
             ),
             SizedBox(height: 16),
             Text(
-              'No fights available',
+              'No events available',
               style: TextStyle(
                 color: Colors.grey.shade600,
                 fontSize: 18,
@@ -285,7 +297,7 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
             ),
             SizedBox(height: 8),
             Text(
-              'Check back later for upcoming fights',
+              'Check back later for upcoming events',
               style: TextStyle(
                 color: Colors.grey.shade500,
                 fontSize: 14,
@@ -300,10 +312,257 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
       opacity: _fadeAnimation,
       child: ListView.builder(
         padding: const EdgeInsets.only(bottom: 20),
-        itemCount: _fights.length,
+        itemCount: _events.length,
         itemBuilder: (context, index) {
-          return _buildFightCard(_fights[index]);
+          final event = _events[index];
+          final eventFights = _eventFights[event.id] ?? [];
+          return _buildEventCard(event, eventFights);
         },
+      ),
+    );
+  }
+
+  Widget _buildEventCard(Event event, List<Fight> eventFights) {
+    final isUpcoming = event.status == 'scheduled';
+    final isMainEvent = event.type == 'numbered';
+    
+    return GestureDetector(
+      onTap: () => _showEventDetails(event, eventFights),
+      child: Container(
+        margin: const EdgeInsets.only(bottom: 16),
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [
+              Colors.white,
+              Colors.grey.shade50,
+            ],
+          ),
+          borderRadius: BorderRadius.circular(16),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.2),
+              blurRadius: 10,
+              offset: const Offset(0, 5),
+            ),
+          ],
+        ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(16),
+          child: Column(
+            children: [
+              // Event Header
+              Container(
+                padding: const EdgeInsets.all(16),
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: isMainEvent
+                        ? [Colors.red.shade600, Colors.red.shade800]
+                        : [Colors.grey.shade600, Colors.grey.shade800],
+                  ),
+                ),
+                child: Row(
+                  children: [
+                    Icon(
+                      isUpcoming ? Icons.schedule : Icons.history,
+                      color: Colors.white,
+                      size: 20,
+                    ),
+                    const SizedBox(width: 8),
+                    Expanded(
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            event.title,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 16,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const SizedBox(height: 4),
+                          Text(
+                            '${event.venue} • ${event.location}',
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                      decoration: BoxDecoration(
+                        color: isUpcoming ? Colors.orange : Colors.green,
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Text(
+                        isUpcoming ? 'UPCOMING' : 'COMPLETED',
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              
+              // Event Details
+              Container(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  children: [
+                    // Event Info
+                    Row(
+                      children: [
+                        Icon(
+                          Icons.calendar_today,
+                          color: Colors.grey.shade600,
+                          size: 16,
+                        ),
+                        const SizedBox(width: 8),
+                        Text(
+                          event.date.toString().split(' ')[0],
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: Colors.grey.shade700,
+                            fontWeight: FontWeight.w500,
+                          ),
+                        ),
+                        const Spacer(),
+                        Text(
+                          '${eventFights.length} fights',
+                          style: TextStyle(
+                            fontSize: 12,
+                            color: Colors.grey.shade600,
+                          ),
+                        ),
+                      ],
+                    ),
+                    
+                    const SizedBox(height: 12),
+                    
+                    // Preview of main fights
+                    if (eventFights.isNotEmpty) ...[
+                      ...eventFights.take(3).map((fight) => _buildFightPreview(fight)),
+                      if (eventFights.length > 3)
+                        Padding(
+                          padding: const EdgeInsets.only(top: 8),
+                          child: Text(
+                            '+${eventFights.length - 3} more fights',
+                            style: TextStyle(
+                              fontSize: 12,
+                              color: Colors.grey.shade600,
+                              fontStyle: FontStyle.italic,
+                            ),
+                          ),
+                        ),
+                    ] else
+                      Padding(
+                        padding: const EdgeInsets.all(16),
+                        child: Text(
+                          'No fights available for this event',
+                          style: TextStyle(
+                            color: Colors.grey.shade500,
+                            fontSize: 14,
+                            fontStyle: FontStyle.italic,
+                          ),
+                        ),
+                      ),
+                    
+                    const SizedBox(height: 12),
+                    
+                    // Action Button
+                    SizedBox(
+                      width: double.infinity,
+                      child: ElevatedButton(
+                        onPressed: () => _showEventDetails(event, eventFights),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Colors.red.shade600,
+                          foregroundColor: Colors.white,
+                          padding: const EdgeInsets.symmetric(vertical: 12),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(8),
+                          ),
+                        ),
+                        child: Text(
+                          isUpcoming ? 'View Event & Predict' : 'View Results',
+                          style: const TextStyle(
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+  
+  Widget _buildFightPreview(Fight fight) {
+    final isUpcoming = fight.status == 'scheduled';
+    final hasWinner = fight.winnerId != null;
+    
+    return Container(
+      margin: const EdgeInsets.only(bottom: 8),
+      padding: const EdgeInsets.all(8),
+      decoration: BoxDecoration(
+        color: Colors.grey.shade50,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: Colors.grey.shade200),
+      ),
+      child: Row(
+        children: [
+          Expanded(
+            child: Text(
+              fight.fighter1?.name ?? 'TBD',
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
+                color: hasWinner && fight.winnerId == fight.fighter1Id 
+                    ? Colors.green.shade700 
+                    : Colors.grey.shade800,
+              ),
+            ),
+          ),
+          Container(
+            padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+            decoration: BoxDecoration(
+              color: isUpcoming ? Colors.orange.shade100 : Colors.grey.shade200,
+              borderRadius: BorderRadius.circular(4),
+            ),
+            child: Text(
+              isUpcoming ? 'VS' : (hasWinner ? 'W' : 'D'),
+              style: TextStyle(
+                fontSize: 10,
+                fontWeight: FontWeight.bold,
+                color: isUpcoming ? Colors.orange.shade700 : Colors.grey.shade600,
+              ),
+            ),
+          ),
+          Expanded(
+            child: Text(
+              fight.fighter2?.name ?? 'TBD',
+              textAlign: TextAlign.end,
+              style: TextStyle(
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
+                color: hasWinner && fight.winnerId == fight.fighter2Id 
+                    ? Colors.green.shade700 
+                    : Colors.grey.shade800,
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -752,6 +1011,400 @@ class _FightCardsScreenState extends State<FightCardsScreen> with TickerProvider
               color: Colors.grey.shade800,
             ),
           ),
+        ],
+      ),
+    );
+  }
+
+  void _showEventDetails(Event event, List<Fight> eventFights) {
+    showModalBottomSheet(
+      context: context,
+      isScrollControlled: true,
+      backgroundColor: Colors.transparent,
+      builder: (context) => Container(
+        height: MediaQuery.of(context).size.height * 0.9,
+        decoration: BoxDecoration(
+          color: Colors.white,
+          borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+        ),
+        child: Column(
+          children: [
+            // Handle
+            Container(
+              margin: EdgeInsets.only(top: 8),
+              width: 40,
+              height: 4,
+              decoration: BoxDecoration(
+                color: Colors.grey.shade300,
+                borderRadius: BorderRadius.circular(2),
+              ),
+            ),
+            
+            Expanded(
+              child: SingleChildScrollView(
+                padding: EdgeInsets.all(20),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    // Event Header
+                    Container(
+                      padding: EdgeInsets.all(16),
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                          colors: [Colors.red.shade600, Colors.red.shade800],
+                        ),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            event.title,
+                            style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          SizedBox(height: 8),
+                          Text(
+                            '${event.venue} • ${event.location}',
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 14,
+                            ),
+                          ),
+                          SizedBox(height: 4),
+                          Text(
+                            event.date.toString().split(' ')[0],
+                            style: TextStyle(
+                              color: Colors.white70,
+                              fontSize: 12,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                    
+                    SizedBox(height: 20),
+                    
+                    // Event Stats
+                    Row(
+                      children: [
+                        Expanded(
+                          child: _buildStatCard('Total Fights', '${eventFights.length}', Icons.sports_mma),
+                        ),
+                        SizedBox(width: 12),
+                        Expanded(
+                          child: _buildStatCard('Main Events', '${eventFights.where((f) => f.isMainEvent).length}', Icons.star),
+                        ),
+                        SizedBox(width: 12),
+                        Expanded(
+                          child: _buildStatCard('Status', event.status, Icons.info),
+                        ),
+                      ],
+                    ),
+                    
+                    SizedBox(height: 20),
+                    
+                    // Fights List
+                    Text(
+                      'Fight Card',
+                      style: TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                    SizedBox(height: 12),
+                    
+                    ...eventFights.map((fight) => _buildEventFightCard(fight)),
+                    
+                    if (event.status == 'scheduled') ...[
+                      SizedBox(height: 20),
+                      SizedBox(
+                        width: double.infinity,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.pop(context);
+                            // TODO: Navigate to prediction screen
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: Colors.red.shade600,
+                            foregroundColor: Colors.white,
+                            padding: EdgeInsets.symmetric(vertical: 16),
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                          ),
+                          child: Text(
+                            'Make Predictions for All Fights',
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ],
+                ),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+  
+  Widget _buildStatCard(String title, String value, IconData icon) {
+    return Container(
+      padding: EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.grey.shade50,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: Colors.grey.shade200),
+      ),
+      child: Column(
+        children: [
+          Icon(icon, color: Colors.red.shade600, size: 20),
+          SizedBox(height: 4),
+          Text(
+            value,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
+              fontSize: 16,
+            ),
+          ),
+          Text(
+            title,
+            style: TextStyle(
+              fontSize: 12,
+              color: Colors.grey.shade600,
+            ),
+          ),
+        ],
+      ),
+    );
+  }
+  
+  Widget _buildEventFightCard(Fight fight) {
+    final isUpcoming = fight.status == 'scheduled';
+    final hasWinner = fight.winnerId != null;
+    
+    return Container(
+      margin: EdgeInsets.only(bottom: 12),
+      padding: EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(8),
+        border: Border.all(color: Colors.grey.shade200),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.05),
+            blurRadius: 4,
+            offset: Offset(0, 2),
+          ),
+        ],
+      ),
+      child: Column(
+        children: [
+          // Fight Header
+          Row(
+            children: [
+              if (fight.isMainEvent)
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: Colors.amber.shade100,
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  child: Text(
+                    'MAIN EVENT',
+                    style: TextStyle(
+                      color: Colors.amber.shade800,
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              if (fight.isTitleFight)
+                Container(
+                  margin: EdgeInsets.only(left: 8),
+                  padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                  decoration: BoxDecoration(
+                    color: Colors.purple.shade100,
+                    borderRadius: BorderRadius.circular(4),
+                  ),
+                  child: Text(
+                    'TITLE FIGHT',
+                    style: TextStyle(
+                      color: Colors.purple.shade800,
+                      fontSize: 10,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              Spacer(),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                decoration: BoxDecoration(
+                  color: isUpcoming ? Colors.orange.shade100 : Colors.green.shade100,
+                  borderRadius: BorderRadius.circular(4),
+                ),
+                child: Text(
+                  isUpcoming ? 'UPCOMING' : 'COMPLETED',
+                  style: TextStyle(
+                    fontSize: 10,
+                    fontWeight: FontWeight.bold,
+                    color: isUpcoming ? Colors.orange.shade700 : Colors.green.shade700,
+                  ),
+                ),
+              ),
+            ],
+          ),
+          
+          SizedBox(height: 8),
+          
+          // Fighters
+          Row(
+            children: [
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(
+                      fight.fighter1?.name ?? 'TBD',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                        color: hasWinner && fight.winnerId == fight.fighter1Id 
+                            ? Colors.green.shade700 
+                            : Colors.grey.shade800,
+                      ),
+                    ),
+                    Text(
+                      fight.fighter1?.record ?? '0-0-0',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.grey.shade600,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Container(
+                padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                  color: Colors.red.shade100,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: Text(
+                  'VS',
+                  style: TextStyle(
+                    color: Colors.red.shade700,
+                    fontWeight: FontWeight.bold,
+                    fontSize: 12,
+                  ),
+                ),
+              ),
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  children: [
+                    Text(
+                      fight.fighter2?.name ?? 'TBD',
+                      style: TextStyle(
+                        fontWeight: FontWeight.bold,
+                        fontSize: 14,
+                        color: hasWinner && fight.winnerId == fight.fighter2Id 
+                            ? Colors.green.shade700 
+                            : Colors.grey.shade800,
+                      ),
+                    ),
+                    Text(
+                      fight.fighter2?.record ?? '0-0-0',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.grey.shade600,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
+          
+          SizedBox(height: 8),
+          
+          // Weight Class
+          Text(
+            fight.weightClass,
+            style: TextStyle(
+              fontSize: 12,
+              color: Colors.grey.shade600,
+              fontStyle: FontStyle.italic,
+            ),
+          ),
+          
+          // Result or Prediction Button
+          if (hasWinner) ...[
+            SizedBox(height: 8),
+            Container(
+              padding: EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: Colors.green.shade50,
+                borderRadius: BorderRadius.circular(6),
+                border: Border.all(color: Colors.green.shade200),
+              ),
+              child: Row(
+                children: [
+                  Icon(Icons.check_circle, color: Colors.green.shade600, size: 16),
+                  SizedBox(width: 8),
+                  Expanded(
+                    child: Text(
+                      'Winner: ${fight.winnerId == fight.fighter1Id ? fight.fighter1?.name : fight.fighter2?.name}',
+                      style: TextStyle(
+                        color: Colors.green.shade700,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 12,
+                      ),
+                    ),
+                  ),
+                  if (fight.method != null && fight.method!.isNotEmpty)
+                    Text(
+                      '(${fight.method})',
+                      style: TextStyle(
+                        color: Colors.green.shade600,
+                        fontSize: 10,
+                      ),
+                    ),
+                ],
+              ),
+            ),
+          ] else if (isUpcoming) ...[
+            SizedBox(height: 8),
+            SizedBox(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () => _showPredictionDialog(fight),
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: Colors.red.shade600,
+                  foregroundColor: Colors.white,
+                  padding: EdgeInsets.symmetric(vertical: 8),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(6),
+                  ),
+                ),
+                child: Text(
+                  'Make Prediction',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    fontSize: 12,
+                  ),
+                ),
+              ),
+            ),
+          ],
         ],
       ),
     );
