@@ -158,8 +158,8 @@ class SupabaseService {
           // Create fight with fighter details
           final fight = Fight.fromJson({
             ...fightJson,
-            'fighter1': fighter1?.toJson(),
-            'fighter2': fighter2?.toJson(),
+            'fighter1': fighter1 != null ? fighter1.toJson() : null,
+            'fighter2': fighter2 != null ? fighter2.toJson() : null,
           });
           
           fights.add(fight);
@@ -216,8 +216,8 @@ class SupabaseService {
       // Create fight with fighter details
       return Fight.fromJson({
         ...response,
-        'fighter1': fighter1?.toJson(),
-        'fighter2': fighter2?.toJson(),
+        'fighter1': fighter1 != null ? fighter1.toJson() : null,
+        'fighter2': fighter2 != null ? fighter2.toJson() : null,
       });
     } catch (e) {
       print('Error getting fight: $e');
