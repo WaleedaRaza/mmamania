@@ -229,11 +229,11 @@ class ComprehensiveUFCEventsScraper:
             tables = soup.find_all('table')
             
             for table in tables:
-                # Check if this table contains fight data
-                if table.find('td', string=lambda text: text and 'def.' in text):
+                # Check if this table contains fight data by looking for "def." or "vs."
+                table_text = table.get_text().lower()
+                if 'def.' in table_text or 'vs.' in table_text or 'weight class' in table_text:
                     table_fights = self.parse_fight_table(table)
                     fights.extend(table_fights)
-                    break  # Found the fight card table
             
             logger.info(f"✅ Found {len(fights)} fights for event")
             return fights
@@ -337,6 +337,32 @@ class ComprehensiveUFCEventsScraper:
         
         return clean_name
     
+    def scrape_events_with_fights(self) -> List[Dict]:
+        """Scrape events and their fights"""
+        logger.info("🎯 Starting comprehensive event and fight scraping...")
+        
+        # First get all events
+        events = self.scrape_all_events()
+        
+        events_with_fights = []
+        
+        for event in events:
+            if event.get('url'):
+                logger.info(f"🔍 Scraping fights for: {event['name']}")
+                
+                # Get fights for this event
+                fights = self.get_event_fights(event['url'])
+                
+                # Add fights to event
+                event['fights'] = fights
+                events_with_fights.append(event)
+                
+                # Small delay to be respectful
+                time.sleep(1)
+        
+        logger.info(f"✅ Completed scraping {len(events_with_fights)} events with fights")
+        return events_with_fights
+    
     def save_results(self, events: List[Dict], output_dir: str = "data/exports"):
         """Save results to JSON and CSV files"""
         os.makedirs(output_dir, exist_ok=True)
@@ -344,20 +370,21 @@ class ComprehensiveUFCEventsScraper:
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
         # Save events as JSON
-        events_file = os.path.join(output_dir, f"ufc_events_{timestamp}.json")
+        events_file = os.path.join(output_dir, f"ufc_events_with_fights_{timestamp}.json")
         with open(events_file, 'w', encoding='utf-8') as f:
             json.dump(events, f, indent=2, ensure_ascii=False)
         logger.info(f"Saved {len(events)} events to {events_file}")
         
         # Save events as CSV
-        events_csv = os.path.join(output_dir, f"ufc_events_{timestamp}.csv")
+        events_csv = os.path.join(output_dir, f"ufc_events_with_fights_{timestamp}.csv")
         with open(events_csv, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
             writer.writerow([
-                'name', 'date', 'venue', 'location', 'status', 'event_type', 'url', 'scraped_at'
+                'name', 'date', 'venue', 'location', 'status', 'event_type', 'url', 'fight_count', 'scraped_at'
             ])
             
             for event in events:
+                fight_count = len(event.get('fights', []))
                 writer.writerow([
                     event.get('name', ''),
                     event.get('date', ''),
@@ -366,6 +393,7 @@ class ComprehensiveUFCEventsScraper:
                     event.get('status', ''),
                     event.get('event_type', ''),
                     event.get('url', ''),
+                    fight_count,
                     event.get('scraped_at', '')
                 ])
         
@@ -379,21 +407,23 @@ def main():
     
     logger.info("Starting Comprehensive UFC Events Scraper")
     
-    # Scrape all events
-    events = scraper.scrape_all_events()
+    # Scrape all events with their fights
+    events_with_fights = scraper.scrape_events_with_fights()
     
-    if events:
+    if events_with_fights:
         # Save results
-        events_file, events_csv = scraper.save_results(events)
+        events_file, events_csv = scraper.save_results(events_with_fights)
         
         # Print summary
-        scheduled_count = len([e for e in events if e['status'] == 'scheduled'])
-        completed_count = len([e for e in events if e['status'] == 'completed'])
+        scheduled_count = len([e for e in events_with_fights if e['status'] == 'scheduled'])
+        completed_count = len([e for e in events_with_fights if e['status'] == 'completed'])
+        total_fights = sum(len(e.get('fights', [])) for e in events_with_fights)
         
         logger.info(f"Scraping complete!")
-        logger.info(f"  Total events: {len(events)}")
+        logger.info(f"  Total events: {len(events_with_fights)}")
         logger.info(f"  Scheduled events: {scheduled_count}")
         logger.info(f"  Completed events: {completed_count}")
+        logger.info(f"  Total fights: {total_fights}")
         logger.info(f"  Results saved to: {events_file} and {events_csv}")
     else:
         logger.warning("No events were successfully scraped")

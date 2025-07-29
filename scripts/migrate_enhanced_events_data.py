@@ -29,9 +29,9 @@ class EnhancedEventsMigrator:
     def __init__(self):
         self.supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
         
-    def migrate_events_data(self, events_file: str):
-        """Migrate events data to Supabase"""
-        logger.info(f"🚀 Starting enhanced events migration from {events_file}")
+    def migrate_events_with_fights_data(self, events_file: str):
+        """Migrate events and their fights data to Supabase"""
+        logger.info(f"🚀 Starting enhanced events with fights migration from {events_file}")
         
         try:
             # Load events data
@@ -40,18 +40,29 @@ class EnhancedEventsMigrator:
             
             logger.info(f"📊 Loaded {len(events_data)} events from file")
             
-            # Process and migrate events
+            # Process and migrate events with their fights
             migrated_events = []
+            total_fights = 0
+            
             for event in events_data:
                 try:
                     event_id = self.migrate_event(event)
                     if event_id:
                         migrated_events.append(event_id)
-                        logger.info(f"✅ Migrated event: {event['name']}")
+                        
+                        # Migrate fights for this event
+                        fights = event.get('fights', [])
+                        if fights:
+                            migrated_fights = self.migrate_fights_for_event(event_id, fights)
+                            total_fights += len(migrated_fights)
+                            logger.info(f"✅ Migrated event: {event['name']} with {len(migrated_fights)} fights")
+                        else:
+                            logger.info(f"✅ Migrated event: {event['name']} (no fights)")
+                            
                 except Exception as e:
                     logger.error(f"❌ Error migrating event {event.get('name', 'Unknown')}: {e}")
             
-            logger.info(f"🎉 Successfully migrated {len(migrated_events)} events")
+            logger.info(f"🎉 Successfully migrated {len(migrated_events)} events and {total_fights} fights")
             return migrated_events
             
         except Exception as e:
@@ -150,6 +161,10 @@ class EnhancedEventsMigrator:
             if fight_data.get('winner'):
                 winner_id = self.get_or_create_fighter(fight_data['winner'])
             
+            # Determine if it's main event based on card type
+            is_main_event = fight_data.get('card_type', '').lower() in ['main card', 'main event']
+            is_title_fight = 'title' in fight_data.get('weight_class', '').lower()
+            
             # Prepare fight data for Supabase
             fight_payload = {
                 'event_id': event_id,
@@ -162,8 +177,8 @@ class EnhancedEventsMigrator:
                 'round': fight_data.get('round', ''),
                 'time': fight_data.get('time', ''),
                 'card_type': fight_data.get('card_type', ''),
-                'is_main_event': fight_data.get('card_type', '').lower() == 'main card',
-                'is_title_fight': 'title' in fight_data.get('weight_class', '').lower(),
+                'is_main_event': is_main_event,
+                'is_title_fight': is_title_fight,
                 'date': datetime.now().isoformat()  # Will be updated from event date
             }
             
@@ -320,7 +335,7 @@ def main():
     migrator = EnhancedEventsMigrator()
     
     # Check for events file
-    events_file = "data/exports/ufc_events_latest.json"
+    events_file = "data/exports/ufc_events_with_fights_latest.json"
     
     if not os.path.exists(events_file):
         logger.error(f"❌ Events file not found: {events_file}")
@@ -328,8 +343,8 @@ def main():
         logger.info("   python scripts/comprehensive_ufc_events_scraper.py")
         return
     
-    # Migrate events
-    migrated_events = migrator.migrate_events_data(events_file)
+    # Migrate events with fights
+    migrated_events = migrator.migrate_events_with_fights_data(events_file)
     
     if migrated_events:
         # Update fight statuses
@@ -339,7 +354,7 @@ def main():
         migrator.create_prediction_tables()
         
         logger.info("🎉 Enhanced migration complete!")
-        logger.info(f"  Migrated {len(migrated_events)} events")
+        logger.info(f"  Migrated {len(migrated_events)} events with fights")
         logger.info("  Updated fight statuses")
         logger.info("  Prepared prediction system")
     else:
