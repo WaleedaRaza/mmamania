@@ -261,7 +261,7 @@ class _ProfileScreenState extends State<ProfileScreen> with TickerProviderStateM
                   margin: const EdgeInsets.symmetric(horizontal: 16),
                   child: FadeTransition(
                     opacity: _fadeAnimation,
-                    child: _buildTabContent(),
+                  child: _buildTabContent(),
                   ),
                 ),
               ),

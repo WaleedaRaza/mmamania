@@ -211,122 +211,122 @@ class _DebatesScreenState extends State<DebatesScreen> with TickerProviderStateM
 
   Widget _buildLiveDebates() {
     return Column(
-      children: [
-        // Debate Header
-        Container(
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-              colors: [Colors.red.shade600, Colors.red.shade800],
-            ),
-          ),
-          child: Row(
-            children: [
-              CircleAvatar(
-                radius: 20,
-                backgroundColor: Colors.white,
-                child: Icon(Icons.sports_mma, color: Colors.red.shade600, size: 20),
-              ),
-              const SizedBox(width: 12),
-              Expanded(
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text(
-                      'Who wins: Islam vs Oliveira 2?',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold,
-                        fontSize: 16,
-                      ),
-                    ),
-                    Text(
-                      'Live • 1.2k participants',
-                      style: TextStyle(
-                        color: Colors.white70,
-                        fontSize: 12,
-                      ),
-                    ),
-                  ],
-                ),
-              ),
-              Container(
-                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                decoration: BoxDecoration(
-                  color: Colors.white.withOpacity(0.2),
-                  borderRadius: BorderRadius.circular(12),
-                ),
-                child: Text(
-                  'LIVE',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontWeight: FontWeight.bold,
-                    fontSize: 10,
-                  ),
-                ),
-              ),
-            ],
-          ),
-        ),
-        
-        // Messages
-        Expanded(
-          child: ListView.builder(
-            padding: const EdgeInsets.all(16),
-            itemCount: 15,
-            itemBuilder: (context, index) {
-              return _buildMessage(index);
-            },
-          ),
-        ),
-        
-        // Message Input
-        Container(
-          padding: const EdgeInsets.all(16),
-          decoration: BoxDecoration(
-            color: Colors.grey.shade50,
-            border: Border(
-              top: BorderSide(color: Colors.grey.shade300),
-            ),
-          ),
-          child: Row(
-            children: [
-              Expanded(
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: Colors.white,
-                    borderRadius: BorderRadius.circular(25),
-                    border: Border.all(color: Colors.grey.shade300),
-                  ),
-                  child: TextField(
-                    controller: _messageController,
-                    decoration: InputDecoration(
-                      hintText: 'Join the debate...',
-                      border: InputBorder.none,
-                      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                    ),
-                  ),
-                ),
-              ),
-              const SizedBox(width: 12),
-              Container(
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    colors: [Colors.red.shade600, Colors.red.shade800],
-                  ),
-                  borderRadius: BorderRadius.circular(25),
-                ),
-                child: IconButton(
-                  onPressed: () {
-                    // Send message
-                  },
-                  icon: const Icon(Icons.send, color: Colors.white),
-                ),
-              ),
-            ],
-          ),
-        ),
-      ],
+                      children: [
+                        // Debate Header
+                        Container(
+                          padding: const EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            gradient: LinearGradient(
+                              colors: [Colors.red.shade600, Colors.red.shade800],
+                            ),
+                          ),
+                          child: Row(
+                            children: [
+                              CircleAvatar(
+                                radius: 20,
+                                backgroundColor: Colors.white,
+                                child: Icon(Icons.sports_mma, color: Colors.red.shade600, size: 20),
+                              ),
+                              const SizedBox(width: 12),
+                              Expanded(
+                                child: Column(
+                                  crossAxisAlignment: CrossAxisAlignment.start,
+                                  children: [
+                                    Text(
+                                      'Who wins: Islam vs Oliveira 2?',
+                                      style: TextStyle(
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 16,
+                                      ),
+                                    ),
+                                    Text(
+                                      'Live • 1.2k participants',
+                                      style: TextStyle(
+                                        color: Colors.white70,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                              Container(
+                                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                                decoration: BoxDecoration(
+                                  color: Colors.white.withOpacity(0.2),
+                                  borderRadius: BorderRadius.circular(12),
+                                ),
+                                child: Text(
+                                  'LIVE',
+                                  style: TextStyle(
+                                    color: Colors.white,
+                                    fontWeight: FontWeight.bold,
+                                    fontSize: 10,
+                                  ),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                        
+                        // Messages
+                        Expanded(
+                          child: ListView.builder(
+                            padding: const EdgeInsets.all(16),
+                            itemCount: 15,
+                            itemBuilder: (context, index) {
+                              return _buildMessage(index);
+                            },
+                          ),
+                        ),
+                        
+                        // Message Input
+                        Container(
+                          padding: const EdgeInsets.all(16),
+                          decoration: BoxDecoration(
+                            color: Colors.grey.shade50,
+                            border: Border(
+                              top: BorderSide(color: Colors.grey.shade300),
+                            ),
+                          ),
+                          child: Row(
+                            children: [
+                              Expanded(
+                                child: Container(
+                                  decoration: BoxDecoration(
+                                    color: Colors.white,
+                                    borderRadius: BorderRadius.circular(25),
+                                    border: Border.all(color: Colors.grey.shade300),
+                                  ),
+                                  child: TextField(
+                                    controller: _messageController,
+                                    decoration: InputDecoration(
+                                      hintText: 'Join the debate...',
+                                      border: InputBorder.none,
+                                      contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                              const SizedBox(width: 12),
+                              Container(
+                                decoration: BoxDecoration(
+                                  gradient: LinearGradient(
+                                    colors: [Colors.red.shade600, Colors.red.shade800],
+                                  ),
+                                  borderRadius: BorderRadius.circular(25),
+                                ),
+                                child: IconButton(
+                                  onPressed: () {
+                                    // Send message
+                                  },
+                                  icon: const Icon(Icons.send, color: Colors.white),
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
     );
   }
 
@@ -484,7 +484,7 @@ class _DebatesScreenState extends State<DebatesScreen> with TickerProviderStateM
     return ListView.builder(
       padding: EdgeInsets.all(16),
       itemCount: 10,
-      itemBuilder: (context, index) {
+        itemBuilder: (context, index) {
         return Card(
           margin: EdgeInsets.only(bottom: 12),
           child: ListTile(
@@ -509,8 +509,8 @@ class _DebatesScreenState extends State<DebatesScreen> with TickerProviderStateM
             ),
             onTap: () {
               // Navigate to debate room
-            },
-          ),
+        },
+      ),
         );
       },
     );
@@ -521,21 +521,21 @@ class _DebatesScreenState extends State<DebatesScreen> with TickerProviderStateM
       padding: EdgeInsets.all(16),
       itemCount: 10,
       itemBuilder: (context, index) {
-        return Card(
-          margin: EdgeInsets.only(bottom: 12),
+    return Card(
+      margin: EdgeInsets.only(bottom: 12),
           child: ListTile(
             leading: CircleAvatar(
               backgroundColor: Colors.blue.shade100,
               child: Icon(Icons.schedule, color: Colors.blue.shade600, size: 20),
-            ),
+                  ),
             title: Text(
               'Recent Debate ${index + 1}',
               style: TextStyle(fontWeight: FontWeight.bold),
-            ),
+                  ),
             subtitle: Text(
               'Recently started discussion',
               style: TextStyle(color: Colors.grey.shade600),
-            ),
+                ),
             trailing: Text(
               '${index + 1}h ago',
               style: TextStyle(
@@ -560,35 +560,35 @@ class _DebatesScreenState extends State<DebatesScreen> with TickerProviderStateM
           title: Text('Create New Debate'),
           content: Column(
             mainAxisSize: MainAxisSize.min,
-            children: [
+              children: [
               TextField(
                 controller: _messageController,
                 decoration: InputDecoration(
                   labelText: 'Debate Topic',
                   hintText: 'Enter your debate topic...',
-                ),
+                  ),
                 maxLines: 3,
-              ),
-            ],
-          ),
+                ),
+              ],
+            ),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.of(context).pop();
               },
               child: Text('Cancel'),
-            ),
-            ElevatedButton(
-              onPressed: () {
+                ),
+                ElevatedButton(
+                  onPressed: () {
                 // Create debate logic
                 Navigator.of(context).pop();
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(content: Text('Debate created!')),
-                );
-              },
+                    );
+                  },
               child: Text('Create'),
-            ),
-          ],
+                ),
+              ],
         );
       },
     );

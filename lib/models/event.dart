@@ -24,7 +24,7 @@ class Event {
   factory Event.fromJson(Map<String, dynamic> json) {
     return Event(
       id: json['id'] ?? '',
-      title: json['title'] ?? '',
+      title: json['name'] ?? '',  // Database uses 'name' instead of 'title'
       date: json['date'] != null ? DateTime.parse(json['date']) : DateTime.now(),
       venue: json['venue'] ?? '',
       location: json['location'] ?? '',

@@ -169,16 +169,17 @@ class SimpleDatabaseService {
   // Fights
   Future<List<Fight>> getFights({
     bool upcoming = true,
-    int limit = 20,
+    int limit = 1000,  // Increased limit to get all fights
     int offset = 0,
   }) async {
     try {
       print('🔍 Getting fights from Supabase (upcoming: $upcoming, limit: $limit)');
       
-      // First get all fights
+      // First get all fights, ordered by created_at desc to get newest first
       final response = await _client
           .from('fights')
           .select('*')
+          .order('created_at', ascending: false)
           .limit(limit)
           .range(offset, offset + limit - 1);
       
@@ -233,19 +234,16 @@ class SimpleDatabaseService {
           });
           
           fights.add(fight);
-          print('✅ Added fight: ${fighter1?.name} vs ${fighter2?.name}');
+          print('✅ Added fight: ${fighter1?.name} vs ${fighter2?.name} (eventId: ${fight.eventId})');
         } catch (e) {
           print('Error processing fight: $e');
         }
       }
       
-      print('📊 Total fights before filtering: ${fights.length}');
+      print('📊 Total fights processed: ${fights.length}');
       
-      // Filter in Dart instead of SQL
-      if (upcoming) {
-        fights = fights.where((f) => f.status == 'scheduled').toList();
-        print('📊 Fights after filtering for upcoming: ${fights.length}');
-      }
+      // Don't filter fights by status - they inherit from events
+      // The filtering should be done at the event level
       
       print('🎉 Returning ${fights.length} fights');
       return fights;
@@ -312,20 +310,62 @@ class SimpleDatabaseService {
     int offset = 0,
   }) async {
     try {
+      print('🔍 Getting events from Supabase (upcoming: $upcoming, limit: $limit)');
+      
+      // Get all events first
       final response = await _client
           .from('events')
-          .select('*, fights(*)')
-          .limit(limit)
-          .range(offset, offset + limit - 1);
+          .select('*')
+          .limit(limit * 2)  // Get more events to filter from
+          .range(offset, offset + (limit * 2) - 1);
+      
+      print('📊 Raw events response: ${response.length} events');
       
       List<Event> events = response.map((json) => Event.fromJson(json)).toList();
       
-      // Filter in Dart instead of SQL
+      // Get all fights to check which events have fights
+      final fightsResponse = await _client
+          .from('fights')
+          .select('event_id')
+          .limit(100);
+      
+      final eventsWithFights = fightsResponse
+          .map((f) => f['event_id'] as String?)
+          .where((id) => id != null)
+          .toSet();
+      
+      print('📊 Events with fights: ${eventsWithFights.length}');
+      
+      // Filter events to prioritize those with fights
+      final eventsWithFightsList = events.where((e) => eventsWithFights.contains(e.id)).toList();
+      final eventsWithoutFights = events.where((e) => !eventsWithFights.contains(e.id)).toList();
+      
+      // Combine: events with fights first, then others
+      final prioritizedEvents = [...eventsWithFightsList, ...eventsWithoutFights];
+      
+      // Apply date filtering
+      final now = DateTime.now();
+      List<Event> filteredEvents;
       if (upcoming) {
-        events = events.where((e) => e.type == 'upcoming').toList();
+        // For upcoming, show events with fights first, then future events
+        final upcomingWithFights = prioritizedEvents.where((e) => e.date.isAfter(now) && eventsWithFights.contains(e.id)).toList();
+        final upcomingWithoutFights = prioritizedEvents.where((e) => e.date.isAfter(now) && !eventsWithFights.contains(e.id)).toList();
+        filteredEvents = [...upcomingWithFights, ...upcomingWithoutFights];
+      } else {
+        // For past, show events with fights first, then past events
+        final pastWithFights = prioritizedEvents.where((e) => e.date.isBefore(now) && eventsWithFights.contains(e.id)).toList();
+        final pastWithoutFights = prioritizedEvents.where((e) => e.date.isBefore(now) && !eventsWithFights.contains(e.id)).toList();
+        filteredEvents = [...pastWithFights, ...pastWithoutFights];
       }
       
-      return events;
+      // Limit the final result
+      filteredEvents = filteredEvents.take(limit).toList();
+      
+      print('📊 Events after filtering: ${filteredEvents.length}');
+      print('📊 Events with fights: ${filteredEvents.where((e) => eventsWithFights.contains(e.id)).length}');
+      
+      print('🎉 Returning ${filteredEvents.length} events');
+      return filteredEvents;
     } catch (e) {
       print('Error getting events: $e');
       return [];
@@ -381,10 +421,12 @@ class SimpleDatabaseService {
   Future<Prediction?> createPrediction({
     required String userId,
     required String fightId,
-    required String predictedWinnerId,
+    required String? predictedWinnerId,
     String? predictedMethod,
     int? predictedRound,
   }) async {
+    if (predictedWinnerId == null) return null;
+    
     try {
       final response = await _client
           .from('predictions')

@@ -139,13 +139,13 @@ class _RankingsScreenState extends State<RankingsScreen> with TickerProviderStat
                   itemBuilder: (context, index) {
                     return Container(
                       margin: const EdgeInsets.only(right: 12),
-                      child: GestureDetector(
-                        onTap: () {
-                          setState(() {
-                            _selectedWeightClass = index;
-                          });
-                          _loadRankings();
-                        },
+                                              child: GestureDetector(
+                          onTap: () {
+                            setState(() {
+                              _selectedWeightClass = index;
+                            });
+                            _loadRankings();
+                          },
                         child: AnimatedContainer(
                           duration: const Duration(milliseconds: 200),
                           padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -226,8 +226,8 @@ class _RankingsScreenState extends State<RankingsScreen> with TickerProviderStat
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation<Color>(Colors.red.shade600),
-            ),
+                              valueColor: AlwaysStoppedAnimation<Color>(Colors.red.shade600),
+                            ),
             SizedBox(height: 16),
             Text(
               'Loading rankings...',
@@ -243,71 +243,71 @@ class _RankingsScreenState extends State<RankingsScreen> with TickerProviderStat
 
     if (_error != null) {
       return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.error_outline,
-              color: Colors.red.shade600,
-              size: 48,
-            ),
+                                child: Column(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      Icons.error_outline,
+                                      color: Colors.red.shade600,
+                                      size: 48,
+                                    ),
             SizedBox(height: 16),
-            Text(
-              'Error loading rankings',
-              style: TextStyle(
-                color: Colors.red.shade600,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
+                                    Text(
+                                      'Error loading rankings',
+                                      style: TextStyle(
+                                        color: Colors.red.shade600,
+                                        fontSize: 18,
+                                        fontWeight: FontWeight.bold,
+                                      ),
+                                    ),
             SizedBox(height: 8),
-            Text(
-              _error!,
-              style: TextStyle(
-                color: Colors.grey.shade600,
-                fontSize: 14,
-              ),
-              textAlign: TextAlign.center,
-            ),
+                                    Text(
+                                      _error!,
+                                      style: TextStyle(
+                                        color: Colors.grey.shade600,
+                                        fontSize: 14,
+                                      ),
+                                      textAlign: TextAlign.center,
+                                    ),
             SizedBox(height: 16),
             ElevatedButton(
               onPressed: _loadRankings,
               child: Text('Retry'),
             ),
-          ],
-        ),
+                                  ],
+                                ),
       );
     }
 
     if (_rankings.isEmpty) {
       return Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Icon(
-              Icons.sports_martial_arts,
-              color: Colors.grey.shade400,
-              size: 48,
-            ),
+                                    child: Column(
+                                      mainAxisAlignment: MainAxisAlignment.center,
+                                      children: [
+                                        Icon(
+                                          Icons.sports_martial_arts,
+                                          color: Colors.grey.shade400,
+                                          size: 48,
+                                        ),
             SizedBox(height: 16),
-            Text(
-              'No rankings found',
-              style: TextStyle(
-                color: Colors.grey.shade600,
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
-              ),
-            ),
+                                        Text(
+                                          'No rankings found',
+                                          style: TextStyle(
+                                            color: Colors.grey.shade600,
+                                            fontSize: 18,
+                                            fontWeight: FontWeight.bold,
+                                          ),
+                                        ),
             SizedBox(height: 8),
-            Text(
-              'Try running the data pipeline first',
-              style: TextStyle(
-                color: Colors.grey.shade500,
-                fontSize: 14,
-              ),
-            ),
-          ],
-        ),
+                                        Text(
+                                          'Try running the data pipeline first',
+                                          style: TextStyle(
+                                            color: Colors.grey.shade500,
+                                            fontSize: 14,
+                                          ),
+                                        ),
+                                      ],
+                                    ),
       );
     }
 
@@ -317,11 +317,11 @@ class _RankingsScreenState extends State<RankingsScreen> with TickerProviderStat
         end: Offset.zero,
       ).animate(_slideAnimation),
       child: ListView.builder(
-        padding: const EdgeInsets.all(16),
-        itemCount: _rankings.length,
-        itemBuilder: (context, index) {
-          return _buildRankingItem(index, _rankings[index]);
-        },
+                                    padding: const EdgeInsets.all(16),
+                                    itemCount: _rankings.length,
+                                    itemBuilder: (context, index) {
+                                      return _buildRankingItem(index, _rankings[index]);
+                                    },
       ),
     );
   }

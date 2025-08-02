@@ -3,8 +3,8 @@ import 'fighter.dart';
 class Fight {
   final String id;
   final String eventId;
-  final String fighter1Id;
-  final String fighter2Id;
+  final String? fighter1Id;
+  final String? fighter2Id;
   final Fighter? fighter1;
   final Fighter? fighter2;
   final DateTime date;
@@ -22,8 +22,8 @@ class Fight {
   Fight({
     required this.id,
     required this.eventId,
-    required this.fighter1Id,
-    required this.fighter2Id,
+    this.fighter1Id,
+    this.fighter2Id,
     this.fighter1,
     this.fighter2,
     required this.date,

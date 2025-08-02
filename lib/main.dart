@@ -210,10 +210,10 @@ class _MainScaffoldState extends State<MainScaffold> with TickerProviderStateMix
                 color: isSelected ? Colors.white : Colors.white.withOpacity(0.7),
                 fontSize: 10,
                 fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
+                ),
               ),
-            ),
-          ],
-        ),
+            ],
+          ),
       ),
     );
   }
