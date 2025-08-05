@@ -1,0 +1,687 @@
+[
+  {
+    "event": {
+      "title": "UFC 298",
+      "date": "2024-02-17",
+      "venue": "Honda Center",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_298"
+    },
+    "fights": [
+      {
+        "fighter1": "Ilia Topuria:$350,000 (no win bonus)",
+        "fighter2": "Alexander",
+        "winner": "Ilia Topuria:$350,000 (no win bonus)",
+        "loser": "Alexander",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Robert Whittaker:$400,000 (includes $100,000 win bonus)",
+        "fighter2": "Paulo",
+        "winner": "Robert Whittaker:$400,000 (includes $100,000 win bonus)",
+        "loser": "Paulo",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Ian Machado Garry:$110,000 (includes $55,000 win bonus)",
+        "fighter2": "Geoff",
+        "winner": "Ian Machado Garry:$110,000 (includes $55,000 win bonus)",
+        "loser": "Geoff",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Merab Dvalishvili:$210,000 (includes $105,000 win bonus)",
+        "fighter2": "Henry",
+        "winner": "Merab Dvalishvili:$210,000 (includes $105,000 win bonus)",
+        "loser": "Henry",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Anthony Hernandez:$132,000 (includes $66,000 win bonus)",
+        "fighter2": "Roman",
+        "winner": "Anthony Hernandez:$132,000 (includes $66,000 win bonus)",
+        "loser": "Roman",
+        "method": "KO",
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Amanda Lemos:$160,000 (includes $80,000 win bonus)",
+        "fighter2": "Mackenzie",
+        "winner": "Amanda Lemos:$160,000 (includes $80,000 win bonus)",
+        "loser": "Mackenzie",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Marcos Rogério de Lima:$200,000 (includes $100,000 win bonus)",
+        "fighter2": "Junior",
+        "winner": "Marcos Rogério de Lima:$200,000 (includes $100,000 win bonus)",
+        "loser": "Junior",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Rinya Nakamura:$46,000 (includes $23,000 win bonus)",
+        "fighter2": "Carlos",
+        "winner": "Rinya Nakamura:$46,000 (includes $23,000 win bonus)",
+        "loser": "Carlos",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Zhang Mingyang:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Brendson",
+        "winner": "Zhang Mingyang:$20,000 (includes $10,000 win bonus)",
+        "loser": "Brendson",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Danny Barlow:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Josh",
+        "winner": "Danny Barlow:$20,000 (includes $10,000 win bonus)",
+        "loser": "Josh",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Oban Elliott:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Val",
+        "winner": "Oban Elliott:$20,000 (includes $10,000 win bonus)",
+        "loser": "Val",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Miranda Maverick:$150,000 (includes $75,000 win bonus)",
+        "fighter2": "Andrea",
+        "winner": "Miranda Maverick:$150,000 (includes $75,000 win bonus)",
+        "loser": "Andrea",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  },
+  {
+    "event": {
+      "title": "UFC 292",
+      "date": "2023-08-19",
+      "venue": "TD Garden",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_292"
+    },
+    "fights": [
+      {
+        "fighter1": "Sean O’Malley: $500,000 (no win bonus)",
+        "fighter2": "Aljamain",
+        "winner": "Sean O’Malley: $500,000 (no win bonus)",
+        "loser": "Aljamain",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Zhang Weili: $520,000 (no win bonus)",
+        "fighter2": "Amanda",
+        "winner": "Zhang Weili: $520,000 (no win bonus)",
+        "loser": "Amanda",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Ian Machado Garry: $100,000 (includes $50,000 win bonus)",
+        "fighter2": "Neil",
+        "winner": "Ian Machado Garry: $100,000 (includes $50,000 win bonus)",
+        "loser": "Neil",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Mario Bautista: $86,000 (includes $43,000 win bonus)",
+        "fighter2": "Da’Mon",
+        "winner": "Mario Bautista: $86,000 (includes $43,000 win bonus)",
+        "loser": "Da’Mon",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Marlon Vera: $310,000 (includes $155,000 win bonus)",
+        "fighter2": "Pedro",
+        "winner": "Marlon Vera: $310,000 (includes $155,000 win bonus)",
+        "loser": "Pedro",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Brad Tavares: $200,000 (includes $100,000 win bonus)",
+        "fighter2": "Chris",
+        "winner": "Brad Tavares: $200,000 (includes $100,000 win bonus)",
+        "loser": "Chris",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Gregory Rodrigues: $100,000 (includes $50,000 win bonus)",
+        "fighter2": "Denis",
+        "winner": "Gregory Rodrigues: $100,000 (includes $50,000 win bonus)",
+        "loser": "Denis",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Kurt Holobaugh: $30,000 (includes $15,000 win bonus)",
+        "fighter2": "Austin",
+        "winner": "Kurt Holobaugh: $30,000 (includes $15,000 win bonus)",
+        "loser": "Austin",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Brad Katona: $64,000 (includes $32,000 win bonus)",
+        "fighter2": "Cody",
+        "winner": "Brad Katona: $64,000 (includes $32,000 win bonus)",
+        "loser": "Cody",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Andre Petroski: $36,000 (includes $18,000 win bonus)",
+        "fighter2": "Gerald",
+        "winner": "Andre Petroski: $36,000 (includes $18,000 win bonus)",
+        "loser": "Gerald",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Natália Silva: $80,000 (includes $40,000 win bonus)",
+        "fighter2": "Andrea",
+        "winner": "Natália Silva: $80,000 (includes $40,000 win bonus)",
+        "loser": "Andrea",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Karine Silva: $28,000 (includes $14,000 win bonus)",
+        "fighter2": "Maryna",
+        "winner": "Karine Silva: $28,000 (includes $14,000 win bonus)",
+        "loser": "Maryna",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  },
+  {
+    "event": {
+      "title": "UFC 291",
+      "date": "2023-07-29",
+      "venue": "Delta Center",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_291"
+    },
+    "fights": [
+      {
+        "fighter1": "Kevin Holland: $356,000 (includes $178,000 win bonus)",
+        "fighter2": "Michael",
+        "winner": "Kevin Holland: $356,000 (includes $178,000 win bonus)",
+        "loser": "Michael",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Bobby Green: $300,000 (includes $150,000 win bonus)",
+        "fighter2": "Tony",
+        "winner": "Bobby Green: $300,000 (includes $150,000 win bonus)",
+        "loser": "Tony",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "CJ Vergara: $60,000 (includes $30,000 win bonus)",
+        "fighter2": "Vinicius",
+        "winner": "CJ Vergara: $60,000 (includes $30,000 win bonus)",
+        "loser": "Vinicius",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Gabriel Bonfim: $24,000 (includes $12,000 win bonus)",
+        "fighter2": "Trevin",
+        "winner": "Gabriel Bonfim: $24,000 (includes $12,000 win bonus)",
+        "loser": "Trevin",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  },
+  {
+    "event": {
+      "title": "UFC 278",
+      "date": "2022-08-20",
+      "venue": "Vivint Arena",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_278"
+    },
+    "fights": [
+      {
+        "fighter1": "Leon Edwards: $350,000 (no win bonus)",
+        "fighter2": "Kamaru",
+        "winner": "Leon Edwards: $350,000 (no win bonus)",
+        "loser": "Kamaru",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Paulo Costa: $130,000 (includes $65,000 win bonus)",
+        "fighter2": "Luke",
+        "winner": "Paulo Costa: $130,000 (includes $65,000 win bonus)",
+        "loser": "Luke",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Merab Dvalishvili: $198,000 (includes $99,000 win bonus)",
+        "fighter2": "José",
+        "winner": "Merab Dvalishvili: $198,000 (includes $99,000 win bonus)",
+        "loser": "José",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Lucie Pudilová: $48,000 (includes $24,000 win bonus)",
+        "fighter2": "Wu",
+        "winner": "Lucie Pudilová: $48,000 (includes $24,000 win bonus)",
+        "loser": "Wu",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Tyson Pedro: $86,000 (includes $43,000 win bonus)",
+        "fighter2": "Harry",
+        "winner": "Tyson Pedro: $86,000 (includes $43,000 win bonus)",
+        "loser": "Harry",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Marcin Tybura: $240,000 (includes $120,000 win bonus)",
+        "fighter2": "Alexandr",
+        "winner": "Marcin Tybura: $240,000 (includes $120,000 win bonus)",
+        "loser": "Alexandr",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Jared Gordon: $94,000 (includes $47,000 win bonus)",
+        "fighter2": "Leonardo",
+        "winner": "Jared Gordon: $94,000 (includes $47,000 win bonus)",
+        "loser": "Leonardo",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Ange Loosa: $24,000 (includes $12,000 win bonus)",
+        "fighter2": "A.J.",
+        "winner": "Ange Loosa: $24,000 (includes $12,000 win bonus)",
+        "loser": "A.J.",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Amir Albazi: $32,000 (includes $16,000 win bonus)",
+        "fighter2": "Francisco",
+        "winner": "Amir Albazi: $32,000 (includes $16,000 win bonus)",
+        "loser": "Francisco",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Aori Qileng: $24,000 (includes $12,000 win bonus)",
+        "fighter2": "Jay",
+        "winner": "Aori Qileng: $24,000 (includes $12,000 win bonus)",
+        "loser": "Jay",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Victor Altamirano: $20,000 (includes $10,000 win bonus)",
+        "fighter2": "Daniel",
+        "winner": "Victor Altamirano: $20,000 (includes $10,000 win bonus)",
+        "loser": "Daniel",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  },
+  {
+    "event": {
+      "title": "UFC 270",
+      "date": "2022-01-22",
+      "venue": "Honda Center",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_270"
+    },
+    "fights": [
+      {
+        "fighter1": "Francis Ngannou:$600,000 (no win bonus)",
+        "fighter2": "Ciryl",
+        "winner": "Francis Ngannou:$600,000 (no win bonus)",
+        "loser": "Ciryl",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Deiveson Figueiredo:$150,000 (no win bonus)",
+        "fighter2": "Brandon",
+        "winner": "Deiveson Figueiredo:$150,000 (no win bonus)",
+        "loser": "Brandon",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Michel Pereira:$100,000 (includes $50,000 win bonus)",
+        "fighter2": "André",
+        "winner": "Michel Pereira:$100,000 (includes $50,000 win bonus)",
+        "loser": "André",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Said Nurmagomedov:$50,000 (includes $25,000 win bonus)",
+        "fighter2": "Cody",
+        "winner": "Said Nurmagomedov:$50,000 (includes $25,000 win bonus)",
+        "loser": "Cody",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Michael Morales:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Trevin",
+        "winner": "Michael Morales:$20,000 (includes $10,000 win bonus)",
+        "loser": "Trevin",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Victor Henry:$40,000 (includes $20,000 win bonus)",
+        "fighter2": "Raoni",
+        "winner": "Victor Henry:$40,000 (includes $20,000 win bonus)",
+        "loser": "Raoni",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Jack Della Maddalena:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Pete",
+        "winner": "Jack Della Maddalena:$20,000 (includes $10,000 win bonus)",
+        "loser": "Pete",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Tony Gravely:$44,000 (includes $22,000 win bonus)",
+        "fighter2": "Saimon",
+        "winner": "Tony Gravely:$44,000 (includes $22,000 win bonus)",
+        "loser": "Saimon",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Matt Frevola:$46,000 (includes $23,000 win bonus)",
+        "fighter2": "Genaro",
+        "winner": "Matt Frevola:$46,000 (includes $23,000 win bonus)",
+        "loser": "Genaro",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Vanessa Demopoulos:$24,000 (includes $12,000 win bonus)",
+        "fighter2": "Silvana",
+        "winner": "Vanessa Demopoulos:$24,000 (includes $12,000 win bonus)",
+        "loser": "Silvana",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Jasmine Jasudavicius:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Kay",
+        "winner": "Jasmine Jasudavicius:$20,000 (includes $10,000 win bonus)",
+        "loser": "Kay",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  },
+  {
+    "event": {
+      "title": "UFC 263",
+      "date": "2021-06-12",
+      "venue": "Gila River Arena",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_263"
+    },
+    "fights": [
+      {
+        "fighter1": "Israel Adesanya:$500,000 (no win bonus)",
+        "fighter2": "Marvin",
+        "winner": "Israel Adesanya:$500,000 (no win bonus)",
+        "loser": "Marvin",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Brandon Moreno:$200,000 (includes $100,000 win bonus)",
+        "fighter2": "Deiveson",
+        "winner": "Brandon Moreno:$200,000 (includes $100,000 win bonus)",
+        "loser": "Deiveson",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Leon Edwards:$220,000 (includes $110,000 win bonus)",
+        "fighter2": "Nate",
+        "winner": "Leon Edwards:$220,000 (includes $110,000 win bonus)",
+        "loser": "Nate",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Belal Muhammad:$160,000 (includes $80,000)",
+        "fighter2": "Demian",
+        "winner": "Belal Muhammad:$160,000 (includes $80,000)",
+        "loser": "Demian",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Paul Craig:$110,000 (includes $55,000 win bonus)",
+        "fighter2": "Jamahal",
+        "winner": "Paul Craig:$110,000 (includes $55,000 win bonus)",
+        "loser": "Jamahal",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Brad Riddell:$80,000 (includes $40,000 win bonus)",
+        "fighter2": "Drew",
+        "winner": "Brad Riddell:$80,000 (includes $40,000 win bonus)",
+        "loser": "Drew",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Eryk Anders:$150,000 (includes $75,000 win bonus)",
+        "fighter2": "Darren",
+        "winner": "Eryk Anders:$150,000 (includes $75,000 win bonus)",
+        "loser": "Darren",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Lauren Murphy:$140,000 (includes $70,000 win bonus)",
+        "fighter2": "Joanne",
+        "winner": "Lauren Murphy:$140,000 (includes $70,000 win bonus)",
+        "loser": "Joanne",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Movsar Evloev:$72,000 (includes $36,000 win bonus)",
+        "fighter2": "Hakeem",
+        "winner": "Movsar Evloev:$72,000 (includes $36,000 win bonus)",
+        "loser": "Hakeem",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Pannie Kinziad:$56,000 (includes $28,000 win bonus)",
+        "fighter2": "Alexis",
+        "winner": "Pannie Kinziad:$56,000 (includes $28,000 win bonus)",
+        "loser": "Alexis",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Terrance McKinney:$24,000 (includes $12,000 win bonus)",
+        "fighter2": "Matt",
+        "winner": "Terrance McKinney:$24,000 (includes $12,000 win bonus)",
+        "loser": "Matt",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Steven Peterson:$46,000 (includes $23,000 win bonus)",
+        "fighter2": "Chase",
+        "winner": "Steven Peterson:$46,000 (includes $23,000 win bonus)",
+        "loser": "Chase",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Farès Ziam:$28,000 (includes $14,000 win bonus)",
+        "fighter2": "Luigi",
+        "winner": "Farès Ziam:$28,000 (includes $14,000 win bonus)",
+        "loser": "Luigi",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Carlos Felipe:$50,000 (includes $25,000 win bonus)",
+        "fighter2": "Jake",
+        "winner": "Carlos Felipe:$50,000 (includes $25,000 win bonus)",
+        "loser": "Jake",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  },
+  {
+    "event": {
+      "title": "UFC 250",
+      "date": "2020-06-06",
+      "venue": "UFC Apex",
+      "location": null,
+      "url": "https://en.wikipedia.org/wiki/UFC_250"
+    },
+    "fights": [
+      {
+        "fighter1": "Amanda Nunes:$500,000 (includes $150,000 win bonus)",
+        "fighter2": "Felicia",
+        "winner": "Amanda Nunes:$500,000 (includes $150,000 win bonus)",
+        "loser": "Felicia",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Cody Garbrandt:$260,000 (includes $130,000 win bonus)",
+        "fighter2": "Raphael",
+        "winner": "Cody Garbrandt:$260,000 (includes $130,000 win bonus)",
+        "loser": "Raphael",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Aljamain Sterling:$152,000 (includes $76,000 win bonus)",
+        "fighter2": "Cory",
+        "winner": "Aljamain Sterling:$152,000 (includes $76,000 win bonus)",
+        "loser": "Cory",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Neil Magny:$158,000 (includes $79,000 win bonus)",
+        "fighter2": "Anthony",
+        "winner": "Neil Magny:$158,000 (includes $79,000 win bonus)",
+        "loser": "Anthony",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Sean O'Malley:$80,000 (includes $40,000 win bonus)",
+        "fighter2": "Eddie",
+        "winner": "Sean O'Malley:$80,000 (includes $40,000 win bonus)",
+        "loser": "Eddie",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Alex Caceres:$116,000 (includes $58,000 win bonus)",
+        "fighter2": "Chase",
+        "winner": "Alex Caceres:$116,000 (includes $58,000 win bonus)",
+        "loser": "Chase",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Ian Heinisch:$80,000 (includes $40,000 win bonus)",
+        "fighter2": "Gerald",
+        "winner": "Ian Heinisch:$80,000 (includes $40,000 win bonus)",
+        "loser": "Gerald",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Cody Stamann:$72,000 (includes $36,000 win bonus)",
+        "fighter2": "Brian",
+        "winner": "Cody Stamann:$72,000 (includes $36,000 win bonus)",
+        "loser": "Brian",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Maki Pitolo:$20,000 (includes $10,000 win bonus)",
+        "fighter2": "Charles",
+        "winner": "Maki Pitolo:$20,000 (includes $10,000 win bonus)",
+        "loser": "Charles",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Alex Perez:$80,000 (includes $40,000 win bonus)",
+        "fighter2": "Jussier",
+        "winner": "Alex Perez:$80,000 (includes $40,000 win bonus)",
+        "loser": "Jussier",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Devin Clark:$96,000 (includes $48,000 win bonus)",
+        "fighter2": "Alonzo",
+        "winner": "Devin Clark:$96,000 (includes $48,000 win bonus)",
+        "loser": "Alonzo",
+        "method": null,
+        "weight_class": "Unknown"
+      },
+      {
+        "fighter1": "Herbert Burns:$24,000 (includes $12,000 win bonus)",
+        "fighter2": "Evan",
+        "winner": "Herbert Burns:$24,000 (includes $12,000 win bonus)",
+        "loser": "Evan",
+        "method": null,
+        "weight_class": "Unknown"
+      }
+    ]
+  }
+]

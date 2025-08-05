@@ -5,6 +5,7 @@ import '../models/event.dart';
 import '../models/ranking_item.dart';
 import '../models/prediction.dart';
 import '../models/user_stats.dart';
+import 'supabase_service.dart';
 
 class SimpleDatabaseService {
   static SimpleDatabaseService? _instance;
@@ -166,91 +167,24 @@ class SimpleDatabaseService {
     }
   }
 
-  // Fights
+  // Fights - Use optimized SupabaseService
   Future<List<Fight>> getFights({
     bool upcoming = true,
     int limit = 1000,  // Increased limit to get all fights
     int offset = 0,
   }) async {
-    try {
-      print('🔍 Getting fights from Supabase (upcoming: $upcoming, limit: $limit)');
-      
-      // First get all fights, ordered by created_at desc to get newest first
-      final response = await _client
-          .from('fights')
-          .select('*')
-          .order('created_at', ascending: false)
-          .limit(limit)
-          .range(offset, offset + limit - 1);
-      
-      print('📊 Raw fights response: ${response.length} fights');
-      
-      List<Fight> fights = [];
-      
-      // For each fight, get the fighter details separately
-      for (var fightJson in response) {
-        try {
-          print('🔍 Processing fight: ${fightJson['id']} - status: ${fightJson['status']}');
-          
-          // Get fighter1 details
-          Fighter? fighter1;
-          if (fightJson['fighter1_id'] != null) {
-            final fighter1Response = await _client
-                .from('fighters')
-                .select('*')
-                .eq('id', fightJson['fighter1_id'])
-                .maybeSingle();
-            
-            if (fighter1Response != null) {
-              fighter1 = Fighter.fromJson(fighter1Response);
-              print('✅ Found fighter1: ${fighter1.name}');
-            } else {
-              print('❌ Fighter1 not found: ${fightJson['fighter1_id']}');
-            }
-          }
-          
-          // Get fighter2 details
-          Fighter? fighter2;
-          if (fightJson['fighter2_id'] != null) {
-            final fighter2Response = await _client
-                .from('fighters')
-                .select('*')
-                .eq('id', fightJson['fighter2_id'])
-                .maybeSingle();
-            
-            if (fighter2Response != null) {
-              fighter2 = Fighter.fromJson(fighter2Response);
-              print('✅ Found fighter2: ${fighter2.name}');
-            } else {
-              print('❌ Fighter2 not found: ${fightJson['fighter2_id']}');
-            }
-          }
-          
-          // Create fight with fighter details
-          final fight = Fight.fromJson({
-            ...fightJson,
-            'fighter1': fighter1 != null ? fighter1.toJson() : null,
-            'fighter2': fighter2 != null ? fighter2.toJson() : null,
-          });
-          
-          fights.add(fight);
-          print('✅ Added fight: ${fighter1?.name} vs ${fighter2?.name} (eventId: ${fight.eventId})');
-        } catch (e) {
-          print('Error processing fight: $e');
-        }
-      }
-      
-      print('📊 Total fights processed: ${fights.length}');
-      
-      // Don't filter fights by status - they inherit from events
-      // The filtering should be done at the event level
-      
-      print('🎉 Returning ${fights.length} fights');
-      return fights;
-    } catch (e) {
-      print('Error getting fights: $e');
-      return [];
-    }
+    print('🚀 OPTIMIZED: Using SupabaseService for batch fighter loading');
+    return SupabaseService.instance.getFights(
+      upcoming: upcoming,
+      limit: limit,
+      offset: offset,
+    );
+  }
+
+  // Get fights for specific event - OPTIMIZED
+  Future<List<Fight>> getFightsForEvent(String eventId) async {
+    print('🚀 OPTIMIZED: Using SupabaseService for event-specific fight loading');
+    return SupabaseService.instance.getFightsForEvent(eventId);
   }
 
   Future<Fight?> getFight(String id) async {
@@ -303,73 +237,18 @@ class SimpleDatabaseService {
     }
   }
 
-  // Events
+  // Events - Use optimized SupabaseService
   Future<List<Event>> getEvents({
     bool upcoming = true,
     int limit = 20,
     int offset = 0,
   }) async {
-    try {
-      print('🔍 Getting events from Supabase (upcoming: $upcoming, limit: $limit)');
-      
-      // Get all events first
-      final response = await _client
-          .from('events')
-          .select('*')
-          .limit(limit * 2)  // Get more events to filter from
-          .range(offset, offset + (limit * 2) - 1);
-      
-      print('📊 Raw events response: ${response.length} events');
-      
-      List<Event> events = response.map((json) => Event.fromJson(json)).toList();
-      
-      // Get all fights to check which events have fights
-      final fightsResponse = await _client
-          .from('fights')
-          .select('event_id')
-          .limit(100);
-      
-      final eventsWithFights = fightsResponse
-          .map((f) => f['event_id'] as String?)
-          .where((id) => id != null)
-          .toSet();
-      
-      print('📊 Events with fights: ${eventsWithFights.length}');
-      
-      // Filter events to prioritize those with fights
-      final eventsWithFightsList = events.where((e) => eventsWithFights.contains(e.id)).toList();
-      final eventsWithoutFights = events.where((e) => !eventsWithFights.contains(e.id)).toList();
-      
-      // Combine: events with fights first, then others
-      final prioritizedEvents = [...eventsWithFightsList, ...eventsWithoutFights];
-      
-      // Apply date filtering
-      final now = DateTime.now();
-      List<Event> filteredEvents;
-      if (upcoming) {
-        // For upcoming, show events with fights first, then future events
-        final upcomingWithFights = prioritizedEvents.where((e) => e.date.isAfter(now) && eventsWithFights.contains(e.id)).toList();
-        final upcomingWithoutFights = prioritizedEvents.where((e) => e.date.isAfter(now) && !eventsWithFights.contains(e.id)).toList();
-        filteredEvents = [...upcomingWithFights, ...upcomingWithoutFights];
-      } else {
-        // For past, show events with fights first, then past events
-        final pastWithFights = prioritizedEvents.where((e) => e.date.isBefore(now) && eventsWithFights.contains(e.id)).toList();
-        final pastWithoutFights = prioritizedEvents.where((e) => e.date.isBefore(now) && !eventsWithFights.contains(e.id)).toList();
-        filteredEvents = [...pastWithFights, ...pastWithoutFights];
-      }
-      
-      // Limit the final result
-      filteredEvents = filteredEvents.take(limit).toList();
-      
-      print('📊 Events after filtering: ${filteredEvents.length}');
-      print('📊 Events with fights: ${filteredEvents.where((e) => eventsWithFights.contains(e.id)).length}');
-      
-      print('🎉 Returning ${filteredEvents.length} events');
-      return filteredEvents;
-    } catch (e) {
-      print('Error getting events: $e');
-      return [];
-    }
+    print('🚀 OPTIMIZED: Using SupabaseService for deduplicated event loading');
+    return SupabaseService.instance.getEvents(
+      upcoming: upcoming,
+      limit: limit,
+      offset: offset,
+    );
   }
 
   Future<Event?> getEvent(String id) async {

@@ -68,29 +68,23 @@ class _FightCardsScreenState extends State<FightCardsScreen>
         final allEvents = await SimpleDatabaseService.instance.getEvents(upcoming: false, limit: 100);
         final upcomingEvents = await SimpleDatabaseService.instance.getEvents(upcoming: true, limit: 100);
         filteredEvents = [...allEvents, ...upcomingEvents];
+        
+        // Sort all events by date (most recent first)
+        filteredEvents.sort((a, b) => b.date.compareTo(a.date));
       }
       
       print('📋 Filtered to ${filteredEvents.length} events for ${_tabs[_selectedTab]} tab');
 
-      // Load fights
-      final allFights = await SimpleDatabaseService.instance.getFights();
-      print('🥊 Loaded ${allFights.length} total fights');
-
-      // Map fights to events
+      // OPTIMIZED: Load fights for each event efficiently
       final eventFights = <String, List<Fight>>{};
-      print('🔍 Mapping fights to events...');
+      print('🚀 OPTIMIZED: Loading fights for each event efficiently');
       print('📊 Events: ${filteredEvents.length}');
-      print('📊 Fights: ${allFights.length}');
       
       for (final event in filteredEvents) {
         print('🔍 Event: ${event.id} - ${event.title}');
-        final eventFightsList = allFights.where((fight) {
-          final matches = fight.eventId == event.id;
-          if (matches) {
-            print('✅ Fight ${fight.id} matches event ${event.id}');
-          }
-          return matches;
-        }).toList();
+        
+        // Use optimized method to get fights for this specific event
+        final eventFightsList = await SimpleDatabaseService.instance.getFightsForEvent(event.id);
         eventFights[event.id] = eventFightsList;
         print('📋 ${event.title}: ${eventFightsList.length} fights');
       }
@@ -116,16 +110,19 @@ class _FightCardsScreenState extends State<FightCardsScreen>
         print('  ${event.title}: ${eventFightsList.length} fights');
       }
       
-      // Debug: Check if any fights have eventId
+      // Debug: Check if any fights have eventId (using first event's fights)
       print('🔍 Checking fight eventId values:');
-      for (int i = 0; i < allFights.length && i < 10; i++) {
-        final fight = allFights[i];
-        print('  Fight ${i+1}: ${fight.fighter1?.name} vs ${fight.fighter2?.name} - eventId: "${fight.eventId}"');
+      if (filteredEvents.isNotEmpty) {
+        final firstEventFights = eventFights[filteredEvents.first.id] ?? [];
+        for (int i = 0; i < firstEventFights.length && i < 10; i++) {
+          final fight = firstEventFights[i];
+          print('  Fight ${i+1}: ${fight.fighter1?.name} vs ${fight.fighter2?.name} - eventId: "${fight.eventId}"');
+        }
       }
       
       setState(() {
         _events = filteredEvents;
-        _fights = allFights;
+        _fights = eventFights.values.expand((fights) => fights).toList();
         _eventFights = eventFights;
         _isLoading = false;
       });

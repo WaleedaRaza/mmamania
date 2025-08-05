@@ -19,7 +19,7 @@ class _RankingsScreenState extends State<RankingsScreen> with TickerProviderStat
   late Animation<double> _slideAnimation;
   
   final List<String> _weightClasses = [
-    'Men\'s Pound-for-PoundTop Rank',
+    'Men\'s Pound-for-Pound',
     'Flyweight',
     'Bantamweight',
     'Featherweight',

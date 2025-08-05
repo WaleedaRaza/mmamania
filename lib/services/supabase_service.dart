@@ -108,58 +108,63 @@ class SupabaseService {
     }
   }
 
-  // Fights
+  // Fights - OPTIMIZED with batch loading
   Future<List<Fight>> getFights({
     bool upcoming = true,
     int limit = 20,
     int offset = 0,
   }) async {
     try {
-      // First get all fights
-      final response = await _client
+      print('🚀 OPTIMIZED: Loading fights with batch fighter fetching');
+      
+      // Get all fights in one query
+      final fightsResponse = await _client
           .from('fights')
           .select('*')
           .limit(limit)
           .range(offset, offset + limit - 1);
       
-      List<Fight> fights = [];
+      if (fightsResponse.isEmpty) {
+        print('📊 No fights found');
+        return [];
+      }
       
-      // For each fight, get the fighter details separately
-      for (var fightJson in response) {
+      // Collect all unique fighter IDs
+      Set<String> fighterIds = {};
+      for (var fight in fightsResponse) {
+        if (fight['fighter1_id'] != null) fighterIds.add(fight['fighter1_id']);
+        if (fight['fighter2_id'] != null) fighterIds.add(fight['fighter2_id']);
+      }
+      
+      print('📊 Batch loading ${fighterIds.length} unique fighters');
+      
+      // Load ALL fighters in ONE batch query
+      Map<String, Fighter> fightersMap = {};
+      if (fighterIds.isNotEmpty) {
+        final fightersResponse = await _client
+            .from('fighters')
+            .select('*')
+            .inFilter('id', fighterIds.toList());
+        
+        for (var fighterJson in fightersResponse) {
+          final fighter = Fighter.fromJson(fighterJson);
+          fightersMap[fighter.id] = fighter;
+        }
+      }
+      
+      print('✅ Loaded ${fightersMap.length} fighters in batch');
+      
+      // Create fights with pre-loaded fighter data
+      List<Fight> fights = [];
+      for (var fightJson in fightsResponse) {
         try {
-          // Get fighter1 details
-          Fighter? fighter1;
-          if (fightJson['fighter1_id'] != null) {
-            final fighter1Response = await _client
-                .from('fighters')
-                .select('*')
-                .eq('id', fightJson['fighter1_id'])
-                .maybeSingle();
-            
-            if (fighter1Response != null) {
-              fighter1 = Fighter.fromJson(fighter1Response);
-            }
-          }
+          final fighter1 = fightersMap[fightJson['fighter1_id']];
+          final fighter2 = fightersMap[fightJson['fighter2_id']];
           
-          // Get fighter2 details
-          Fighter? fighter2;
-          if (fightJson['fighter2_id'] != null) {
-            final fighter2Response = await _client
-                .from('fighters')
-                .select('*')
-                .eq('id', fightJson['fighter2_id'])
-                .maybeSingle();
-            
-            if (fighter2Response != null) {
-              fighter2 = Fighter.fromJson(fighter2Response);
-            }
-          }
-          
-          // Create fight with fighter details
           final fight = Fight.fromJson({
             ...fightJson,
-            'fighter1': fighter1 != null ? fighter1.toJson() : null,
-            'fighter2': fighter2 != null ? fighter2.toJson() : null,
+            'fighter1': fighter1?.toJson(),
+            'fighter2': fighter2?.toJson(),
           });
           
           fights.add(fight);
@@ -168,9 +173,74 @@ class SupabaseService {
         }
       }
       
+      print('🎉 OPTIMIZED: Loaded ${fights.length} fights with batch fighter loading');
       return fights;
     } catch (e) {
       print('Error getting fights: $e');
+      return [];
+    }
+  }
+
+  // Get fights for a specific event - OPTIMIZED
+  Future<List<Fight>> getFightsForEvent(String eventId) async {
+    try {
+      print('🚀 OPTIMIZED: Loading fights for event $eventId');
+      
+      // Get all fights for this event
+      final fightsResponse = await _client
+          .from('fights')
+          .select('*')
+          .eq('event_id', eventId);
+      
+      if (fightsResponse.isEmpty) {
+        print('📊 No fights found for event $eventId');
+        return [];
+      }
+      
+      // Collect all unique fighter IDs
+      Set<String> fighterIds = {};
+      for (var fight in fightsResponse) {
+        if (fight['fighter1_id'] != null) fighterIds.add(fight['fighter1_id']);
+        if (fight['fighter2_id'] != null) fighterIds.add(fight['fighter2_id']);
+      }
+      
+      // Load ALL fighters in ONE batch query
+      Map<String, Fighter> fightersMap = {};
+      if (fighterIds.isNotEmpty) {
+        final fightersResponse = await _client
+            .from('fighters')
+            .select('*')
+            .inFilter('id', fighterIds.toList());
+        
+        for (var fighterJson in fightersResponse) {
+          final fighter = Fighter.fromJson(fighterJson);
+          fightersMap[fighter.id] = fighter;
+        }
+      }
+      
+      // Create fights with pre-loaded fighter data
+      List<Fight> fights = [];
+      for (var fightJson in fightsResponse) {
+        try {
+          final fighter1 = fightersMap[fightJson['fighter1_id']];
+          final fighter2 = fightersMap[fightJson['fighter2_id']];
+          
+          final fight = Fight.fromJson({
+            ...fightJson,
+            'fighter1': fighter1?.toJson(),
+            'fighter2': fighter2?.toJson(),
+          });
+          
+          fights.add(fight);
+        } catch (e) {
+          print('Error processing fight: $e');
+        }
+      }
+      
+      print('✅ OPTIMIZED: Loaded ${fights.length} fights for event $eventId');
+      return fights;
+    } catch (e) {
+      print('Error getting fights for event: $e');
       return [];
     }
   }
@@ -225,20 +295,55 @@ class SupabaseService {
     }
   }
 
-  // Events
+  // Events - OPTIMIZED to prevent duplicates and ordered by date
   Future<List<Event>> getEvents({
     bool upcoming = true,
     int limit = 20,
     int offset = 0,
   }) async {
     try {
-      final response = await _client
+      print('🚀 OPTIMIZED: Loading events with deduplication and date ordering');
+      
+      var query = _client
           .from('events')
-          .select('*, fights(*)')
+          .select('*')
           .limit(limit)
           .range(offset, offset + limit - 1);
       
-      return response.map((json) => Event.fromJson(json)).toList();
+      // Order by date - most recent first for past events, earliest first for upcoming
+      if (upcoming) {
+        query = query.order('date', ascending: true); // Upcoming events: earliest first
+      } else {
+        query = query.order('date', ascending: false); // Past events: most recent first
+      }
+      
+      final response = await query;
+      
+      // Deduplicate events by name to prevent multiple processing
+      Map<String, Event> uniqueEvents = {};
+      for (var eventJson in response) {
+        final event = Event.fromJson(eventJson);
+        final eventKey = event.title; // Use title as unique key
+        
+        if (!uniqueEvents.containsKey(eventKey)) {
+          uniqueEvents[eventKey] = event;
+        }
+      }
+      
+      final events = uniqueEvents.values.toList();
+      
+      // Sort the deduplicated events by date to ensure proper ordering
+      events.sort((a, b) {
+        if (upcoming) {
+          return a.date.compareTo(b.date); // Upcoming: earliest first
+        } else {
+          return b.date.compareTo(a.date); // Past: most recent first
+        }
+      });
+      
+      print('✅ OPTIMIZED: Loaded ${events.length} unique events ordered by date (removed ${response.length - events.length} duplicates)');
+      
+      return events;
     } catch (e) {
       print('Error getting events: $e');
       return [];

@@ -18,6 +18,7 @@ class Fight {
   final bool isMainEvent;
   final bool isTitleFight;
   final String status;
+  final Map<String, dynamic>? resultData; // Add this to store the full result object
 
   Fight({
     required this.id,
@@ -37,18 +38,24 @@ class Fight {
     this.isMainEvent = false,
     this.isTitleFight = false,
     this.status = 'scheduled',
+    this.resultData,
   });
 
   factory Fight.fromJson(Map<String, dynamic> json) {
     // Handle result field which might be a JSON object
     String? resultString;
+    Map<String, dynamic>? resultData;
+    String? winnerIdFromResult;
+    
     if (json['result'] != null) {
       if (json['result'] is String) {
         resultString = json['result'];
       } else if (json['result'] is Map<String, dynamic>) {
-        // Extract method from result object
+        // Extract data from result object
         final resultMap = json['result'] as Map<String, dynamic>;
         resultString = resultMap['method']?.toString();
+        resultData = resultMap;
+        winnerIdFromResult = resultMap['winner_id']?.toString(); // ✅ FIXED: Extract winner_id from result
       }
     }
     
@@ -90,13 +97,14 @@ class Fight {
       weightClass: json['weight_class'] ?? '',
       rounds: json['rounds'] ?? 3,
       result: resultString,
-      winnerId: json['winner_id']?.toString(),
+      winnerId: winnerIdFromResult ?? json['winner_id']?.toString(), // ✅ FIXED: Use winner_id from result first
       method: methodString,
       round: roundString,
       time: timeString,
       isMainEvent: json['is_main_event'] ?? false,
       isTitleFight: json['is_title_fight'] ?? false,
       status: json['status'] ?? 'scheduled',
+      resultData: resultData,
     );
   }
 
@@ -119,12 +127,39 @@ class Fight {
       'is_main_event': isMainEvent,
       'is_title_fight': isTitleFight,
       'status': status,
+      'result_data': resultData,
     };
+  }
+
+  // Helper method to check if a fighter is the winner
+  bool isWinner(Fighter fighter) {
+    return winnerId == fighter.id;
+  }
+
+  // Helper method to check if a fighter is the loser
+  bool isLoser(Fighter fighter) {
+    return winnerId != null && winnerId != fighter.id;
+  }
+
+  // Helper method to get the winner
+  Fighter? get winner {
+    if (winnerId == null) return null;
+    if (winnerId == fighter1?.id) return fighter1;
+    if (winnerId == fighter2?.id) return fighter2;
+    return null;
+  }
+
+  // Helper method to get the loser
+  Fighter? get loser {
+    if (winnerId == null) return null;
+    if (winnerId == fighter1?.id) return fighter2;
+    if (winnerId == fighter2?.id) return fighter1;
+    return null;
   }
 
   @override
   String toString() {
-    return 'Fight(id: $id, fighter1: ${fighter1?.name}, fighter2: ${fighter2?.name}, date: $date, weightClass: $weightClass)';
+    return 'Fight(id: $id, fighter1: ${fighter1?.name}, fighter2: ${fighter2?.name}, date: $date, weightClass: $weightClass, winnerId: $winnerId)';
   }
 
   @override
