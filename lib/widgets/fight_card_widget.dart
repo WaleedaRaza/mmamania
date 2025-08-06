@@ -186,6 +186,7 @@ class FightCardWidget extends StatelessWidget {
   }
 
   Widget _buildFightRow(Fight fight) {
+    print('🎯 _buildFightRow called for fight: ${fight.id}');
     final hasResult = fight.result != null && fight.result!.isNotEmpty;
     final hasWinner = fight.winnerId != null;
     final isCompleted = hasResult || hasWinner;
