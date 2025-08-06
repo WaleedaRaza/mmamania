@@ -559,7 +559,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      fight.fighter1?.name ?? 'TBD',
+                      fight.getFighter1Name() ?? 'TBD',
                       style: TextStyle(
                         color: fighter1IsWinner ? Colors.green.shade700 : (fighter2IsWinner ? Colors.red.shade700 : Colors.grey.shade700),
                         fontWeight: FontWeight.w600,
@@ -600,7 +600,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   crossAxisAlignment: CrossAxisAlignment.end,
                   children: [
                     Text(
-                      fight.fighter2?.name ?? 'TBD',
+                      fight.getFighter2Name() ?? 'TBD',
                       textAlign: TextAlign.end,
                       style: TextStyle(
                         color: fighter2IsWinner ? Colors.green.shade700 : (fighter1IsWinner ? Colors.red.shade700 : Colors.grey.shade700),
