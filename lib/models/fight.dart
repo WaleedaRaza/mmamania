@@ -91,6 +91,15 @@ class Fight {
       timeString = resultMap['time']?.toString();
     }
     
+    // NEW: Handle direct fighter name fields
+    final fighter1NameFromJson = json['fighter1_name'] ?? '';
+    final fighter2NameFromJson = json['fighter2_name'] ?? '';
+    
+    // Debug logging
+    print('🔍 DEBUG: Parsing fight ${json['id']}');
+    print('   fighter1_name from JSON: "$fighter1NameFromJson"');
+    print('   fighter2_name from JSON: "$fighter2NameFromJson"');
+    
     return Fight(
       id: json['id'] ?? '',
       eventId: json['event_id'] ?? '',
@@ -99,8 +108,8 @@ class Fight {
       fighter1: json['fighter1'] != null ? Fighter.fromJson(json['fighter1']) : null,
       fighter2: json['fighter2'] != null ? Fighter.fromJson(json['fighter2']) : null,
       // NEW: Handle direct fighter name fields
-      fighter1Name: json['fighter1_name'] ?? '',
-      fighter2Name: json['fighter2_name'] ?? '',
+      fighter1Name: fighter1NameFromJson,
+      fighter2Name: fighter2NameFromJson,
       date: DateTime.tryParse(json['date'] ?? '') ?? DateTime.now(),
       weightClass: json['weight_class'] ?? '',
       rounds: json['rounds'] ?? 3,
@@ -144,11 +153,17 @@ class Fight {
 
   // NEW: Helper method to get fighter name (prioritizes direct name fields)
   String? getFighter1Name() {
-    return fighter1Name ?? fighter1?.name;
+    if (fighter1Name != null && fighter1Name!.isNotEmpty) {
+      return fighter1Name;
+    }
+    return fighter1?.name;
   }
 
   String? getFighter2Name() {
-    return fighter2Name ?? fighter2?.name;
+    if (fighter2Name != null && fighter2Name!.isNotEmpty) {
+      return fighter2Name;
+    }
+    return fighter2?.name;
   }
 
   // Helper method to check if a fighter is the winner
