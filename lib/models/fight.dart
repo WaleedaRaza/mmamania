@@ -153,16 +153,28 @@ class Fight {
 
   // NEW: Helper method to get fighter name (prioritizes direct name fields)
   String? getFighter1Name() {
+    print('🔍 DEBUG: getFighter1Name() called');
+    print('   fighter1Name: "$fighter1Name"');
+    print('   fighter1?.name: "${fighter1?.name}"');
+    
     if (fighter1Name != null && fighter1Name!.isNotEmpty) {
+      print('   ✅ Returning fighter1Name: "$fighter1Name"');
       return fighter1Name;
     }
+    print('   ⚠️ fighter1Name is null or empty, trying fighter1?.name');
     return fighter1?.name;
   }
 
   String? getFighter2Name() {
+    print('🔍 DEBUG: getFighter2Name() called');
+    print('   fighter2Name: "$fighter2Name"');
+    print('   fighter2?.name: "${fighter2?.name}"');
+    
     if (fighter2Name != null && fighter2Name!.isNotEmpty) {
+      print('   ✅ Returning fighter2Name: "$fighter2Name"');
       return fighter2Name;
     }
+    print('   ⚠️ fighter2Name is null or empty, trying fighter2?.name');
     return fighter2?.name;
   }
 
