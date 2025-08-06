@@ -116,7 +116,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
         final firstEventFights = eventFights[filteredEvents.first.id] ?? [];
         for (int i = 0; i < firstEventFights.length && i < 10; i++) {
           final fight = firstEventFights[i];
-          print('  Fight ${i+1}: ${fight.fighter1?.name} vs ${fight.fighter2?.name} - eventId: "${fight.eventId}"');
+          print('  Fight ${i+1}: ${fight.getFighter1Name()} vs ${fight.getFighter2Name()} - eventId: "${fight.eventId}"');
         }
       }
       
@@ -911,7 +911,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                      fight.fighter1?.name ?? 'TBD',
+                      fight.getFighter1Name() ?? 'TBD',
                               style: TextStyle(
                         color: hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter1Id 
                             ? Colors.green.shade700 
@@ -1024,7 +1024,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   SizedBox(width: 8),
                   Expanded(
                     child: Text(
-                                              'Winner: ${fight.winnerId != null && fight.winnerId == fight.fighter1Id ? fight.fighter1?.name ?? 'Unknown' : fight.fighter2?.name ?? 'Unknown'}',
+                                              'Winner: ${fight.winnerId != null && fight.winnerId == fight.fighter1Id ? fight.getFighter1Name() ?? 'Unknown' : fight.getFighter2Name() ?? 'Unknown'}',
                       style: TextStyle(
                         color: Colors.green.shade700,
                         fontWeight: FontWeight.bold,
@@ -1065,7 +1065,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                         Navigator.pop(context);
                         _makePrediction(fight, fight.fighter1Id);
                       },
-                      child: Text(fight.fighter1?.name ?? 'Fighter 1'),
+                                              child: Text(fight.getFighter1Name() ?? 'Fighter 1'),
                     ),
                 ),
                 SizedBox(width: 16),
