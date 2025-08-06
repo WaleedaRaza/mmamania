@@ -204,7 +204,7 @@ class FightCardWidget extends StatelessWidget {
             children: [
               Expanded(
                 child: Text(
-                  fight.fighter1?.name ?? 'TBD',
+                  fight.getFighter1Name() ?? 'TBD',
                   style: TextStyle(
                     color: _getFighterColor(fight, fight.fighter1Id, true),
                     fontWeight: FontWeight.w600,
@@ -229,7 +229,7 @@ class FightCardWidget extends StatelessWidget {
               ),
               Expanded(
                 child: Text(
-                  fight.fighter2?.name ?? 'TBD',
+                  fight.getFighter2Name() ?? 'TBD',
                   textAlign: TextAlign.end,
                   style: TextStyle(
                     color: _getFighterColor(fight, fight.fighter2Id, false),

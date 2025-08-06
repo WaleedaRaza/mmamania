@@ -7,6 +7,9 @@ class Fight {
   final String? fighter2Id;
   final Fighter? fighter1;
   final Fighter? fighter2;
+  // NEW: Direct fighter name fields for the new schema
+  final String? fighter1Name;
+  final String? fighter2Name;
   final DateTime date;
   final String weightClass;
   final int rounds;
@@ -27,6 +30,8 @@ class Fight {
     this.fighter2Id,
     this.fighter1,
     this.fighter2,
+    this.fighter1Name, // NEW
+    this.fighter2Name, // NEW
     required this.date,
     required this.weightClass,
     required this.rounds,
@@ -93,6 +98,9 @@ class Fight {
       fighter2Id: json['fighter2_id'] ?? '',
       fighter1: json['fighter1'] != null ? Fighter.fromJson(json['fighter1']) : null,
       fighter2: json['fighter2'] != null ? Fighter.fromJson(json['fighter2']) : null,
+      // NEW: Handle direct fighter name fields
+      fighter1Name: json['fighter1_name'] ?? '',
+      fighter2Name: json['fighter2_name'] ?? '',
       date: DateTime.tryParse(json['date'] ?? '') ?? DateTime.now(),
       weightClass: json['weight_class'] ?? '',
       rounds: json['rounds'] ?? 3,
@@ -116,6 +124,9 @@ class Fight {
       'fighter2_id': fighter2Id,
       'fighter1': fighter1?.toJson(),
       'fighter2': fighter2?.toJson(),
+      // NEW: Include direct fighter name fields
+      'fighter1_name': fighter1Name,
+      'fighter2_name': fighter2Name,
       'date': date.toIso8601String(),
       'weight_class': weightClass,
       'rounds': rounds,
@@ -129,6 +140,15 @@ class Fight {
       'status': status,
       'result_data': resultData,
     };
+  }
+
+  // NEW: Helper method to get fighter name (prioritizes direct name fields)
+  String? getFighter1Name() {
+    return fighter1Name ?? fighter1?.name;
+  }
+
+  String? getFighter2Name() {
+    return fighter2Name ?? fighter2?.name;
   }
 
   // Helper method to check if a fighter is the winner
@@ -159,7 +179,7 @@ class Fight {
 
   @override
   String toString() {
-    return 'Fight(id: $id, fighter1: ${fighter1?.name}, fighter2: ${fighter2?.name}, date: $date, weightClass: $weightClass, winnerId: $winnerId)';
+    return 'Fight(id: $id, fighter1: ${getFighter1Name()}, fighter2: ${getFighter2Name()}, date: $date, weightClass: $weightClass, winnerId: $winnerId)';
   }
 
   @override
