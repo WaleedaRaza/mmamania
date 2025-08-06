@@ -153,6 +153,7 @@ class Fight {
 
   // NEW: Helper method to get fighter name (prioritizes direct name fields)
   String? getFighter1Name() {
+    print('🔥🔥🔥 getFighter1Name CALLED! 🔥🔥🔥');
     print('🔍 DEBUG: getFighter1Name() called');
     print('   fighter1Name: "$fighter1Name"');
     print('   fighter1?.name: "${fighter1?.name}"');
@@ -166,6 +167,7 @@ class Fight {
   }
 
   String? getFighter2Name() {
+    print('🔥🔥🔥 getFighter2Name CALLED! 🔥🔥🔥');
     print('🔍 DEBUG: getFighter2Name() called');
     print('   fighter2Name: "$fighter2Name"');
     print('   fighter2?.name: "${fighter2?.name}"');
