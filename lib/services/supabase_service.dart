@@ -181,12 +181,12 @@ class SupabaseService {
     }
   }
 
-  // Get fights for a specific event - OPTIMIZED
+  // Get fights for a specific event - OPTIMIZED for new schema
   Future<List<Fight>> getFightsForEvent(String eventId) async {
     try {
       print('🚀 OPTIMIZED: Loading fights for event $eventId');
       
-      // Get all fights for this event
+      // Get all fights for this event with direct fighter names
       final fightsResponse = await _client
           .from('fights')
           .select('*')
@@ -197,40 +197,12 @@ class SupabaseService {
         return [];
       }
       
-      // Collect all unique fighter IDs
-      Set<String> fighterIds = {};
-      for (var fight in fightsResponse) {
-        if (fight['fighter1_id'] != null) fighterIds.add(fight['fighter1_id']);
-        if (fight['fighter2_id'] != null) fighterIds.add(fight['fighter2_id']);
-      }
-      
-      // Load ALL fighters in ONE batch query
-      Map<String, Fighter> fightersMap = {};
-      if (fighterIds.isNotEmpty) {
-        final fightersResponse = await _client
-            .from('fighters')
-            .select('*')
-            .inFilter('id', fighterIds.toList());
-        
-        for (var fighterJson in fightersResponse) {
-          final fighter = Fighter.fromJson(fighterJson);
-          fightersMap[fighter.id] = fighter;
-        }
-      }
-      
-      // Create fights with pre-loaded fighter data
+      // Create fights with direct fighter names (no separate fighter records needed)
       List<Fight> fights = [];
       for (var fightJson in fightsResponse) {
         try {
-          final fighter1 = fightersMap[fightJson['fighter1_id']];
-          final fighter2 = fightersMap[fightJson['fighter2_id']];
-          
-          final fight = Fight.fromJson({
-            ...fightJson,
-            'fighter1': fighter1?.toJson(),
-            'fighter2': fighter2?.toJson(),
-          });
-          
+          // The Fight.fromJson method now handles fighter1_name and fighter2_name directly
+          final fight = Fight.fromJson(fightJson);
           fights.add(fight);
         } catch (e) {
           print('Error processing fight: $e');
@@ -255,40 +227,9 @@ class SupabaseService {
       
       if (response == null) return null;
       
-      // Get fighter1 details
-      Fighter? fighter1;
-      if (response['fighter1_id'] != null) {
-        final fighter1Response = await _client
-            .from('fighters')
-            .select('*')
-            .eq('id', response['fighter1_id'])
-            .maybeSingle();
-        
-        if (fighter1Response != null) {
-          fighter1 = Fighter.fromJson(fighter1Response);
-        }
-      }
-      
-      // Get fighter2 details
-      Fighter? fighter2;
-      if (response['fighter2_id'] != null) {
-        final fighter2Response = await _client
-            .from('fighters')
-            .select('*')
-            .eq('id', response['fighter2_id'])
-            .maybeSingle();
-        
-        if (fighter2Response != null) {
-          fighter2 = Fighter.fromJson(fighter2Response);
-        }
-      }
-      
-      // Create fight with fighter details
-      return Fight.fromJson({
-        ...response,
-        'fighter1': fighter1 != null ? fighter1.toJson() : null,
-        'fighter2': fighter2 != null ? fighter2.toJson() : null,
-      });
+      // The Fight.fromJson method now handles fighter1_name and fighter2_name directly
+      // No need to load separate fighter records
+      return Fight.fromJson(response);
     } catch (e) {
       print('Error getting fight: $e');
       return null;
