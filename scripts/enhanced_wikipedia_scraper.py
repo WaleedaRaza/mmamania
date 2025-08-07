@@ -18,7 +18,11 @@ from bs4 import BeautifulSoup
 # Add the scripts directory to the path
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-load_dotenv('scripts/.env')
+load_dotenv('.env')
+
+# Debug: Check if environment variables are loaded
+print(f"🔍 DEBUG: SUPABASE_URL = {os.getenv('SUPABASE_URL')}")
+print(f"🔍 DEBUG: SUPABASE_SERVICE_KEY = {os.getenv('SUPABASE_SERVICE_KEY')[:20] + '...' if os.getenv('SUPABASE_SERVICE_KEY') else 'None'}")
 
 # Set up logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -290,11 +294,17 @@ class EnhancedWikipediaScraper:
                 'location': event_data['location']
             }
             
+            print(f"🔍 DEBUG: Creating event: {event_data['name']}")
+            print(f"   Data: {event_to_create}")
+            
             response = requests.post(
                 f"{SUPABASE_URL}/rest/v1/events",
                 headers=self.supabase_headers,
                 json=event_to_create
             )
+            
+            print(f"   Status: {response.status_code}")
+            print(f"   Response: {response.text[:200]}")
             
             if response.status_code == 201:
                 # Handle empty response body
@@ -312,9 +322,11 @@ class EnhancedWikipediaScraper:
                             return events[0]['id']
                     return None
             else:
+                print(f"   ❌ Failed to create event: {response.status_code} - {response.text}")
                 return None
                 
         except Exception as e:
+            print(f"   ❌ Exception creating event: {e}")
             return None
     
     def create_fight_with_names(self, fight_data, event_id):
