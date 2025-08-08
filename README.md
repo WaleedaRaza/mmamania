@@ -53,12 +53,6 @@ Here's a comprehensive Features section for your README:
 - **Data Validation** - Quality checks and duplicate prevention
 - **Real-Time Updates** - Continuous data refresh and synchronization
 
-### Data Processing Pipeline
-- **Apache Spark** - Distributed processing of large datasets
-- **Data Cleaning** - Automated formatting and standardization
-- **Entity Recognition** - Fighter name matching and validation
-- **Historical Tracking** - Change detection and version control
-- **Real-Time Ingestion** - Supabase integration with live updates
 
 ### Current Data Coverage
 - **654 UFC Events** - Complete historical event database
