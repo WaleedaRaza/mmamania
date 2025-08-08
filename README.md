@@ -5,7 +5,7 @@
 [![Supabase](https://img.shields.io/badge/Supabase-Latest-orange.svg)](https://supabase.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Users](https://img.shields.io/badge/Users-266+-brightgreen.svg)](https://github.com/WaleedaRaza/mmamania)
-[![Demo](https://img.shields.io/badge/Demo-Watch%20Video-red.svg)](https://youtu.be/gAbsRRHLnkE)
+Demo](https://img.shields.io/badge/Demo-Watch%20Video-red.svg)](https://youtu.be/gAbsRRHLnkE)
 
 ## 🚀 Production Overview
 
@@ -13,7 +13,7 @@
 
 Here's a comprehensive Features section for your README:
 
-## �� Core Features
+## 🥊👊 Core Features
 
 ### Real-Time Fight Data
 - **Live Fight Cards** - Real-time updates with WebSocket connections
