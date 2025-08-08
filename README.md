@@ -75,7 +75,8 @@ WebRTC-powered real-time audio/video communication with screen sharing, AI-power
 ### Speech-to-Text Pipeline
  Whisper model processes fight interviews and press conferences with PyTorch-based real-time transcription. Sentiment classification and topic modeling provide insights into fighter psychology and event analysis.
 
+**⭐ Star this repository if you find it helpful!**
 
-**MMAmania** - The future of MMA fandom is here! 🥊
+**🔄 Fork and contribute to make it even better!**
 
-*Built with ❤️ for the MMA community by Waleed Raza*
+**📧 Contact for collaboration opportunities!**
