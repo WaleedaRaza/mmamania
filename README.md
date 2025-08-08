@@ -9,9 +9,7 @@ Demo](https://img.shields.io/badge/Demo-Watch%20Video-red.svg)](https://youtu.be
 
 ## 🚀 Production Overview
 
-**MMAmania** is a sophisticated iOS/Android platform that revolutionizes MMA content consumption through advanced AI/ML pipelines, distributed real-time processing, and cutting-edge natural language understanding. Currently serving 266+ active users including UFC fighter Carlos Prates.
-
-Here's a comprehensive Features section for your README:
+**MMAmania** is an iOS platform that revolutionizes MMA content consumption through advanced AI/ML pipelines, distributed real-time processing, and cutting-edge natural language understanding
 
 ## 🥊👊 Core Features
 
