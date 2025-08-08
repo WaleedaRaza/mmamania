@@ -75,6 +75,45 @@ WebRTC-powered real-time audio/video communication with screen sharing, AI-power
 ### Speech-to-Text Pipeline
  Whisper model processes fight interviews and press conferences with PyTorch-based real-time transcription. Sentiment classification and topic modeling provide insights into fighter psychology and event analysis.
 
+## 🔧 Technical Architecture Breakdown
+
+### Frontend Stack
+- **Flutter 3.16.0** - Cross-platform mobile development with Dart 3.2
+- **WebRTC** - Peer-to-peer audio/video communication
+- **WebSocket Connections** - Real-time data synchronization
+- **State Management** - Provider pattern with reactive programming
+
+### Backend Infrastructure
+- **Supabase** - PostgreSQL database with real-time subscriptions
+- **FastAPI** - High-performance REST API (Python 3.11+)
+- **Redis** - Caching layer with 99.9% hit rate
+- **WebSocket Server** - Real-time communication hub
+- **Authentication** - JWT tokens with refresh mechanisms
+- **Rate Limiting** - API protection and abuse prevention
+
+### AI/ML Pipeline Architecture
+- **spaCy & NLTK** - Advanced NLP with custom entity recognition
+- **Fine-tuned DistilBERT** - Sentiment analysis 
+- **Custom Whisper Pipeline** - Real-time speech-to-text processing
+
+### Distributed Data Processing
+- **Apache Spark** - Distributed processing of 10GB+ datasets
+- **Ray Cluster** - Scalable distributed computing framework
+- **Scrapy** - Distributed web scraping with rate limiting
+- **Data Validation** - Automated quality checks and deduplication
+- **Real-Time Ingestion** - Stream processing with Supabase integration
+- **Batch Processing** - Nightly data updates and model retraining
+
+### Data Flow Architecture
+```
+External APIs → Ray Cluster → Apache Spark → Supabase → Flutter App
+     ↓              ↓              ↓           ↓           ↓
+  Rate Limiting → Processing → Validation → Real-time → WebSocket
+     ↓              ↓              ↓           ↓           ↓
+  Error Handling → Deduplication → Caching → Subscriptions → UI Updates
+```
+
+
 **⭐ Star this repository if you find it helpful!**
 
 **🔄 Fork and contribute to make it even better!**
