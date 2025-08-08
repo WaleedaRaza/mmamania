@@ -7,7 +7,7 @@
 [![Users](https://img.shields.io/badge/Users-266+-brightgreen.svg)](https://github.com/WaleedaRaza/mmamania)
 Demo](https://img.shields.io/badge/Demo-Watch%20Video-red.svg)](https://youtu.be/gAbsRRHLnkE)
 
-## 🚀 Production Overview
+## 🚀 Overview
 
 **MMAmania** is an iOS platform that revolutionizes MMA content consumption through advanced AI/ML pipelines, distributed real-time processing, and cutting-edge natural language understanding
 
