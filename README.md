@@ -7,45 +7,10 @@
 [![Users](https://img.shields.io/badge/Users-266+-brightgreen.svg)](https://github.com/WaleedaRaza/mmamania)
 [![Demo](https://img.shields.io/badge/Demo-Watch%20Video-red.svg)](https://youtu.be/gAbsRRHLnkE)
 
-> **Production-ready AI-powered MMA platform processing 10,000+ data points nightly with 78% prediction accuracy and real-time distributed computing.**
-
 ## 🚀 Production Overview
 
 **MMAmania** is a sophisticated iOS/Android platform that revolutionizes MMA content consumption through advanced AI/ML pipelines, distributed real-time processing, and cutting-edge natural language understanding. Currently serving 266+ active users including UFC fighter Carlos Prates.
 
-### 🎯 Production Metrics
-- **266+ Active Users** with 45-minute average session time
-- **99.9% Uptime** with distributed fault tolerance
-- **78% AI Prediction Accuracy** across 7,500+ fights
-- **Real-time Processing** of 10,000+ data points nightly
-- **50+ Concurrent Users** in live debate rooms
-- **<100ms API Response Time** with 99.9% cache hit rate
-
-## 🏗️ Advanced Technical Architecture
-
-### Distributed AI/ML Pipeline
-- **PyTorch & TensorFlow** - Multi-framework deep learning
-- **spaCy & NLTK** - Advanced NLP with custom entity recognition
-- **Fine-tuned DistilBERT** - Sentiment analysis with 92% accuracy
-- **Custom Whisper Pipeline** - Real-time speech-to-text processing
-- **Reinforcement Learning** - RLHF-style user feedback loops
-- **Probabilistic Programming** - Pyro for uncertainty quantification
-
-### Real-Time Data Infrastructure
-- **Apache Spark** - Distributed processing of 10GB+ datasets
-- **Ray Cluster** - Scalable distributed computing
-- **Supabase** - PostgreSQL with real-time subscriptions
-- **AWS EKS** - Kubernetes orchestration with auto-scaling
-- **Docker Microservices** - Containerized deployment
-- **WebRTC** - Peer-to-peer audio/video communication
-
-### Advanced Data Sources
-- **Reddit API** - Community sentiment analysis
-- **Twitter API** - Real-time social media monitoring  
-- **ESPN API** - Sports data integration
-- **UFC Event APIs** - Official fight data
-- **Distributed Scraping** - Scrapy with rate limiting
-- **Multi-source Aggregation** - Intelligent data fusion
 
 ## 🧠 AI-Powered Features
 
@@ -59,7 +24,7 @@ ELO-based prediction system with logistic regression and sentiment-weighted embe
 WebRTC-powered real-time audio/video communication with screen sharing, AI-powered content moderation, and recording capabilities. Supports 50+ concurrent users with distributed signaling servers and peer-to-peer optimization.
 
 ### Speech-to-Text Pipeline
-Custom Whisper model processes fight interviews and press conferences with PyTorch-based real-time transcription. Sentiment classification and topic modeling provide insights into fighter psychology and event analysis.
+ Whisper model processes fight interviews and press conferences with PyTorch-based real-time transcription. Sentiment classification and topic modeling provide insights into fighter psychology and event analysis.
 
 ## 📊 Production Performance
 
@@ -119,49 +84,6 @@ Custom Whisper model processes fight interviews and press conferences with PyTor
 - **Content Service** - Data aggregation and processing
 - **Debate Service** - WebRTC signaling and room management
 - **ML Service** - AI model inference and training
-
-### Production Infrastructure
-- **AWS EKS Cluster** - Multi-zone Kubernetes deployment
-- **Load Balancers** - Application and network load balancing
-- **Auto-scaling Groups** - Dynamic resource allocation
-- **Database Clusters** - High availability PostgreSQL
-- **CDN Distribution** - Global content delivery
-
-## 📈 Technical Roadmap
-
-### Phase 1 (Q1 2025) - Advanced AI
-- **GPT-4 Integration** - Advanced fight analysis and commentary
-- **Computer Vision** - Fight video analysis and highlight detection
-- **Advanced NLP** - Press conference insights and fighter psychology
-- **Real-time Betting Odds** - Crowd wisdom aggregation
-
-### Phase 2 (Q2 2025) - Social Features
-- **Fighter Verification** - Official UFC partnership integration
-- **Live Streaming** - Real-time event broadcasting
-- **Virtual Reality** - Immersive fight viewing experience
-- **Blockchain Integration** - Decentralized prediction markets
-
-### Phase 3 (Q3 2025) - Enterprise Features
-- **White-label Solutions** - Sports organization partnerships
-- **Advanced Analytics** - Fight promoter insights and metrics
-- **International Expansion** - Multi-language localization
-- **API Marketplace** - Third-party developer ecosystem
-
-## 🤝 Acknowledgments
-
-- **UFC** for official data partnerships and fighter verification
-- **Flutter Team** for cross-platform mobile framework
-- **Supabase** for real-time database infrastructure
-- **Ray Team** for distributed computing capabilities
-- **Our 266+ Users** for valuable feedback and testing
-
-## 📞 Contact
-
-- **Demo Video**: [Watch on YouTube](https://youtu.be/gAbsRRHLnkE)
-- **GitHub**: [Repository](https://github.com/WaleedaRaza/mmamania)
-- **Email**: support@mmamania.com
-
----
 
 **MMAmania** - The future of MMA fandom is here! 🥊
 
