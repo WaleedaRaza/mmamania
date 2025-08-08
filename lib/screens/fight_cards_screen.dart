@@ -85,7 +85,15 @@ class _FightCardsScreenState extends State<FightCardsScreen>
         
         // Use optimized method to get fights for this specific event
         final eventFightsList = await SimpleDatabaseService.instance.getFightsForEvent(event.id);
-        eventFights[event.id] = eventFightsList;
+        // Sort fights: main events first, then by weight class
+        final sortedFights = eventFightsList..sort((a, b) {
+          // Main events first
+          if (a.isMainEvent && !b.isMainEvent) return -1;
+          if (!a.isMainEvent && b.isMainEvent) return 1;
+          // Then by weight class
+          return a.weightClass.compareTo(b.weightClass);
+        });
+        eventFights[event.id] = sortedFights;
         print('📋 ${event.title}: ${eventFightsList.length} fights');
       }
       
@@ -436,7 +444,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                         ),
                       ),
                       SizedBox(height: 8),
-                      ...eventFights.take(1).map((fight) => _buildFightPreview(fight, isMainEvent: true)).toList(),
+                      ...eventFights.where((fight) => fight.isMainEvent).map((fight) => _buildFightPreview(fight, isMainEvent: true)).toList(),
                       SizedBox(height: 16),
                     ],
                     
@@ -451,7 +459,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                         ),
                       ),
                       SizedBox(height: 8),
-                      ...eventFights.skip(1).take(4).map((fight) => _buildFightPreview(fight, isMainEvent: false)).toList(),
+                      ...eventFights.where((fight) => !fight.isMainEvent).take(4).map((fight) => _buildFightPreview(fight, isMainEvent: false)).toList(),
                     ],
                     
                     // More fights indicator
@@ -952,7 +960,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   crossAxisAlignment: CrossAxisAlignment.end,
                           children: [
                             Text(
-                      fight.fighter2?.name ?? 'TBD',
+                      fight.getFighter2Name() ?? 'TBD',
                               style: TextStyle(
                         color: hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter2Id 
                             ? Colors.green.shade700 

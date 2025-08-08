@@ -186,11 +186,12 @@ class SupabaseService {
     try {
       print('🚀 OPTIMIZED: Loading fights for event $eventId');
       
-      // Get all fights for this event with direct fighter names
+      // Get all fights for this event with direct fighter names, ordered by weight class and main event status
       final fightsResponse = await _client
           .from('fights')
           .select('*')
-          .eq('event_id', eventId);
+          .eq('event_id', eventId)
+          .order('weight_class', ascending: true); // Order by weight class to group similar fights
       
       if (fightsResponse.isEmpty) {
         print('📊 No fights found for event $eventId');
