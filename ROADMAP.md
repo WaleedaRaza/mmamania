@@ -28,212 +28,268 @@ This document is the single source of truth for what we are building, how we are
 
 ---
 
-## 2. System Architecture
+## 2. System Architecture (Detailed)
 
-- Flutter iOS app → Supabase REST/Realtime (reads), Backend (writes)
-- FastAPI backend: Auth0 JWT verification, predictions, ELO worker, admin scraping
-- Scraper (Python): daily cron + on‑demand; patch-only idempotent updates
-- DB: Supabase/Postgres (events, fights, predictions, user_scores, media_posts, debates)
-- Realtime: Supabase for leaderboards/picks (M2)
-- Notifications: FCM/APNs (post‑v1)
-- Media ingestion: scripts pulling YouTube/X/TikTok/podcast links → `media_posts`
-- Audio infra: free-first; adapter for managed providers later
-
----
-
-## 3. Data Model
-
-### 3.1 Tables
-
-- events(id uuid pk, name text, slug text unique, date timestamptz, venue text, location text, status text, created_at, updated_at)
-- fights(id uuid pk, event_id uuid fk, fight_order int, is_main_event bool, is_co_main_event bool, is_title_fight bool, weight_class text, winner_name text, loser_name text, method text, round int, time text, status text, updated_at)
-  - unique(event_id, fight_order)
-- users(id uuid pk, auth0_sub text unique, handle text, avatar text, created_at)
-- predictions(id uuid pk, user_id fk, fight_id fk, pick_name text, locked_at ts, created_at; unique(user_id,fight_id))
-- user_scores(user_id fk, elo int default 1000, points int, wins int, losses int, pushes int, updated_at)
-- media_posts(id, source, url, title, published_at, tags text[], engagement, created_at)
-- debates(id, title, is_audio, room_state, host_user_id, created_at)
-- debate_participants(id, debate_id, user_id, role, joined_at, left_at)
-- debate_messages(id, debate_id, user_id, message, created_at, pinned bool default false)
-
-### 3.2 Slugs
-
-`ufc-<number>-<main-winner-surname>-<main-loser-surname>` (lowercase, hyphen). Example: `ufc-317-topuria-oliveira`.
+- Client (Flutter iOS)
+  - Reads via Supabase REST; writes predictions via Backend; admin refresh via Backend.
+  - Realtime subscriptions (M2) for leaderboard/prediction deltas.
+- Backend (FastAPI)
+  - Auth0 JWT verify (RS256). Maps `sub`→`users.auth0_sub`. Creates user row if missing.
+  - Endpoints: predictions (write/lock), search proxy (optional), admin scrape trigger, leaderboards.
+  - ELO worker trigger on fight finalization.
+- Scraper (Python)
+  - Daily cron + on-demand; bounded concurrency; patch-only idempotent upserts.
+  - Canonical dates from List-of-events; fight details from event pages.
+- Data (Supabase/Postgres)
+  - Tables: `events`, `fights`, `users`, `predictions`, `user_scores`, `media_posts`, `debates`, `debate_participants`, `debate_messages`.
+  - Indexes for date ordering and trigram name search.
+- Notifications (M2+)
+  - APNs via FCM; topic per event for reminders; user-level toggles.
+- Media ingestion
+  - Scripts hit public APIs/RSS/scrapes lightly; link/embed only; tag content.
 
 ---
 
-## 4. Scraper
+## 3. Data Model (DDL, Indexes, RLS)
 
-### 4.1 Sources
-- List-of-UFC-events → canonical `date` and event links
-- Event page → fights table (8-column), winner/loser/method/round/time
+- DDL and indexes are defined to support: fast event paging by date, exact fight ordering, strict uniqueness, and whole-word search.
+- RLS: read-mostly; predictions writable only by owner; service role for scraper/admin.
 
-### 4.2 Rules
-- Order fights by table row → `fight_order`
-- `is_main_event = fight_order == 1`; `is_co_main_event = fight_order == 2`
-- Skip rows with empty fighter names
-- Patch-only updates: upsert per fight diff; protect unique(event_id, fight_order)
+Key uniqueness and indexes:
+- `unique(events.slug)`
+- `unique(fights.event_id, fights.fight_order)`
+- `idx_events_date_desc` for pagination
+- trigram GIN on `events.name` and `fights(winner+loser)`
 
-### 4.3 Cadence & Ops
-- Daily cron + a finalization run within 12 hours after the event completes
-- On-demand refresh endpoint for a single event (admin token)
-- Concurrency: 4–6; exponential backoff for 429/5xx; request budget
-- Logging: per-event summary (# fights parsed, # updated, warnings)
+RLS policy examples:
+- `events`: select all; no public writes
+- `fights`: select all; no public writes
+- `predictions`: user can insert/update where `auth.uid() = user_id` and lock not passed
 
 ---
 
-## 5. Backend API (FastAPI)
+## 4. Scraper (Algorithms & Selectors)
 
-### 5.1 Auth
-- Verify Auth0 RS256 JWT; create user row on first login using `auth0_sub`; attach `user_id` to requests
+Table detection:
+- A table is a fight table if its headers include any of {weight, method, round, time} (case-insensitive).
 
-### 5.2 Predictions
-- POST /api/predictions { user_id, fight_id, pick_name }
-  - Reject if now >= event card start
-  - Upsert predictions (enforce unique(user_id,fight_id))
-- GET /api/leaderboard — top N by points desc, elo desc
+Winner/Loser parsing:
+- Primary regex: `(?i)^\s*(?P<winner>[^\n]+?)\s+def\.?\s+(?P<loser>[^\n]+?)\s*$`.
+- Fallback: `(?i)^\s*(?P<a>[^\n]+?)\s+vs\.?\s+(?P<b>[^\n]+?)\s*$` (status remains scheduled).
+- Normalize: strip references `[a]`, scorecards `(29–28, ...)`, punctuation spacing.
 
-### 5.3 Admin
-- POST /api/admin/scrape/event/:id — on-demand refresh
-- POST /api/admin/recompute/elo — replay ELO if needed
+Global ordering:
+- Iterate tables in DOM order; maintain `global_fight_order`.
+- Assign `is_main_event = (fight_order==1)`, `is_co_main_event=(fight_order==2)`.
+- Skip rows with empty names; do not increment order.
+
+Idempotent upsert:
+- Key: `(event_id, fight_order)`.
+- Compute `row_hash` across names, weight_class, method, round, time, status, flags.
+- If unchanged, skip; else `update ... set updated_at=now()` or insert.
+
+Cadence:
+- Daily: reprocess upcoming + last 8 weeks.
+- Finalization: run within 12h post scheduled end.
+- On-demand: `/api/admin/scrape/event/{id_or_slug}` queue job.
+
+Backoff:
+- Exponential with jitter for 429/5xx; global hourly request budget.
+
+Diagnostics:
+- Log per event: tables, fights parsed, upserts/skips; warnings on empty names/missing def.
 
 ---
 
-## 6. Supabase REST Reads (App)
+## 5. Backend API (Contracts)
 
-- GET /rest/v1/events?select=*&order=date.desc&limit=50&offset=…
-- GET /rest/v1/fights?event_id=eq.<event_id>&order=fight_order.asc
-- Search (strict):
-  - Step 1: /fights?select=event_id,winner_name,loser_name&or=(winner_name.ilike.%q%,loser_name.ilike.%q%)
-  - Filter to whole‑word matches client‑side → event_ids
-  - Step 2: /events?select=*&or=(id.eq.id1,id.eq.id2,...)&order=date.desc
+Auth:
+- RS256 verify; map/create user; attach `user_id`.
+
+Events:
+- GET `/api/events?limit=50&cursor=<iso8601>&dir=desc` → `[Event]` ordered by date.
+- GET `/api/events/{id_or_slug}` → `{...event, fights:[Fight ordered asc]}`.
+- GET `/api/search/events?q=...` → whole-word match (title or fighter names), `date desc`.
+
+Predictions:
+- POST `/api/predictions` `{ fight_id, pick_name }` → 401/403 on unauth/locked; upsert by `(user_id,fight_id)`.
+- GET `/api/leaderboard?limit=100` → `[ { user_id, handle, elo, points, wins, losses } ]`.
+
+Admin:
+- POST `/api/admin/scrape/event/{id_or_slug}` → 202, job queued.
+- POST `/api/admin/recompute/elo` → 202.
+
+Debates:
+- POST `/api/debates` `{ title, is_audio }`.
+- POST `/api/debates/{id}/join` `{ role }`.
+- POST `/api/debates/{id}/message` `{ message }`.
+- POST `/api/debates/{id}/pin` `{ message_id }` (host/mod).
+
+Feed:
+- GET `/api/feed?limit=50&cursor=<iso8601>` → `[MediaPost]`.
+
+Errors: 400, 401, 403, 404, 409, 429, 5xx.
 
 ---
 
-## 7. Predictions & ELO
+## 6. Supabase REST Reads (App Wiring)
 
-### 7.1 Locking
-- Predictions disabled at event card start time
+- Events: `/rest/v1/events?select=*&order=date.desc&limit=50&offset=...`.
+- Fights: `/rest/v1/fights?event_id=eq.<id>&order=fight_order.asc`.
+- Search: first query fights superset via `ilike`, enforce `\bquery\b` client-side, then fetch events by IDs; sort `date desc`.
+- Client filters: upcoming vs past based on device time; invalid dates → sentinel old date to sort bottom.
 
-### 7.2 Scoring
-- K: Main=40, Co‑main=30, Main‑card=25, Prelims=20; Draw/NC=0
-- Points: mirror K initially (tunable later)
+---
 
-### 7.3 Worker
-- Trigger on fight completion → update `user_scores` (elo, points, wins/losses)
-- Emit realtime updates (M2)
+## 7. Predictions & ELO (Math and Flow)
+
+Locking:
+- Lock predictions at event card start time (first scheduled fight). Backend enforces 403.
+
+ELO:
+- Expected: `E = 1 / (1 + 10^((elo_opponent - elo_self)/400))`.
+- Update: `elo' = elo + K * (result - E)`; K by position: {40,30,25,20}.
+- Result: 1 (correct pick), 0 (incorrect), 0 (draw/NC) v1.
+
+Points:
+- Mirror K per position initially; adjustable later.
+
+Worker:
+- On scraper mark `completed`: gather predictions, compute deltas, upsert `user_scores`, increment wins/losses/pushes; emit realtime (M2).
+
+Anti-cheat:
+- Unique `(user_id,fight_id)`; lock cutoffs; optional audit trail M2.
 
 ---
 
 ## 8. iOS App (Flutter)
 
-### 8.1 Screens
-- Fight Cards: Past/Upcoming (infinite scroll), search, dark tiles
-- Event Details: gradient header, stat tiles, ordered fights, predictions form
-- Leaderboard: all‑time ranking
-- Feed: embeds + comments
-- Debates: list rooms, join audio, text threads, mod controls
+Architecture:
+- Services: `SupabaseService` (REST), `BackendService` (JWT to backend), `SimpleDatabaseService` wrapper.
+- State: Provider; debounced search; defensive sorts only where unavoidable.
 
-### 8.2 UX
-- Dark palette (UFC red + slate + emerald accents) with gradients/shimmer
-- Emoji-enhanced chips (`🔜 UPCOMING`, `✅ COMPLETED`, `🥇 WINNER`)
+Screens:
+- Home: Past/Upcoming tabs, infinite scroll, search bar (≥3 chars, whole-word), dark cards.
+- Event Details: gradient header; ordered fights; prediction selector; lock state.
+- Leaderboard: all-time list with ranks; avatars.
+- Feed: embeds; comments (basic).
+- Debates: rooms list; join audio; text thread.
 
----
-
-## 9. Feed & Debates
-
-### 9.1 Feed
-- Ingestors: YouTube/X/TikTok/Podcasts → `media_posts`
-- Store: url, title, published_at, tags; embed-only rendering
-
-### 9.2 Debates
-- Audio rooms (≤10 speakers), host/mod mute, optional record
-- Text threads (per event/fight), pinned messages; light moderation
-- Audio infra adapter: free-first; upgrade to managed when needed
+Theme:
+- Palette: background `#0B0F14`, surface `#121820`, primary `#D71E28`, accent `#10B981`.
+- Motion: 150–250ms transitions; shimmer loaders; subtle elevation.
+- Accessibility: ≥4.5:1 contrast; scalable fonts.
 
 ---
 
-## 10. Notifications (M2+)
+## 9. Realtime & Notifications (M2+)
 
-- FCM/APNs for pick reminders & results summaries
-- Local notifications fallback
-
----
-
-## 11. DevOps
-
-- Envs: `.env` now; secret manager later
-- CI: lint/test/build; formatters enforced
-- Deploy: backend (Render/Fly), scraper cron (Cloud Run/Cron), Supabase DB
-- Monitoring: Sentry (client/server), uptime pings, scraper logs
-- Budget: <$200/month until scale
+- Realtime: subscribe to prediction counts and leaderboard changes by `event_id`.
+- Notifications: pick reminders (X hours pre-start), results summaries, leaderboard milestones. APNs via FCM.
 
 ---
 
-## 12. Local Dev Runbooks
+## 10. Media Feed
 
-### 12.1 Env
+- Ingest: YouTube/X/TikTok/Podcasts; store `media_posts(source,url,title,published_at,tags,engagement)`.
+- Render: embed/webview only; no downloads.
+- Moderation: minimal flags; hide on report (M2).
+
+---
+
+## 11. Debates (Audio/Text)
+
+- Roles: host, mod, speaker, listener; ≤10 speakers; mod mute; optional record.
+- Text: persistent messages per room; pinned; upvotes (M2).
+- Provider: free-first; adapter to LiveKit/Agora if needed.
+
+---
+
+## 12. LLM (Post-v1)
+
+- RAG over our DB + scraped content; guardrails and quotas.
+- Use cases: Q&A, debate summaries, pick explanations.
+
+---
+
+## 13. Ops: SLOs, Monitoring, Runbooks
+
+SLOs:
+- Freshness: 99% events updated ≤12h after end.
+- p95 latency: reads ≤400ms; writes ≤600ms.
+- App crash rate <1%.
+
+Monitoring:
+- Sentry (app/backend); uptime pings; structured logs with correlation IDs.
+
+Runbooks:
+- Missing fights: trigger on-demand; inspect logs; adjust selectors.
+- Wrong order: verify DB `fight_order`; remove client resorting; fix global order.
+- Bad dates: backfill from list page; never default to `now()`.
+- Supabase errors: check unique constraints and RLS.
+- Predictions lock: validate card start calculation and server checks.
+
+---
+
+## 14. Security & Compliance
+
+- Auth0 RS256 verify; strict RLS; minimal write surfaces.
+- Rate limits on write endpoints; basic profanity filtering.
+- Legal: embed-only; terms link in settings.
+
+---
+
+## 15. CI/CD & Environments
+
+- CI: lint/tests for Python & Flutter; formatters.
+- Branch: `main` prod; feature branches via PR.
+- Deploy: backend (Render/Fly), scraper cron (Cloud Run/Cron), Supabase SQL migrations via PR.
+- Secrets: `.env` local; provider secrets in managed env store (M2).
+
+---
+
+## 16. Milestones (Phased)
+
+M1 (2–3 weeks): Scraper + iOS cards + Predictions
+- Harden scraper (dates, upserts, backoff), admin refresh, iOS list/detail, predictions with lock, ELO worker + leaderboard API + basic UI.
+
+M2 (1–2 weeks): Realtime + Notifications groundwork
+- Realtime channels; local reminders; APNs prep; admin refresh UI.
+
+M3 (3–4 weeks): Feed + Debates
+- Media ingestion + feed UI; debates audio + text + mod controls.
+
+M4 (3–6 weeks): Analytics + LLM
+- Heuristics; feature store; insights UI; LLM Q&A and summaries; freemium.
+
+---
+
+## 17. API Examples
+
+Get events (page):
+```bash
+curl "$SUPABASE_URL/rest/v1/events?select=*&order=date.desc&limit=50" \
+ -H "apikey: $SUPABASE_ANON_KEY" -H "Authorization: Bearer $SUPABASE_ANON_KEY"
 ```
-SUPABASE_URL=...
-SUPABASE_SERVICE_KEY=...
-AUTH0_DOMAIN=...
-AUTH0_AUDIENCE=...
+
+Get fights for event:
+```bash
+curl "$SUPABASE_URL/rest/v1/fights?event_id=eq.$EVENT_ID&order=fight_order.asc" \
+ -H "apikey: $SUPABASE_ANON_KEY" -H "Authorization: Bearer $SUPABASE_ANON_KEY"
 ```
 
-### 12.2 Scraper
-```
-python3 scripts/wipe_tables_uuid.py            # careful!
-python3 scripts/robust_wikipedia_scraper.py --workers 4 --start-from 0
-```
-
-### 12.3 App
-```
-flutter run
+Search superset then filter whole-word client-side:
+```bash
+curl "$SUPABASE_URL/rest/v1/fights?select=event_id,winner_name,loser_name&winner_name=ilike.*khabib*&loser_name=ilike.*khabib*" \
+ -H "apikey: $SUPABASE_ANON_KEY" -H "Authorization: Bearer $SUPABASE_ANON_KEY"
 ```
 
 ---
 
-## 13. Milestones
+## 18. Performance Budgets & Risks
 
-### M1 (2–3 weeks): Scraper + Cards + Predictions
-- Harden scraper (canonical dates, patch-only, backoff)
-- Admin on‑demand refresh
-- Event slugs + deep link routes
-- iOS Past/Upcoming, event details, predictions
-- Backend predictions write + lock
-- ELO worker; all‑time leaderboard API + screen
-
-### M2 (1–2 weeks): Realtime + Notifications groundwork
-- Supabase Realtime for predictions/leaderboard
-- Local reminders; push plan
-- Admin refresh UI per event
-
-### M3 (3–4 weeks): Feed + Debates
-- Feed ingestors (YouTube/X/TikTok/Podcasts) → `media_posts`
-- Feed list + embeds + comments
-- Debate audio rooms + text threads + mod controls + record option
-
-### M4 (3–6 weeks): Analytics + LLM
-- Heuristics (strength-of-schedule, finishing rates)
-- Feature store for ML; batch models; insights badges
-- LLM Q&A, summaries, explanations; freemium hooks
-
----
-
-## 14. Risk & Mitigation
-- Source HTML drift → parser guards + hash-based change detection
-- Legal: embed-only; terms link in settings
-- Cost creep: request budgets; ingest caps; disable non-critical jobs if quota
-- Quality: idempotent upserts; uniqueness constraints; backfills for known bugs
-
----
-
-## 15. Future Work
-- Android/Web clients
-- Advanced odds integrations + sentiment overlays
-- Rich ML models (style matchups, transition graphs)
-- Tournament/brackets; parlay/propositions (future)
-- Community moderation tooling
+- First paint ≤2.5s; detail ≤1.0s; scraper daily run ≤20m, on-demand ≤60s.
+- Risks: HTML drift, duplication, API costs, legal complaints → mitigations documented above.
 
 ---
 
