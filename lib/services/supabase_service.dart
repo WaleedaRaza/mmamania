@@ -108,16 +108,16 @@ class SupabaseService {
     }
   }
 
-  // Fights - OPTIMIZED with batch loading
+  // Fights - FIXED for new schema with direct fighter names
   Future<List<Fight>> getFights({
     bool upcoming = true,
     int limit = 20,
     int offset = 0,
   }) async {
     try {
-      print('🚀 OPTIMIZED: Loading fights with batch fighter fetching');
+      print('🚀 FIXED: Loading fights with new schema (winner_name/loser_name)');
       
-      // Get all fights in one query
+      // Get all fights in one query - no need for separate fighter loading
       final fightsResponse = await _client
           .from('fights')
           .select('*')
@@ -129,80 +129,11 @@ class SupabaseService {
         return [];
       }
       
-      // Collect all unique fighter IDs
-      Set<String> fighterIds = {};
-      for (var fight in fightsResponse) {
-        if (fight['fighter1_id'] != null) fighterIds.add(fight['fighter1_id']);
-        if (fight['fighter2_id'] != null) fighterIds.add(fight['fighter2_id']);
-      }
-      
-      print('📊 Batch loading ${fighterIds.length} unique fighters');
-      
-      // Load ALL fighters in ONE batch query
-      Map<String, Fighter> fightersMap = {};
-      if (fighterIds.isNotEmpty) {
-        final fightersResponse = await _client
-            .from('fighters')
-            .select('*')
-            .inFilter('id', fighterIds.toList());
-        
-        for (var fighterJson in fightersResponse) {
-          final fighter = Fighter.fromJson(fighterJson);
-          fightersMap[fighter.id] = fighter;
-        }
-      }
-      
-      print('✅ Loaded ${fightersMap.length} fighters in batch');
-      
-      // Create fights with pre-loaded fighter data
+      // Create fights directly - no separate fighter loading needed
       List<Fight> fights = [];
       for (var fightJson in fightsResponse) {
         try {
-          final fighter1 = fightersMap[fightJson['fighter1_id']];
-          final fighter2 = fightersMap[fightJson['fighter2_id']];
-          
-          final fight = Fight.fromJson({
-            ...fightJson,
-            'fighter1': fighter1?.toJson(),
-            'fighter2': fighter2?.toJson(),
-          });
-          
-          fights.add(fight);
-        } catch (e) {
-          print('Error processing fight: $e');
-        }
-      }
-      
-      print('🎉 OPTIMIZED: Loaded ${fights.length} fights with batch fighter loading');
-      return fights;
-    } catch (e) {
-      print('Error getting fights: $e');
-      return [];
-    }
-  }
-
-  // Get fights for a specific event - OPTIMIZED for new schema
-  Future<List<Fight>> getFightsForEvent(String eventId) async {
-    try {
-      print('🚀 OPTIMIZED: Loading fights for event $eventId');
-      
-      // Get all fights for this event with direct fighter names, ordered by weight class and main event status
-      final fightsResponse = await _client
-          .from('fights')
-          .select('*')
-          .eq('event_id', eventId)
-          .order('weight_class', ascending: true); // Order by weight class to group similar fights
-      
-      if (fightsResponse.isEmpty) {
-        print('📊 No fights found for event $eventId');
-        return [];
-      }
-      
-      // Create fights with direct fighter names (no separate fighter records needed)
-      List<Fight> fights = [];
-      for (var fightJson in fightsResponse) {
-        try {
-          // The Fight.fromJson method now handles fighter1_name and fighter2_name directly
+          // The Fight.fromJson method handles winner_name/loser_name directly
           final fight = Fight.fromJson(fightJson);
           fights.add(fight);
         } catch (e) {
@@ -210,7 +141,43 @@ class SupabaseService {
         }
       }
       
-      print('✅ OPTIMIZED: Loaded ${fights.length} fights for event $eventId');
+      print('🎉 FIXED: Loaded ${fights.length} fights with new schema');
+      return fights;
+    } catch (e) {
+      print('Error getting fights: $e');
+      return [];
+    }
+  }
+
+  // Get fights for a specific event - FIXED for new schema
+  Future<List<Fight>> getFightsForEvent(String eventId) async {
+    try {
+      print('🚀 FIXED: Loading fights for event $eventId with proper ordering');
+      
+      // Get all fights for this event ordered by fight_order (main event first)
+      final fightsResponse = await _client
+          .from('fights')
+          .select('*')
+          .eq('event_id', eventId)
+          .order('fight_order', ascending: true); // Order by fight order (1 = main event)
+      
+      if (fightsResponse.isEmpty) {
+        print('📊 No fights found for event $eventId');
+        return [];
+      }
+      
+      // Create fights with direct fighter names
+      List<Fight> fights = [];
+      for (var fightJson in fightsResponse) {
+        try {
+          final fight = Fight.fromJson(fightJson);
+          fights.add(fight);
+        } catch (e) {
+          print('Error processing fight: $e');
+        }
+      }
+      
+      print('✅ FIXED: Loaded ${fights.length} fights for event $eventId');
       return fights;
     } catch (e) {
       print('Error getting fights for event: $e');
@@ -244,50 +211,145 @@ class SupabaseService {
     int offset = 0,
   }) async {
     try {
-      print('🚀 OPTIMIZED: Loading events with deduplication and date ordering');
-      
-      var query = _client
-          .from('events')
-          .select('*')
-          .limit(limit)
-          .range(offset, offset + limit - 1);
-      
-      // Order by date - most recent first for past events, earliest first for upcoming
-      if (upcoming) {
-        query = query.order('date', ascending: true); // Upcoming events: earliest first
+      print('🚀 OPTIMIZED: Loading events with deduplication and date ordering (client-side filters)');
+
+      // Fetch ordered by date desc; if limit <= 0, fetch ALL via pagination
+      final List<Map<String, dynamic>> rows = [];
+
+      const int pageSize = 200;
+      if (limit <= 0) {
+        int start = 0;
+        while (true) {
+          final page = await _client
+              .from('events')
+              .select('*')
+              .order('date', ascending: false)
+              .range(start, start + pageSize - 1);
+
+          if (page.isEmpty) break;
+          rows.addAll(List<Map<String, dynamic>>.from(page));
+
+          // Advance window
+          start += pageSize;
+
+          // Safety cap to avoid runaway loops (can adjust higher as needed)
+          if (start > 5000) break;
+        }
+        print('📦 Fetched all events via pagination: ${rows.length}');
       } else {
-        query = query.order('date', ascending: false); // Past events: most recent first
+        final page = await _client
+            .from('events')
+            .select('*')
+            .order('date', ascending: false)
+            .range(offset, offset + limit - 1);
+        rows.addAll(List<Map<String, dynamic>>.from(page));
       }
-      
-      final response = await query;
-      
-      // Deduplicate events by name to prevent multiple processing
-      Map<String, Event> uniqueEvents = {};
-      for (var eventJson in response) {
-        final event = Event.fromJson(eventJson);
-        final eventKey = event.title; // Use title as unique key
-        
-        if (!uniqueEvents.containsKey(eventKey)) {
-          uniqueEvents[eventKey] = event;
-        }
+
+      // Map -> Event (Event.fromJson handles null/invalid dates)
+      final allEvents = rows.map<Event>((e) => Event.fromJson(e)).toList();
+
+      // Deduplicate by name
+      final Map<String, Event> unique = {};
+      for (final ev in allEvents) {
+        unique.putIfAbsent(ev.title, () => ev);
       }
-      
-      final events = uniqueEvents.values.toList();
-      
-      // Sort the deduplicated events by date to ensure proper ordering
-      events.sort((a, b) {
-        if (upcoming) {
-          return a.date.compareTo(b.date); // Upcoming: earliest first
-        } else {
-          return b.date.compareTo(a.date); // Past: most recent first
-        }
-      });
-      
-      print('✅ OPTIMIZED: Loaded ${events.length} unique events ordered by date (removed ${response.length - events.length} duplicates)');
-      
+
+      // Client-side filter by upcoming/past using parsed DateTime
+      final now = DateTime.now();
+      List<Event> events = unique.values
+          .where((ev) => upcoming
+              ? ev.date.isAfter(now) || ev.date.isAtSameMomentAs(now)
+              : ev.date.isBefore(now) || ev.date.isAtSameMomentAs(now))
+          .toList();
+
+      // Final ordering
+      events.sort((a, b) => upcoming ? a.date.compareTo(b.date) : b.date.compareTo(a.date));
+
+      print('✅ OPTIMIZED: Loaded ${events.length} unique events ordered by date');
       return events;
     } catch (e) {
       print('Error getting events: $e');
+      return [];
+    }
+  }
+
+  Future<List<Event>> searchEvents(String query, {int limit = 50, int offset = 0}) async {
+    try {
+      final q = query.trim();
+      if (q.isEmpty || q.length < 3) return [];
+      final qLower = q.toLowerCase();
+
+      bool containsWholeWord(String? text, String needle) {
+        if (text == null) return false;
+        final t = text.toLowerCase();
+        // Fast path
+        if (t == needle) return true;
+        final tokens = t.split(RegExp(r'[^a-z0-9]+'))..removeWhere((e) => e.isEmpty);
+        return tokens.contains(needle);
+      }
+
+      // 1) Match by fighter names within fights (strict whole-word)
+      final fightsMatch = await _client
+          .from('fights')
+          .select('event_id,winner_name,loser_name')
+          .or('winner_name.ilike.%$q%,loser_name.ilike.%$q%');
+
+      final Set<String> eventIds = {};
+      for (final f in fightsMatch) {
+        final id = f['event_id'] as String?;
+        if (id == null) continue;
+        final wn = f['winner_name'] as String?;
+        final ln = f['loser_name'] as String?;
+        if (containsWholeWord(wn, qLower) || containsWholeWord(ln, qLower)) {
+          eventIds.add(id);
+        }
+      }
+
+      // 2) Include events where the card title contains the query as a whole word
+      final titlePage = await _client
+          .from('events')
+          .select('id,name,date')
+          .ilike('name', '%$q%')
+          .order('date', ascending: false)
+          .limit(limit)
+          .range(offset, offset + limit - 1);
+      for (final e in titlePage) {
+        final id = e['id'] as String?;
+        final name = e['name'] as String?;
+        if (id != null && containsWholeWord(name, qLower)) {
+          eventIds.add(id);
+        }
+      }
+
+      if (eventIds.isEmpty) return [];
+
+      // Fetch ONLY these events
+      final idList = eventIds.toList();
+      List<Map<String, dynamic>> rows = [];
+      const int chunk = 200;
+      for (int i = 0; i < idList.length; i += chunk) {
+        final sub = idList.sublist(i, i + chunk > idList.length ? idList.length : i + chunk);
+        final filter = sub.map((id) => 'id.eq.$id').join(',');
+        final page = await _client
+            .from('events')
+            .select('*')
+            .or(filter)
+            .order('date', ascending: false);
+        rows.addAll(List<Map<String, dynamic>>.from(page));
+      }
+
+      // Dedupe and sort
+      final Map<String, Event> unique = {};
+      for (final r in rows) {
+        final ev = Event.fromJson(r);
+        unique[ev.id] = ev;
+      }
+      final result = unique.values.toList()
+        ..sort((a, b) => b.date.compareTo(a.date));
+
+      return result;
+    } catch (e) {
+      print('Error searching events: $e');
       return [];
     }
   }

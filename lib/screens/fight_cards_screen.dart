@@ -6,6 +6,8 @@ import '../models/prediction.dart';
 import '../models/user_stats.dart';
 import '../services/simple_database_service.dart';
 import '../widgets/fight_card_widget.dart';
+import '../widgets/enhanced_fight_card_widget.dart';
+import 'dart:async'; // Added for Timer
 
 class FightCardsScreen extends StatefulWidget {
   @override
@@ -60,13 +62,13 @@ class _FightCardsScreenState extends State<FightCardsScreen>
       // Load events based on selected tab
       List<Event> filteredEvents = [];
       if (_selectedTab == 0) { // Upcoming
-        filteredEvents = await SimpleDatabaseService.instance.getEvents(upcoming: true, limit: 100);
+        filteredEvents = await SimpleDatabaseService.instance.getEvents(upcoming: true, limit: 500);
       } else if (_selectedTab == 1) { // Past
-        filteredEvents = await SimpleDatabaseService.instance.getEvents(upcoming: false, limit: 100);
+        filteredEvents = await SimpleDatabaseService.instance.getEvents(upcoming: false, limit: -1); // fetch all
       } else { // All
         // For "All" tab, get events that have fights, regardless of date
-        final allEvents = await SimpleDatabaseService.instance.getEvents(upcoming: false, limit: 100);
-        final upcomingEvents = await SimpleDatabaseService.instance.getEvents(upcoming: true, limit: 100);
+        final allEvents = await SimpleDatabaseService.instance.getEvents(upcoming: false, limit: -1); // all past
+        final upcomingEvents = await SimpleDatabaseService.instance.getEvents(upcoming: true, limit: 500);
         filteredEvents = [...allEvents, ...upcomingEvents];
         
         // Sort all events by date (most recent first)
@@ -85,15 +87,8 @@ class _FightCardsScreenState extends State<FightCardsScreen>
         
         // Use optimized method to get fights for this specific event
         final eventFightsList = await SimpleDatabaseService.instance.getFightsForEvent(event.id);
-        // Sort fights: main events first, then by weight class
-        final sortedFights = eventFightsList..sort((a, b) {
-          // Main events first
-          if (a.isMainEvent && !b.isMainEvent) return -1;
-          if (!a.isMainEvent && b.isMainEvent) return 1;
-          // Then by weight class
-          return a.weightClass.compareTo(b.weightClass);
-        });
-        eventFights[event.id] = sortedFights;
+        // Use fight_order from database (already sorted by SupabaseService)
+        eventFights[event.id] = eventFightsList;
         print('📋 ${event.title}: ${eventFightsList.length} fights');
       }
       
@@ -111,6 +106,18 @@ class _FightCardsScreenState extends State<FightCardsScreen>
       
       // Update filtered events to only include those with fights
       filteredEvents = eventsWithFights;
+
+      // Ensure ordering is correct per tab after filtering
+      if (_selectedTab == 0) {
+        // Upcoming: earliest first
+        filteredEvents.sort((a, b) => a.date.compareTo(b.date));
+      } else if (_selectedTab == 1) {
+        // Past: latest first
+        filteredEvents.sort((a, b) => b.date.compareTo(a.date));
+      } else {
+        // All: latest first
+        filteredEvents.sort((a, b) => b.date.compareTo(a.date));
+      }
 
       print('📋 Final event-fight mapping:');
       for (final event in filteredEvents) {
@@ -202,14 +209,15 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                             duration: Duration(milliseconds: 200),
                             padding: EdgeInsets.symmetric(vertical: 12, horizontal: 16),
                           decoration: BoxDecoration(
-                              color: isSelected ? Colors.white : Colors.transparent,
+                            color: isSelected ? Colors.white.withOpacity(0.12) : Colors.transparent,
                             borderRadius: BorderRadius.circular(25),
+                            border: Border.all(color: Colors.white.withOpacity(0.15)),
                           ),
                           child: Text(
                             tab,
                             textAlign: TextAlign.center,
                             style: TextStyle(
-                                color: isSelected ? Colors.red.shade900 : Colors.white,
+                                color: isSelected ? Colors.white : Colors.white70,
                                 fontWeight: isSelected ? FontWeight.bold : FontWeight.normal,
                             ),
                           ),
@@ -217,6 +225,23 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                       ),
                     );
                   }).toList(),
+                ),
+              ),
+              SizedBox(height: 12),
+              // Search Bar
+              Container(
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: TextField(
+                  decoration: InputDecoration(
+                    hintText: 'Search events by card name or fighter...',
+                    prefixIcon: Icon(Icons.search),
+                    border: InputBorder.none,
+                    contentPadding: EdgeInsets.symmetric(vertical: 12, horizontal: 8),
+                  ),
+                  onChanged: _onSearchChanged,
                 ),
               ),
             ],
@@ -324,16 +349,17 @@ class _FightCardsScreenState extends State<FightCardsScreen>
       child: Container(
         margin: EdgeInsets.symmetric(horizontal: 16, vertical: 8),
         decoration: BoxDecoration(
-          color: Colors.white,
-        borderRadius: BorderRadius.circular(16),
-        boxShadow: [
-          BoxShadow(
-              color: Colors.black.withOpacity(0.1),
-              blurRadius: 8,
-              offset: Offset(0, 4),
-          ),
-        ],
-      ),
+          color: const Color(0xFF121212),
+          borderRadius: BorderRadius.circular(16),
+          border: Border.all(color: Colors.white.withOpacity(0.06)),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.35),
+              blurRadius: 16,
+              offset: Offset(0, 10),
+            ),
+          ],
+        ),
         child: Column(
           children: [
             // Event Header
@@ -343,7 +369,10 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                 gradient: LinearGradient(
                   begin: Alignment.topLeft,
                   end: Alignment.bottomRight,
-                  colors: [Colors.red.shade900, Colors.red.shade700],
+                  colors: [
+                    Colors.red.shade800,
+                    Colors.red.shade600,
+                  ],
                 ),
                 borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
               ),
@@ -352,47 +381,49 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   Icon(
                     isMainEvent ? Icons.star : Icons.sports_mma,
                     color: Colors.white,
-                    size: 24,
+                    size: 20,
                   ),
-                  SizedBox(width: 12),
+                  SizedBox(width: 8),
                   Expanded(
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
                           event.title,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
                           style: TextStyle(
                             color: Colors.white,
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold,
+                            fontWeight: FontWeight.w700,
+                            fontSize: 16,
                           ),
                         ),
-                        SizedBox(height: 4),
-                        Text(
-                          '${event.venue} • ${event.location}',
-                          style: TextStyle(
-                            color: Colors.white70,
-                            fontSize: 14,
-                          ),
+                        SizedBox(height: 2),
+                        Row(
+                          children: [
+                            Icon(Icons.location_on, size: 12, color: Colors.white70),
+                            SizedBox(width: 4),
+                            Expanded(
+                              child: Text(
+                                event.venue,
+                                maxLines: 1,
+                                overflow: TextOverflow.ellipsis,
+                                style: TextStyle(color: Colors.white70, fontSize: 12),
+                              ),
+                            ),
+                          ],
                         ),
                       ],
                     ),
                   ),
                   Container(
-                    padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-                    decoration: BoxDecoration(
-                      color: isUpcoming ? Colors.orange : Colors.green,
-                      borderRadius: BorderRadius.circular(12),
-                    ),
+                    padding: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                    decoration: BoxDecoration(color: Colors.white.withOpacity(0.15), borderRadius: BorderRadius.circular(12)),
                     child: Text(
                       isUpcoming ? 'UPCOMING' : 'COMPLETED',
-                      style: TextStyle(
-                        color: Colors.white,
-                        fontSize: 10,
-                        fontWeight: FontWeight.bold,
-                      ),
+                      style: TextStyle(color: Colors.white, fontSize: 10, fontWeight: FontWeight.bold),
                     ),
-                  ),
+                  )
                 ],
               ),
             ),
@@ -444,7 +475,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                         ),
                       ),
                       SizedBox(height: 8),
-                      ...eventFights.where((fight) => fight.isMainEvent).map((fight) => _buildFightPreview(fight, isMainEvent: true)).toList(),
+                      ...eventFights.where((fight) => fight.isMainEvent).map((fight) => EnhancedFightCardWidget(fight: fight)).toList(),
                       SizedBox(height: 16),
                     ],
                     
@@ -459,7 +490,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                         ),
                       ),
                       SizedBox(height: 8),
-                      ...eventFights.where((fight) => !fight.isMainEvent).take(4).map((fight) => _buildFightPreview(fight, isMainEvent: false)).toList(),
+                      ...eventFights.where((fight) => !fight.isMainEvent).take(4).map((fight) => EnhancedFightCardWidget(fight: fight)).toList(),
                     ],
                     
                     // More fights indicator
@@ -671,8 +702,13 @@ class _FightCardsScreenState extends State<FightCardsScreen>
       builder: (context) => Container(
         height: MediaQuery.of(context).size.height * 0.9,
         decoration: BoxDecoration(
-          color: Colors.white,
           borderRadius: BorderRadius.vertical(top: Radius.circular(20)),
+          gradient: LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [const Color(0xFF121212), const Color(0xFF1C1C1C)],
+          ),
+          border: Border.all(color: Colors.white.withOpacity(0.06)),
         ),
         child: Column(
           children: [
@@ -682,7 +718,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
               width: 40,
               height: 4,
               decoration: BoxDecoration(
-                color: Colors.grey.shade300,
+                color: Colors.white24,
                 borderRadius: BorderRadius.circular(2),
               ),
             ),
@@ -754,7 +790,7 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                       style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: Colors.grey.shade800,
+                        color: Colors.white,
                       ),
                     ),
                     SizedBox(height: 16),
@@ -805,31 +841,36 @@ class _FightCardsScreenState extends State<FightCardsScreen>
   Widget _buildStatCard(String title, String value, IconData icon) {
     return Container(
       padding: EdgeInsets.all(16),
-                      decoration: BoxDecoration(
-        color: Colors.grey.shade50,
-                        borderRadius: BorderRadius.circular(12),
-                      ),
+      decoration: BoxDecoration(
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: Colors.white.withOpacity(0.06)),
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [const Color(0xFF1A1A1A), const Color(0xFF222222)],
+        ),
+      ),
       child: Column(
-                        children: [
-          Icon(icon, color: Colors.red.shade600, size: 20),
+        children: [
+          Icon(icon, color: Colors.red.shade400, size: 20),
           SizedBox(height: 4),
-                          Text(
+          Text(
             value,
-                            style: TextStyle(
-                              fontWeight: FontWeight.bold,
+            style: TextStyle(
+              fontWeight: FontWeight.bold,
               fontSize: 16,
-              color: Colors.grey.shade800,
+              color: Colors.white,
             ),
           ),
           Text(
             title,
             style: TextStyle(
-                              fontSize: 12,
-              color: Colors.grey.shade600,
-                            ),
-                          ),
-                        ],
-                      ),
+              fontSize: 12,
+              color: Colors.white70,
+            ),
+          ),
+        ],
+      ),
     );
   }
 
@@ -837,19 +878,23 @@ class _FightCardsScreenState extends State<FightCardsScreen>
     final isUpcoming = fight.status == 'scheduled';
     final hasWinner = fight.winnerId != null;
     
+    // Check if we have winner and loser names (not null and not empty)
+    final hasWinnerLoser = (fight.winnerName != null && fight.winnerName!.isNotEmpty) && 
+                          (fight.loserName != null && fight.loserName!.isNotEmpty);
+    
     return Container(
       margin: EdgeInsets.only(bottom: 12),
       padding: EdgeInsets.all(16),
       decoration: BoxDecoration(
-        color: Colors.white,
         borderRadius: BorderRadius.circular(12),
-        border: Border.all(color: Colors.grey.shade200),
+        border: Border.all(color: Colors.white.withOpacity(0.06)),
+        gradient: LinearGradient(
+          begin: Alignment.topLeft,
+          end: Alignment.bottomRight,
+          colors: [const Color(0xFF121212), const Color(0xFF1C1C1C)],
+        ),
         boxShadow: [
-          BoxShadow(
-            color: Colors.black.withOpacity(0.05),
-            blurRadius: 4,
-            offset: Offset(0, 2),
-          ),
+          BoxShadow(color: Colors.black.withOpacity(0.35), blurRadius: 14, offset: Offset(0, 10)),
         ],
       ),
       child: Column(
@@ -861,11 +906,11 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                 Container(
                   padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(
-                    color: Colors.red.shade600,
+                    color: Colors.red.shade700,
                     borderRadius: BorderRadius.circular(4),
                   ),
                   child: Text(
-                    'MAIN EVENT',
+                    '⭐ MAIN EVENT',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 10,
@@ -878,11 +923,11 @@ class _FightCardsScreenState extends State<FightCardsScreen>
                   margin: EdgeInsets.only(left: 8),
                   padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                   decoration: BoxDecoration(
-                    color: Colors.amber.shade600,
+                    color: Colors.amber.shade700,
                     borderRadius: BorderRadius.circular(4),
                   ),
                   child: Text(
-                    'TITLE FIGHT',
+                    '🏆 TITLE FIGHT',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 10,
@@ -894,13 +939,13 @@ class _FightCardsScreenState extends State<FightCardsScreen>
               Container(
                 padding: EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                 decoration: BoxDecoration(
-                  color: isUpcoming ? Colors.blue.shade100 : Colors.green.shade100,
+                  color: (isUpcoming ? Colors.blue : Colors.green).withOpacity(0.18),
                   borderRadius: BorderRadius.circular(4),
                 ),
                 child: Text(
-                  isUpcoming ? 'UPCOMING' : 'COMPLETED',
+                  isUpcoming ? '🔜 UPCOMING' : '✅ COMPLETED',
                   style: TextStyle(
-                    color: isUpcoming ? Colors.blue.shade700 : Colors.green.shade700,
+                    color: isUpcoming ? Colors.blue.shade200 : Colors.green.shade200,
                     fontSize: 10,
                     fontWeight: FontWeight.bold,
                   ),
@@ -912,90 +957,159 @@ class _FightCardsScreenState extends State<FightCardsScreen>
           SizedBox(height: 12),
           
           // Fighters
-                  Row(
+          if (hasWinnerLoser) ...[
+            // Show winner vs loser format
+            Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      Expanded(
-                        child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(
-                      fight.getFighter1Name() ?? 'TBD',
-                              style: TextStyle(
-                        color: hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter1Id 
-                            ? Colors.green.shade700 
-                            : hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter2Id 
-                                ? Colors.red.shade700 
-                                : Colors.grey.shade800,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 16,
-                              ),
-                            ),
-                    if (fight.fighter1?.record != null)
-                            Text(
-                        fight.fighter1!.record ?? '',
-                              style: TextStyle(
-                                color: Colors.grey.shade600,
-                                fontSize: 12,
-                              ),
-                            ),
-                          ],
+                      Text(
+                        '🥇 ${fight.winnerName!}',
+                        style: TextStyle(
+                          color: Colors.greenAccent.shade200,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
                         ),
                       ),
-                      Container(
-                padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
-                        decoration: BoxDecoration(
-                  color: Colors.grey.shade100,
-                          borderRadius: BorderRadius.circular(20),
-                        ),
-                        child: Text(
-                          'VS',
-                          style: TextStyle(
-                    color: Colors.grey.shade700,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                      Expanded(
-                        child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                          children: [
-                            Text(
-                      fight.getFighter2Name() ?? 'TBD',
-                              style: TextStyle(
-                        color: hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter2Id 
-                            ? Colors.green.shade700 
-                            : hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter1Id 
-                                ? Colors.red.shade700 
-                                : Colors.grey.shade800,
-                                fontWeight: FontWeight.bold,
-                                fontSize: 16,
-                              ),
-                            ),
-                    if (fight.fighter2?.record != null)
-                            Text(
-                        fight.fighter2!.record ?? '',
-                              style: TextStyle(
-                                color: Colors.grey.shade600,
-                                fontSize: 12,
-                              ),
-                            ),
-                          ],
+                      Text(
+                        'WINNER',
+                        style: TextStyle(
+                          color: Colors.greenAccent.shade200.withOpacity(0.8),
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
                         ),
                       ),
                     ],
                   ),
-                  
-          SizedBox(height: 12),
-                  
-          // Weight Class
+                ),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.green.withOpacity(0.18),
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Text(
+                    'def.',
+                    style: TextStyle(
+                      color: Colors.greenAccent,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
                       Text(
-            fight.weightClass,
+                        fight.loserName!,
                         style: TextStyle(
-                          color: Colors.grey.shade600,
-                          fontSize: 14,
-              fontWeight: FontWeight.w500,
+                          color: Colors.redAccent.shade100,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
                         ),
                       ),
+                      Text(
+                        '❌ LOSER',
+                        style: TextStyle(
+                          color: Colors.redAccent.shade100.withOpacity(0.85),
+                          fontSize: 10,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ] else ...[
+            // Show scheduled fight format
+            Row(
+              children: [
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Text(
+                        fight.getFighter1Name() ?? 'TBD',
+                        style: TextStyle(
+                          color: hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter1Id 
+                              ? Colors.green.shade700 
+                              : hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter2Id 
+                                  ? Colors.red.shade700 
+                                  : Colors.white70,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                      if (fight.fighter1?.record != null)
+                        Text(
+                          fight.fighter1!.record ?? '',
+                          style: TextStyle(
+                            color: Colors.white54,
+                            fontSize: 12,
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+                Container(
+                  padding: EdgeInsets.symmetric(horizontal: 12, vertical: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.white12,
+                    borderRadius: BorderRadius.circular(20),
+                  ),
+                  child: Text(
+                    'VS',
+                    style: TextStyle(
+                      color: Colors.white70,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                    children: [
+                      Text(
+                        fight.getFighter2Name() ?? 'TBD',
+                        style: TextStyle(
+                          color: hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter2Id 
+                              ? Colors.green.shade700 
+                              : hasWinner && fight.winnerId != null && fight.winnerId == fight.fighter1Id 
+                                  ? Colors.red.shade700 
+                                  : Colors.white70,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 16,
+                        ),
+                      ),
+                      if (fight.fighter2?.record != null)
+                        Text(
+                          fight.fighter2!.record ?? '',
+                          style: TextStyle(
+                            color: Colors.white54,
+                            fontSize: 12,
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
+          ],
+          
+          SizedBox(height: 12),
+          
+          // Weight Class
+          Text(
+            fight.weightClass,
+            style: TextStyle(
+              color: Colors.white70,
+              fontSize: 14,
+              fontWeight: FontWeight.w500,
+            ),
+          ),
           
           // Result or Prediction Button
           if (isUpcoming)
@@ -1122,5 +1236,32 @@ class _FightCardsScreenState extends State<FightCardsScreen>
 
   String _formatDate(DateTime date) {
     return '${date.month}/${date.day}/${date.year}';
+  }
+
+  // Debounced search
+  Timer? _searchDebounce;
+  String _lastQuery = '';
+
+  void _onSearchChanged(String value) {
+    _searchDebounce?.cancel();
+    _searchDebounce = Timer(Duration(milliseconds: 350), () async {
+      final q = value.trim();
+      if (q.isEmpty) {
+        _loadData();
+        return;
+      }
+      setState(() => _isLoading = true);
+      final results = await SimpleDatabaseService.instance.searchEvents(q, limit: 100);
+      // Build fights map for these events
+      final map = <String, List<Fight>>{};
+      for (final ev in results) {
+        map[ev.id] = await SimpleDatabaseService.instance.getFightsForEvent(ev.id);
+      }
+      setState(() {
+        _events = results;
+        _eventFights = map;
+        _isLoading = false;
+      });
+    });
   }
 } 

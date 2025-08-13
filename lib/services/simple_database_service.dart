@@ -251,6 +251,11 @@ class SimpleDatabaseService {
     );
   }
 
+  Future<List<Event>> searchEvents(String query, {int limit = 50, int offset = 0}) async {
+    print('🔎 Searching events for "$query" via SupabaseService');
+    return SupabaseService.instance.searchEvents(query, limit: limit, offset: offset);
+  }
+
   Future<Event?> getEvent(String id) async {
     try {
       final response = await _client

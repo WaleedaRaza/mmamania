@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Test Single Event
-Test the simplified scraper with just one event
+Test Single Event Fixed
+Test the fixed scraper with global fight order
 """
 
 import os
@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 SUPABASE_URL = os.getenv('SUPABASE_URL')
 SUPABASE_KEY = os.getenv('SUPABASE_SERVICE_KEY')
 
-class SimpleWikipediaScraper:
+class FixedWikipediaScraper:
     def __init__(self):
         self.base_url = "https://en.wikipedia.org"
         self.headers = {
@@ -38,13 +38,13 @@ class SimpleWikipediaScraper:
             'Content-Type': 'application/json',
         }
 
-    def test_single_event(self):
-        """Test scraping a single event to verify ordering"""
-        logger.info("🧪 Testing single event scraping...")
+    def test_single_event_fixed(self):
+        """Test scraping a single event with fixed global fight order"""
+        logger.info("🧪 Testing single event with fixed global fight order...")
         
-        # Test with UFC on ABC: Whittaker vs. de Ridder
-        event_url = "https://en.wikipedia.org/wiki/UFC_on_ABC:_Whittaker_vs._de_Ridder"
-        event_name = "UFC on ABC: Whittaker vs. de Ridder"
+        # Test with UFC 317: Topuria vs. Oliveira (the one with multiple card sections)
+        event_url = "https://en.wikipedia.org/wiki/UFC_317"
+        event_name = "UFC 317: Topuria vs. Oliveira"
         
         logger.info(f"🔍 Testing event: {event_name}")
         logger.info(f"🔗 URL: {event_url}")
@@ -57,8 +57,11 @@ class SimpleWikipediaScraper:
             soup = BeautifulSoup(response.content, 'html.parser')
             logger.info("✅ Successfully loaded event page")
             
-            # Find fight tables
+            # Find all tables
             tables = soup.find_all('table')
+            all_fights = []
+            global_fight_order = 1  # Maintain global fight order across all tables
+            
             logger.info(f"📊 Found {len(tables)} tables")
             
             for table_idx, table in enumerate(tables):
@@ -68,17 +71,23 @@ class SimpleWikipediaScraper:
                 if self._is_fight_table(table):
                     logger.info(f"✅ Found fight table #{table_idx + 1}")
                     
-                    # Parse fights with simple ordering
-                    fights = self._parse_fight_table_simple(table)
-                    logger.info(f"📊 Parsed {len(fights)} fights:")
+                    # Parse fights with global fight order
+                    table_fights = self._parse_fight_table_fixed(table, global_fight_order)
+                    all_fights.extend(table_fights)
+                    logger.info(f"📊 Table #{table_idx + 1}: {len(table_fights)} fights (global order {global_fight_order}-{global_fight_order + len(table_fights) - 1})")
                     
-                    for i, fight in enumerate(fights):
-                        logger.info(f"   {i+1}. {fight['winner_name']} def. {fight['loser_name']} - {fight['weight_class']} - Order: {fight['fight_order']} - Main: {fight['is_main_event']} - Co-Main: {fight['is_co_main_event']}")
-                    
-                    return fights
+                    # Update global fight order for next table
+                    global_fight_order += len(table_fights)
             
-            logger.warning("⚠️ No fight table found")
-            return []
+            logger.info(f"🎯 TOTAL: Found {len(all_fights)} fights with global ordering:")
+            
+            for i, fight in enumerate(all_fights):
+                main_text = " (MAIN EVENT)" if fight['is_main_event'] else ""
+                co_main_text = " (CO-MAIN)" if fight['is_co_main_event'] else ""
+                event_text = main_text + co_main_text
+                logger.info(f"   {fight['fight_order']}. {fight['winner_name']} def. {fight['loser_name']} - {fight['weight_class']}{event_text}")
+            
+            return all_fights
             
         except Exception as e:
             logger.error(f"❌ Error testing single event: {e}")
@@ -102,15 +111,15 @@ class SimpleWikipediaScraper:
         except:
             return False
 
-    def _parse_fight_table_simple(self, table):
-        """Parse fight table with simple ordering"""
+    def _parse_fight_table_fixed(self, table, global_fight_order):
+        """Parse fight table with global fight order"""
         fights = []
         rows = table.find_all('tr')
         
         if len(rows) < 2:
             return fights
         
-        fight_order = 1
+        fight_order = global_fight_order  # Use the global fight order
         
         # Process each row in table order
         for row_idx, row in enumerate(rows[1:], start=1):
@@ -123,7 +132,7 @@ class SimpleWikipediaScraper:
             # Need exactly 8 columns for fight data
             if len(cells) == 8:
                 try:
-                    fight_data = self._parse_fight_row_simple(cells, fight_order)
+                    fight_data = self._parse_fight_row_fixed(cells, fight_order)
                     if fight_data:
                         fights.append(fight_data)
                         fight_order += 1  # Only increment if a valid fight was created
@@ -133,8 +142,8 @@ class SimpleWikipediaScraper:
         
         return fights
 
-    def _parse_fight_row_simple(self, cells, fight_order):
-        """Parse a single fight row with simple ordering"""
+    def _parse_fight_row_fixed(self, cells, fight_order):
+        """Parse a single fight row with global fight order"""
         try:
             # Column 0: Weight Class
             weight_class = cells[0].get_text(strip=True)
@@ -217,12 +226,14 @@ class SimpleWikipediaScraper:
             return method.strip()
 
 def main():
-    scraper = SimpleWikipediaScraper()
-    fights = scraper.test_single_event()
+    scraper = FixedWikipediaScraper()
+    fights = scraper.test_single_event_fixed()
     
     if fights:
-        print(f"\n✅ Successfully parsed {len(fights)} fights!")
-        print("📊 Fight order:")
+        print(f"\n✅ Successfully parsed {len(fights)} fights with global ordering!")
+        print("📊 Expected order vs Actual order:")
+        print("Expected: Ilia Topuria (1), Alexandre Pantoja (2), Joshua Van (3), etc.")
+        print("Actual:")
         for fight in fights:
             main_text = " (MAIN EVENT)" if fight['is_main_event'] else ""
             co_main_text = " (CO-MAIN)" if fight['is_co_main_event'] else ""

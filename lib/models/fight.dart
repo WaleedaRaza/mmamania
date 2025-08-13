@@ -10,6 +10,12 @@ class Fight {
   // NEW: Direct fighter name fields for the new schema
   final String? fighter1Name;
   final String? fighter2Name;
+  // ENHANCED: Winner/Loser fields from new schema
+  final String? winnerName;
+  final String? loserName;
+  final int? fightOrder;
+  final bool isMainEvent;
+  final bool isCoMainEvent;
   final DateTime date;
   final String weightClass;
   final int rounds;
@@ -18,10 +24,10 @@ class Fight {
   final String? method;
   final String? round;
   final String? time;
-  final bool isMainEvent;
   final bool isTitleFight;
   final String status;
   final Map<String, dynamic>? resultData; // Add this to store the full result object
+  final String? notes;
 
   Fight({
     required this.id,
@@ -32,6 +38,11 @@ class Fight {
     this.fighter2,
     this.fighter1Name, // NEW
     this.fighter2Name, // NEW
+    this.winnerName, // ENHANCED
+    this.loserName, // ENHANCED
+    this.fightOrder, // ENHANCED
+    this.isMainEvent = false,
+    this.isCoMainEvent = false, // ENHANCED
     required this.date,
     required this.weightClass,
     required this.rounds,
@@ -40,10 +51,10 @@ class Fight {
     this.method,
     this.round,
     this.time,
-    this.isMainEvent = false,
     this.isTitleFight = false,
     this.status = 'scheduled',
     this.resultData,
+    this.notes, // ENHANCED
   });
 
   factory Fight.fromJson(Map<String, dynamic> json) {
@@ -95,6 +106,11 @@ class Fight {
     final fighter1NameFromJson = json['fighter1_name'] ?? '';
     final fighter2NameFromJson = json['fighter2_name'] ?? '';
     
+    // ENHANCED: Handle winner/loser name fields
+    final winnerNameFromJson = json['winner_name'] ?? '';
+    final loserNameFromJson = json['loser_name'] ?? '';
+    final fightOrderFromJson = json['fight_order'];
+    
     return Fight(
       id: json['id'] ?? '',
       eventId: json['event_id'] ?? '',
@@ -105,6 +121,10 @@ class Fight {
       // NEW: Handle direct fighter name fields
       fighter1Name: fighter1NameFromJson,
       fighter2Name: fighter2NameFromJson,
+      // ENHANCED: Handle winner/loser name fields
+      winnerName: winnerNameFromJson,
+      loserName: loserNameFromJson,
+      fightOrder: fightOrderFromJson != null ? int.tryParse(fightOrderFromJson.toString()) : null,
       date: DateTime.tryParse(json['date'] ?? '') ?? DateTime.now(),
       weightClass: json['weight_class'] ?? '',
       rounds: json['rounds'] ?? 3,
@@ -114,9 +134,11 @@ class Fight {
       round: roundString,
       time: timeString,
       isMainEvent: json['is_main_event'] ?? false,
+      isCoMainEvent: json['is_co_main_event'] ?? false, // ENHANCED
       isTitleFight: json['is_title_fight'] ?? false,
       status: json['status'] ?? 'scheduled',
       resultData: resultData,
+      notes: json['notes'], // ENHANCED
     );
   }
 
@@ -131,6 +153,10 @@ class Fight {
       // NEW: Include direct fighter name fields
       'fighter1_name': fighter1Name,
       'fighter2_name': fighter2Name,
+      // ENHANCED: Include winner/loser name fields
+      'winner_name': winnerName,
+      'loser_name': loserName,
+      'fight_order': fightOrder,
       'date': date.toIso8601String(),
       'weight_class': weightClass,
       'rounds': rounds,
@@ -140,9 +166,11 @@ class Fight {
       'round': round,
       'time': time,
       'is_main_event': isMainEvent,
+      'is_co_main_event': isCoMainEvent, // ENHANCED
       'is_title_fight': isTitleFight,
       'status': status,
       'result_data': resultData,
+      'notes': notes, // ENHANCED
     };
   }
 
@@ -159,6 +187,21 @@ class Fight {
       return fighter2Name;
     }
     return fighter2?.name;
+  }
+
+  // ENHANCED: Helper methods for winner/loser names
+  String? getWinnerName() {
+    if (winnerName != null && winnerName!.isNotEmpty) {
+      return winnerName;
+    }
+    return winner?.name;
+  }
+
+  String? getLoserName() {
+    if (loserName != null && loserName!.isNotEmpty) {
+      return loserName;
+    }
+    return loser?.name;
   }
 
   // Helper method to check if a fighter is the winner
@@ -187,9 +230,46 @@ class Fight {
     return null;
   }
 
+  // ENHANCED: Helper method to get fight display order
+  int getDisplayOrder() {
+    return fightOrder ?? 1;
+  }
+
+  // ENHANCED: Helper method to get fight status display
+  String getStatusDisplay() {
+    if (winnerName != null && loserName != null) {
+      return 'Completed';
+    }
+    return status;
+  }
+
+  // ENHANCED: Helper method to get result display
+  String getResultDisplay() {
+    if (winnerName != null && loserName != null) {
+      return '$winnerName def. $loserName';
+    }
+    return '${getFighter1Name() ?? 'TBD'} vs ${getFighter2Name() ?? 'TBD'}';
+  }
+
+  // ENHANCED: Helper method to get method display
+  String getMethodDisplay() {
+    if (method != null && method!.isNotEmpty) {
+      return method!;
+    }
+    return 'TBD';
+  }
+
+  // ENHANCED: Helper method to get round/time display
+  String getRoundTimeDisplay() {
+    if (round != null && time != null) {
+      return 'R$round $time';
+    }
+    return '';
+  }
+
   @override
   String toString() {
-    return 'Fight(id: $id, fighter1: ${getFighter1Name()}, fighter2: ${getFighter2Name()}, date: $date, weightClass: $weightClass, winnerId: $winnerId)';
+    return 'Fight(id: $id, winner: ${getWinnerName()}, loser: ${getLoserName()}, order: $fightOrder, date: $date, weightClass: $weightClass)';
   }
 
   @override

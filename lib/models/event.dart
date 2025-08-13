@@ -22,10 +22,23 @@ class Event {
   });
 
   factory Event.fromJson(Map<String, dynamic> json) {
+    // Use a very old sentinel date so null/invalid dates sort to the bottom
+    DateTime parsedDate;
+    try {
+      final raw = json['date'];
+      if (raw == null || (raw is String && raw.trim().isEmpty)) {
+        parsedDate = DateTime(1900, 1, 1);
+      } else {
+        parsedDate = DateTime.parse(raw);
+      }
+    } catch (_) {
+      parsedDate = DateTime(1900, 1, 1);
+    }
+
     return Event(
       id: json['id'] ?? '',
       title: json['name'] ?? '',  // Database uses 'name' instead of 'title'
-      date: json['date'] != null ? DateTime.parse(json['date']) : DateTime.now(),
+      date: parsedDate,
       venue: json['venue'] ?? '',
       location: json['location'] ?? '',
       type: json['type'] ?? 'numbered',

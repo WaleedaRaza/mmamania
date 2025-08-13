@@ -1,5 +1,6 @@
 # UFC Data Pipeline
 
+
 ## Overview
 This is a unified UFC data pipeline that dynamically scrapes real-time rankings and champions from UFC.com and populates a Supabase database for the Flutter app.
 
