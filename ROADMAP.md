@@ -296,51 +296,53 @@ curl "$SUPABASE_URL/rest/v1/fights?select=event_id,winner_name,loser_name&winner
 
 ## 16. Next Steps - Feature Implementation
 
-Based on our feature analysis, here's what we need to build next:
+Based on your priority order, here's what we need to build:
 
-### **Phase 1: Fight Picking & ELO (Week 1-2)**
+### **Phase 1: Content & Community (Week 1-2)**
 
-**🏆 ELO + Fight Picking System**
-- Add `predictions` and `user_scores` tables to Supabase
-- Add prediction buttons to existing fight cards  
-- Create leaderboard screen
-- Simple ELO calculation when fights complete
-
-**🕷️ Enhanced Scrapers**
-- Add daily cron to existing scraper
-- Scrape upcoming UFC schedule
-- Auto-update event status (scheduled → completed)
-
-### **Phase 2: Community & Content (Week 3-4)**
-
-**📺 Enhanced Feed**
+**📺 Enhanced Feed Aggregation**
 - Add `media_posts` table
-- YouTube/Twitter/TikTok API integration
+- YouTube/Twitter/TikTok/Podcast API integration
 - New feed screen with embeds
 
-**🎙️ Live Debates**
+**🎙️ Live Debates (Audio + Text)**
 - Add `debate_rooms` and `debate_messages` tables
-- LiveKit for audio rooms
+- LiveKit for audio rooms (≤10 speakers, mod controls)
 - Supabase Realtime for text threads
 
-### **Phase 3: Intelligence (Week 5-6)**
+### **Phase 2: Intelligence & Analytics (Week 3-4)**
 
-**🧠 LLM Integration**
-- OpenAI API for Q&A and summaries
-- Use existing data as context
-- Chat interface in app
-
-**📊 ML Analytics**
+**📊 Real Data-Driven ML Analytics**
 - UFC Stats API integration
 - Fighter metrics and matchup analysis
 - Chart widgets in fight cards
 
-### **Phase 4: Advanced (Week 7-8)**
+**🧠 LLM Functionalities**
+- OpenAI API for Q&A and summaries
+- Use existing data as context
+- Chat interface in app
 
-**🔍 Odds & Parlays**
+### **Phase 3: Enhanced Scrapers & Fight System (Week 5-6)**
+
+**🕷️ Enhanced Daily Scrapers**
+- Add daily cron to existing scraper
+- Scrape upcoming UFC schedule
+- Auto-update event status (scheduled → completed)
+- Architecture for future fight cards
+
+**🏆 ELO + Fight Picking System**
+- Add `predictions` and `user_scores` tables to Supabase
+- Add prediction buttons to existing fight cards
+- Create leaderboard screen
+- Simple ELO calculation when fights complete
+
+### **Phase 4: Advanced Betting Integration (Week 7-8)**
+
+**🔍 NLP + Odds + Parlays**
 - Sportsbook API integration
+- Sentiment analysis on social mentions
 - Parlay prediction logic
 - Legal compliance features
 
-**Ready to start with Phase 1?** We can add the prediction tables to Supabase and begin building the ELO system.
+**Ready to start with Phase 1?** We can begin with feed aggregation and debate rooms.
 
