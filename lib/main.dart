@@ -1,13 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
+import 'package:provider/provider.dart';
 import 'screens/rankings_screen.dart';
 import 'screens/profile_screen.dart';
 import 'screens/analytics_screen.dart';
 import 'screens/debates_screen.dart';
 import 'screens/fight_cards_screen.dart';
-import 'screens/reddit_feed_screen.dart';
+import 'screens/enhanced_media_feed_screen.dart';
 import 'screens/test_supabase_screen.dart';
 import 'services/supabase_service.dart';
+import 'providers/enhanced_media_feed_provider.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -25,9 +27,13 @@ class FightHubApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'FightHub',
-      theme: ThemeData(
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => EnhancedMediaFeedProvider()),
+      ],
+      child: MaterialApp(
+        title: 'FightHub',
+        theme: ThemeData(
         primarySwatch: Colors.red,
         brightness: Brightness.dark,
         scaffoldBackgroundColor: Color(0xFF1A1A1A),
@@ -66,7 +72,8 @@ class FightHubApp extends StatelessWidget {
         ),
       ),
       home: const AuthWrapper(),
-    );
+        ),
+      );
   }
 }
 
@@ -96,7 +103,7 @@ class _MainScaffoldState extends State<MainScaffold> with TickerProviderStateMix
     HomeScreen(),
     RankingsScreen(),
     FightCardsScreen(),
-    RedditFeedScreen(),
+    EnhancedMediaFeedScreen(),
     AnalyticsScreen(),
     DebatesScreen(),
     ProfileScreen(),

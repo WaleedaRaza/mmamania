@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from .api import auth, debates, fights, fighters, predictions, users
-from .api import rankings
+from .api import rankings, media_feed
 
 app = FastAPI(
     title="FightHub API",
@@ -26,6 +26,7 @@ app.include_router(fights.router, prefix="/api/fights", tags=["fights"])
 app.include_router(predictions.router, prefix="/api/predictions", tags=["predictions"])
 app.include_router(debates.router, prefix="/api/debates", tags=["debates"])
 app.include_router(rankings.router, prefix="/api", tags=["rankings"])
+app.include_router(media_feed.router, prefix="/api", tags=["media"])
 
 @app.get("/")
 async def root():

@@ -107,6 +107,21 @@ class MMARedditPost extends MMAPost {
     return (redditScore * 0.6) + (redditComments * 0.4);
   }
 
+  String get timeAgo {
+    final now = DateTime.now();
+    final difference = now.difference(redditCreated);
+    
+    if (difference.inDays > 0) {
+      return '${difference.inDays}d ago';
+    } else if (difference.inHours > 0) {
+      return '${difference.inHours}h ago';
+    } else if (difference.inMinutes > 0) {
+      return '${difference.inMinutes}m ago';
+    } else {
+      return 'Just now';
+    }
+  }
+
   // Extract fighter mentions from content
   List<String> extractFighterMentions() {
     // This is a simple implementation - could be enhanced with NLP
